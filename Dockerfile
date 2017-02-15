@@ -46,7 +46,8 @@ RUN mkdir /usr/share/nginx/html/
 WORKDIR /usr/share/nginx/html/
 
 # Install Grav
-COPY . /usr/share/nginx/html/
+RUN git clone https://github.com/getgrav/grav.git /usr/share/nginx/html/
+RUN rm -fR /usr/share/nginx/html/user/
 RUN chmod +x bin/*
 RUN bin/composer.phar self-update
 RUN bin/grav install
