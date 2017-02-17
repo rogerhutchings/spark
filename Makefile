@@ -1,9 +1,15 @@
 DOCKER_NAMESPACE = rog
 DOCKER_PROJECT = spark-communications
+DOCKER_INSTANCE = $(DOCKER_PROJECT)-instance
 
-local:
-	php -S localhost:8000 system/router.php
+build:
+	docker build --tag $(DOCKER_NAMESPACE)/$(DOCKER_PROJECT) --file Dev_Dockerfile .
 
-docker:
-	docker build -t $(DOCKER_NAMESPACE)/$(DOCKER_PROJECT) .
-	docker run --name $(DOCKER_PROJECT)-instance -p 80:80 -d $(DOCKER_NAMESPACE)/$(DOCKER_PROJECT)
+run:
+	-docker kill $(DOCKER_INSTANCE)
+	-docker rm $(DOCKER_INSTANCE)
+	docker run \
+		--name $(DOCKER_INSTANCE) \
+		-v $(CURDIR)/user/:/usr/share/nginx/html/user/ \
+		-p 80:80 \
+		-d $(DOCKER_NAMESPACE)/$(DOCKER_PROJECT)
