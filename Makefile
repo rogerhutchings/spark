@@ -3,13 +3,18 @@ DOCKER_PROJECT = spark-communications
 DOCKER_INSTANCE = $(DOCKER_PROJECT)-instance
 
 build:
-	docker build --tag $(DOCKER_NAMESPACE)/$(DOCKER_PROJECT) --file Dev_Dockerfile .
+	docker build \
+		--file Dev_Dockerfile \
+		--no-cache \
+		--tag $(DOCKER_NAMESPACE)/$(DOCKER_PROJECT) \
+		.
 
 run:
 	-docker kill $(DOCKER_INSTANCE)
 	-docker rm $(DOCKER_INSTANCE)
 	docker run \
+		--detach \
 		--name $(DOCKER_INSTANCE) \
-		-v $(CURDIR)/user/:/usr/share/nginx/html/user/ \
-		-p 80:80 \
-		-d $(DOCKER_NAMESPACE)/$(DOCKER_PROJECT)
+		--publish 80:80 \
+		--volume $(CURDIR)/user/:/usr/share/nginx/html/user/ \
+		$(DOCKER_NAMESPACE)/$(DOCKER_PROJECT)
