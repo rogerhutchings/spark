@@ -1,5 +1,5 @@
 ---
-title: 'Stuff and Things'
+title: Blog
 content:
     items: '@self.children'
     limit: 5
