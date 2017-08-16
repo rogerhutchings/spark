@@ -1,5 +1,0 @@
----
-title: Strategy
----
-
-Meh
