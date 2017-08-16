@@ -1,0 +1,20 @@
+@mixin fontFace($family, $src, $style: normal, $weight: normal) {
+  @font-face {
+    font-family: $family;
+    src: url('#{$src}.ttf') format('truetype');
+    font-style: $style;
+    font-weight: $weight;
+  }
+}
+
+@include fontFace('Titillium', '../fonts/TitilliumWeb-Black', normal, 900);
+@include fontFace('Titillium', '../fonts/TitilliumWeb-Bold', normal, 700);
+@include fontFace('Titillium', '../fonts/TitilliumWeb-BoldItalic', italic, 700);
+@include fontFace('Titillium', '../fonts/TitilliumWeb-ExtraLight', normal, 100);
+@include fontFace('Titillium', '../fonts/TitilliumWeb-ExtraLightItalic', italic, 100);
+@include fontFace('Titillium', '../fonts/TitilliumWeb-Italic', italic, 400);
+@include fontFace('Titillium', '../fonts/TitilliumWeb-Light', normal, 200);
+@include fontFace('Titillium', '../fonts/TitilliumWeb-LightItalic', italic, 200);
+@include fontFace('Titillium', '../fonts/TitilliumWeb-Regular', normal, 400);
+@include fontFace('Titillium', '../fonts/TitilliumWeb-SemiBold', normal, 600);
+@include fontFace('Titillium', '../fonts/TitilliumWeb-SemiBoldItalic', italic, 600);

@@ -1,0 +1,24 @@
+@mixin skin-mixin($name, $colour) {
+  .#{$name} { color: $colour };
+  .bg-#{$name} { background-color: $colour; }
+}
+
+@include skin-mixin('orange', $orange);
+@include skin-mixin('purple', $purple);
+@include skin-mixin('grey', $grey);
+@include skin-mixin('plum', $plum);
+
+.fill-white {
+  fill: white;
+  svg {
+    fill: white;
+  }
+}
+
+.fill-orange {
+  fill: $orange;
+  svg {
+    fill: $orange;
+  }
+}
+

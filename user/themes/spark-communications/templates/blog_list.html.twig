@@ -1,0 +1,49 @@
+{% extends 'partials/base.html.twig' %}
+
+{% set templateBackgroundClass = 'bg-img-laptop' %}
+{% set collection = page.collection() %}
+
+
+{% block body %}
+  <main id="body" class="ph3 ph5-ns relative z-1 mt-6 flex">
+    <div class="mw8 center pa4 bg-white w-70">
+      <ol class="pl0 list">
+
+        {% for child in collection %}
+          <li class="{% if not loop.last %}mb5{% endif %}">
+            <div>
+              <span class="orange ttu">
+                By {{ child.header.author }}
+              </span>
+              |
+              <time class="grey" datetime="{{ page.date|date("c") }}">
+                {{ child.date|date("F d, Y") }}
+              </time>
+            </div>
+            <h2 class="fw6">
+              {{ child.title }}
+            </h2>
+            <article class="grey">
+              {% if child.summary %}
+                {{ child.summary }}
+              {% else %}
+                {{ child.content|truncate(100, true) }}
+              {% endif %}
+              <a class="link orange b" href="{{ child.link }}">
+                Continue reading...
+              </a>
+            </article>
+            {{ dump(child) }}
+          </li>
+        {% endfor %}
+
+      </ol>
+
+    </div>
+
+    <aside class="w-30 bg-grey pa3">
+      sidebar
+    </aside>
+
+  </main>
+{% endblock %}

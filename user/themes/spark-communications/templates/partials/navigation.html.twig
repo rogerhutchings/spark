@@ -1,0 +1,32 @@
+{% macro loop(page) %}
+  {% for p in page.children.visible %}
+    {% set commonLinkClasses = 'link white ttu bw2 b--orange' %}
+    {% set linkMarginClass = (loop.last) ? 'ml3' : 'ml3' %}
+    {% set current_page = (p.active or p.activeChild) ? 'bb' : '' %}
+    
+    {% if p.children.visible.count > 0 %}
+      <li class="has-children">
+        <a class=" {{ current_page }} {{ commonLinkClasses }} {{ linkMarginClass }}" href="{{ p.url }}">
+          {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
+          {{ p.menu }}
+        </a>
+        <ul>
+          {{ _self.loop(p) }}
+        </ul>
+      </li>
+    {% else %}
+      <li>
+        <a class=" {{ current_page }} {{ commonLinkClasses }} {{ linkMarginClass }}" href="{{ p.url }}">
+          {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
+          {{ p.menu }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+{% endmacro %}
+
+<ul class="list pa0 ma0 flex fw6 f5">
+  {{ _self.loop(pages) }}
+</ul>
+
+

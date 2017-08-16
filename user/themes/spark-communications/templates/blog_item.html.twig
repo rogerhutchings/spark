@@ -1,0 +1,42 @@
+{% extends 'partials/base.html.twig' %}
+
+{% set header_image = header.header_image|defined(true) %}
+{% set header_image_file = header.header_image_file|first %}
+
+{% set templateBackgroundClass = 'bg-img-laptop bg-y-40' %}
+
+{% block body %}
+  <div id="body" class="ph3 ph5-ns relative z-1 mt-6">
+    
+    <div class="mw8 center bg-white flex-l">
+      
+      <article class="w-70-l flex-auto pa3 pa3-ns pa4-m pa4-l">
+        
+        {% if header_image and header_image_file %}
+          {{ page.media[header.header_image_file|first.name] }}
+        {% endif %}
+
+        <header>
+          <h1 class="orange fw4">
+            {{ page.title() }}
+          </h1>
+        </header>
+
+        <aside class="mb3 flex items-center">
+          <img src="http://tachyons.io/img/logo.jpg" class="br-100 ba bw1 b--orange h3 w3 dib" alt="avatar">
+          <time class="grey" datetime="{{ page.date|date("c") }}">
+            {{ page.date|date("F d, Y") }}
+          </time>
+        </aside>
+
+        main
+      </article>
+
+      <aside class="w-30-l flex-auto pa3 pa3-ns pa4-m pa4-l bg-grey">
+        sidebar
+      </aside>
+
+    </div>
+
+  </div>
+{% endblock %}

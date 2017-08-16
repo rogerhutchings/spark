@@ -1,0 +1,29 @@
+{% extends 'partials/base.html.twig' %}
+
+
+
+
+
+<ul class="list pl0 cf mt4 mb0">
+      {% for link in panelLinks %}
+        <li class="fl w-50 w-third-ns">
+          <div class="aspect-ratio aspect-ratio--1x1 ">
+            <a class="aspect-ratio--object db link orange hover-white fill-orange hover-fill-white" href="{{ link.url }}">
+              <img
+                aria-hidden="true"
+                class="db bg-center cover aspect-ratio--object blank"
+                style="background: url({{ link.bg }});"
+                alt=""
+              />
+              <div aria-hidden="true" class="db aspect-ratio--object blank bg-overlay-purple bg-overlay-orange-hover"></div>
+              <div class="aspect-ratio--object flex flex-column items-center justify-center pe-none">
+                {% include link.icon with { 'class': 'w-third' } %}
+                <span class="ttu z-9999 pe-none dib tc mt2">
+                  {{ link.title }}
+                </span>
+              </div>
+            </a>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>

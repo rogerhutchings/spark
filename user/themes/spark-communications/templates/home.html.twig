@@ -1,0 +1,169 @@
+{% extends 'partials/base.html.twig' %}
+
+{% set heroLinks = [
+  {
+    title: 'Why',
+    subtitle: 'Why people hire us',
+    url: '/why-spark',
+    icon: 'svgs/speech-bubble.svg.twig'
+  },
+  {
+    title: 'Work',
+    subtitle: 'Campaigns that deliver',
+    url: '/our-work',
+    icon: 'svgs/cog.svg.twig'
+  },
+  {
+    title: 'How',
+    subtitle: 'Create, engage & influence',
+    url: '/create-engage-and-influence',
+    icon: 'svgs/handshake.svg.twig'
+  }
+] %}
+
+{% set panelLinks = [
+  {
+    title: 'Storytelling Messaging',
+    url: '#',
+    bg: url('theme://images/storytelling.jpg'),
+    bgPos: '',
+    icon: 'svgs/storytelling.svg.twig'
+  },
+  {
+    title: 'Strategy & Planning',
+    url: '#',
+    bg: url('theme://images/strategy.jpg'),
+    icon: 'svgs/strategy.svg.twig'
+  },
+  {
+    title: 'PR, Marketing & Digital Content',
+    url: '#',
+    bg: url('theme://images/prmarketing.jpg'),
+    bgPos: '',
+    icon: 'svgs/prmarketing.svg.twig'
+  },
+  {
+    title: 'Influencer Relations',
+    url: '#',
+    bg: url('theme://images/influencer.jpg'),
+    bgPos: '',
+    icon: 'svgs/influencer.svg.twig'
+  },
+  {
+    title: 'Measurement',
+    url: '#',
+    bg: url('theme://images/measurement.jpg'),
+    bgPos: '',
+    icon: 'svgs/measurement.svg.twig'
+  },
+  {
+    title: 'International',
+    url: '#',
+    bg: url('theme://images/international.jpg'),
+    bgPos: '',
+    icon: 'svgs/international.svg.twig'
+  }
+] %}
+
+{% set latestLinks = [
+  {
+    title: 'Blog',
+    url: '#',
+    bgClass: 'img-laptop'
+  },
+  {
+    title: 'Clients in the News',
+    url: '#',
+    bgClass: 'img-trophy'
+  },
+  {
+    title: 'Case Studies',
+    url: '/our-work',
+    bgClass: 'img-bike'
+  }
+] %}
+
+{% block hero %}
+
+  <section class="flex-one mt5">
+    <h1 class="f1 fw4 white ma0 mb4 mw6 lh-title">
+      Story-driven PR and content that deliver business impact
+    </h1>
+    <a href="#" class="f6 link br-pill ph4 pv2 mb2 dib white bg-orange bg-animate hover-bg-white hover-orange ttu">
+      Contact us
+    </a>
+  </section>
+
+  <section class="mw8 cf w-100 bg-white mh5 pv4 mt5 mb-23 relative z-2 tc ttu fw4">
+    {% for link in heroLinks %}
+      <a href={{ link.url }} class="fl w-100 w-third-ns db link black hover-orange hover-fill-orange">
+        <div class="aspect-ratio aspect-ratio--8x5 w-50 center">
+          {% include link.icon with { class: 'aspect-ratio--object' } %}
+        </div>
+        <div class="">
+          <div class="f3 db pv2">
+            {{ link.title }}
+          </div>
+          <div class="f6 db pv2">
+            {{ link.subtitle }}
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </section>
+
+{% endblock %}
+
+{% block body %}
+  <article id="body" class="mw8 center  mh3 mb3 mt4 mh4-ns mb4-ns mt4-ns relative z-1">
+
+    <section class="bg-grey pt6 pb4 ph3 ph6-ns tc white f4 fw1">
+      {{ content }}
+      <a href="#" class="f6 link br-pill ph4 pv2 mb2 dib white bg-orange bg-animate hover-bg-white hover-orange normal ttu">
+        Join us
+      </a>
+    </section>
+
+    <ul class="list pl0 cf mt4 mb0">
+      {% for link in panelLinks %}
+        <li class="fl w-50 w-third-ns">
+          <div class="aspect-ratio aspect-ratio--1x1 ">
+            <a class="aspect-ratio--object db link orange hover-white fill-orange hover-fill-white" href="{{ link.url }}">
+              <img
+                aria-hidden="true"
+                class="db bg-center cover aspect-ratio--object blank"
+                style="background: url({{ link.bg }});"
+                alt=""
+              />
+              <div aria-hidden="true" class="db aspect-ratio--object blank bg-overlay-purple bg-overlay-orange-hover"></div>
+              <div class="aspect-ratio--object flex flex-column items-center justify-center pe-none">
+                {% include link.icon with { 'class': 'w-third' } %}
+                <span class="ttu z-9999 pe-none dib tc mt2">
+                  {{ link.title }}
+                </span>
+              </div>
+            </a>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <section class="cf w-100 bg-grey ph4 ph5-ns pb5">
+      <h3 class="orange ttu tc fw6 f3 pv3">
+        Spark Latest
+      </h3>
+      {% for link in latestLinks %}
+        <a href="{{ link.url }}" class="fl w-100 w-third-ns link-span-white link-span-bg-orange link-span-hover-bg-white link-span-hover-orange">
+          <div class="aspect-ratio aspect-ratio--1x1 relative">
+            <div aria-hidden="true" class="db bg-center cover aspect-ratio--object {{ link.bgClass }}"></div>
+            <span class="ttu bg-animate f4 db tc pv2 fw6 bottom-0 absolute w-100 z-9999">
+              {{ link.title }}
+            </span>
+          </div>
+        </a>
+      {% endfor %}
+    </section>
+
+  </article>
+
+{% endblock %}

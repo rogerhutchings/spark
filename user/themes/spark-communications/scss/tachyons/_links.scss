@@ -1,0 +1,27 @@
+.link-span-white {
+  span {
+    color: white
+  }
+}
+
+.link-span-bg-orange {
+  span {
+    background-color: $orange
+  }
+}
+
+.link-span-hover-bg-white {
+  &:hover {
+    span {
+      background-color: white
+    }
+  }
+}
+
+.link-span-hover-orange {
+  &:hover {
+    span {
+      color: $orange
+    }
+  }
+}

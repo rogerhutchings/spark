@@ -1,0 +1,26 @@
+{
+  "name": "spark-communications",
+  "version": "0.0.1",
+  "description": "The **Spark Communications** Theme is for [Grav CMS](http://github.com/getgrav/grav).  This README.md file should be modified to describe the features, installation, configuration, and general usage of this theme.",
+  "main": "index.js",
+  "scripts": {
+    "js": "webpack --progress --colors",
+    "js:watch": "webpack --progress --colors --watch",
+    "scss": "node-sass ./scss/index.scss ./css-compiled/index.css",
+    "scss:dist": "node-sass ./scss/index.scss ./css-compiled/index.css --output-style compressed",
+    "scss:watch": "node-sass --watch ./scss/index.scss ./css-compiled/index.css"
+  },
+  "author": "Roger Hutchings <roger@hutchin.gs> (https://www.rogerhutchin.gs/)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "node-sass": "^4.5.3",
+    "tachyons-sass": "^4.7.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.5.2",
+    "node-sass": "^4.5.3",
+    "webpack": "^2.0.0"
+  }
+}

@@ -1,0 +1,31 @@
+name: Encode Address String
+version: 0.1.0
+description: Takes a string and encodes it for use with the Google Embed API
+icon: plug
+author:
+  name: Roger Hutchings
+  email: roger@peroshi.com
+homepage: https://github.com/rogerhutchings/grav-plugin-encode-address-string
+demo: http://demo.yoursite.com
+keywords: grav, plugin, etc
+bugs: https://github.com/rogerhutchings/grav-plugin-encode-address-string/issues
+docs: https://github.com/rogerhutchings/grav-plugin-encode-address-string/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    text_var:
+      type: text
+      label: Text Variable
+      help: Text to add to the top of a page
