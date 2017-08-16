@@ -1,0 +1,27 @@
+title: 'Spark Communications'
+default_lang: en
+author:
+  name: 'Joe Bloggs'
+  email: joe@test.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
+social_media:
+  twitter: 'https://twitter.com/sparkcomms'
+  linkedin: 'https://www.linkedin.com/company-beta/2659837/'
+credentials:
+  google_maps: AIzaSyCpRqXcY3sEZtvngIx-VaAlt9MtGvO7-4c
+contactdetails:
+  address: "Century House \r\n100-102 Oxford Street \r\nLondon\r\nW1D 1LN"
+  tel: '+44 (0)20 7436 0420 '
+  email: hello@sparkcomms.co.uk
+  name: 'Spark Communications'
