@@ -1,0 +1,29 @@
+title: Why Spark?
+'@extends':
+    type: default
+    context: blueprints://pages
+
+form:
+
+  fields:
+
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+
+          fields:
+            header.quotes:
+              type: list
+              autofocus: true
+              style: vertical
+              label: Quotes
+              fields:
+                .body:
+                  label: Quote body
+                  type: text
+                .source:
+                  label: Quote source
+                  type: text

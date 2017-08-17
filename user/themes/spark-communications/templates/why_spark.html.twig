@@ -1,0 +1,14 @@
+{% extends 'default.html.twig' %}
+
+{% block content %}
+  {{ parent() }}
+
+  <ul>
+    {% for q in header.quotes %}
+      <li class="mb3">
+        <div>{{ q.body }}</div>
+        <div>{{ q.source }}</div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
