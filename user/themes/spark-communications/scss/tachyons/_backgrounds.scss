@@ -68,6 +68,10 @@
   background-color: transparentize($purple, 0.2);
 }
 
+.bg-overlay-grey {
+  background-color: transparentize($grey, 0.2);
+}
+
 .bg-overlay-orange-hover {
   transition: background-color .15s ease-in;
   &:hover {

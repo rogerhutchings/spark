@@ -7096,6 +7096,9 @@ code, .code {
 .bg-overlay-purple {
   background-color: rgba(49, 26, 57, 0.8); }
 
+.bg-overlay-grey {
+  background-color: rgba(120, 131, 147, 0.8); }
+
 .bg-overlay-orange-hover {
   transition: background-color .15s ease-in; }
   .bg-overlay-orange-hover:hover {
