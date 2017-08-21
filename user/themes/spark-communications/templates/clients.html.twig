@@ -3,22 +3,13 @@
 {% block content %}
   {{ parent() }}
 
-  {% set images = [
-    'http://mrmrs.github.io/images/0006.jpg',
-    'http://mrmrs.github.io/images/0002.jpg',
-    'http://mrmrs.github.io/images/0003.jpg',
-    'http://mrmrs.github.io/images/0004.jpg',
-    'http://mrmrs.github.io/images/0007.jpg',
-    'http://mrmrs.github.io/images/0008.jpg',
-  ] %}
-
   <ul class="list pl0 cf mt4">
-    {% for image in images %}
-        <li class="fl w-50 w-third-m w-25-ns pa1">
-          <div class="aspect-ratio aspect-ratio--1x1">
-            <img 
-              class="db bg-center cover aspect-ratio--object blank" 
-              style="background-image:url({{ image }});"
+    {% for image in page.media.images|randomize %}
+        <li class="fl w-50 w-third-m w-25-ns pa3">
+          <div class="aspect-ratio aspect-ratio--4x3">
+            <img
+              class="db bg-center contain aspect-ratio--object blank"
+              style="background-image: url({{ image.url }});"
               alt=""
             />
           </div>
