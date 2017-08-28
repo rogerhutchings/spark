@@ -1,0 +1,18 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block body %}
+  <div id="body" class="pv3 ph3 ph5-ns relative z-1 mt-6">
+    <article class="bg-white pt3">
+      <h1 class="ttu orange fw4 tc">
+        {{ page.title }}
+      </h1>
+
+      {% for module in page.collection() %}
+      {{ dump(module) }}
+        <a name="{{ module.slug|ltrim('_') }}"></a>
+        {{ module.content }}
+      {% endfor %}
+
+    </article>
+  </div>
+{% endblock %}

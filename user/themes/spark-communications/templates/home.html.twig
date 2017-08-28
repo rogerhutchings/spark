@@ -24,44 +24,44 @@
 {% set panelLinks = [
   {
     title: 'Storytelling Messaging',
-    url: '#',
     bg: url('theme://images/storytelling.jpg'),
     bgPos: '',
-    icon: 'svgs/storytelling.svg.twig'
+    icon: 'svgs/storytelling.svg.twig',
+    slug: 'storytelling-messaging'
   },
   {
     title: 'Strategy & Planning',
-    url: '#',
     bg: url('theme://images/strategy.jpg'),
-    icon: 'svgs/strategy.svg.twig'
+    icon: 'svgs/strategy.svg.twig',
+    slug: 'strategy'
   },
   {
     title: 'PR, Marketing & Digital Content',
-    url: '#',
     bg: url('theme://images/prmarketing.jpg'),
     bgPos: '',
-    icon: 'svgs/prmarketing.svg.twig'
+    icon: 'svgs/prmarketing.svg.twig',
+    slug: 'pr-marketing-and-digital-content'
   },
   {
     title: 'Influencer Relations',
-    url: '#',
     bg: url('theme://images/influencer.jpg'),
     bgPos: '',
-    icon: 'svgs/influencer.svg.twig'
+    icon: 'svgs/influencer.svg.twig',
+    slug: 'influencer-relations'
   },
   {
     title: 'Measurement',
-    url: '#',
     bg: url('theme://images/measurement.jpg'),
     bgPos: '',
-    icon: 'svgs/measurement.svg.twig'
+    icon: 'svgs/measurement.svg.twig',
+    slug: 'measurement'
   },
   {
     title: 'International',
-    url: '#',
     bg: url('theme://images/international.jpg'),
     bgPos: '',
-    icon: 'svgs/international.svg.twig'
+    icon: 'svgs/international.svg.twig',
+    slug: 'international'
   }
 ] %}
 
@@ -128,7 +128,10 @@
       {% for link in panelLinks %}
         <li class="fl w-50 w-third-ns">
           <div class="aspect-ratio aspect-ratio--1x1 ">
-            <a class="aspect-ratio--object db link orange hover-white fill-orange hover-fill-white" href="{{ link.url }}">
+            <a
+              class="aspect-ratio--object db link orange hover-white fill-orange hover-fill-white"
+              href="/services#{{ link.slug }}"
+            >
               <img
                 aria-hidden="true"
                 class="db bg-center cover aspect-ratio--object blank"

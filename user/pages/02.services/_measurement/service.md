@@ -1,0 +1,6 @@
+---
+title: Measurement
+svgFile: measurement
+---
+
+We work closely with you to define what impact we expect a PR and marketing campaign to have on your business. You might be just getting started or creating a new market. You may be gearing up for acquisition, IPO or another round of funding. Or you might have a product that sells itself, but just need the people to scale your business. We then set objectives at the beginning of the campaign that will help deliver those business outcomes. It could be educating the market and driving the news agenda, differentiation from the competition or building credibility when entering the market. We assess outcomes on a quarterly basis. There are a range of measurement criteria and tools available and we work closely with our clients to analyse achievements and progress towards their end-goal. Our service agreements include activity deliverables and for traditional PR we also offer a coverage guarantee. Marketing can and should demonstrate that it has influenced your target audiences. Working with you we can identify the moment a potential lead was born to the point it enters the sales funnel and how many different interactions there were during that time. We can now answer the ultimate question: have we persuaded your target audience to evolve in the way they think or act?
