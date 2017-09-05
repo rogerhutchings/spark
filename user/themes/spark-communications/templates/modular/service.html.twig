@@ -1,11 +1,22 @@
 {% set svgFile = (header.svgFile) ? header.svgFile : 'circle-certificate' %}
-{% include "svgs/#{svgFile}.svg.twig" with { class: 'h3 h4-ns w3 w4-ns db center mb-2_5 mb-4_5-ns' } %}
+{% set svgClasses = 'h3 h4-ns w3 w4-ns db center mb-2_5 mb-4_5-ns fill-orange absolute left-50 transform-center top-05' %}
 
-<section class="mw8 center bt bw4 b--orange pa3 ph4-ns pb4-ns pt5-ns bg-white">
-  <h2 class="tc orange ttu fw6">
-    {{ page.title }}
-  </h2>
-  <div>
-    {{ content }}
+
+{% if page.isFirst() %}
+  {% set containerClasses = 'mt6 white bg-overlay-purple' %}
+{% else %}
+  {% set containerClasses = 'bg-white-o-70' %}
+{% endif %}
+
+<section class="relative pb5 {{ containerClasses }}">
+  {% include "svgs/#{svgFile}.svg.twig" with { class: svgClasses } %}
+
+  <div class="center tc bt bw4 b--orange pa3 ph4-ns pb4-ns pt5-ns">
+    <h2 class="orange ttu fw6">
+      {{ page.title }}
+    </h2>
+    <div class="measure-wide center f5 f4-ns">
+      {{ content }}
+    </div>
   </div>
 </section>

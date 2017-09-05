@@ -6942,6 +6942,12 @@ code, .code {
   .fill-orange svg {
     fill: #E86D39; }
 
+.bg-white-o-80 {
+  background: rgba(255, 255, 255, 0.8); }
+
+.bg-white-o-70 {
+  background: rgba(255, 255, 255, 0.7); }
+
 .hover-orange {
   transition: color .15s ease-in; }
   .hover-orange:hover {
@@ -7080,6 +7086,9 @@ code, .code {
 
 .img-trophy {
   background-image: url("../images/trophy.jpg"); }
+
+.img-city-overlay {
+  background-image: url("../images/city-overlay.jpg"); }
 
 .body-img-city-overlay:before {
   content: ' ';
@@ -8438,3 +8447,12 @@ code, .code {
 
 .square-bullet-list li:before {
   content: '\25AA'; }
+
+.left-50 {
+  left: 50%; }
+
+.top-05 {
+  top: 0.5rem; }
+
+.transform-center {
+  transform: translate(-50%, -50%); }

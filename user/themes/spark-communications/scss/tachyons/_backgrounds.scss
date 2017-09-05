@@ -50,6 +50,10 @@
   background-image: url("../images/trophy.jpg");
 }
 
+.img-city-overlay {
+  background-image: url("../images/city-overlay.jpg");
+}
+
 .body-img-city-overlay {
   &:before {
     content: ' ';
