@@ -33,7 +33,7 @@ pages:
   publish_dates: true
   process:
     markdown: true
-    twig: false
+    twig: true
   twig_first: false
   never_cache_twig: false
   events:
@@ -72,7 +72,7 @@ pages:
   ignore_hidden: true
   url_taxonomy_filters: true
   frontmatter:
-    process_twig: false
+    process_twig: true
     ignore_fields:
       - form
       - forms

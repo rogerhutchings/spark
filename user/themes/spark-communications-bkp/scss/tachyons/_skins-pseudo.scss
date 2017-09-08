@@ -1,0 +1,32 @@
+@mixin skin-hover-mixin($name, $colour) {
+  .hover-#{$name} {
+    transition: color .15s ease-in;
+    &:hover {
+      color: $colour;
+    }
+  }
+  .hover-bg-#{$name} {
+    transition: background-color .15s ease-in;
+    &:hover {
+      background-color: $colour;
+    }
+  }
+  .hover-fill-#{$name} {
+    svg {
+      transition: fill .15s ease-in;
+    }
+    &:hover {
+      svg {
+        fill: $colour;
+      }
+    }
+  }
+}
+
+@include skin-hover-mixin('orange', $orange);
+@include skin-hover-mixin('white', white);
+@include skin-hover-mixin('purple', $purple);
+@include skin-hover-mixin('grey', $grey);
+@include skin-hover-mixin('plum', $plum);
+
+.fill-white { fill: white; }

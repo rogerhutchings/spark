@@ -1,5 +1,9 @@
 ---
-title: 'Example coverage page'
+title: 'Example coverage page 3'
+links:
+    -
+        headline: foo
+        source: bar
 ---
 
 With the sun finally making an appearance this month, and temperatures slowly creeping towards double digits, Spark has been celebrating the onset of spring with a bloom of coverage.

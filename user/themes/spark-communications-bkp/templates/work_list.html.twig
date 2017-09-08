@@ -1,0 +1,5 @@
+{% extends 'default.html.twig' %}
+
+{% block below_body %}
+  {% include 'partials/work_list.html.twig' with { 'collection': page.collection } only %}
+{% endblock %}

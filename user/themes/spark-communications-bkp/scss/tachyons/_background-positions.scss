@@ -1,0 +1,15 @@
+$i: 0;
+
+@while $i <= 20 {
+  $val: $i * 5;
+  
+  .bg-x-#{$val} {
+    background-position-x: $val * 1%;
+  }
+
+  .bg-y-#{$val} {
+    background-position-y: $val * 1%;
+  }
+
+  $i: $i + 1;
+}

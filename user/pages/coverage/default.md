@@ -1,6 +1,14 @@
 ---
 title: 'Spark Coverage Cup'
+redirect: '{% set options = { items: {''@page.children'': ''/coverage''}, ''limit'': 1, ''order'': {''by'': ''date'', ''dir'': ''asc''} } %}{% set my_collection = page.collection(options) %}{{ dump(my_collection|length)}}'
+process:
+    markdown: true
+    twig: true
+twig_first: true
+backgroundClass: bg-img-trophy
 ---
+
+{% set options = { items: {'@page.children': '/coverage'}, 'limit': 1, 'order': {'by': 'date', 'dir': 'asc'} } %}{% set my_collection = page.collection(options) %}{{ dump(my_collection|length)}}
 
 Media relations is at the heart of a successful campaign and our team take great pride in beating their colleagues to win the weekly Spark coverage cup vote.
 

@@ -5,12 +5,10 @@ icon: rebel
 author:
   name: Roger Hutchings
   email: roger@peroshi.com
-homepage: https://github.com/roger-hutchings/grav-theme-spark-communications
-demo: http://demo.yoursite.com
+homepage: https://github.com/roger-hutchings/spark
 keywords: grav, theme, etc
-bugs: https://github.com/roger-hutchings/grav-theme-spark-communications/issues
-readme: https://github.com/roger-hutchings/grav-theme-spark-communications/blob/develop/README.md
-license: MIT
+bugs: https://github.com/roger-hutchings/spark/issues
+readme: https://github.com/roger-hutchings/spark/blob/develop/README.md
 
 form:
   validation: loose
