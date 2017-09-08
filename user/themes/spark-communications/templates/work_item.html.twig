@@ -67,3 +67,8 @@
 
   </article>
 {% endblock %}
+
+{% block below_body %}
+  {% set siblings = page.collection({ 'items': ['@self.siblings'] }) %}
+  {% include 'partials/work_list.html.twig' with { 'collection': siblings } only %}
+{% endblock %}

@@ -6,18 +6,24 @@ story: 'Spark focused on building a story around the data that demonstrated the 
 results: "The integrated marketing campaign delivered on its objective of raising visibility with targets in order to generate leads. The content provided the Huntsman sales and marketing teams with solid data to approach target customers in specific industries. It was the foundation of the keynote speech at their 2016 User Group event. It was also used to great effect through social media campaigns and email marketing campaigns. Lead nurturing was significantly more effective as the depth and breadth of content delivered enabled Huntsman to really test engagement and refine both their priorities and approach.  \r\n\r\nThe media activity secured thirty pieces of press coverage: from the _Sunday Times_, _Dow Jones_ and _Business Reporter_ to _IBS Journal_, _Utility Week_, _The Register_ and _Government Technology_. Two thirds of the publications also posted on their social channels.  \r\n"
 stats:
     -
-        stat: Market-specific stats for each vertical
+        stat: 'Market-specific stats for each vertical'
     -
-        stat: User-group keynote content
+        stat: 'User-group keynote content'
     -
-        stat: 30 pieces of press coverage including the Sunday Times
+        stat: '30 pieces of press coverage including the Sunday Times'
 visible: false
 company_logo_image:
-    user/pages/08.our-work/huntsman/58832_300x300.jpeg:
-        name: 58832_300x300.jpeg
+    user/pages/08.our-work/huntsman/huntsman.png:
+        name: huntsman.png
+        type: image/png
+        size: 58536
+        path: user/pages/08.our-work/huntsman/huntsman.png
+company_logo_background_image:
+    user/pages/08.our-work/huntsman/bad.jpg:
+        name: bad.jpg
         type: image/jpeg
-        size: 3801
-        path: user/pages/08.our-work/huntsman/58832_300x300.jpeg
+        size: 27747
+        path: user/pages/08.our-work/huntsman/bad.jpg
 ---
 
 For cyber security specialists it is too easy to be an ‘ambulance chaser’ and offer insights into where people went wrong each time there is a security breach. As long as a PR agency is quick to respond to security breaches then media coverage is typically guaranteed.

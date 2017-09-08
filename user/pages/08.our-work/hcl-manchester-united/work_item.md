@@ -12,6 +12,18 @@ stats:
     -
         stat: 'Brand value increased 38% in twelve months'
 visible: false
+company_logo_background_image:
+    user/pages/08.our-work/hcl-manchester-united/football-premier-league-wayne-rooney-manchester-united-v-hull_3235215.jpg:
+        name: football-premier-league-wayne-rooney-manchester-united-v-hull_3235215.jpg
+        type: image/jpeg
+        size: 50099
+        path: user/pages/08.our-work/hcl-manchester-united/football-premier-league-wayne-rooney-manchester-united-v-hull_3235215.jpg
+company_logo_image:
+    'user/pages/08.our-work/hcl-manchester-united/Logo with clearspace png-03.png':
+        name: 'Logo with clearspace png-03.png'
+        type: image/png
+        size: 38857
+        path: 'user/pages/08.our-work/hcl-manchester-united/Logo with clearspace png-03.png'
 ---
 
 A partnership with one of the world’s largest sports brands offers a huge opportunity for media coverage. However, a mention of the relationship was not enough.  Spark and HCL, a leading IT services company, wanted the media to talk technology and the impact digital transformation can have on big business. With a name as big as Manchester United, Spark needed to fully capitalise on the potential interest in the story to bring b2b technology to the masses.  

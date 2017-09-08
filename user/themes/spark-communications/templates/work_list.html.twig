@@ -1,27 +1,5 @@
 {% extends 'default.html.twig' %}
 
 {% block below_body %}
-  <ul class="list pl0 cf mt4 mb0">
-    {% for p in page.collection %}
-      <li class="fl w-50 w-third-ns">
-        <div class="aspect-ratio aspect-ratio--1x1 ">
-          <a class="aspect-ratio--object db link orange hover-white fill-orange hover-fill-white" href="{{ p.url }}">
-            <img
-              alt="{{ p.title }} case study"
-              aria-hidden="true"
-              class="db bg-center cover aspect-ratio--object blank"
-              style="background: url(https://placeimg.com/500/500/animals);"
-            />
-            <div aria-hidden="true" class="db aspect-ratio--object blank bg-overlay-grey bg-overlay-orange-hover"></div>
-            <div class="aspect-ratio--object flex flex-column items-center justify-center pe-none">
-              <span class="ttu z-9999 pe-none dib tc mt2">
-                {{ p.title }}
-              </span>
-            </div>
-          </a>
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
-
+  {% include 'partials/work_list.html.twig' with { 'collection': page.collection } only %}
 {% endblock %}

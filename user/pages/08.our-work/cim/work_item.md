@@ -12,6 +12,18 @@ stats:
     -
         stat: 'BBC and Times coverage'
 visible: false
+company_logo_image:
+    'user/pages/08.our-work/cim/cim-logo 2.png':
+        name: 'cim-logo 2.png'
+        type: image/png
+        size: 10731
+        path: 'user/pages/08.our-work/cim/cim-logo 2.png'
+company_logo_background_image:
+    user/pages/08.our-work/cim/image.png:
+        name: image.png
+        type: image/png
+        size: 367134
+        path: user/pages/08.our-work/cim/image.png
 ---
 
 Marketing has transformed in recent years. From the impact of digital to changing consumer buying habits and rising expectations, all within an uncertain ‘Brexit’ marketplace – the ground beneath marketers’ feet is constantly shifting. CIM tasked Spark with putting a magnifying glass on these trends. The project aimed to increasing awareness of CIM and the training it offers, while also establishing its relevance and leadership during these tumultuous times. Spark developed a content and PR programme that engaged potential and existing marketers, highlighting CIM’s ‘Chartered’ status by demonstrating dedication to responsible and ethical marketing.

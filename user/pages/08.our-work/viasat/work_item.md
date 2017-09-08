@@ -12,6 +12,18 @@ stats:
     -
         stat: '87 pieces of trade and national press coverage'
 visible: false
+company_logo_image:
+    user/pages/08.our-work/viasat/via.png:
+        name: via.png
+        type: image/png
+        size: 147987
+        path: user/pages/08.our-work/viasat/via.png
+company_logo_background_image:
+    user/pages/08.our-work/viasat/residential-internet-t-dish-mounted-house.jpg:
+        name: residential-internet-t-dish-mounted-house.jpg
+        type: image/jpeg
+        size: 487324
+        path: user/pages/08.our-work/viasat/residential-internet-t-dish-mounted-house.jpg
 ---
 
 Challenging the established narrative of UK broadband is no easy task. When consumers think of high-speed broadband, they think only of fibre. ViaSat wanted to highlight that this was a misperception, and satellite can effectively supplement fibre: indeed that without the use of satellite technology ubiquitous high-speed broadband in the UK or worldwide is unfeasible. If that wasn’t challenge enough, ViaSat also needed to educate those in government and industry that satellite is not the expensive, complex and underperforming technology it is often portrayed as, but is in many cases the best way to provide global high-speed connectivity.  

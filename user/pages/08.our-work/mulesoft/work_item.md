@@ -12,6 +12,18 @@ stats:
     -
         stat: '25 pieces of media coverage in first month'
 visible: false
+company_logo_image:
+    user/pages/08.our-work/mulesoft/MuleSoft_logo_299C.png:
+        name: MuleSoft_logo_299C.png
+        type: image/png
+        size: 46556
+        path: user/pages/08.our-work/mulesoft/MuleSoft_logo_299C.png
+company_logo_background_image:
+    user/pages/08.our-work/mulesoft/mule2.png:
+        name: mule2.png
+        type: image/png
+        size: 183421
+        path: user/pages/08.our-work/mulesoft/mule2.png
 ---
 
 MuleSoft’s technology offers a fundamentally different approach to connecting data and applications and solves many of the problems that have plagued the IT industry for decades. Focusing on this innovation had created interest and excitement with the IT community who saw the potential to solve a multi-million dollar integration problem.  However, this message was too technical to interest line of business audiences.  Spark was asked to put its creative skills to the test and build a story that was relevant and interesting to MuleSoft’s prospective customers in retail, insurance, banking, public sector and healthcare across core European markets.   

@@ -12,6 +12,18 @@ stats:
     -
         stat: 'Economist coverage'
 visible: false
+company_logo_image:
+    user/pages/08.our-work/ipass/ipass_logo_white_rgb.png:
+        name: ipass_logo_white_rgb.png
+        type: image/png
+        size: 22346
+        path: user/pages/08.our-work/ipass/ipass_logo_white_rgb.png
+company_logo_background_image:
+    user/pages/08.our-work/ipass/ipass-intelligent-connectivity-hero-nyc.jpg:
+        name: ipass-intelligent-connectivity-hero-nyc.jpg
+        type: image/jpeg
+        size: 384973
+        path: user/pages/08.our-work/ipass/ipass-intelligent-connectivity-hero-nyc.jpg
 ---
 
 Storytelling works better when it’s not just words.  If you can go beyond the infographic, the stock image or the corporate video you can reach new levels of audience engagement. iPass, the world’s largest commercial Wi-Fi network wanted to do just that.

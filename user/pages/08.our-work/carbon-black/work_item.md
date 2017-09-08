@@ -12,6 +12,18 @@ stats:
     -
         stat: '25 pieces of coverage'
 visible: false
+company_logo_background_image:
+    user/pages/08.our-work/carbon-black/Future_Proof_HomePage_Card-650x450-c-default.jpg:
+        name: Future_Proof_HomePage_Card-650x450-c-default.jpg
+        type: image/jpeg
+        size: 76104
+        path: user/pages/08.our-work/carbon-black/Future_Proof_HomePage_Card-650x450-c-default.jpg
+company_logo_image:
+    user/pages/08.our-work/carbon-black/Untitled23.png:
+        name: Untitled23.png
+        type: image/png
+        size: 36253
+        path: user/pages/08.our-work/carbon-black/Untitled23.png
 ---
 
 Carving a niche in the crowded security space so that prospects and the media can quickly understand your area of expertise is not easy.  Carbon Black, a leading provider of next-generation end point security, needed to differentiate its technical capabilities, while also positioning its spokespeople as the ‘go to’ commentators on next generation security threats.
