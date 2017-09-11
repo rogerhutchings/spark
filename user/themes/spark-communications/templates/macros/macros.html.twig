@@ -2,3 +2,12 @@
   {% set logoClasses = 'h-100 w-100 fill-white ' ~ extraClasses %}
   {% include 'svgs/logo_text-bottom.svg.twig' with { class: logoClasses } %}
 {% endmacro %}
+
+{% macro button(args) %}
+  <a
+    href="{{ args.link }}"
+    class="f6 fw4 link br-pill ph4 pv2 mb2 dib white bg-orange bg-animate hover-bg-white hover-orange ttu no-decoration-hover"
+  >
+    {{ args.label }}
+  </a>
+{% endmacro %}

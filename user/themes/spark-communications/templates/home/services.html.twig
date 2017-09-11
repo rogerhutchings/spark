@@ -1,0 +1,31 @@
+{{ dump(page.find('/services').header.services) }}
+
+{% set services = page.find('/services').header.services %}
+
+<ul class="list pl0 cf mt0 mb0">
+  {% for service in services %}
+    {% set slug = service.title|hyphenize %}
+
+    <li class="fl w-50 w-third-ns">
+      <div class="aspect-ratio aspect-ratio--1x1 ">
+        <a
+          class="aspect-ratio--object db link orange hover-white fill-orange hover-fill-white"
+          href="/services#{{ slug }}"
+        >
+          <img
+            aria-hidden="true"
+            class="db bg-center cover aspect-ratio--object blank"
+            style="background: url({{ service.bg ?? '' }});"
+          />
+          <div aria-hidden="true" class="db aspect-ratio--object blank bg-overlay-purple bg-overlay-orange-hover"></div>
+          <div class="aspect-ratio--object flex flex-column items-center justify-center pe-none">
+            {% include "svgs/circle-#{slug}.svg.twig" with { class: 'w-third', noBg: true } %}
+            <span class="ttu z-9999 pe-none dib tc mt2">
+              {{ service.title }}
+            </span>
+          </div>
+        </a>
+      </div>
+    </li>
+  {% endfor %}
+</ul>

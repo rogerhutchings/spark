@@ -7022,6 +7022,18 @@ a:focus {
      -m  = medium
      -l  = large
 */
+.top--3 {
+  top: -3rem; }
+
+.right--3 {
+  right: -3rem; }
+
+.bottom--3 {
+  bottom: -3rem; }
+
+.left--3 {
+  left: -3rem; }
+
 .top--6 {
   top: -6rem; }
 
@@ -7035,6 +7047,14 @@ a:focus {
   left: -6rem; }
 
 @media screen and (min-width: 30em) {
+  .top--3 {
+    top: -3rem; }
+  .right--3 {
+    right: -3rem; }
+  .bottom--3 {
+    bottom: -3rem; }
+  .left--3 {
+    left: -3rem; }
   .top--6-ns {
     top: -6rem; }
   .right--6-ns {
@@ -7045,6 +7065,14 @@ a:focus {
     left: -6rem; } }
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
+  .top--3 {
+    top: -3rem; }
+  .right--3 {
+    right: -3rem; }
+  .bottom--3 {
+    bottom: -3rem; }
+  .left--3 {
+    left: -3rem; }
   .top--6-m {
     top: -6rem; }
   .right--6-m {
@@ -7055,6 +7083,14 @@ a:focus {
     left: -6rem; } }
 
 @media screen and (min-width: 60em) {
+  .top--3 {
+    top: -3rem; }
+  .right--3 {
+    right: -3rem; }
+  .bottom--3 {
+    bottom: -3rem; }
+  .left--3 {
+    left: -3rem; }
   .top--6-l {
     top: -6rem; }
   .right--6-l {

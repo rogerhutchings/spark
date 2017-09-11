@@ -1,5 +1,31 @@
 {% extends 'partials/base.html.twig' %}
+{% import "macros/macros.html.twig" as macros %}
+
+{% block hero %}
+  <section class="flex-one mt5">
+    <h1 class="f1 fw4 white ma0 mb4 mw6 lh-title">
+      Story-driven PR and content that deliver business impact
+    </h1>
+    {{ macros.button({ link: '/contact-us', label: 'Contact Us' }) }}
+  </section>
+{% endblock hero %}
 
 {% block main %}
-  {{ dump(page.find('/services').header.services) }}
+  <main class="ph3 cover {{ page.header.main_classes }}">
+    <div class="relative top--3 neg-mb7 mw8 center {{ page.header.main_container_classes }}">
+      {% include 'home/hero-links.html.twig' %}
+      <div class="bg-gray ph3 neg-mt6 pt6">
+        <section class="measure-wide tc white center pv3 f4 fw3">
+          <h2 class="orange ttu">
+            About Us
+          </h2>
+          {{ content|markdown }}
+          {{ macros.button({ link: '/contact-us', label: 'Join Us' }) }}
+        </section>
+      </div>
+      <section>
+        {% include 'home/services.html.twig' %}
+      </section>
+    </div>
+  </main>
 {% endblock main %}
