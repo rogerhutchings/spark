@@ -6,7 +6,7 @@
     {% set svgFile = (header.svgFile) ? header.svgFile : 'certificate' %}
     {% include "svgs/circle-#{svgFile}.svg.twig" with { class: 'h3 h4-ns w3 w4-ns db center mb-2_5 mb-4_5-ns' } %}
 
-    <section class="mw8 center bt bw4 b--orange pa3 ph4-ns pb4-ns pt5-ns bg-white">
+    <section class="mw8 center bt bw4 b--white pa3 ph4-ns pb4-ns pt5-ns bg-orange white">
 
       {% block title %}
         <h1 class="ttu fw4 tc">
@@ -15,11 +15,17 @@
       {% endblock %}
 
       {% block content %}
-        {% set centredText = header.centredText ? 'tc' : '' %}
-        <div class="{{ centredText }} measure-wide center">
+        <div class="tc mw6 center">
           {{ content }}
+          <a
+            href="/contact-us"
+            class="f6 link br-pill ph4 pv2 mt3 dib orange bg-white bg-animate hover-bg-orange hover-white ttu center"
+          >
+            Contact us
+          </a>
         </div>
       {% endblock %}
+
 
     </section>
 

@@ -1,33 +1,19 @@
 {% extends 'partials/base.html.twig' %}
 
-{% block body %}
-  <article id="body" class="ph3 ph5-ns relative z-1 mt-6">
-
-    {% set svgFile = (header.svgFile) ? header.svgFile : 'certificate' %}
-    {% include "svgs/circle-#{svgFile}.svg.twig" with { class: 'h3 h4-ns w3 w4-ns db center mb-2_5 mb-4_5-ns' } %}
-
-    <section class="mw8 center bt bw4 b--white pa3 ph4-ns pb4-ns pt5-ns bg-orange white">
-
-      {% block title %}
-        <h1 class="ttu fw4 tc">
-          {{ page.title() }}
+{% block main %}
+  <main class="ph3 cover {{ page.header.main_classes }}">
+    <div class="bg-white relative top--6 neg-mb7 mw8 center {{ page.header.main_container_classes }}">
+      {% include 'partials/icon_header_block.html.twig' with { divClasses: 'bg-orange b--white' } %}
+      <article class="ph3 pb3 tc bg-orange white">
+        <h1 class="f3 fw4 ttu mt0">
+          {{ page.title }}
         </h1>
-      {% endblock %}
-
-      {% block content %}
-        <div class="tc mw6 center">
+        <div class="measure-wide center">
           {{ content }}
-          <a
-            href="/contact-us"
-            class="f6 link br-pill ph4 pv2 mt3 dib orange bg-white bg-animate hover-bg-orange hover-white ttu center"
-          >
-            Contact us
-          </a>
         </div>
-      {% endblock %}
-
-
-    </section>
-
-  </article>
-{% endblock %}
+      </article>
+      {% block main_lower %}
+      {% endblock main_lower %}
+    </div>
+  </main>
+{% endblock main %}

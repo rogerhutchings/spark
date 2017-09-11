@@ -1,8 +1,7 @@
 ---
 title: 'Join Us'
-backgroundClass: bg-img-gokarts
-svgFile: triangle
-centredText: true
+header_classes: bg-img-gokarts
+svg_icon: circle-triangle
 ---
 
 We are always looking for bright sparks at all levels. Hiring great people is the reason we win and keep accounts, but we also believe that our agency culture has played a key role in our success. We believe that everyone’s voice within the agency should be valued and encourage a flat approach to client work. Junior members of the team can take ownership of key initiatives and agency directors are heavily involved in campaign execution. There is always an opportunity to put your creative skills to the test and see your ideas come to life.

@@ -2,21 +2,15 @@
 
 @import '../node_modules/tachyons-sass/tachyons';
 
-@import 'fonts';
-@import 'tachyons/titillium';
-
-@import 'tachyons/links';
-@import 'tachyons/flexbox';
-@import 'tachyons/images';
-@import 'tachyons/skins';
-@import 'tachyons/skins-pseudo';
-@import 'tachyons/line-height';
-@import 'tachyons/backgrounds';
+@import 'tachyons/background-colors';
+@import 'tachyons/background-images';
 @import 'tachyons/background-positions';
-@import 'tachyons/negative-spacing';
-@import 'tachyons/spacing';
-@import 'tachyons/pointer-events';
-@import 'tachyons/max-widths';
-@import 'tachyons/square-bullet-list';
+@import 'tachyons/coordinates';
+@import 'tachyons/fills';
+@import 'tachyons/heights';
+@import 'tachyons/hovers';
+@import 'tachyons/hover-fills';
+@import 'tachyons/links';
+@import 'tachyons/negative-margins';
 @import 'tachyons/positions';
-@import 'tachyons/typography';
+@import 'tachyons/titillium';

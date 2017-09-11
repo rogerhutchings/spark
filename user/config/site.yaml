@@ -25,3 +25,11 @@ contactdetails:
   tel: '+44 (0)20 7436 0420 '
   email: hello@sparkcomms.co.uk
   name: 'Spark Communications'
+footer:
+  links:
+    - text: 'Privacy Policy'
+      url: '/privacy-policy'
+    - text: 'Terms & Conditions'
+      url: '/terms-and-conditions'
+    - text: 'Cookie Policy'
+      url: '/cookie-policy'

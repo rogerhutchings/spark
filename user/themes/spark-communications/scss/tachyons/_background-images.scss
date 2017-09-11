@@ -1,0 +1,23 @@
+/*
+
+  BACKGROUND IMAGES
+  Creates background images for general use, and in header and main containers to be applied as body classes.
+    - Orange Swoosh
+
+*/
+
+$background-images: (
+  'bg-img-bike',
+  'bg-img-big-ben',
+  'bg-img-city-overlay',
+  'bg-img-escalator',
+  'bg-img-geometric-sky',
+  'bg-img-gokarts',
+  'bg-img-mountain',
+  'bg-img-swoosh',
+  'bg-img-tablet',
+);
+
+@each $image in $background-images {
+  .#{$image} { background-image: url("../images/#{$image}.jpg"); }
+}

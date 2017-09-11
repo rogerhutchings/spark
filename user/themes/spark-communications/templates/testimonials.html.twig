@@ -1,0 +1,35 @@
+{% extends 'partials/base.html.twig' %}
+
+{% set colours = ['purple', 'gray', 'light-purple', 'orange']|randomize %}
+{% set leftTriangle = {
+  points: '0 0 0 10 10 0',
+  style: 'left: 2rem;'
+} %}
+{% set rightTriangle = {
+  points: '0 0 10 0 10 10',
+  style: 'right: 2rem;'
+} %}
+
+{% block main_lower %}
+  <section class="mw8 center white tc ph3">
+    <ul class="list ma0 pl0 pt3 pb1">
+      {% for q in header.testimonials %}
+        {% set colour = (loop.index + 1)|modulus(colours|length, colours) %}
+        {% set isLeft = loop.index|modulus(2) == 1 %}
+        {% set triangle = isLeft ? leftTriangle : rightTriangle %}
+
+        <li class="bg-o80-{{ colour }} pa4 mb5 relative">
+          <blockquote class="f4 measure center mt0 mh0 mb3 quote">
+            {{ q.body }}
+          </blockquote>
+          <div class="f6">
+            {{ q.source }}
+          </div>
+          <svg aria-hidden="true" viewBox="0 0 10 10" class="h2 absolute" style="top: 100%; opacity: 0.8; {{ triangle.style }}">
+            <polygon class="fill-{{ colour }}" points="{{ triangle.points }}"></polygon>
+          </svg>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endblock main_lower %}

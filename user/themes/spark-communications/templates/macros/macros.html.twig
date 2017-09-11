@@ -1,0 +1,4 @@
+{% macro sparkLogo(extraClasses) %}
+  {% set logoClasses = 'h-100 w-100 fill-white ' ~ extraClasses %}
+  {% include 'svgs/logo_text-bottom.svg.twig' with { class: logoClasses } %}
+{% endmacro %}

@@ -1,0 +1,35 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block main %}
+  <main class="ph3 cover">
+    <div class="bg-white relative top--6 neg-mb7 mw8 center">
+
+      <article class="tc pt3 bg-white">
+        <h1 class="orange f3 fw4 ttu mt0 pt4 pb5">
+          {{ page.title }}
+        </h1>
+        <ul class="list pl0 mv0 tc bg-img-city-overlay">
+          {% for service in page.header.services %}
+            {% set backgroundColor = loop.first ? 'bg-o80-purple' : 'bg-o80-white' %}
+            {% set textColor = loop.first ? 'white' : 'black' %}
+            {% set iconOptions = {
+              divClasses: 'bg-transparent neg-mh4 b--orange',
+              svgFile: 'circle-' ~ service.title|hyphenize,
+            } %}
+
+            <li class="ph4 pb5 {{ backgroundColor }} {{ textColor }}">
+              {% include 'partials/icon_header_block.html.twig' with iconOptions %}
+              <a name="{{ service.title|hyphenize }}"></a>
+                <h2 class="orange ttu fw4">
+                  {{ service.title }}
+                </h2>
+                <div class="measure-wide center pb4">
+                  {{ service.content|markdown }}
+                </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </article>
+    </div>
+  </main>
+{% endblock main %}

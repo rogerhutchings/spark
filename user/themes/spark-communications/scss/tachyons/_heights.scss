@@ -1,0 +1,22 @@
+/*
+
+  HEIGHTS
+  Additional height declarations
+
+*/
+
+/* Height Scale */
+
+.min-h6 { height: 36rem; }
+
+@media #{$breakpoint-not-small} {
+  .min-h6-ns { min-height: 36rem; }
+}
+
+@media #{$breakpoint-medium} {
+  .min-h6-m { min-height: 36rem; }
+}
+
+@media #{$breakpoint-large} {
+  .min-h6-l { min-height: 36rem; }
+}

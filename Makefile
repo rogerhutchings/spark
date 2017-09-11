@@ -13,7 +13,6 @@ run:
 	-docker kill $(DOCKER_INSTANCE)
 	-docker rm $(DOCKER_INSTANCE)
 	docker run \
-		--detach \
 		--name $(DOCKER_INSTANCE) \
 		--publish 80:80 \
 		--volume $(CURDIR)/user/:/usr/share/nginx/html/user/ \

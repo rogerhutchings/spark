@@ -2,31 +2,23 @@
 
 {% set address = encodeAddressStrings(site.contactdetails.name, site.contactdetails.address) %}
 
-{% block body %}
-  <main id="body" class="ph3 ph5-ns relative z-1 mt-6">
-    
-    {% include "svgs/circle-phone.svg.twig" with { class: 'h3 h4-ns w3 w4-ns db center mb-2_5 mb-4_5-ns z-max relative' } %}
-
-    <article class="mw8 center bt bw4 b--orange pb3 pb4-ns bg-white">
-
-      <div class="bb bw3 b--orange">
-        <iframe
-          allowfullscreen
-          class="w-100 db"
-          frameborder="0" 
-          src="https://www.google.com/maps/embed/v1/place?q={{ address }}&key={{ site.credentials.google_maps }}" 
-          style="border: 0; height: 32rem;"
-        ></iframe>
-      </div>
-
-      {% block title %}
-        <h1 class="ttu fw4 tc mt4">
-          {{ page.title() }}
+{% block main %}
+  <main class="ph3 cover {{ page.header.main_classes }}">
+    <div class="bg-white relative top--6 neg-mb7 mw8 center {{ page.header.main_container_classes }}">
+      {% include 'partials/icon_header_block.html.twig' with { divClasses: 'b--orange bg-transparent pb0' } %}
+      <iframe
+        allowfullscreen
+        class="w-100 db"
+        frameborder="0"
+        src="https://www.google.com/maps/embed/v1/place?q={{ address }}&key={{ site.credentials.google_maps }}"
+        style="border: 0; height: 32rem; position: relative; top: -4rem;"
+      ></iframe>
+      <article class="ph3 pb3 tc bg-white">
+        <h1 class="orange f3 fw4 ttu neg-mt3 mb4">
+          {{ page.title }}
         </h1>
-      {% endblock %}
 
-      {% block content %}
-        <div class="flex-ns">
+        <div class="flex-ns tl">
           <div class="w-50-ns ph3 ph4-ns flex-one br-ns b--orange">
             {{ header.description }}
             <p class="orange">
@@ -37,8 +29,8 @@
               {{ site.contactdetails.tel }}
             </p>
             <p>
-              <span class="orange">Email us:</span> 
-              <a class="link black underline" href="mailto:{{ site.contactdetails.email }}">
+              <span class="orange">Email us:</span>
+              <a class="black hover-orange underline" href="mailto:{{ site.contactdetails.email }}">
                 {{ site.contactdetails.email }}
               </a>
             </p>
@@ -47,10 +39,7 @@
             {{ header.directions }}
           </div>
         </div>
-      {% endblock %}
-
-    </article>
-
+      </article>
+    </div>
   </main>
-{% endblock %}
-
+{% endblock main %}

@@ -1,8 +1,17 @@
+/*
+
+  BACKGROUND POSITIONS
+    - Background X (0%, 5%... 100%)
+    - Background Y (0%, 5%... 100%)
+
+*/
+
+
 $i: 0;
 
 @while $i <= 20 {
   $val: $i * 5;
-  
+
   .bg-x-#{$val} {
     background-position-x: $val * 1%;
   }

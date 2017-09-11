@@ -2,6 +2,7 @@
 title: Home
 visible: false
 template: home
+svg_icon: circle-certificate
 ---
 
 ## About Us

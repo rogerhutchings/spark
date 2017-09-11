@@ -1,8 +1,5 @@
 {% set theme_config = attribute(config.themes, config.system.pages.theme) %}
-
-{% macro sparkLogo(extraClasses) %}
-  {% include 'svgs/logo_text-bottom.svg.twig' with { class: 'h-100 w-100 fill-white ' ~ extraClasses } %}
-{% endmacro %}
+{% import "macros/macros.html.twig" as macros %}
 
 <!DOCTYPE html>
 <html lang="{{ grav.language.getActive ?: theme_config.default_lang }}">
@@ -23,67 +20,65 @@
       <link rel="canonical" href="{{ page.url(true, true) }}" />
 
       {% block stylesheets %}
-        {% do assets.addCss('theme://css-compiled/index.css', 100) %}
+        {% do assets.addCss('https://fonts.googleapis.com/css?family=Titillium+Web:200,400,400i,600,600i', { 'priority': 100, 'pipeline': false }) %}
+        {% do assets.addCss('theme://css-compiled/index.css', 200) %}
       {% endblock %}
       {{ assets.css() }}
 
       {% block javascripts %}
         {% do assets.addJs('jquery', 100) %}
-        {% do assets.addJs('theme://js-compiled/bundle.js', { 'group':'bottom' }) %}
+        {% do assets.addJs('theme://js-compiled/bundle.js', { 'group': 'bottom' }) %}
       {% endblock %}
       {{ assets.js() }}
 
     {% endblock head %}
   </head>
 
-  <body id="top" class="{{ page.header.body_classes }} titillium lh-copy">
+  <body id="top" class="titillium lh-copy {{ page.header.body_classes }}">
 
     {% block header %}
+      {% set backgroundClass = page.header.header_classes ? page.header.header_classes : 'bg-img-swoosh bg-y-15' %}
+      <header id="header" class="min-h6 bg-black cover {{ backgroundClass }}">
+        <div class="center pt5 ph3 mw8 flex-ns justify-between items-end">
 
-      {% if header.backgroundClass %}
-        {% set headerBackgroundClass = header.backgroundClass %}
-      {% elseif templateBackgroundClass %}
-        {% set headerBackgroundClass = templateBackgroundClass %}
-      {% else %}
-        {% set headerBackgroundClass = 'bg-img-swoosh bg-y-15' %}
-      {% endif %}
+          {% if page.home() %}
+            {{ macros.sparkLogo('w-25-ns flex-none') }}
+          {% else %}
+            <a href="/" class="w-25-ns flex-none">
+              {{ macros.sparkLogo() }}
+            </a>
+          {% endif %}
 
-      <header class="header pa5 pb7 flex flex-wrap cover {{ headerBackgroundClass }}">
+          {% include 'partials/navigation.html.twig' %}
 
-        {% if page.home() %}
-          {{ _self.sparkLogo('w-25-ns flex-none') }}
-        {% else %}
-          <a href="/" class="w-25-ns flex-none hover-fill-orange">
-            {{ _self.sparkLogo() }}
-          </a>
-        {% endif %}
-
-        {% block header_navigation %}
-          <nav class="flex-auto flex justify-end items-end">
-            {% include 'partials/navigation.html.twig' %}
-          </nav>
-        {% endblock header_navigation %}
-
-        {% block hero %}
-        {% endblock %}
+        </div>
 
       </header>
     {% endblock header %}
 
-    {% block body %}
-      <article id="body" class="pa5 relative z-1">
-        {% block title page.title() %}
-        {% block content content %}
-      </article>
-    {% endblock %}
-
-    {% block below_body %}{% endblock %}
+    {% block main %}
+      <main class="ph3 cover {{ page.header.main_classes }}">
+        <div class="bg-white relative top--6 neg-mb7 mw8 center {{ page.header.main_container_classes }}">
+          {% include 'partials/icon_header_block.html.twig' %}
+          <article class="pa3 tc bg-white">
+            <h1 class="orange f3 fw4 ttu mt0">
+              {{ page.title }}
+            </h1>
+            <div class="measure-wide center">
+              {{ content }}
+            </div>
+          </article>
+          {% block main_lower %}
+          {% endblock main_lower %}
+        </div>
+      </main>
+    {% endblock main %}
 
     {% include 'partials/footer.html.twig' %}
 
     {% block bottom %}
       {{ assets.js('bottom') }}
-    {% endblock %}
+    {% endblock bottom %}
 
   </body>
 </html>
