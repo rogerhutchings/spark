@@ -15,12 +15,22 @@
      -l  = large
 */
 
+.top--3    { top:    -3rem; }
+.right--3  { right:  -3rem; }
+.bottom--3 { bottom: -3rem; }
+.left--3   { left:   -3rem; }
+
 .top--6    { top:    -6rem; }
 .right--6  { right:  -6rem; }
 .bottom--6 { bottom: -6rem; }
 .left--6   { left:   -6rem; }
 
 @media #{$breakpoint-not-small} {
+  .top--3    { top:    -3rem; }
+  .right--3  { right:  -3rem; }
+  .bottom--3 { bottom: -3rem; }
+  .left--3   { left:   -3rem; }
+
   .top--6-ns    { top:    -6rem; }
   .right--6-ns  { right:  -6rem; }
   .bottom--6-ns { bottom: -6rem; }
@@ -28,6 +38,11 @@
 }
 
 @media #{$breakpoint-medium} {
+  .top--3    { top:    -3rem; }
+  .right--3  { right:  -3rem; }
+  .bottom--3 { bottom: -3rem; }
+  .left--3   { left:   -3rem; }
+
   .top--6-m    { top:    -6rem; }
   .right--6-m  { right:  -6rem; }
   .bottom--6-m { bottom: -6rem; }
@@ -35,6 +50,11 @@
 }
 
 @media #{$breakpoint-large} {
+  .top--3    { top:    -3rem; }
+  .right--3  { right:  -3rem; }
+  .bottom--3 { bottom: -3rem; }
+  .left--3   { left:   -3rem; }
+
   .top--6-l    { top:    -6rem; }
   .right--6-l  { right:  -6rem; }
   .bottom--6-l { bottom: -6rem; }
