@@ -21,13 +21,17 @@
 
       {% block stylesheets %}
         {% do assets.addCss('https://fonts.googleapis.com/css?family=Titillium+Web:200,400,400i,600,600i', { 'priority': 100, 'pipeline': false }) %}
+        {% do assets.addCss('slick-css', 90) %}
         {% do assets.addCss('theme://css-compiled/index.css', 200) %}
       {% endblock %}
       {{ assets.css() }}
 
       {% block javascripts %}
         {% do assets.addJs('jquery', 100) %}
-        {% do assets.addJs('theme://js-compiled/bundle.js', { 'group': 'bottom' }) %}
+        {% do assets.addJs('slick-js', 90) %}
+        {% do assets.addJs('featherlight-js', 90) %}
+        {% do assets.addJs('handlebars', 90) %}
+        {% do assets.addJs('theme://js-compiled/bundle.js', { 'group': 'bottom', priority: 50 }) %}
       {% endblock %}
       {{ assets.js() }}
 

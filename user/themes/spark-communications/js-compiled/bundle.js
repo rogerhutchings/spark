@@ -102,5 +102,33 @@ window.initMap = initMap;
 
 __webpack_require__(0);
 
+function createContext(el) {
+  var data = el.parent().data();
+  return {
+    imgSrc: el.attr('src'),
+    name: data.name,
+    bio: data.bio
+  };
+}
+
+$(document).ready(function () {
+  $('.js-name').remove();
+
+  var source = $("#team-modal-template").html();
+  var template = Handlebars.compile(source);
+
+  $('.js-person').on('click', function (event) {
+    var context = createContext($(event.target));
+    $.featherlight(template(context));
+  });
+
+  $('#meet-the-team').slick({
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    dots: true,
+    arrows: false
+  });
+});
+
 /***/ })
 /******/ ]);

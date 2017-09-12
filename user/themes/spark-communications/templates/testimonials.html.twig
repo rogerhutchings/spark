@@ -10,39 +10,56 @@
   style: 'right: 2rem;'
 } %}
 
-{% block main_lower %}
-  <section class="mw8 center white tc ph3">
-    <ul class="list ma0 pl0 pt3 pb1">
-      {% for q in header.testimonials %}
-        {% set colour = (loop.index + 1)|modulus(colours|length, colours) %}
-        {% set isLeft = loop.index|modulus(2) == 1 %}
-        {% set triangle = isLeft ? leftTriangle : rightTriangle %}
+{% block main %}
+  <main class="ph3 cover {{ page.header.main_classes }}">
+    <div class="bg-white relative top--6 mw8 center {{ page.header.main_container_classes }}" style="margin-bottom: -6rem;">
+      {% include 'partials/icon_header_block.html.twig' %}
+      <article class="pa3 tc bg-white">
+        <h1 class="orange f3 fw4 ttu mt0">
+          {{ page.title }}
+        </h1>
+        <div class="measure-wide center">
+          {{ content }}
+        </div>
+      </article>
 
-        <li class="bg-o80-{{ colour }} pa4 mb5 relative">
-          <blockquote class="f4 measure center mt0 mh0 mb3 quote">
-            {{ q.body }}
-          </blockquote>
-          <div class="f6">
-            {{ q.source }}
-          </div>
-          <svg aria-hidden="true" viewBox="0 0 10 10" class="h2 absolute" style="top: 100%; opacity: 0.8; {{ triangle.style }}">
-            <polygon class="fill-{{ colour }}" points="{{ triangle.points }}"></polygon>
-          </svg>
-        </li>
-      {% endfor %}
-    </ul>
+      <ul class="list ma0 ph3 pt3 pb1">
+        {% for q in header.testimonials %}
+          {% set colour = (loop.index + 1)|modulus(colours|length, colours) %}
+          {% set triangle = loop.index|modulus(2) == 1 ? leftTriangle : rightTriangle %}
 
-    <div class="neg-mh3 mt4 bg-white pb4">
-      {% include 'partials/icon_header_block.html.twig' with { svgFile: '' } %}
-      <h2 class="orange ttu tc">
-        Meet the team
-      </h2>
+          <li class="bg-o80-{{ colour }} pa4 mb5 relative tc white">
+            <blockquote class="f4 measure center mt0 mh0 mb3 quote">
+              {{ q.body }}
+            </blockquote>
+
+            <div class="f6">
+              {{ q.source }}
+            </div>
+
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 10 10"
+              class="h2 absolute"
+              style="top: 100%; opacity: 0.8; {{ triangle.style }}"
+            >
+              <polygon class="fill-{{ colour }}" points="{{ triangle.points }}"></polygon>
+            </svg>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <div class="mt4 bg-white pb4">
+        {% include 'partials/icon_header_block.html.twig' with { svgFile: 'circle-meet-the-team' } %}
+        <h2 class="orange ttu tc">
+          Meet the team
+        </h2>
+      </div>
+
     </div>
-  </section>
-{% endblock main_lower %}
+  </main>
 
-{% block under_main %}
-  <section class="bg-black neg-mb5 mt6 relative z-max">
+  <section>
     {% include 'partials/team.html.twig' %}
   </section>
-{% endblock under_main %}
+{% endblock main %}

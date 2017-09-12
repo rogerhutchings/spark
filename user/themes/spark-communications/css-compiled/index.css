@@ -1,21 +1,19 @@
-/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
-/**
- * 1. Change the default font family in all browsers (opinionated).
- * 2. Correct the line height in all browsers.
- * 3. Prevent adjustments of font size after orientation changes in
- *    IE on Windows Phone and in iOS.
- */
+@charset "UTF-8";
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
 html {
-  font-family: sans-serif;
-  /* 1 */
   line-height: 1.15;
-  /* 2 */
+  /* 1 */
   -ms-text-size-adjust: 100%;
-  /* 3 */
+  /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 3 */ }
+  /* 2 */ }
 
 /* Sections
    ========================================================================== */
@@ -97,15 +95,7 @@ a {
   /* 2 */ }
 
 /**
- * Remove the outline on focused links when they are also active or hovered
- * in all browsers (opinionated).
- */
-a:active,
-a:hover {
-  outline-width: 0; }
-
-/**
- * 1. Remove the bottom border in Firefox 39-.
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
@@ -276,12 +266,10 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText; }
 
 /**
- * Change the border, margin, and padding in all browsers (opinionated).
+ * Correct the padding in Firefox.
  */
 fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: 0.35em 0.75em 0.625em; }
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -474,16 +462,16 @@ template {
 
 */
 .debug-grid {
-  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTRDOTY4N0U2N0VFMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTRDOTY4N0Q2N0VFMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NjcyQkQ3NjY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NjcyQkQ3NzY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsBS+GMAAAAjSURBVHjaYvz//z8DLsD4gcGXiYEAGBIKGBne//fFpwAgwAB98AaF2pjlUQAAAABJRU5ErkJggg==) repeat top left; }
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAFElEQVR4AWPAC97/9x0eCsAEPgwAVLshdpENIxcAAAAASUVORK5CYII=) repeat top left; }
 
 .debug-grid-16 {
-  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6ODYyRjhERDU2N0YyMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6ODYyRjhERDQ2N0YyMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NjcyQkQ3QTY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NjcyQkQ3QjY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvCS01IAAABMSURBVHjaYmR4/5+BFPBfAMFm/MBgx8RAGWCn1AAmSg34Q6kBDKMGMDCwICeMIemF/5QawEipAWwUhwEjMDvbAWlWkvVBwu8vQIABAEwBCph8U6c0AAAAAElFTkSuQmCC) repeat top left; }
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMklEQVR4AWOgCLz/b0epAa6UGuBOqQHOQHLUgFEDnAbcBZ4UGwDOkiCnkIhdgNgNxAYAiYlD+8sEuo8AAAAASUVORK5CYII=) repeat top left; }
 
 .debug-grid-8-solid {
-  background: white url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAAAAAD/4QMxaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzExMSA3OS4xNTgzMjUsIDIwMTUvMDkvMTAtMDE6MTA6MjAgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE1IChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkIxMjI0OTczNjdCMzExRTZCMkJDRTI0MDgxMDAyMTcxIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkIxMjI0OTc0NjdCMzExRTZCMkJDRTI0MDgxMDAyMTcxIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QjEyMjQ5NzE2N0IzMTFFNkIyQkNFMjQwODEwMDIxNzEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QjEyMjQ5NzI2N0IzMTFFNkIyQkNFMjQwODEwMDIxNzEiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAbGhopHSlBJiZBQi8vL0JHPz4+P0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHAR0pKTQmND8oKD9HPzU/R0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0f/wAARCAAIAAgDASIAAhEBAxEB/8QAWQABAQAAAAAAAAAAAAAAAAAAAAYBAQEAAAAAAAAAAAAAAAAAAAIEEAEBAAMBAAAAAAAAAAAAAAABADECA0ERAAEDBQAAAAAAAAAAAAAAAAARITFBUWESIv/aAAwDAQACEQMRAD8AoOnTV1QTD7JJshP3vSM3P//Z) repeat top left; }
+  background: white url(data:image/gif;base64,R0lGODdhCAAIAPEAAADw/wDx/////wAAACwAAAAACAAIAAACDZQvgaeb/lxbAIKA8y0AOw==) repeat top left; }
 
 .debug-grid-16-solid {
-  background: white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzY3MkJEN0U2N0M1MTFFNkIyQkNFMjQwODEwMDIxNzEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzY3MkJEN0Y2N0M1MTFFNkIyQkNFMjQwODEwMDIxNzEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NjcyQkQ3QzY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NjcyQkQ3RDY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pve6J3kAAAAzSURBVHjaYvz//z8D0UDsMwMjSRoYP5Gq4SPNbRjVMEQ1fCRDg+in/6+J1AJUxsgAEGAA31BAJMS0GYEAAAAASUVORK5CYII=) repeat top left; }
+  background: white url(data:image/gif;base64,R0lGODdhEAAQAPEAAADw/wDx/xXy/////ywAAAAAEAAQAAACIZyPKckYDQFsb6ZqD85jZ2+BkwiRFKehhqQCQgDHcgwEBQA7) repeat top left; }
 
 /*
  
@@ -873,7 +861,7 @@ img {
   .outline-0-m {
     outline: 0; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 60em) {
   .outline-l {
     outline: 1px solid; }
   .outline-transparent-l {
@@ -1026,6 +1014,9 @@ img {
 
 .b--light-silver {
   border-color: #aaa; }
+
+.b--moon-gray {
+  border-color: #ccc; }
 
 .b--light-gray {
   border-color: #eee; }
@@ -1185,6 +1176,9 @@ img {
 
 .b--transparent {
   border-color: transparent; }
+
+.b--inherit {
+  border-color: inherit; }
 
 /*
 
@@ -1896,9 +1890,9 @@ img {
     it    = inline-table
     t     = table
     tc    = table-cell
-    tr    = table-row
-    tcol  = table-column
-    tcolg = table-column-group
+    t-row          = table-row
+    t-columm       = table-column
+    t-column-group = table-column-group
 
    Media Query Extensions:
      -ns = not-small
@@ -2065,6 +2059,18 @@ img {
 .flex-wrap {
   flex-wrap: wrap; }
 
+.flex-nowrap {
+  flex-wrap: nowrap; }
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse; }
+
+.flex-column-reverse {
+  flex-direction: column-reverse; }
+
+.flex-row-reverse {
+  flex-direction: row-reverse; }
+
 .items-start {
   align-items: flex-start; }
 
@@ -2177,6 +2183,14 @@ img {
     flex-direction: row; }
   .flex-wrap-ns {
     flex-wrap: wrap; }
+  .flex-nowrap-ns {
+    flex-wrap: nowrap; }
+  .flex-wrap-reverse-ns {
+    flex-wrap: wrap-reverse; }
+  .flex-column-reverse-ns {
+    flex-direction: column-reverse; }
+  .flex-row-reverse-ns {
+    flex-direction: row-reverse; }
   .items-start-ns {
     align-items: flex-start; }
   .items-end-ns {
@@ -2259,6 +2273,14 @@ img {
     flex-direction: row; }
   .flex-wrap-m {
     flex-wrap: wrap; }
+  .flex-nowrap-m {
+    flex-wrap: nowrap; }
+  .flex-wrap-reverse-m {
+    flex-wrap: wrap-reverse; }
+  .flex-column-reverse-m {
+    flex-direction: column-reverse; }
+  .flex-row-reverse-m {
+    flex-direction: row-reverse; }
   .items-start-m {
     align-items: flex-start; }
   .items-end-m {
@@ -2341,6 +2363,14 @@ img {
     flex-direction: row; }
   .flex-wrap-l {
     flex-wrap: wrap; }
+  .flex-nowrap-l {
+    flex-wrap: nowrap; }
+  .flex-wrap-reverse-l {
+    flex-wrap: wrap-reverse; }
+  .flex-column-reverse-l {
+    flex-direction: column-reverse; }
+  .flex-row-reverse-l {
+    flex-direction: row-reverse; }
   .items-start-l {
     align-items: flex-start; }
   .items-end-l {
@@ -2846,7 +2876,7 @@ code, .code {
     height: 75%; }
   .h-100-m {
     height: 100%; }
-  .min-h-100-ns {
+  .min-h-100-m {
     min-height: 100%; }
   .vh-25-m {
     height: 25vh; }
@@ -3177,17 +3207,21 @@ a:visited {
      -10  = literal value 10%
      -20  = literal value 20%
      -25  = literal value 25%
+     -30  = literal value 30%
      -33  = literal value 33%
      -34  = literal value 34%
      -40  = literal value 40%
      -50  = literal value 50%
      -60  = literal value 60%
+     -70  = literal value 70%
      -75  = literal value 75%
      -80  = literal value 80%
+     -90  = literal value 90%
      -100 = literal value 100%
 
-     -third = 100% / 3 (Not supported in opera mini or IE8)
-     -auto  = string value auto
+     -third      = 100% / 3 (Not supported in opera mini or IE8)
+     -two-thirds = 100% / 1.5 (Not supported in opera mini or IE8)
+     -auto       = string value auto
 
 
    Media Query Extensions:
@@ -3873,6 +3907,9 @@ a:visited {
 .washed-red {
   color: #ffdfdf; }
 
+.color-inherit {
+  color: inherit; }
+
 .bg-black-90 {
   background-color: rgba(0, 0, 0, 0.9); }
 
@@ -4042,6 +4079,9 @@ a:visited {
 .bg-washed-red {
   background-color: #ffdfdf; }
 
+.bg-inherit {
+  background-color: inherit; }
+
 /* 
   
    SKINS:PSEUDO
@@ -4166,6 +4206,10 @@ a:visited {
 .hover-white-10:focus {
   color: rgba(255, 255, 255, 0.1); }
 
+.hover-inherit:hover,
+.hover-inherit:focus {
+  color: inherit; }
+
 .hover-bg-black:hover,
 .hover-bg-black:focus {
   background-color: #000; }
@@ -4178,8 +4222,8 @@ a:visited {
 .hover-bg-dark-gray:focus {
   background-color: #333; }
 
-.hover-bg-dark-gray:focus,
-.hover-bg-mid-gray:hover {
+.hover-bg-mid-gray:hover,
+.hover-bg-mid-gray:focus {
   background-color: #555; }
 
 .hover-bg-gray:hover,
@@ -4485,6 +4529,10 @@ a:visited {
 .hover-bg-washed-red:hover,
 .hover-bg-washed-red:focus {
   background-color: #ffdfdf; }
+
+.hover-bg-inherit:hover,
+.hover-bg-inherit:focus {
+  background-color: inherit; }
 
 /* Variables */
 /*
@@ -6096,6 +6144,7 @@ a:visited {
     l = left
     r = right
     c = center
+    j = justify
 
   Media Query Extensions:
     -ns = not-small
@@ -6112,13 +6161,18 @@ a:visited {
 .tc {
   text-align: center; }
 
+.tj {
+  text-align: justify; }
+
 @media screen and (min-width: 30em) {
   .tl-ns {
     text-align: left; }
   .tr-ns {
     text-align: right; }
   .tc-ns {
-    text-align: center; } }
+    text-align: center; }
+  .tj-ns {
+    text-align: justify; } }
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
   .tl-m {
@@ -6126,7 +6180,9 @@ a:visited {
   .tr-m {
     text-align: right; }
   .tc-m {
-    text-align: center; } }
+    text-align: center; }
+  .tj-m {
+    text-align: justify; } }
 
 @media screen and (min-width: 60em) {
   .tl-l {
@@ -6134,7 +6190,9 @@ a:visited {
   .tr-l {
     text-align: right; }
   .tc-l {
-    text-align: center; } }
+    text-align: center; }
+  .tj-l {
+    text-align: justify; } }
 
 /*
 
@@ -6213,6 +6271,7 @@ a:visited {
      4 = 4th step in size scale
      5 = 5th step in size scale
      6 = 6th step in size scale
+     7 = 7th step in size scale
 
    Media Query Extensions:
      -ns = not-small
@@ -6252,6 +6311,10 @@ a:visited {
 .f6 {
   font-size: .875rem; }
 
+.f7 {
+  font-size: .75rem; }
+
+/* Small and hard to read for many people so use with extreme caution */
 @media screen and (min-width: 30em) {
   .f-6-ns,
   .f-headline-ns {
@@ -6270,7 +6333,9 @@ a:visited {
   .f5-ns {
     font-size: 1rem; }
   .f6-ns {
-    font-size: .875rem; } }
+    font-size: .875rem; }
+  .f7-ns {
+    font-size: .75rem; } }
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
   .f-6-m,
@@ -6290,7 +6355,9 @@ a:visited {
   .f5-m {
     font-size: 1rem; }
   .f6-m {
-    font-size: .875rem; } }
+    font-size: .875rem; }
+  .f7-m {
+    font-size: .75rem; } }
 
 @media screen and (min-width: 60em) {
   .f-6-l,
@@ -6310,7 +6377,9 @@ a:visited {
   .f5-l {
     font-size: 1rem; }
   .f6-l {
-    font-size: .875rem; } }
+    font-size: .875rem; }
+  .f7-l {
+    font-size: .75rem; } }
 
 /*
 
@@ -6408,13 +6477,52 @@ a:visited {
 
    UTILITIES
 
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
+/* Equivalent to .overflow-y-scroll */
 .overflow-container {
   overflow-y: scroll; }
 
 .center {
   margin-right: auto;
   margin-left: auto; }
+
+.mr-auto {
+  margin-right: auto; }
+
+.ml-auto {
+  margin-left: auto; }
+
+@media screen and (min-width: 30em) {
+  .center-ns {
+    margin-right: auto;
+    margin-left: auto; }
+  .mr-auto-ns {
+    margin-right: auto; }
+  .ml-auto-ns {
+    margin-left: auto; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .center-m {
+    margin-right: auto;
+    margin-left: auto; }
+  .mr-auto-m {
+    margin-right: auto; }
+  .ml-auto-m {
+    margin-left: auto; } }
+
+@media screen and (min-width: 60em) {
+  .center-l {
+    margin-right: auto;
+    margin-left: auto; }
+  .mr-auto-l {
+    margin-right: auto; }
+  .ml-auto-l {
+    margin-left: auto; } }
 
 /*
 
@@ -6676,6 +6784,7 @@ a:focus {
 .shadow-hover::after {
   content: '';
   box-shadow: 0px 0px 16px 2px rgba(0, 0, 0, 0.2);
+  border-radius: inherit;
   opacity: 0;
   position: absolute;
   top: 0;
@@ -7581,3 +7690,117 @@ a:focus {
 
 .titillium {
   font-family: 'Titillium Web', sans-serif; }
+
+/**
+ * Featherlight – ultra slim jQuery lightbox
+ * Version 1.7.8 - http://noelboss.github.io/featherlight/
+ *
+ * Copyright 2017, Noël Raoul Bossart (http://www.noelboss.com)
+ * MIT Licensed.
+**/
+@media all {
+  html.with-featherlight {
+    /* disable global scrolling when featherlights are visible */
+    overflow: hidden; }
+  .featherlight {
+    display: none;
+    /* dimensions: spanning the background from edge to edge */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2147483647;
+    /* z-index needs to be >= elements on the site. */
+    /* position: centering content */
+    text-align: center;
+    /* insures that the ::before pseudo element doesn't force wrap with fixed width content; */
+    white-space: nowrap;
+    /* styling */
+    cursor: pointer;
+    background: url("../images/bg-img-hiking.jpg");
+    background-size: cover; }
+    .featherlight:before {
+      /* position: trick to center content vertically */
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle; }
+  .featherlight .featherlight-content {
+    /* make content container for positioned elements (close button) */
+    position: relative;
+    /* position: centering vertical and horizontal */
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+    /* dimensions: cut off images */
+    overflow: auto;
+    /* dimensions: handling large content */
+    margin-left: 5%;
+    margin-right: 5%;
+    max-height: 95%;
+    /* styling */
+    background: rgba(255, 255, 255, 0.8);
+    cursor: auto;
+    /* reset white-space wrapping */
+    white-space: normal;
+    /* clipping  */
+    -webkit-clip-path: polygon(0% 0%, 40% 0%, 50% 5%, 60% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 40% 0%, 50% 5%, 60% 0%, 100% 0%, 100% 100%, 0% 100%); }
+  /* contains the content */
+  .featherlight .featherlight-inner {
+    /* make sure its visible */
+    display: block; }
+  /* don't show these though */
+  .featherlight script.featherlight-inner,
+  .featherlight link.featherlight-inner,
+  .featherlight style.featherlight-inner {
+    display: none; }
+  .featherlight .featherlight-close-icon {
+    /* position: centering vertical and horizontal */
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    /* dimensions: 25px x 25px */
+    line-height: 25px;
+    width: 25px;
+    /* styling */
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    /* Set the background in case it overlaps the content */
+    background: rgba(255, 255, 255, 0.3);
+    color: #000;
+    border: none;
+    padding: 0; }
+  /* See http://stackoverflow.com/questions/16077341/how-to-reset-all-default-styles-of-the-html5-button-element */
+  .featherlight .featherlight-close-icon::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .featherlight .featherlight-image {
+    /* styling */
+    width: 100%; }
+  .featherlight-iframe .featherlight-content {
+    /* removed the border for image croping since iframe is edge to edge */
+    border-bottom: 0;
+    padding: 0;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll; }
+  .featherlight iframe {
+    /* styling */
+    border: none; }
+  .featherlight * {
+    /* See https://github.com/noelboss/featherlight/issues/42 */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; } }
+
+/* handling phones and small screens */
+@media only screen and (max-width: 1024px) {
+  .featherlight .featherlight-content {
+    /* dimensions: maximize lightbox with for small screens */
+    margin-left: 0;
+    margin-right: 0;
+    max-height: 98%; } }

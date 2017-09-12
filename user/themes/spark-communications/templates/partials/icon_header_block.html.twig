@@ -11,6 +11,6 @@
 {% set svg = svgFile|default(page.header.svg_icon) %}
 {% set svgClasses = 'absolute left-50 transform-center h3 h4-ns w3 w4-ns dib center neg-mt2_5 neg-mt4_5-ns fill-orange' %}
 
-<div class="bt bw4 pb5 tc relative z-max {{ divClasses|default('bg-white b--orange') }}">
+<div class="bt bw4 pb5 tc relative z-1 {{ divClasses|default('bg-white b--orange') }}">
   {% include "svgs/#{svg|default('circle-certificate')}.svg.twig" with { class: svgClasses } %}
 </div>

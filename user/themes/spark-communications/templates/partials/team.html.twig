@@ -1,18 +1,40 @@
 {% set team = page.find('/team').children %}
 
-{{ dump(team) }}
-
-<ul class="list pl0 ma0 cf">
+<ul id="meet-the-team" class="list pl0 ma0 cf">
   {% for person in team %}
     {{ dump(person) }}
-    <li class="dib fl w-50 w-third-ns relative">
+    <li
+      class="js-person dib fl w-50 w-third-ns relative"
+      data-name="{{ person.title }}"
+      data-bio="{{ person.header.bio }}"
+    >
       <img
         class="db"
         src="{{ person.header.photo|first.path }}"
       />
-      <div class="absolute bottom-0 w-100 pb3 tc orange fw6 f4 ttu">
+      <div class="js-name absolute bottom-0 w-100 pb3 tc orange fw6 f4 ttu">
         {{ person.header.title }}
       </div>
     </li>
   {% endfor %}
 </ul>
+
+{% verbatim %}
+  <script id="team-modal-template" type="text/x-handlebars-template">
+    <div>
+      <article class="mw8 center flex flex-column flex-row-ns">
+        <div class="w-100 w-50-ns">
+          <img src="{{ imgSrc }}" class="db" />
+        </div>
+        <section class="w-100 w-50-ns tl pa4">
+          <h2 class="orange fw4 ttu mt0">
+            {{ name }}
+          </h2>
+          <div>
+            {{ bio }}
+          </div>
+        </section>
+      </article>
+    </div>
+  </script>
+{% endverbatim %}
