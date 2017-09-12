@@ -12,11 +12,11 @@
           class="aspect-ratio--object db link orange hover-white fill-orange fill-white-hover overlay-bg-o80-orange-hover"
           href="/services#{{ slug }}"
         >
-          <div
+          <img
             aria-hidden="true"
+            src="{{ url("theme://images/#{slug}.jpg") }}"
             class="db bg-center cover aspect-ratio--object blank"
-            style="background: url({{ url("theme://images/#{slug}.jpg") }});"
-          /></div>
+          />
           <div name="overlay" aria-hidden="true" class="db aspect-ratio--object blank bg-o80-purple"></div>
           <div class="aspect-ratio--object flex flex-column items-center justify-center pe-none">
             {% include "svgs/circle-#{slug}.svg.twig" with { class: 'w-third', noBg: true } %}
