@@ -9,15 +9,15 @@
     <li class="fl w-50 w-third-ns">
       <div class="aspect-ratio aspect-ratio--1x1 ">
         <a
-          class="aspect-ratio--object db link orange hover-white fill-orange hover-fill-white"
+          class="aspect-ratio--object db link orange hover-white fill-orange fill-white-hover overlay-bg-o80-orange-hover"
           href="/services#{{ slug }}"
         >
-          <img
+          <div
             aria-hidden="true"
             class="db bg-center cover aspect-ratio--object blank"
-            style="background: url({{ service.bg ?? '' }});"
-          />
-          <div aria-hidden="true" class="db aspect-ratio--object blank bg-overlay-purple bg-overlay-orange-hover"></div>
+            style="background: url({{ url("theme://images/#{slug}.jpg") }});"
+          /></div>
+          <div name="overlay" aria-hidden="true" class="db aspect-ratio--object blank bg-o80-purple"></div>
           <div class="aspect-ratio--object flex flex-column items-center justify-center pe-none">
             {% include "svgs/circle-#{slug}.svg.twig" with { class: 'w-third', noBg: true } %}
             <span class="ttu z-9999 pe-none dib tc mt2">

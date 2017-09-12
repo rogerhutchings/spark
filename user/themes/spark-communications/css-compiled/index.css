@@ -6839,6 +6839,24 @@ a:focus {
 .bg-o80-orange {
   background-color: rgba(232, 109, 57, 0.8); }
 
+.bg-o80-white-hover:hover {
+  background-color: rgba(255, 255, 255, 0.8); }
+
+.bg-o80-light-purple-hover:hover {
+  background-color: rgba(213, 102, 164, 0.8); }
+
+.bg-o80-purple-hover:hover {
+  background-color: rgba(49, 26, 57, 0.8); }
+
+.bg-o80-black-hover:hover {
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.bg-o80-gray-hover:hover {
+  background-color: rgba(120, 131, 147, 0.8); }
+
+.bg-o80-orange-hover:hover {
+  background-color: rgba(232, 109, 57, 0.8); }
+
 /*
 
   BACKGROUND IMAGES
@@ -7524,6 +7542,30 @@ a:focus {
 @media screen and (min-width: 30em) {
   .neg-mt4_5-ns {
     margin-top: -4.5rem; } }
+
+/*
+
+  OVERLAYS
+  A hack to apply a colour overlay to an image by using a named non-semantic elements.
+
+*/
+.overlay-bg-o80-white-hover:hover [name="overlay"] {
+  background-color: rgba(255, 255, 255, 0.8); }
+
+.overlay-bg-o80-light-purple-hover:hover [name="overlay"] {
+  background-color: rgba(213, 102, 164, 0.8); }
+
+.overlay-bg-o80-purple-hover:hover [name="overlay"] {
+  background-color: rgba(49, 26, 57, 0.8); }
+
+.overlay-bg-o80-black-hover:hover [name="overlay"] {
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.overlay-bg-o80-gray-hover:hover [name="overlay"] {
+  background-color: rgba(120, 131, 147, 0.8); }
+
+.overlay-bg-o80-orange-hover:hover [name="overlay"] {
+  background-color: rgba(232, 109, 57, 0.8); }
 
 .left-50 {
   left: 50%; }

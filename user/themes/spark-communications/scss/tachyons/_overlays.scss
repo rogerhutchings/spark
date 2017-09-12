@@ -1,0 +1,43 @@
+/*
+
+  OVERLAYS
+  A hack to apply a colour overlay to an image by using a named non-semantic elements.
+
+*/
+
+
+.overlay-bg-o80-white-hover:hover {
+  [name="overlay"] {
+    background-color: transparentize($white, 0.2);
+  }
+}
+
+.overlay-bg-o80-light-purple-hover:hover {
+  [name="overlay"] {
+    background-color: transparentize($light-purple, 0.2);
+  }
+}
+
+.overlay-bg-o80-purple-hover:hover {
+  [name="overlay"] {
+    background-color: transparentize($purple, 0.2);
+  }
+}
+
+.overlay-bg-o80-black-hover:hover {
+  [name="overlay"] {
+    background-color: transparentize($black, 0.4);
+  }
+}
+
+.overlay-bg-o80-gray-hover:hover {
+  [name="overlay"] {
+    background-color: transparentize($gray, 0.2);
+  }
+}
+
+.overlay-bg-o80-orange-hover:hover {
+  [name="overlay"] {
+    background-color: transparentize($orange, 0.2);
+  }
+}

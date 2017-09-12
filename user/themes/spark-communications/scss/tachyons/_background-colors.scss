@@ -21,3 +21,29 @@
 .bg-o80-orange {
   background-color: transparentize($orange, 0.2);
 }
+
+
+
+.bg-o80-white-hover:hover {
+  background-color: transparentize($white, 0.2);
+}
+
+.bg-o80-light-purple-hover:hover {
+  background-color: transparentize($light-purple, 0.2);
+}
+
+.bg-o80-purple-hover:hover {
+  background-color: transparentize($purple, 0.2);
+}
+
+.bg-o80-black-hover:hover {
+  background-color: transparentize($black, 0.4);
+}
+
+.bg-o80-gray-hover:hover {
+  background-color: transparentize($gray, 0.2);
+}
+
+.bg-o80-orange-hover:hover {
+  background-color: transparentize($orange, 0.2);
+}
