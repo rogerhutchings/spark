@@ -13,11 +13,11 @@ stats:
         stat: 'BBC and Times coverage'
 visible: false
 company_logo_image:
-    'user/pages/08.our-work/cim/cim-logo 2.png':
-        name: 'cim-logo 2.png'
+    'user/pages/08.our-work/cim/cim-logo2.png':
+        name: 'cim-logo2.png'
         type: image/png
         size: 10731
-        path: 'user/pages/08.our-work/cim/cim-logo 2.png'
+        path: 'user/pages/08.our-work/cim/cim-logo2.png'
 company_logo_background_image:
     user/pages/08.our-work/cim/image.png:
         name: image.png
