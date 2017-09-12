@@ -19,11 +19,11 @@ testimonials:
     -
         body: 'The Economist, FT, BBC and Bloomberg in a week. Business-changing results that continue to drive leads'
         source: 'Jennifer Carole, VP of marketing, Bromium'
-menu: 'Why Spark?'
-header_classes: bg-img-mountain bg-y-100
-main_classes: bg-img-escalator bg-center
-main_container_classes: bg-o80-white
+header_classes: 'bg-img-mountain bg-y-90'
+main_classes: 'bg-img-escalator bg-center'
+main_container_classes: 'bg-o80-white neg-mb0'
 svg_icon: circle-speech-bubble
+menu: 'Why Spark?'
 ---
 
 We believe [our clients](/clients) should be ‘wowed’ by what we achieve; this may be why our client retention is twice the industry average and over 80% new business comes through referral. If asked to sum up what makes Spark different, clients would probably say we ‘give a damn’. Making sure your campaigns work and ultimately deliver value is what drives us.

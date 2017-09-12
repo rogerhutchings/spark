@@ -1,0 +1,18 @@
+{% set team = page.find('/team').children %}
+
+{{ dump(team) }}
+
+<ul class="list pl0 ma0 cf">
+  {% for person in team %}
+    {{ dump(person) }}
+    <li class="dib fl w-50 w-third-ns relative">
+      <img
+        class="db"
+        src="{{ person.header.photo|first.path }}"
+      />
+      <div class="absolute bottom-0 w-100 pb3 tc orange fw6 f4 ttu">
+        {{ person.header.title }}
+      </div>
+    </li>
+  {% endfor %}
+</ul>

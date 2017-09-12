@@ -31,5 +31,18 @@
         </li>
       {% endfor %}
     </ul>
+
+    <div class="neg-mh3 mt4 bg-white pb4">
+      {% include 'partials/icon_header_block.html.twig' with { svgFile: '' } %}
+      <h2 class="orange ttu tc">
+        Meet the team
+      </h2>
+    </div>
   </section>
 {% endblock main_lower %}
+
+{% block under_main %}
+  <section class="bg-black neg-mb5 mt6 relative z-max">
+    {% include 'partials/team.html.twig' %}
+  </section>
+{% endblock under_main %}

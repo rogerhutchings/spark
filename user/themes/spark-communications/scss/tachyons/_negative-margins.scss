@@ -59,13 +59,13 @@
   .neg-mt6-ns { margin-top: $spacing-extra-extra-large * -1; }
   .neg-mt7-ns { margin-top: $spacing-extra-extra-extra-large * -1; }
 
-  .neg-mb1 { margin-bottom: $spacing-extra-small * -1; }
-  .neg-mb2 { margin-bottom: $spacing-small * -1; }
-  .neg-mb3 { margin-bottom: $spacing-medium * -1; }
-  .neg-mb4 { margin-bottom: $spacing-large * -1; }
-  .neg-mb5 { margin-bottom: $spacing-extra-large * -1; }
-  .neg-mb6 { margin-bottom: $spacing-extra-extra-large * -1; }
-  .neg-mb7 { margin-bottom: $spacing-extra-extra-extra-large * -1; }
+  .neg-mb1-ns { margin-bottom: $spacing-extra-small * -1; }
+  .neg-mb2-ns { margin-bottom: $spacing-small * -1; }
+  .neg-mb3-ns { margin-bottom: $spacing-medium * -1; }
+  .neg-mb4-ns { margin-bottom: $spacing-large * -1; }
+  .neg-mb5-ns { margin-bottom: $spacing-extra-large * -1; }
+  .neg-mb6-ns { margin-bottom: $spacing-extra-extra-large * -1; }
+  .neg-mb7-ns { margin-bottom: $spacing-extra-extra-extra-large * -1; }
 }
 
 @media #{$breakpoint-medium} {
@@ -77,13 +77,13 @@
   .neg-mt6-m { margin-top: $spacing-extra-extra-large * -1; }
   .neg-mt7-m { margin-top: $spacing-extra-extra-extra-large * -1; }
 
-  .neg-mb1 { margin-bottom: $spacing-extra-small * -1; }
-  .neg-mb2 { margin-bottom: $spacing-small * -1; }
-  .neg-mb3 { margin-bottom: $spacing-medium * -1; }
-  .neg-mb4 { margin-bottom: $spacing-large * -1; }
-  .neg-mb5 { margin-bottom: $spacing-extra-large * -1; }
-  .neg-mb6 { margin-bottom: $spacing-extra-extra-large * -1; }
-  .neg-mb7 { margin-bottom: $spacing-extra-extra-extra-large * -1; }
+  .neg-mb1-m { margin-bottom: $spacing-extra-small * -1; }
+  .neg-mb2-m { margin-bottom: $spacing-small * -1; }
+  .neg-mb3-m { margin-bottom: $spacing-medium * -1; }
+  .neg-mb4-m { margin-bottom: $spacing-large * -1; }
+  .neg-mb5-m { margin-bottom: $spacing-extra-large * -1; }
+  .neg-mb6-m { margin-bottom: $spacing-extra-extra-large * -1; }
+  .neg-mb7-m { margin-bottom: $spacing-extra-extra-extra-large * -1; }
 }
 
 @media #{$breakpoint-large} {
@@ -95,13 +95,13 @@
   .neg-mt6-l { margin-top: $spacing-extra-extra-large * -1; }
   .neg-mt7-l { margin-top: $spacing-extra-extra-extra-large * -1; }
 
-  .neg-mb1 { margin-bottom: $spacing-extra-small * -1; }
-  .neg-mb2 { margin-bottom: $spacing-small * -1; }
-  .neg-mb3 { margin-bottom: $spacing-medium * -1; }
-  .neg-mb4 { margin-bottom: $spacing-large * -1; }
-  .neg-mb5 { margin-bottom: $spacing-extra-large * -1; }
-  .neg-mb6 { margin-bottom: $spacing-extra-extra-large * -1; }
-  .neg-mb7 { margin-bottom: $spacing-extra-extra-extra-large * -1; }
+  .neg-mb1-l { margin-bottom: $spacing-extra-small * -1; }
+  .neg-mb2-l { margin-bottom: $spacing-small * -1; }
+  .neg-mb3-l { margin-bottom: $spacing-medium * -1; }
+  .neg-mb4-l { margin-bottom: $spacing-large * -1; }
+  .neg-mb5-l { margin-bottom: $spacing-extra-large * -1; }
+  .neg-mb6-l { margin-bottom: $spacing-extra-extra-large * -1; }
+  .neg-mb7-l { margin-bottom: $spacing-extra-extra-extra-large * -1; }
 }
 
 // Special values
