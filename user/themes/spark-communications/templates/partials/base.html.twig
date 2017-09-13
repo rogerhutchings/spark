@@ -41,7 +41,7 @@
   <body id="top" class="titillium lh-copy {{ page.header.body_classes }}">
 
     {% block header %}
-      {% set backgroundClass = page.header.header_classes ? page.header.header_classes : 'bg-img-swoosh bg-y-15' %}
+      {% set backgroundClass = page.header.header_classes|default('bg-img-swoosh bg-y-15') %}
       <header id="header" class="min-h6 bg-black cover {{ backgroundClass }}">
         <div class="center pt5 ph3 mw8 flex-ns justify-between items-end">
 

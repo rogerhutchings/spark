@@ -6982,6 +6982,9 @@ a:focus {
 .bg-img-city-overlay {
   background-image: url("../images/bg-img-city-overlay.jpg"); }
 
+.bg-img-charts {
+  background-image: url("../images/bg-img-charts.jpg"); }
+
 .bg-img-escalator {
   background-image: url("../images/bg-img-escalator.jpg"); }
 
@@ -7658,6 +7661,24 @@ a:focus {
   A hack to apply a colour overlay to an image by using a named non-semantic elements.
 
 */
+.overlay-bg-o80-white [name="overlay"] {
+  background-color: rgba(255, 255, 255, 0.8); }
+
+.overlay-bg-o80-light-purple [name="overlay"] {
+  background-color: rgba(213, 102, 164, 0.8); }
+
+.overlay-bg-o80-purple [name="overlay"] {
+  background-color: rgba(49, 26, 57, 0.8); }
+
+.overlay-bg-o80-black [name="overlay"] {
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.overlay-bg-o80-gray [name="overlay"] {
+  background-color: rgba(120, 131, 147, 0.8); }
+
+.overlay-bg-o80-orange [name="overlay"] {
+  background-color: rgba(232, 109, 57, 0.8); }
+
 .overlay-bg-o80-white-hover:hover [name="overlay"] {
   background-color: rgba(255, 255, 255, 0.8); }
 

@@ -1,0 +1,24 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block main %}
+  <main class="ph3 cover {{ page.header.main_classes }}">
+    <div class="bg-white relative top--6 neg-mb7 mw8 center {{ page.header.main_container_classes }}">
+      {% include 'partials/icon_header_block.html.twig' %}
+      <article class="pa3 tc bg-white">
+        <h1 class="orange f3 fw4 ttu mt0">
+          {{ page.title }}
+        </h1>
+        <img
+          src="{{ url('theme://images/create-engage-and-influence.jpg') }}"
+          class="db"
+          alt="The three elements that define a successful PR and marketing campaign: create, engage and influence."
+        />
+        <div class="measure-wide center">
+          {{ content }}
+        </div>
+      </article>
+      {% block main_lower %}
+      {% endblock main_lower %}
+    </div>
+  </main>
+{% endblock main %}

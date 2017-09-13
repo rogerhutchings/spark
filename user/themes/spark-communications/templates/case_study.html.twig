@@ -1,0 +1,88 @@
+{% extends 'default.html.twig' %}
+
+{% block header %}
+  <header id="header" class="min-h6 bg-black cover bg-img-bike bg-y-30">
+    <div class="center pt5 ph3 mw8 flex-ns justify-between items-end">
+
+      {% if page.home() %}
+        {{ macros.sparkLogo('w-25-ns flex-none') }}
+      {% else %}
+        <a href="/" class="w-25-ns flex-none">
+          {{ macros.sparkLogo() }}
+        </a>
+      {% endif %}
+
+      {% include 'partials/navigation.html.twig' %}
+
+    </div>
+
+    {% if block('hero') is defined %}
+      <div class="center ph3 mw8">
+        {% block hero %}
+        {% endblock hero %}
+      </div>
+    {% endif %}
+
+  </header>
+{% endblock header %}
+
+{% block main %}
+  <main class="ph3 cover {{ page.header.main_classes }}">
+    <div class="bg-white relative top--6 neg-mb7 mw8 center {{ page.header.main_container_classes }}">
+      {% include 'partials/icon_header_block.html.twig' with { svgFile: 'circle-cog' } %}
+      <article class="pa3 tc bg-white">
+        <h1 class="orange f3 fw4 ttu mt0">
+          {{ page.title }}
+        </h1>
+        <h2 class="f4 orange fw6 tc">
+          {{ header.subtitle }}
+        </h2>
+        <div class="measure-wide center">
+          {{ content }}
+        </div>
+
+        <section class="cf mt4">
+
+          {% set colClasses = 'fl w-100 w-50-ns tc white' %}
+          {% set blockClasses = 'pv4 ph5 mb4' %}
+          <div class="{{ colClasses }} pr3-ns">
+            <div class="{{ blockClasses }} bg-gray">
+              <h2 class="fw4 ttu mt0 mb2">Objective</h2>
+              {{ header.objective|markdown }}
+            </div>
+            <div class="{{ blockClasses }} bg-gray">
+              <h2 class="fw4 ttu mt0 mb2">Story</h2>
+              <div>
+                {{ header.story|markdown }}
+              </div>
+            </div>
+          </div>
+
+          <div class="{{ colClasses }} pl3-ns">
+            <section class="{{ blockClasses }} bg-orange">
+              <h2 class="fw4 ttu mt0 mb2">Results</h2>
+              {{ header.results|markdown }}
+            </section>
+
+            <section class="pa3 ba b--orange bw2">
+              <ul class="list pl0 square-bullet-list">
+                {% for stat in header.stats %}
+                  <li class="orange fw7 ttu f4 mb3">
+                    {{ stat.stat }}
+                  </li>
+                {% endfor %}
+              </ul>
+            </section>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+{% endblock main %}
+
+{% block under_main %}
+  <div class="mt6 pt4 bg-white">
+    {% set siblings = page.collection({ 'items': ['@self.siblings'] }) %}
+    {% include 'partials/work_list.html.twig' with { 'collection': siblings } only %}
+  </div>
+{% endblock under_main %}
