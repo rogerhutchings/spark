@@ -111,6 +111,18 @@ assets:
   enable_asset_timestamp: false
   collections:
     jquery: 'system://assets/jquery/jquery-2.x.min.js'
+    slick-css:
+      - '//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.css'
+      - '//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.min.css'
+    slick-js:
+      - '//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js'
+    featherlight-css:
+      - '//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.min.css'
+    featherlight-js:
+      - '//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.min.js'
+    handlebars:
+      - '//cdn.jsdelivr.net/npm/handlebars@4.0.10/dist/handlebars.min.js'
+
 errors:
   display: '1'
   log: true

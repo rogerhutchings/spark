@@ -1,9 +1,7 @@
 ---
 title: 'Our Work'
 visible: false
-backgroundClass: bg-img-bike
-svgFile: cog
-centredText: true
+svg_icon: circle-cog
 content:
   items: '@self.children'
 ---
