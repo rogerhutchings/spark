@@ -8,8 +8,6 @@ twig_first: true
 backgroundClass: bg-img-trophy
 ---
 
-{% set options = { items: {'@page.children': '/coverage'}, 'limit': 1, 'order': {'by': 'date', 'dir': 'asc'} } %}{% set my_collection = page.collection(options) %}{{ dump(my_collection|length)}}
-
 Media relations is at the heart of a successful campaign and our team take great pride in beating their colleagues to win the weekly Spark coverage cup vote.
 
 The winning piece of coverage isn’t just about circulation or credibility. A great business national or broadcast piece doesn’t always beat trade coverage – outcomes are key. How effectively was the client’s message communicated? What was the engagement like? Did it result in leads?

@@ -6948,6 +6948,9 @@ a:focus {
 .bg-o80-orange {
   background-color: rgba(232, 109, 57, 0.8); }
 
+.bg-o20-orange {
+  background-color: rgba(232, 109, 57, 0.2); }
+
 .bg-o80-white-hover:hover {
   background-color: rgba(255, 255, 255, 0.8); }
 
@@ -7005,6 +7008,9 @@ a:focus {
 
 .bg-img-tablet {
   background-image: url("../images/bg-img-tablet.jpg"); }
+
+.bg-img-trophy {
+  background-image: url("../images/bg-img-trophy.jpg"); }
 
 /*
 
