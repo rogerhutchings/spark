@@ -1,0 +1,8 @@
+.list-arrow {
+  li {
+    &:before {
+      content: '➟';
+      @extend .mr2;
+    }
+  }
+}
