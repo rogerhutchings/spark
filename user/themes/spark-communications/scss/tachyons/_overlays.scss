@@ -5,6 +5,11 @@
 
 */
 
+.overlay-bg-animate {
+  [name="overlay"] {
+    transition: background-color .15s ease-in;
+  }
+}
 
 .overlay-bg-o80-white {
   [name="overlay"] {
@@ -75,5 +80,11 @@
 .overlay-bg-o80-orange-hover:hover {
   [name="overlay"] {
     background-color: transparentize($orange, 0.2);
+  }
+}
+
+.overlay-bg-o50-orange-hover:hover {
+  [name="overlay"] {
+    background-color: transparentize($orange, 0.5);
   }
 }

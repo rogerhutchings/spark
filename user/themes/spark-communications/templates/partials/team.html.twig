@@ -2,16 +2,18 @@
 
 <ul id="meet-the-team" class="list pl0 ma0 cf">
   {% for person in team %}
-    {{ dump(person) }}
+    {% set img = person.header.photo|first.path %}
     <li
-      class="js-person dib fl w-50 w-third-ns relative"
+      class="js-person dib fl w-50 w-third-ns relative overlay-bg-animate overlay-bg-o50-orange-hover"
       data-name="{{ person.title }}"
       data-bio="{{ person.header.bio }}"
+      data-img="{{ img }}"
     >
       <img
         class="db"
-        src="{{ person.header.photo|first.path }}"
+        src="{{ img }}"
       />
+      <div class="absolute absolute--fill" name="overlay"></div>
       <div class="js-name absolute bottom-0 w-100 pb3 tc orange fw6 f4 ttu">
         {{ person.header.title }}
       </div>
