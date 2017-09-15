@@ -102,35 +102,51 @@ window.initMap = initMap;
 
 __webpack_require__(0);
 
-function createContext(el) {
-  var data = el.parent().data();
-  return {
-    img: data.img,
-    name: data.name,
-    bio: data.bio
-  };
-}
+__webpack_require__(5);
 
-$(document).ready(function () {
+/***/ }),
+/* 2 */,
+/* 3 */,
+/* 4 */,
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function initMeetTheTeam() {
   var team = $('.js-person');
-
-  team.find('.js-name').removeClass('orange').addClass('dn white');
-
-  team.hover(function (event) {
-    $(event.target).parent().find('.js-name').toggleClass('dn');
-  });
-
   var source = $("#team-modal-template").html();
   var template = Handlebars.compile(source);
 
-  team.addClass('overlay-bg-animate overlay-bg-o50-orange-hover pointer');
+  function createContext(el) {
+    var data = el.parent().data();
+    return {
+      img: data.img,
+      name: data.name,
+      bio: data.bio
+    };
+  }
 
-  team;
+  function openLightbox(_ref) {
+    var target = _ref.target;
 
-  team.on('click', function (event) {
-    var context = createContext($(event.target));
+    var context = createContext($(target));
     $.featherlight(template(context));
-  });
+  }
+
+  function showName(_ref2) {
+    var target = _ref2.target;
+
+    $(target).parent().find('.js-name').toggleClass('dn');
+  }
+
+  team.addClass('overlay-bg-animate overlay-bg-o50-orange-hover pointer');
+  team.find('.js-name').removeClass('orange').addClass('dn white');
+
+  team.hover(showName);
+
+  team.on('click', openLightbox);
 
   $('#meet-the-team').slick({
     slidesToShow: 3,
@@ -138,6 +154,12 @@ $(document).ready(function () {
     dots: true,
     arrows: false
   });
+}
+
+$(document).ready(function () {
+  if ($('#meet-the-team').length) {
+    initMeetTheTeam();
+  }
 });
 
 /***/ })
