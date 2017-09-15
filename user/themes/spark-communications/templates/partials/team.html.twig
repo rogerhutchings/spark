@@ -4,7 +4,7 @@
   {% for person in team %}
     {% set img = person.header.photo|first.path %}
     <li
-      class="js-person dib fl w-50 w-third-ns relative overlay-bg-animate overlay-bg-o50-orange-hover"
+      class="js-person dib fl w-50 w-third-ns relative"
       data-name="{{ person.title }}"
       data-bio="{{ person.header.bio }}"
       data-img="{{ img }}"
@@ -26,7 +26,7 @@
     <div>
       <article class="mw8 center flex flex-column flex-row-ns">
         <div class="w-100 w-50-ns">
-          <img src="{{ imgSrc }}" class="db" />
+          <img src="{{ img }}" class="db" />
         </div>
         <section class="w-100 w-50-ns tl pa4">
           <h2 class="orange fw4 ttu mt0">
