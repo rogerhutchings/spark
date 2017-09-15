@@ -8,7 +8,7 @@
 {% block main %}
   <main class="ph3 cover {{ page.header.main_classes }}">
     <div class="bg-white relative top--6 neg-mb7 mw8 center {{ page.header.main_container_classes }}">
-      {% include 'partials/icon_header_block.html.twig' %}
+      {% include 'partials/icon_header_block.html.twig' with { svgFile: 'circle-trophy' } %}
       <article class="pa3 tc bg-white">
         <h1 class="orange f3 fw4 ttu mt0">
           {{ blurb.title() }}
