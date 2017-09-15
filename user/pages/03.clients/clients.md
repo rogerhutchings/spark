@@ -1,7 +1,7 @@
 ---
 title: Clients
 svgFile: handshake
-header_classes: bg-img-geometric-sky bg-y-100
+header_classes: 'bg-img-geometric-sky bg-y-100'
 svg_icon: circle-handshake
 ---
 
