@@ -4,10 +4,7 @@
   <main class="ph3 cover">
     <div class="bg-white relative top--6 neg-mb7 mw8 center">
 
-      <article class="tc pt3 bg-white">
-        <h1 class="orange f3 fw4 ttu mt0 pt4 pb5">
-          {{ page.title }}
-        </h1>
+      <article class="tc">
         <ul class="list pl0 mv0 tc bg-img-city-overlay">
           {% for service in page.header.services %}
             {% set backgroundColor = loop.first ? 'bg-o80-purple' : 'bg-o80-white' %}
