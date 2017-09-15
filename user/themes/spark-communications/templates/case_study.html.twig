@@ -41,12 +41,12 @@
           {{ content }}
         </div>
 
-        <section class="cf mt4">
+        <section class="cf pa3 mt4 bg-img-city-overlay-transparent cover">
 
           {% set colClasses = 'fl w-100 w-50-ns tc white' %}
-          {% set blockClasses = 'pv4 ph5 mb4' %}
+          {% set blockClasses = 'pv4 ph5' %}
           <div class="{{ colClasses }} pr3-ns">
-            <div class="{{ blockClasses }} bg-gray">
+            <div class="{{ blockClasses }} mb4 bg-gray">
               <h2 class="fw4 ttu mt0 mb2">Objective</h2>
               {{ header.objective|markdown }}
             </div>
@@ -59,7 +59,7 @@
           </div>
 
           <div class="{{ colClasses }} pl3-ns">
-            <section class="{{ blockClasses }} bg-orange">
+            <section class="{{ blockClasses }} mb4 bg-orange">
               <h2 class="fw4 ttu mt0 mb2">Results</h2>
               {{ header.results|markdown }}
             </section>

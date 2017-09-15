@@ -6982,6 +6982,9 @@ a:focus {
 .bg-img-city-overlay {
   background-image: url("../images/bg-img-city-overlay.jpg"); }
 
+.bg-img-city-overlay-transparent {
+  background-image: url("../images/bg-img-city-overlay-transparent.jpg"); }
+
 .bg-img-charts {
   background-image: url("../images/bg-img-charts.jpg"); }
 
