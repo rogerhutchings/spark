@@ -6,7 +6,7 @@
 
 
 {% block main %}
-  <main class="ph3 cover {{ page.header.main_classes }}">
+  <main class="ph3 cover bg-img-newspaper {{ page.header.main_classes }}">
     <div class="bg-white relative top--6 neg-mb7 mw8 center {{ page.header.main_container_classes }}">
       {% include 'partials/icon_header_block.html.twig' with { svgFile: 'circle-trophy' } %}
       <article class="pa3 tc bg-white">
@@ -23,16 +23,17 @@
               {{ content|markdown }}
             </div>
           </section>
-            <ul class="w-40-ns bl br bw2 b--orange mv0 list pl0 ph2 tl">
+            <ul class="w-40-ns bl br bw2 b--orange mv0 list ph3 tl">
               {% for link in header.links %}
                 <li class="mb3">
                   <span class="orange b">
                     {{ link.source }} &ndash;
                   </span>
-                  <a href="{{ header.link }}" class="link underline-hover gray">
+                  <a href="{{ link.url }}" class="link underline-hover gray">
                     <span class="grey">
                       {{ link.headline }}
                     </span>
+                  </a>
                 </li>
               {% endfor %}
             </ul>
