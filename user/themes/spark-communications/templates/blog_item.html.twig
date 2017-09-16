@@ -1,19 +1,25 @@
+{% import 'blog/macros.html.twig' as blogMacros %}
+{% extends 'blog/blog_layout.html.twig' %}
 
-{% embed 'blog/base.html.twig' %}
 
-	{% set collection = page.collection() %}
+{% set header_image = page.header.header_image|defined(true) %}
+{% set header_image_width  = page.header.header_image_width|defined(260) %}
+{% set header_image_height = page.header.header_image_height|defined(260) %}
+{% set header_image_file = page.header.header_image_file %}
 
-	{% block main %}
-  		{% if config.plugins.breadcrumbs.enabled %}
-  			{% include 'partials/breadcrumbs.html.twig' %}
-  		{% endif %}
+{% set author = page.find(page.header.author)|default(false) %}
 
-  		<div class="flex justify-start">
-  			<div id="item" class="w-100 w-70-ns">
-  			    {% include 'blog/blog_item.html.twig' with {'blog':page.parent, 'truncate':false} %}
-  			</div>
-        {% include 'blog/blog_sidebar.html.twig' with { classes: 'w-100 w-30-ns', 'blog': page.parent } %}
-  		</div>
-  	{% endblock %}
+{% block blog_content %}
+  <h1 class="lh-title orange f2 fw4">
+    {{ page.title }}
+  </h1>
 
-{% endembed %}
+  <section class="f6 gray">
+    <time class="dib" datetime="{{ page.date|date("c") }}">
+      {{ page.date|date("F j, Y") }}
+    </time>
+  </section>
+
+  {{ content }}
+
+{% endblock blog_content %}

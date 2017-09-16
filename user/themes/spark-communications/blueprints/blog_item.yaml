@@ -13,6 +13,13 @@ form:
         content:
           fields:
 
+            author:
+              type: select
+              label: Author
+              classes: fancy
+              placeholder: 'Select an author'
+              data-options@: '\Grav\Theme\SparkCommunications::getTeamMembers'
+
             header_image:
               type: section
               title: Header Image

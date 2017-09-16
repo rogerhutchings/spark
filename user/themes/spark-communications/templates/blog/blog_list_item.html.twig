@@ -5,8 +5,10 @@
 {% set header_image_height = page.header.header_image_height|defined(260) %}
 {% set header_image_file = page.header.header_image_file %}
 
+{% set bottomMargin = loop.last ? 'mb0' : 'mb5' %}
+
 {% if header_image %}
-  <article class="flex flex-column flex-row-ns mb5">
+  <article class="flex flex-column flex-row-ns {{ bottomMargin }}">
     <section class="w-100 w-40-ns mr3-ns">
       <img src="{{ header_image_file|first.path }}" />
     </section>

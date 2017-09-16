@@ -1,10 +1,6 @@
 {% extends 'blog/blog_layout.html.twig' %}
 {% set collection = page.collection() %}
 
-{% block headerClasses %}
-  bg-img-laptop bg-y-40
-{% endblock headerClasses %}
-
 {% block blog_content %}
 
   {% for child in collection %}

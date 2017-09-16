@@ -8,6 +8,7 @@ header_image_file:
         size: 3801
         path: user/pages/05.blog/article-1/58832_300x300.jpeg
 header_image: '1'
+author: /team/aimee-lynn
 ---
 
 As you may know, The Times/Raconteur regularly publish a number of technology-focused supplements throughout the year.  Last week was no different with the publication of its ‘<a href="https://www.raconteur.net/digital-transformation-2017">Digital Transformation’</a> supplement. With the topic of digital transformation being much discussed by technology companies for the last 18 months, there was understandably plenty of competition to get featured in the supplement.  Therefore, we were excited to see that six different clients featured in the supplement – which was testament to the team’s proactivity and creativity in developing media-worthy content.

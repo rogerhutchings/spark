@@ -1,0 +1,16 @@
+{% embed 'blog/sidebar_block.html.twig' %}
+  {% block sidebar_title %}
+    Recent blogs
+  {% endblock sidebar_title %}
+  {% block sidebar_content %}
+    <ul class="list-angle pl4 ma0">
+      {% for post in page.find('/blog').children.order('date', 'desc').slice(0, 5) %}
+        <li class="list">
+          <a href="{{ post.url }}" class="white underline-hover">
+            {{ post.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endblock sidebar_content %}
+{% endembed %}
