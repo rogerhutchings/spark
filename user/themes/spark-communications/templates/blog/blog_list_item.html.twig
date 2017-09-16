@@ -1,0 +1,21 @@
+{% import "blog/macros.html.twig" as blogMacros %}
+
+{% set header_image = page.header.header_image|defined(true) %}
+{% set header_image_width  = page.header.header_image_width|defined(260) %}
+{% set header_image_height = page.header.header_image_height|defined(260) %}
+{% set header_image_file = page.header.header_image_file %}
+
+{% if header_image %}
+  <article class="flex flex-column flex-row-ns mb5">
+    <section class="w-100 w-40-ns mr3-ns">
+      <img src="{{ header_image_file|first.path }}" />
+    </section>
+    <section class="w-100 w-60-ns">
+      {{ blogMacros.blogContent(page) }}
+    </section>
+  </article>
+{% else %}
+  <article class="mb5">
+    {{ blogMacros.blogContent(page) }}
+  </article>
+{% endif %}

@@ -1,5 +1,9 @@
-{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
 {% import "macros/macros.html.twig" as macros %}
+{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+{% set body_classes = page.header.body_classes %}
+{% set header_classes = page.header.header_classes|default('bg-img-swoosh bg-y-15') %}
+{% set main_classes = page.header.main_classes %}
+{% set main_container_classes = page.header.main_container_classes %}
 
 <!DOCTYPE html>
 <html lang="{{ grav.language.getActive ?: theme_config.default_lang }}">
@@ -20,7 +24,7 @@
       <link rel="canonical" href="{{ page.url(true, true) }}" />
 
       {% block stylesheets %}
-        {% do assets.addCss('https://fonts.googleapis.com/css?family=Titillium+Web:200,400,400i,600,600i', { 'priority': 100, 'pipeline': false }) %}
+        {% do assets.addCss('fonts', { 'priority': 100, 'pipeline': false }) %}
         {% do assets.addCss('slick-css', 90) %}
         {% do assets.addCss('theme://css-compiled/index.css', 200) %}
       {% endblock %}
@@ -38,11 +42,15 @@
     {% endblock head %}
   </head>
 
-  <body id="top" class="titillium lh-copy {{ page.header.body_classes }}">
+  <body
+    id="top"
+    class="titillium lh-copy {% block bodyClasses %}{{ body_classes }}{% endblock %}"
+  >
 
     {% block header %}
-      {% set backgroundClass = page.header.header_classes|default('bg-img-swoosh bg-y-15') %}
-      <header id="header" class="min-h6 bg-black cover {{ backgroundClass }}">
+      <header
+        class="min-h6 bg-black cover {% block headerClasses %}{{ header_classes }}{% endblock %}"
+      >
         <div class="center pt5 ph3 mw8 flex-ns justify-between items-end">
 
           {% if page.home() %}
@@ -68,8 +76,8 @@
     {% endblock header %}
 
     {% block main %}
-      <main class="ph3 cover {{ page.header.main_classes }}">
-        <div class="bg-white relative top--6 neg-mb7 mw8 center {{ page.header.main_container_classes }}">
+      <main class="ph3 cover {{ main_classes }}">
+        <div class="bg-white relative top--6 neg-mb7 mw8 center {{ main_container_classes }}">
           {% include 'partials/icon_header_block.html.twig' %}
           <article class="pa3 tc bg-white">
             <h1 class="orange f3 fw4 ttu mt0">

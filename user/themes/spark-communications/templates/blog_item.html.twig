@@ -1,0 +1,19 @@
+
+{% embed 'blog/base.html.twig' %}
+
+	{% set collection = page.collection() %}
+
+	{% block main %}
+  		{% if config.plugins.breadcrumbs.enabled %}
+  			{% include 'partials/breadcrumbs.html.twig' %}
+  		{% endif %}
+
+  		<div class="flex justify-start">
+  			<div id="item" class="w-100 w-70-ns">
+  			    {% include 'blog/blog_item.html.twig' with {'blog':page.parent, 'truncate':false} %}
+  			</div>
+        {% include 'blog/blog_sidebar.html.twig' with { classes: 'w-100 w-30-ns', 'blog': page.parent } %}
+  		</div>
+  	{% endblock %}
+
+{% endembed %}

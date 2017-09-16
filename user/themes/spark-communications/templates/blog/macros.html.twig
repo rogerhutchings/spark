@@ -1,0 +1,18 @@
+{% macro blogContent(page) %}
+  <div class="gray ttu f6">
+    <span class="dib br b--gray pr2 mr1 orange">Byline</span>
+    <time class="dib" datetime="{{ page.date|date("c") }}">
+      {{ page.date|date("d") }} {{ page.date|date("M") }}
+    </time>
+  </div>
+
+  <div>
+    <h4 class="f4 mt3 lh-title">
+      <a href="{{ page.url }}" class="black">
+        {{ page.title }}
+      </a>
+    </h4>
+    {{ page.summary|default(page.content) }}
+    <a href="{{ page.url }}">Continue reading...</a>
+  </div>
+{% endmacro blogContent %}

@@ -110,6 +110,7 @@ assets:
   js_minify: true
   enable_asset_timestamp: false
   collections:
+    fonts: '//fonts.googleapis.com/css?family=Titillium+Web:200,400,400i,600,600i'
     jquery: 'system://assets/jquery/jquery-2.x.min.js'
     slick-css:
       - '//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.css'
