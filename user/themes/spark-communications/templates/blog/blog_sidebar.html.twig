@@ -11,7 +11,7 @@
       Recent blogs
     {% endblock sidebar_title %}
     {% block sidebar_content %}
-      <ul>
+      <ul class="list-angle pl4 ma0">
         {% for post in page.find('/blog').children.order('date', 'desc').slice(0, 5) %}
           <li class="list">
             <a href="{{ post.url }}" class="white underline-hover">
