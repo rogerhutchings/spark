@@ -14,11 +14,7 @@
     {{ page.title }}
   </h1>
 
-  <section class="f6 gray">
-    <time class="dib" datetime="{{ page.date|date("c") }}">
-      {{ page.date|date("F j, Y") }}
-    </time>
-  </section>
+  {{ blogMacros.blogMeta(page, true) }}
 
   {{ content }}
 

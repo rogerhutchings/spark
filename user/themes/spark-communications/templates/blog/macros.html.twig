@@ -1,10 +1,29 @@
-{% macro blogContent(page) %}
-  <div class="gray ttu f6">
-    <span class="dib br b--gray pr2 mr1 orange">Byline</span>
+{% macro blogMeta(page, useImage = false) %}
+  {% set author = page.find(page.header.author)|default(false) %}
+  {% set authorPhoto = author.header.photo|first %}
+
+  {{ dump(author)}}
+  <div class="gray f6">
+    {% if author %}
+      {% if useImage and authorPhoto %}
+        <img
+          src="/{{ authorPhoto.path }}"
+          class="w3 ba br-100 b--orange dib v-mid mr2"
+          style="border-width: 2px;"
+        />
+      {% endif %}
+      <span class="dib br b--gray pr2 mr1 orange ttu">
+        By {{ author.header.first_name }}
+      </span>
+    {% endif %}
     <time class="dib" datetime="{{ page.date|date("c") }}">
-      {{ page.date|date("d") }} {{ page.date|date("M") }}
+      {{ page.date|date("F j, Y") }}
     </time>
   </div>
+{% endmacro blogMeta %}
+
+{% macro blogContent(page) %}
+  {{ _self.blogMeta(page) }}
 
   <div>
     <h4 class="f4 mt3 lh-title">
