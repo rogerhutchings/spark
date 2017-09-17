@@ -2,7 +2,6 @@
   {% set author = page.find(page.header.author)|default(false) %}
   {% set authorPhoto = author.header.photo|first %}
 
-  {{ dump(author)}}
   <div class="gray f6">
     {% if author %}
       {% if useImage and authorPhoto %}

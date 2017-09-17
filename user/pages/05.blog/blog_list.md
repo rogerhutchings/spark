@@ -1,7 +1,7 @@
 ---
 title: Blog
 content:
-    items: @self.children
+    items: '@self.children'
     order:
         by: date
         dir: desc
@@ -9,4 +9,3 @@ content:
     pagination: true
 ---
 
-foobar
