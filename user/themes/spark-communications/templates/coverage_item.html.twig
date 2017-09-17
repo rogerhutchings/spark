@@ -1,46 +1,90 @@
 {% extends 'partials/base.html.twig' %}
+
 {% set blurb = page.find('/coverage') %}
+{% set options = { items: { '@page': '/coverage' }, 'order': {'by': 'date', 'dir': 'desc' } } %}
+{% set allPages = page.collection(options) %}
 
-{% set options = { items: { '@page': '/coverage' }, 'order': {'by': 'date', 'dir': 'asc' } } %}
-{% set coverage = page.collection(options) %}
-
+{% block headerClasses %}
+  bg-img-trophy
+{% endblock headerClasses %}
 
 {% block main %}
+
   <main class="ph3 cover bg-img-newspaper {{ page.header.main_classes }}">
     <div class="bg-white relative top--6 neg-mb7 mw8 center {{ page.header.main_container_classes }}">
+
       {% include 'partials/icon_header_block.html.twig' with { svgFile: 'circle-trophy' } %}
+
       <article class="pa3 tc bg-white">
+
         <h1 class="orange f3 fw4 ttu mt0">
           {{ blurb.title() }}
         </h1>
         <header class="measure-wide center">
           {{ blurb.content }}
         </header>
+
         <div class="mw8 center pa3 ph4-ns pb4-ns pt5-ns bg-white flex-ns">
+
           <section class="w-60-ns mr3-ns">
             <div class="bg-o20-orange pa4 tl">
-              <h2>{{ page.header.title }}</h2>
-              {{ content|markdown }}
+              <h2>
+                {{ page.header.title }}
+              </h2>
+              <time class="db" datetime="{{ page.date|date("c") }}">
+                {{ page.date|date("F j, Y") }}
+              </time>
+              {{ page.content|markdown }}
             </div>
+
+            <nav class="flex mt2">
+              {% set navClasses = 'dib pa3 w-50 bg-orange white' %}
+              {% if not allPages.isLast(page.path) %}
+                {% set prev = allPages.prevSibling(page.path) %}
+                <a
+                  class="tl mr1 {{ navClasses }}"
+                  href="{{ prev.url }}"
+                >
+                  &laquo; Previous week <span class="f6">({{ prev.date|date("F j, Y") }})</span>
+                </a>
+              {% endif %}
+
+              {% if not allPages.isFirst(page.path) %}
+                {% set next = allPages.nextSibling(page.path) %}
+                <a
+                  class="tr ml1 {{ navClasses }}"
+                  href="{{ next.url }}"
+                >
+                  Next week <span class="f6">({{ next.date|date("F j, Y") }})</span> &raquo;
+                </a>
+              {% endif %}
+            </nav>
           </section>
-            <ul class="w-40-ns bl br bw2 b--orange mv0 list ph3 tl">
-              {% for link in header.links %}
-                <li class="mb3">
-                  <span class="orange b">
-                    {{ link.source }} &ndash;
+
+          <ul class="w-40-ns bl br bw2 b--orange mv0 list ph3 tl">
+            {% for link in page.header.links %}
+              <li class="mb3">
+                <span class="orange b">
+                  {{ link.source }} &ndash;
+                </span>
+                <a
+                  href="{{ link.url }}"
+                  class="link underline-hover gray"
+                >
+                  <span class="grey">
+                    {{ link.headline }}
                   </span>
-                  <a href="{{ link.url }}" class="link underline-hover gray">
-                    <span class="grey">
-                      {{ link.headline }}
-                    </span>
-                  </a>
-                </li>
-              {% endfor %}
-            </ul>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+
         </div>
+
       </article>
       {% block main_lower %}
       {% endblock main_lower %}
     </div>
   </main>
+
 {% endblock main %}

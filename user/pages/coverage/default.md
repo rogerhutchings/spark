@@ -1,6 +1,6 @@
 ---
 title: 'Spark Coverage Cup'
-redirect: '{% set options = { items: {''@page.children'': ''/coverage''}, ''limit'': 1, ''order'': {''by'': ''date'', ''dir'': ''asc''} } %}{% set my_collection = page.collection(options) %}{{ dump(my_collection|length)}}'
+template: 'coverage_index'
 process:
     markdown: true
     twig: true
