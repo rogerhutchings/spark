@@ -1,16 +1,16 @@
 {% import "blog/macros.html.twig" as blogMacros %}
 
-{% set header_image = page.header.header_image|defined(true) %}
-{% set header_image_width  = page.header.header_image_width|defined(260) %}
-{% set header_image_height = page.header.header_image_height|defined(260) %}
-{% set header_image_file = page.header.header_image_file %}
+{% set header_image = page.header.header_image|defined(false) %}
+{% set header_image_file = page.header.header_image_file|first %}
+{% set first_image = page.media.images|first %}
+{% set image = header_image|default(first_image)|default(false) %}
 
 {% set bottomMargin = loop.last ? 'mb0' : 'mb5' %}
 
-{% if header_image %}
+{% if image %}
   <article class="flex flex-column flex-row-ns {{ bottomMargin }}">
     <section class="w-100 w-40-ns mr3-ns">
-      <img src="{{ header_image_file|first.path }}" />
+      {{ image.html(null, null, 'w-100') }}
     </section>
     <section class="w-100 w-60-ns">
       {{ blogMacros.blogContent(page) }}

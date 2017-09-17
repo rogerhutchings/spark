@@ -30,7 +30,7 @@
         {{ page.title }}
       </a>
     </h4>
-    {{ page.summary|default(page.content) }}
+    {{ page.summary|default(page.content)|striptags('<p><b><i><em>') }}
     <a href="{{ page.url }}">Continue reading...</a>
   </div>
 {% endmacro blogContent %}
