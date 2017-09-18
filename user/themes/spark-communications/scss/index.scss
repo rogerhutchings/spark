@@ -18,8 +18,8 @@
 @import 'tachyons/positions';
 @import 'tachyons/titillium';
 
-@import 'featherlight';
-@import 'mobile-nav';
-
-@import 'hamburgers';
+@import 'plugins/js-social';
+@import 'plugins/featherlight';
+@import 'plugins/mobile-nav';
+@import 'plugins/hamburgers';
 @import '../node_modules/hamburgers/_sass/hamburgers/hamburgers';

@@ -7878,6 +7878,12 @@ a:focus {
 .titillium {
   font-family: 'Titillium Web', sans-serif; }
 
+#share {
+  font-size: 1.2rem; }
+
+.jssocials-share-link {
+  border-radius: 50%; }
+
 /**
  * Featherlight – ultra slim jQuery lightbox
  * Version 1.7.8 - http://noelboss.github.io/featherlight/

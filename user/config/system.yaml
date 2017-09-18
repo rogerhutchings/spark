@@ -110,7 +110,8 @@ assets:
   js_minify: true
   enable_asset_timestamp: false
   collections:
-    fonts: '//fonts.googleapis.com/css?family=Titillium+Web:200,400,400i,600,600i'
+    fonts:
+      - '//fonts.googleapis.com/css?family=Titillium+Web:200,400,400i,600,600i'
     jquery: 'system://assets/jquery/jquery-2.x.min.js'
     slick-css:
       - '//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.css'
@@ -123,6 +124,12 @@ assets:
       - '//cdn.rawgit.com/noelboss/featherlight/1.7.8/release/featherlight.min.js'
     handlebars:
       - '//cdn.jsdelivr.net/npm/handlebars@4.0.10/dist/handlebars.min.js'
+    jsSocial-js:
+      - '//cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js'
+    jsSocial-css:
+      - '//cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css'
+      - '//cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-flat.css'
+      - '//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css'
 
 errors:
   display: '1'

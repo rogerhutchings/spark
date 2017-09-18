@@ -106,6 +106,8 @@ __webpack_require__(5);
 
 __webpack_require__(6);
 
+__webpack_require__(7);
+
 /***/ }),
 /* 2 */,
 /* 3 */,
@@ -171,15 +173,26 @@ $(document).ready(function () {
 "use strict";
 
 
-__webpack_require__(0);
-
-__webpack_require__(5);
-
 $(document).ready(function () {
   $('#js-open-menu').on('click', function (event) {
     $(this).toggleClass('is-active');
     $('.js-nav').toggleClass('open');
     $('body').toggleClass('open');
+  });
+});
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+$(document).ready(function () {
+  $('#share').jsSocials({
+    showLabel: false,
+    showCount: false,
+    shares: ['email', 'twitter', 'facebook', 'googleplus', 'linkedin', 'stumbleupon']
   });
 });
 
