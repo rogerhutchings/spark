@@ -10,6 +10,19 @@
   style: 'right: 2rem;'
 } %}
 
+{% set nsContainerClasses = [
+  'tl-ns w-50-ns pr5-ns',
+  'tr-ns w-40-ns pl4-ns f3-ns bar',
+  'tl-ns w-60-ns pr5-ns baz',
+  'tl-ns w-50-ns pl3-ns self-center',
+  'tr-ns w-50-ns pr4-ns self-center',
+  'tr-ns w-50-ns pl6-ns',
+] %}
+
+{% set nsItemClasses = [
+  ''
+] %}
+
 {% block main %}
   <main class="ph3 cover {{ page.header.main_classes }}">
     <div class="bg-white relative top--6 mw8 center {{ page.header.main_container_classes }}" style="margin-bottom: -6rem;">
@@ -23,28 +36,33 @@
         </div>
       </article>
 
-      <ul class="list ma0 ph3 pt3 pb1">
+      <ul class="list ma0 ph3 ph5-ns pt3 pb1 flex flex-wrap">
         {% for q in header.testimonials %}
           {% set colour = (loop.index + 1)|modulus(colours|length, colours) %}
           {% set triangle = loop.index|modulus(2) == 1 ? leftTriangle : rightTriangle %}
 
-          <li class="bg-o80-{{ colour }} pa4 mb5 relative tc white">
-            <blockquote class="f4 measure center mt0 mh0 mb3 quote">
-              {{ q.body }}
-            </blockquote>
+          <li class="w-100 flex-ns flex-column-ns justify-end-ns pa2-ns {{ cycle(nsContainerClasses, loop.index) }}">
+            <div class="bg-o80-{{ colour }} dib-ns pa4 mb5 mb4-ns relative tc white {{ cycle(nsItemClasses, loop.index) }}">
+              <blockquote class="f4 measure center mt0 mh0 mb3 quote">
+                {{ q.body }}
+              </blockquote>
 
-            <div class="f6">
-              {{ q.source }}
+              <div class="f6">
+                {{ q.source }}
+              </div>
+
+              <svg
+                aria-hidden="true"
+                viewBox="0 0 10 10"
+                class="h2 absolute"
+                style="top: 100%; opacity: 0.8; {{ triangle.style }}"
+              >
+                <polygon
+                  class="fill-{{ colour }}"
+                  points="{{ triangle.points }}"
+                ></polygon>
+              </svg>
             </div>
-
-            <svg
-              aria-hidden="true"
-              viewBox="0 0 10 10"
-              class="h2 absolute"
-              style="top: 100%; opacity: 0.8; {{ triangle.style }}"
-            >
-              <polygon class="fill-{{ colour }}" points="{{ triangle.points }}"></polygon>
-            </svg>
           </li>
         {% endfor %}
       </ul>
