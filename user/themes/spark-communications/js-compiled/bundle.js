@@ -104,6 +104,19 @@ __webpack_require__(0);
 
 __webpack_require__(5);
 
+$(document).ready(function () {
+  var slideout = new Slideout({
+    'panel': document.getElementById('panel'),
+    'menu': document.getElementById('menu'),
+    'padding': 256,
+    'tolerance': 70
+  });
+
+  document.querySelector('.toggle-button').addEventListener('click', function () {
+    slideout.toggle();
+  });
+});
+
 /***/ }),
 /* 2 */,
 /* 3 */,

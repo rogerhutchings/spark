@@ -35,6 +35,7 @@
         {% do assets.addJs('slick-js', 90) %}
         {% do assets.addJs('featherlight-js', 90) %}
         {% do assets.addJs('handlebars', 90) %}
+        {% do assets.addJs('https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js', 90) %}
         {% do assets.addJs('theme://js-compiled/bundle.js', { 'group': 'bottom', priority: 50 }) %}
       {% endblock %}
       {{ assets.js() }}
@@ -46,6 +47,17 @@
     id="top"
     class="titillium lh-copy {% block bodyClasses %}{{ body_classes }}{% endblock %}"
   >
+
+  <nav id="menu">
+      <h2>Menu</h2>
+    </nav>
+
+    <main id="panel">
+      <header>
+        <button class="toggle-button">☰</button>
+        <h2>Panel</h2>
+      </header>
+    </main>
 
     {% block header %}
       <header
