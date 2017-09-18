@@ -17,13 +17,23 @@ imported_from_wordpress:
     - Coverage Cup
     - PR
     - Spark
+links:
+  - headline: 'Power to the people: 5 trends impacting on workforce management in retail'
+    url: >-
+      http://www.retailgazette.co.uk/articles/02300-power-to-the-people-5-trends-impacting-on-workforce-management-in-retail
+    source: Retail Gazette
+  - headline: Guavus launches CareReflex
+    url: 'http://www.vanillaplus.com/news/item/2599-guavus-launches-carereflex'
+    source: Vanilla Plus
+  - headline: Application support and maintenance costs increase 29%
+    url: >-
+      http://www.computerweekly.com/news/2240216589/Application-Support-and-Maintenance-ticket-costs-increase-29
+    source: Computer Weekly
+  - headline: Managing your mainframe in the new hyper-distributed world
+    url: >-
+      http://blogs.computerworlduk.com/management-briefing/2014/03/managing-your-mainframe-in-the-new-hyper-distributed-world/index.htm
+    source: ComputerworldUK
 ---
-
 [Coverage cup](Coverage-cup-167x300.jpg)Here is the round up of the Coverage Cup nominations from last week to put a spring in your step!
 
-  * Retail Gazette - [Power to the people: 5 trends impacting on workforce management in retail](http://www.retailgazette.co.uk/articles/02300-power-to-the-people-5-trends-impacting-on-workforce-management-in-retail)
-  * Vanilla Plus - [Guavus launches CareReflex](http://www.vanillaplus.com/news/item/2599-guavus-launches-carereflex)
-  * Computer Weekly - [Application support and maintenance costs increase 29%](http://www.computerweekly.com/news/2240216589/Application-Support-and-Maintenance-ticket-costs-increase-29)
-  * ComputerworldUK - [Managing your mainframe in the new hyper-distributed world](http://blogs.computerworlduk.com/management-briefing/2014/03/managing-your-mainframe-in-the-new-hyper-distributed-world/index.htm)
-
-Let us know on [Twitter](http://www.twitter.com/sparkcomms) or the comments section below which you think deserved to be crowned the winner. 
+Let us know on [Twitter](http://www.twitter.com/sparkcomms) or the comments section below which you think deserved to be crowned the winner.

@@ -17,12 +17,26 @@ imported_from_wordpress:
     - Coverage Cup
     - PR
     - Spark
+links:
+  - headline: Align strategy with merchandise lifecycle plans to succeed
+    url: >-
+      http://www.supplychaindigital.com/global_logistics/align-strategy-with-merchandise-lifecycle-plans-to-succeed
+    source: Supply Chain Digital
+  - headline: Still on Windows XP? 5 reasons not to panic
+    url: >-
+      http://www.cbronline.com/news/tech/software/operatingsystems/still-on-windows-xp-5-reasons-not-to-panic-4210580
+    source: CBR
+  - headline: UK cloud pioneer scores world first with true utility pricing
+    url: >-
+      http://www.computerweekly.com/news/2240217768/UK-cloud-pioneer-scores-world-first-with-true-utility-pricing
+    source: Computer Weekly
+  - headline: 'Challenger Banks: Holding the banks to account'
+    url: >-
+      http://business-technology.co.uk/2014/04/challenger-banks-holding-the-banks-to-account/
+    source: Daily Telegraph
+  - headline: 'Book publishers: under siege on all fronts'
+    url: >-
+      http://whatsnewinpublishing.co.uk/content/book-publishers-under-siege-all-fronts
+    source: What’s New in Publishing
 ---
-
 [Coverage cup](Coverage-cup-167x300.jpg)Last week’s Coverage Cup may not have been as exciting as the weekend’s FA Cup semi-finals, but below is a round up of the nominations anyway :)
-
-  * Supply Chain Digital – [Align strategy with merchandise lifecycle plans to succeed](http://www.supplychaindigital.com/global_logistics/align-strategy-with-merchandise-lifecycle-plans-to-succeed)
-  * CBR – [Still on Windows XP? 5 reasons not to panic](http://www.cbronline.com/news/tech/software/operatingsystems/still-on-windows-xp-5-reasons-not-to-panic-4210580)
-  * Computer Weekly – [UK cloud pioneer scores world first with true utility pricing](http://www.computerweekly.com/news/2240217768/UK-cloud-pioneer-scores-world-first-with-true-utility-pricing)
-  * Daily Telegraph – [Challenger Banks: Holding the banks to account](http://business-technology.co.uk/2014/04/challenger-banks-holding-the-banks-to-account/)
-  * What’s New in Publishing – [Book publishers: under siege on all fronts](http://whatsnewinpublishing.co.uk/content/book-publishers-under-siege-all-fronts)

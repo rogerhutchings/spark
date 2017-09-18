@@ -17,11 +17,23 @@ imported_from_wordpress:
     - Coverage Cup
     - PR
     - Spark
+links:
+  - headline: >-
+      ServiceNow and Partners In IT ‘revolutionise’ NHS Blood and Transplant HR
+      services
+    url: >-
+      http://www.computing.co.uk/ctg/feature/2340421/servicenow-and-partners-in-it-revolutionise-nhs-blood-and-transplant-hr-services
+    source: Computing
+  - headline: Tests reveal a third of lamb takeaways contain different meat
+    url: >-
+      http://www.foodqualitynews.com/Food-Alerts/Tests-reveal-a-third-of-lamb-takeaways-contain-different-meat
+    source: Food Quality News
+  - headline: Assessing soft skills? No problem
+    url: 'http://www.tes.co.uk/article.aspx?storycode=6423771'
+    source: TES
+  - headline: Top Five Tips for Software Management in Small Businesses
+    url: >-
+      http://www.freshbusinessthinking.com/business_advice.php?CID=0&AID=12576&Title=Top+Five+Tips+For+Software+Management+In+Small+Businesses#.U1d4xvldWam
+    source: Fresh Business Thinking
 ---
-
-[Coverage cup](Coverage-cup-167x300.jpg)Hopefully you didn’t overdose on Easter eggs over the weekend.  If you did, here are last week’s Coverage Cup nominations to take your mind off it:
-
-  * Computing – [ServiceNow and Partners In IT ‘revolutionise’ NHS Blood and Transplant HR services](http://www.computing.co.uk/ctg/feature/2340421/servicenow-and-partners-in-it-revolutionise-nhs-blood-and-transplant-hr-services)
-  * Food Quality News – [Tests reveal a third of lamb takeaways contain different meat](http://www.foodqualitynews.com/Food-Alerts/Tests-reveal-a-third-of-lamb-takeaways-contain-different-meat)
-  * TES – [Assessing soft skills? No problem](http://www.tes.co.uk/article.aspx?storycode=6423771)
-  * Fresh Business Thinking – [Top Five Tips for Software Management in Small Businesses](http://www.freshbusinessthinking.com/business_advice.php?CID=0&AID=12576&Title=Top+Five+Tips+For+Software+Management+In+Small+Businesses#.U1d4xvldWam)
+[Coverage cup](Coverage-cup-167x300.jpg)Hopefully you didn’t overdose on Easter eggs over the weekend. If you did, here are last week’s Coverage Cup nominations to take your mind off it:

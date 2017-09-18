@@ -17,12 +17,20 @@ imported_from_wordpress:
   tags:
     - Coverage Cup
     - Spark
+links:
+  - headline: Companies take to the cloud for flexible solutions
+    url: >-
+      http://www.ft.com/cms/s/0/4be746b8-81c6-11e3-87d5-00144feab7de.html#axzz2sLTKZSuV
+    source: Financial Times
+  - headline: 41% of Federal Workers Have Unsafe Mobile Habits
+    url: >-
+      http://www.infosecurity-magazine.com/view/36479/41-of-federal-workers-have-unsafe-mobile-habits?utm_source=twitterfeed&utm_medium=twitter
+    source: Infosecurity
+  - headline: 'Self-driving cars irresistible to hackers, warns security executive'
+    url: >-
+      http://www.theguardian.com/technology/2014/jan/28/self-driving-cars-irresistible-hackers-security-executive
+    source: The Guardian
 ---
-
 [Coverage cup](Coverage-cup-167x300.jpg)With another whirlwind week behind us and a new one beginning, below is a selection of the best of the Coverage Cup nominations from last week:
-
-  * Financial Times  - [Companies take to the cloud for flexible solutions](http://www.ft.com/cms/s/0/4be746b8-81c6-11e3-87d5-00144feab7de.html#axzz2sLTKZSuV)
-  * Infosecurity -  [41% of Federal Workers Have Unsafe Mobile Habits](http://www.infosecurity-magazine.com/view/36479/41-of-federal-workers-have-unsafe-mobile-habits?utm_source=twitterfeed&utm_medium=twitter)
-  * The Guardian - [Self-driving cars irresistible to hackers, warns security executive](http://www.theguardian.com/technology/2014/jan/28/self-driving-cars-irresistible-hackers-security-executive)
 
 Let us know on [Twitter](https://twitter.com/sparkcomms) or the comments section below which you think is the worthy winner.

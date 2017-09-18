@@ -18,13 +18,22 @@ imported_from_wordpress:
     - Coverage Cup
     - PR
     - Spark
+links:
+  - headline: The Deal With Big Data
+    url: 'http://cen.acs.org/articles/92/i2/Deal-Big-Data.html'
+    source: Chemical & Engineering News
+  - headline: Analysts blame faults in ‘Great firewall’ for China web outage
+    url: >-
+      http://www.ft.com/cms/s/0/08197e6e-8343-11e3-aa65-00144feab7de.html#axzz2raweyOgn
+    source: The Financial Times
+  - headline: China Internet Outage One of the Biggest Ever Seen
+    url: >-
+      http://www.ibtimes.co.uk/china-internet-outage-one-biggest-ever-seen-1433367
+    source: International Business Times
+  - headline: Strategies to launch a UK business boom
+    url: 'http://raconteur.net/business/strategies-to-launch-a-uk-business-boom'
+    source: The Times
 ---
-
 [Coverage cup](Coverage-cup-167x300.jpg)Another busy week complete, below is a selection of the best of the Coverage Cup nominations from last week:
-
-  * Chemical & Engineering News - [The Deal With Big Data](http://cen.acs.org/articles/92/i2/Deal-Big-Data.html)
-  * The Financial Times - [Analysts blame faults in ‘Great firewall’ for China web outage](http://www.ft.com/cms/s/0/08197e6e-8343-11e3-aa65-00144feab7de.html#axzz2raweyOgn)
-  * International Business Times - [China Internet Outage One of the Biggest Ever Seen](http://www.ibtimes.co.uk/china-internet-outage-one-biggest-ever-seen-1433367)
-  * The Times - [Strategies to launch a UK business boom](http://raconteur.net/business/strategies-to-launch-a-uk-business-boom)
 
 Let us know on [Twitter](https://twitter.com/sparkcomms) or the comments section below which you think is the worthy winner.

@@ -17,23 +17,22 @@ imported_from_wordpress:
     - Coverage Cup
     - PR
     - Spark
+links:
+  - headline: 'Engage the workforce, manage the brand'
+    url: 'http://careers.theguardian.com/engage-workforce-manage-brand'
+    source: The Guardian
+  - headline: Moral and legal points weigh in on information use
+    url: >-
+      http://www.ft.com/cms/s/0/2507750c-adb5-11e3-9ddc-00144feab7de.html?siteedition=uk#axzz2xjB3bZLo
+    source: The FT
+  - headline: UK businesses face up to world of risk
+    url: 'http://raconteur.net/business/uk-businesses-face-up-to-world-of-risk'
+    source: The Times
+  - headline: Has the private cloud had its day?
+    url: >-
+      http://www.techradar.com/news/software/business-software/networking/has-the-private-cloud-had-its-day--1237404
+    source: TechRadar Pro
 ---
-
 [Coverage cup](Coverage-cup-167x300.jpg)A good week for national coverage, here is a round up of last week’s Coverage Cup nominations:
-
-
-
-	
-  * The Guardian - [Engage the workforce, manage the brand](http://careers.theguardian.com/engage-workforce-manage-brand)
-
-	
-  * The FT - [Moral and legal points weigh in on information use](http://www.ft.com/cms/s/0/2507750c-adb5-11e3-9ddc-00144feab7de.html?siteedition=uk#axzz2xjB3bZLo)
-
-	
-  * The Times - [UK businesses face up to world of risk](http://raconteur.net/business/uk-businesses-face-up-to-world-of-risk)
-
-	
-  * TechRadar Pro - [Has the private cloud had its day?](http://www.techradar.com/news/software/business-software/networking/has-the-private-cloud-had-its-day--1237404)
-
 
 Let us know on [Twitter](http://www.twitter.com/sparkcomms) or the comments section below which you think deserved to be top of the list.

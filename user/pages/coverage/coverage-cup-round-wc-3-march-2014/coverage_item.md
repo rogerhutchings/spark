@@ -17,22 +17,24 @@ imported_from_wordpress:
     - Coverage Cup
     - PR
     - Spark
+links:
+  - headline: 'Going Global '
+    url: >-
+      http://www.retail-systems.com/pages/interactive_download_2012/RS_feb_mar_2014.pdf
+    source: Retail Systems
+  - headline: >-
+      Thousands Of RBS, Natwest, Barclays Customers Hit By Mobile Banking App
+      Outage
+    url: >-
+      http://www.techweekeurope.co.uk/news/mobile-banking-apps-hit-by-outage-140430
+    source: TechWeek Europe
+  - headline: >-
+      Analysis: Retailers harness innovation as relationships with suppliers
+      change
+    url: >-
+      http://www.retail-week.com/technology/analysis-retailers-harness-innovation-as-relationships-with-suppliers-change/5057998.article
+    source: Retail Week
 ---
-
 [Coverage cup](Coverage-cup-167x300.jpg)The FA Cup wasn't the only cup competition last week. Below is a selection of the best of the Coverage Cup nominations:
 
-
-
-	
-  * Retail Systems – [Going Global ](http://www.retail-systems.com/pages/interactive_download_2012/RS_feb_mar_2014.pdf)
-
-	
-  * TechWeek Europe – [Thousands Of RBS, Natwest, Barclays Customers Hit By Mobile Banking App Outage](http://www.techweekeurope.co.uk/news/mobile-banking-apps-hit-by-outage-140430)
-
-	
-  * Retail Week – [Analysis: Retailers harness innovation as relationships with suppliers change](http://www.retail-week.com/technology/analysis-retailers-harness-innovation-as-relationships-with-suppliers-change/5057998.article)
-
-
 Let us know on [Twitter](https://twitter.com/sparkcomms) or the comments section below which you think is the worthy winner.
-
-

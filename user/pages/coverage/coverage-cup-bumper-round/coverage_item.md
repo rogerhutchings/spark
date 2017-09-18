@@ -17,18 +17,53 @@ imported_from_wordpress:
     - Coverage Cup
     - PR
     - Spark
+links:
+  - headline: Email error leaked leaders’ details
+    url: >-
+      http://www.dailymail.co.uk/wires/pa/article-3017758/Email-error-leaked-leaders-details.html
+    source: Daily Mail
+  - headline: The battle to beat password security threats
+    url: >-
+      http://www.ft.com/cms/s/0/2beafd40-c0d7-11e4-876d-00144feab7de.html#axzz3XBVsKQff
+    source: Financial Times
+  - headline: >-
+      Obama and Cameron's passport numbers and personal details leaked by
+      Australian Government
+    url: >-
+      http://www.mirror.co.uk/news/world-news/obama-camerons-passport-numbers-personal-5428510
+    source: The Mirror
+  - headline: Australian Immigration Email Exposes G20 Leaders’ Personal Information
+    url: >-
+      http://www.techweekeurope.co.uk/e-regulation/g20-leaders-australia-government-165418
+    source: TechWeek Europe
+  - headline: World leaders have private details leaked online
+    url: >-
+      http://www.cbronline.com/news/cybersecurity/data/world-leaders-have-private-details-leaked-online-4543231
+    source: Computer Business Review
+  - headline: NHS Western Isles targets predictive analysis drive
+    url: >-
+      http://business-applications.governmentcomputing.com/news/nhs-western-isles-targets-predictive-analysis-dashboard-focus-4546385
+    source: Government Computing
+  - headline: Six ways to create better IT metrics
+    url: >-
+      http://www.cio.co.uk/insight/strategy/six-ways-create-better-it-metrics-3605326/
+    source: CIO UK
+  - headline: Mapping a course to success
+    url: 'http://www.platform-oilandgas.com/180/page8_large.html'
+    source: Platform Oil & Gas
+  - headline: Bit9 + Carbon Black expands European Channel
+    url: >-
+      http://www.channelpro.co.uk/news/9064/bit9-carbon-black-expands-european-channel
+    source: Channel Pro
+  - headline: >-
+      EDX 2015: John Munnelly of John Lewis on Black Friday and other logistical
+      challenges
+    url: >-
+      http://internetretailing.net/2015/03/edx-2015-john-munnelly-of-john-lewis-on-black-friday-and-other-key-logistics-challenges/
+    source: Internet Retailing
+  - headline: Giving Employees the Cloud they want
+    url: >-
+      http://www.businesscloudnews.com/2015/04/10/giving-employees-the-cloud-that-they-want/
+    source: Business Cloud News
 ---
-
-[Coverage cup](Coverage-cup-167x300.jpg)It has been three weeks since the last Coverage Cup round-up, but the Spark team has hardly been idle achieving some great coverage for various clients. As a result of spotting an issues response opportunity early in the day regarding the G20 leaders data breach, Egress CEO Tony Pepper cited was cited across a whopping 113 different news outlets including _The Mirror, The Daily Mail _and _The Scotsman. _Next, Verizon’s Chief Identity Strategist Tracy Hulver featured prominently in a _Financial Times _feature on the on-going battle between hackers and security companies to ensure password safety. Trustmarque also rounded out a strong month of coverage with customer case study coverage regarding how Western Isles NHS Trust has implemented QlikView to help improve patient care. 
-
-  * Daily Mail: [Email error leaked leaders’ details](http://www.dailymail.co.uk/wires/pa/article-3017758/Email-error-leaked-leaders-details.html)
-  * Financial Times: [The battle to beat password security threats](http://www.ft.com/cms/s/0/2beafd40-c0d7-11e4-876d-00144feab7de.html#axzz3XBVsKQff)
-  * The Mirror: [Obama and Cameron's passport numbers and personal details leaked by Australian Government](http://www.mirror.co.uk/news/world-news/obama-camerons-passport-numbers-personal-5428510)
-  * TechWeek Europe: [Australian Immigration Email Exposes G20 Leaders’ Personal Information](http://www.techweekeurope.co.uk/e-regulation/g20-leaders-australia-government-165418)
-  * Computer Business Review: [World leaders have private details leaked online](http://www.cbronline.com/news/cybersecurity/data/world-leaders-have-private-details-leaked-online-4543231)
-  * Government Computing: [NHS Western Isles targets predictive analysis drive](http://business-applications.governmentcomputing.com/news/nhs-western-isles-targets-predictive-analysis-dashboard-focus-4546385)
-  * CIO UK: [Six ways to create better IT metrics](http://www.cio.co.uk/insight/strategy/six-ways-create-better-it-metrics-3605326/)
-  * Platform Oil & Gas: [Mapping a course to success](http://www.platform-oilandgas.com/180/page8_large.html)
-  * Channel Pro: [Bit9 + Carbon Black expands European Channel](http://www.channelpro.co.uk/news/9064/bit9-carbon-black-expands-european-channel)
-  * Internet Retailing: [EDX 2015: John Munnelly of John Lewis on Black Friday and other logistical challenges](http://internetretailing.net/2015/03/edx-2015-john-munnelly-of-john-lewis-on-black-friday-and-other-key-logistics-challenges/)
-  * Business Cloud News: [Giving Employees the Cloud they want](http://www.businesscloudnews.com/2015/04/10/giving-employees-the-cloud-that-they-want/)
+[Coverage cup](Coverage-cup-167x300.jpg)It has been three weeks since the last Coverage Cup round-up, but the Spark team has hardly been idle achieving some great coverage for various clients. As a result of spotting an issues response opportunity early in the day regarding the G20 leaders data breach, Egress CEO Tony Pepper cited was cited across a whopping 113 different news outlets including _The Mirror, The Daily Mail _and _The Scotsman. _Next, Verizon’s Chief Identity Strategist Tracy Hulver featured prominently in a _Financial Times _feature on the on-going battle between hackers and security companies to ensure password safety. Trustmarque also rounded out a strong month of coverage with customer case study coverage regarding how Western Isles NHS Trust has implemented QlikView to help improve patient care.

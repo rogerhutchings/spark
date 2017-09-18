@@ -17,16 +17,36 @@ imported_from_wordpress:
     - Coverage Cup
     - PR
     - Spark
+links:
+  - headline: How to tackle the network intruders
+    url: 'http://www.bbc.co.uk/news/technology-34411725'
+    source: BBC
+  - headline: >-
+      The returns timebomb: interview with Jo Swinson, Consumer Rights Act
+      co-author
+    url: >-
+      http://edelivery.net/2015/10/the-returns-timebomb-interview-with-jo-swinson-consumer-rights-act-co-author/
+    source: eDelivery
+  - headline: 'Phone-fondling docs, nurses sling patient info around willy-nilly'
+    url: 'http://www.theregister.co.uk/2015/10/08/smartphones_patient_data/'
+    source: The Register
+  - headline: Future Proofing Sheds
+    url: >-
+      http://digitalissues.retail-week.com/2015/supps/rwwarehousingOct15/index.html
+    source: Retail Week
+  - headline: The Virtuous Cycle of Innovation
+    url: >-
+      http://digitalissues.retail-week.com/2015/supps/rwwarehousingOct15/index.html
+    source: Retail Week
+  - headline: 'CIOs continue to bemoan IT complexity, report shows'
+    url: >-
+      http://www.cloudcomputing-news.net/news/2015/oct/09/cios-continue-bemoan-it-complexity-report-shows/
+    source: CloudTech
+  - headline: 'IT getting more complicated, say CIOs'
+    url: >-
+      http://www.itproportal.com/2015/10/09/it-getting-more-complicated-say-cios/
+    source: ITProPortal
 ---
-
-[Coverage cup](Coverage-cup-167x300.jpg)As always, here at Spark, we don’t do things by half measures. To start the week, Huntsman Security and Bit9 were both featured in a _BBC Online_ security feature.  JDA stole the show in _Retail Week’s_ warehousing supplement, appearing in two separate articles. The Trustmarque team secured coverage in publications including _CloudTech_ and _IT Pro Portal_ following new research that found that IT has become both more complicated according to UK CIOs. Elsewhere, Tony Pepper, CEO at Egress gave his expert opinion in _The Register_ following the news that UK doctors and nurses routinely share sensitive patient information via smartphones that are vulnerable to hacks. And finally, expert comment from Centiro’s Niklas Hedin was featured _eDelivery _in response to introduction of the new Consumer Rights Act.
+[Coverage cup](Coverage-cup-167x300.jpg)As always, here at Spark, we don’t do things by half measures. To start the week, Huntsman Security and Bit9 were both featured in a _BBC Online_ security feature. JDA stole the show in _Retail Week’s_ warehousing supplement, appearing in two separate articles. The Trustmarque team secured coverage in publications including _CloudTech_ and _IT Pro Portal_ following new research that found that IT has become both more complicated according to UK CIOs. Elsewhere, Tony Pepper, CEO at Egress gave his expert opinion in _The Register_ following the news that UK doctors and nurses routinely share sensitive patient information via smartphones that are vulnerable to hacks. And finally, expert comment from Centiro’s Niklas Hedin was featured _eDelivery _in response to introduction of the new Consumer Rights Act.
 
 Who gets your vote this week?
-
-  * _BBC_ - [How to tackle the network intruders](http://www.bbc.co.uk/news/technology-34411725)
-  * _eDelivery_ - [The returns timebomb: interview with Jo Swinson, Consumer Rights Act co-author](http://edelivery.net/2015/10/the-returns-timebomb-interview-with-jo-swinson-consumer-rights-act-co-author/)
-  * _The Register_ - [Phone-fondling docs, nurses sling patient info around willy-nilly](http://www.theregister.co.uk/2015/10/08/smartphones_patient_data/)
-  * _Retail Week _– [Future Proofing Sheds](http://digitalissues.retail-week.com/2015/supps/rwwarehousingOct15/index.html)
-  * _Retail Week_ – [The Virtuous Cycle of Innovation](http://digitalissues.retail-week.com/2015/supps/rwwarehousingOct15/index.html)
-  * CloudTech - [CIOs continue to bemoan IT complexity, report shows](http://www.cloudcomputing-news.net/news/2015/oct/09/cios-continue-bemoan-it-complexity-report-shows/)
-  * _ITProPortal _- [IT getting more complicated, say CIOs](http://www.itproportal.com/2015/10/09/it-getting-more-complicated-say-cios/)
