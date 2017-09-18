@@ -105,15 +105,15 @@ __webpack_require__(0);
 __webpack_require__(5);
 
 $(document).ready(function () {
-  var slideout = new Slideout({
-    'panel': document.getElementById('panel'),
-    'menu': document.getElementById('menu'),
-    'padding': 256,
-    'tolerance': 70
-  });
+  // $('[name="open-menu"]').on('click', function () {
+  //   console.log('foo')
+  //   $(this).toggleClass('is-active');
+  // });
 
-  document.querySelector('.toggle-button').addEventListener('click', function () {
-    slideout.toggle();
+  $('#js-open-menu').on('click', function (event) {
+    $(this).toggleClass('is-active');
+    $('.js-nav').toggleClass('open');
+    $('body').toggleClass('open');
   });
 });
 

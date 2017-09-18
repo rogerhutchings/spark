@@ -3,6 +3,11 @@
   {% include 'svgs/logo_text-bottom.svg.twig' with { class: logoClasses } %}
 {% endmacro %}
 
+{% macro sparkLogoWide(extraClasses) %}
+  {% set logoClasses = 'h-100 ' ~ extraClasses %}
+  {% include 'svgs/spark-logo-wide.svg.twig' with { class: logoClasses } %}
+{% endmacro %}
+
 {% macro button(args) %}
   <a
     href="{{ args.link }}"

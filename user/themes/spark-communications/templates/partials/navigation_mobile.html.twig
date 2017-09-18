@@ -1,0 +1,23 @@
+{% macro loop(page) %}
+  {% set commonLinkClasses = 'link ttu no-decoration-hover' %}
+  <ul class="list ph3">
+    {% for p in page.children.visible %}
+      {% set current_page = (p.active or p.activeChild) ? 'bb b--orange' : '' %}
+
+      <li class="mb3">
+        <a
+          class="{{ current_page }} {{ commonLinkClasses }}"
+          href="{{ p.url }}"
+        >
+          {{ p.menu }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endmacro %}
+
+<nav
+  class="js-nav fw6 f5 absolute w-100 min-vh-100 bg-white z-max"
+>
+  {{ _self.loop(pages) }}
+</nav>

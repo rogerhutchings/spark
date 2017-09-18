@@ -18,5 +18,8 @@
 @import 'tachyons/positions';
 @import 'tachyons/titillium';
 
-@import '_featherlight';
-@import '_slideout';
+@import 'featherlight';
+@import 'slideout';
+
+@import 'hamburgers';
+@import '../node_modules/hamburgers/_sass/hamburgers/hamburgers';

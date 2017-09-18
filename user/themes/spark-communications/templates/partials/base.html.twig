@@ -45,25 +45,45 @@
 
   <body
     id="top"
-    class="titillium lh-copy {% block bodyClasses %}{{ body_classes }}{% endblock %}"
+    class="titillium lh-copy relative {% block bodyClasses %}{{ body_classes }}{% endblock %}"
   >
 
-  <nav id="menu">
-      <h2>Menu</h2>
-    </nav>
-
-    <main id="panel">
-      <header>
-        <button class="toggle-button">☰</button>
-        <h2>Panel</h2>
+    {% block mobile_header %}
+      <header class="dn-m dn-l top-0 bg-white z-max bb b--orange bw2 pa3" style="position: sticky;">
+        <div class="flex justify-between items-center">
+          <section class="w-60">
+            {% if page.home() %}
+              {{ macros.sparkLogoWide('db') }}
+            {% else %}
+              <a href="/" class="db">
+                {{ macros.sparkLogoWide('db') }}
+              </a>
+            {% endif %}
+          </section>
+          <button
+            id="js-open-menu"
+            class="hamburger hamburger--spring"
+            type="button"
+          >
+            <span class="ttu gray mr2">Menu</span>
+            <span class="hamburger-box v-mid">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
       </header>
-    </main>
+
+      {% include 'partials/navigation_mobile.html.twig' %}
+
+    {% endblock mobile_header %}
+
+
 
     {% block header %}
       <header
         class="min-h6 bg-black cover {% block headerClasses %}{{ header_classes }}{% endblock %}"
       >
-        <div class="center pt5 ph3 mw8 flex-ns justify-between items-end">
+        <div class="center pt5 ph3 mw8 dn flex-m flex-l justify-between items-end">
 
           {% if page.home() %}
             {{ macros.sparkLogo('w-25-ns flex-none') }}
