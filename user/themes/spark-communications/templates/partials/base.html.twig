@@ -35,7 +35,6 @@
         {% do assets.addJs('slick-js', 90) %}
         {% do assets.addJs('featherlight-js', 90) %}
         {% do assets.addJs('handlebars', 90) %}
-        {% do assets.addJs('https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js', 90) %}
         {% do assets.addJs('theme://js-compiled/bundle.js', { 'group': 'bottom', priority: 50 }) %}
       {% endblock %}
       {{ assets.js() }}

@@ -104,18 +104,7 @@ __webpack_require__(0);
 
 __webpack_require__(5);
 
-$(document).ready(function () {
-  // $('[name="open-menu"]').on('click', function () {
-  //   console.log('foo')
-  //   $(this).toggleClass('is-active');
-  // });
-
-  $('#js-open-menu').on('click', function (event) {
-    $(this).toggleClass('is-active');
-    $('.js-nav').toggleClass('open');
-    $('body').toggleClass('open');
-  });
-});
+__webpack_require__(6);
 
 /***/ }),
 /* 2 */,
@@ -173,6 +162,25 @@ $(document).ready(function () {
   if ($('#meet-the-team').length) {
     initMeetTheTeam();
   }
+});
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+__webpack_require__(0);
+
+__webpack_require__(5);
+
+$(document).ready(function () {
+  $('#js-open-menu').on('click', function (event) {
+    $(this).toggleClass('is-active');
+    $('.js-nav').toggleClass('open');
+    $('body').toggleClass('open');
+  });
 });
 
 /***/ })
