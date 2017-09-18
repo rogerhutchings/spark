@@ -1,6 +1,6 @@
 ---
 title: 'Placing News Hijacking in the Tech PR Budget – Part 2: Being a Web Explorer'
-author: dominic
+author: /team/dom-walsh
 date: '11:17 05-05-2015'
 imported_from_wordpress:
   author: dominic

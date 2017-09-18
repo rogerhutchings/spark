@@ -1,6 +1,6 @@
 ---
 title: Summer day out – Laser Quest and Electric Barge
-author: ana
+author: /team/ana-williams
 date: '14:53 24-10-2016'
 imported_from_wordpress:
   author: ana

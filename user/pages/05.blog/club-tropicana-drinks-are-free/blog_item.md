@@ -1,6 +1,6 @@
 ---
 title: Club Tropicana Drinks Are Free
-author: ana
+author: /team/ana-williams
 date: '09:37 25-06-2012'
 imported_from_wordpress:
   author: ana

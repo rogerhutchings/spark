@@ -1,6 +1,6 @@
 ---
 title: My Wearable and Me
-author: ana
+author: /team/ana-williams
 date: '09:51 11-08-2015'
 imported_from_wordpress:
   author: ana

@@ -1,6 +1,6 @@
 ---
 title: 'Tick the box or kick the bucket: getting tech PR surveys right'
-author: tristan
+author: /team/tristan-webb
 date: '09:33 02-09-2014'
 imported_from_wordpress:
   author: tristan

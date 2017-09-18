@@ -1,6 +1,6 @@
 ---
 title: Driving Tech PR Success Using Topical Issues
-author: dominic
+author: /team/dom-walsh
 date: '14:17 11-12-2014'
 imported_from_wordpress:
   author: dominic

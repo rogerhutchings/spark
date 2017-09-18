@@ -1,6 +1,6 @@
 ---
 title: 'Click here to download your latest PR Executive, version 3.6'
-author: michelle
+author: /team/michelle-allison
 date: '10:05 06-05-2014'
 imported_from_wordpress:
   author: michelle

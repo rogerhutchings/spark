@@ -1,6 +1,6 @@
 ---
 title: Gold medal winning PR
-author: michelle
+author: /team/michelle-allison
 date: '09:48 15-08-2012'
 imported_from_wordpress:
   author: michelle

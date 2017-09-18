@@ -1,6 +1,6 @@
 ---
 title: Back to the Past of the Future
-author: tristan
+author: /team/tristan-webb
 date: '12:41 08-12-2011'
 imported_from_wordpress:
   author: tristan

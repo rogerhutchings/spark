@@ -1,6 +1,6 @@
 ---
 title: Jobs for the boys (sorry…)
-author: dominic
+author: /team/dom-walsh
 date: '09:22 30-08-2011'
 imported_from_wordpress:
   author: dominic

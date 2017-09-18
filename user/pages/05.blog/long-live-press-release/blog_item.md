@@ -1,6 +1,6 @@
 ---
 title: Long live the press release
-author: alex
+author: /team/alex-crawshaw
 date: '12:33 27-11-2014'
 imported_from_wordpress:
   author: alex

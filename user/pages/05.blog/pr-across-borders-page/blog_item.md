@@ -1,6 +1,6 @@
 ---
 title: 'PR across borders: Are we all on the same page?'
-author: alexander
+author: /team/alex-crawshaw
 date: '15:06 08-03-2016'
 imported_from_wordpress:
   author: alexander

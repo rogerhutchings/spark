@@ -1,6 +1,6 @@
 ---
 title: Being the big fish in the big PR pond
-author: gus
+author: /team/gus-walton
 date: '09:23 26-08-2016'
 imported_from_wordpress:
   author: gus
@@ -27,16 +27,16 @@ While the industry isn’t what it was a few decades ago, where [boozy lunches](
 
 
 
- 	
+
   * **Don’t approach the wrong person –** approaching the wrong journalist is a sure-fire way to irritate them. When choosing targets it is important to take into account their role as well as their beat and make sure you are approaching the correct person in the correct position.
 
- 	
+
   * **Know your news –** it is crucial that you know your news, and can talk to a journalist about why this is important. There is a strong chance that a journalist will ask you questions about the news you are pitching if they are interested. Preparation is key to avoid being caught out, so making sure you fully understand what you are selling is essential.
 
- 	
+
   * **Know the journalist’s preference –** while some journalists will prefer an email-only approach others will be more susceptible to a phone call. Some would prefer an email pitch before starting a conversation. It is integral that you pick up on this early doors so you stand a better chance of getting their interest.
 
- 	
+
   * **Have a conversation –** if you have built up a rapport with a journalist, and they have the time, then it makes sense to approach with a brief conversation before pitching your news to them.
 
 

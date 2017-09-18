@@ -1,6 +1,6 @@
 ---
 title: You don’t have to spend big to make a big PR impact in IT security
-author: andy
+author: /team/andy-lloyd-williams
 date: '09:17 14-05-2015'
 imported_from_wordpress:
   author: andy

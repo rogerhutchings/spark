@@ -1,6 +1,6 @@
 ---
 title: 'Is your PR programme making people want to punch you in the face? '
-author: lauren
+author: /team/lauren-richards
 date: '09:22 10-07-2014'
 imported_from_wordpress:
   author: lauren

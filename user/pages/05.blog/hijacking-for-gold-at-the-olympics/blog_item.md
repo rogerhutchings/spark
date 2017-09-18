@@ -1,6 +1,6 @@
 ---
 title: Hijacking for gold at the Olympics
-author: tristan
+author: /team/tristan-webb
 date: '15:33 12-09-2012'
 imported_from_wordpress:
   author: tristan

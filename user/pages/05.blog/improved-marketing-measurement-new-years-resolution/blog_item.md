@@ -1,6 +1,6 @@
 ---
 title: Is improved marketing measurement your New Year’s resolution?
-author: lauren
+author: /team/lauren-richards
 date: '10:03 18-01-2016'
 imported_from_wordpress:
   author: lauren

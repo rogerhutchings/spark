@@ -1,6 +1,6 @@
 ---
 title: What broadcast and online video can do for your brand
-author: david
+author: /team/david-adelman
 date: '10:50 19-05-2016'
 imported_from_wordpress:
   author: david

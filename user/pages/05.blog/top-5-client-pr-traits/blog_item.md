@@ -1,6 +1,6 @@
 ---
 title: Top 5 Client PR Traits
-author: michelle
+author: /team/michelle-allison
 date: '08:32 24-04-2015'
 imported_from_wordpress:
   author: michelle

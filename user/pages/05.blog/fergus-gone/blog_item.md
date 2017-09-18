@@ -1,6 +1,6 @@
 ---
 title: Fergus-GONE
-author: dominic
+author: /team/dom-walsh
 date: '16:03 09-05-2013'
 imported_from_wordpress:
   author: dominic
@@ -29,5 +29,3 @@ From a PR perspective, this consistency in spokesperson and voice is certainly s
 Similarly, it’s easy to overlook that Ferguson didn’t get instant results: there was a long period of building and refining before the club became the “don’t win anything with kids” colossus that it is today. Likewise, PR should not be focused solely on instant results. Instead building relationships and ensuring that a message is settled and consistent will provide much greater benefits in the long term. Of course, hiring a PR agency to help with this process can often be a bonus and there are a number of highly recommended agencies available: there may even be a link on this very page.
 
 In the meantime we can steel ourselves for a wave of tributes and speculation over the eventual successor. Although doubtless my suggestion of [Jim Gannon](http://en.wikipedia.org/wiki/Jim_Gannon) won’t be considered, more fool them.
-
-

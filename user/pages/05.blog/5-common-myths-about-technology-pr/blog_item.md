@@ -1,6 +1,6 @@
 ---
 title: 5 common myths about technology PR
-author: tristan
+author: /team/tristan-webb
 date: '09:03 17-10-2013'
 imported_from_wordpress:
   author: tristan

@@ -1,6 +1,6 @@
 ---
 title: 'Tech PR: what the bleep is it exactly?'
-author: tristan
+author: /team/tristan-webb
 date: '14:40 28-02-2013'
 imported_from_wordpress:
   author: tristan
@@ -29,17 +29,17 @@ For those (like me) who studied PR as a degree course, I’d suggest disposing o
 
 
 
-	
+
   * **It’s about communication** – (well duh!) Of course it is – every definition you come across includes that, but most fail to communicate the communication that they’re attempting to communicate. If you get my meaning. So what’s the important point? In the technology industry, businesses have products and customers have challenges they need solutions to. However, businesses’ messages often don’t translate well between the two; customers might have a need for the business’ products, but they might not understand how it answers those needs. PR is about being the middle-man here, providing advice to the business on how best to develop a message that will be understood by their customers and bring the desired results, then executing its delivery.
 
 
 
-	
+
   * **It’s about understanding people **– from the definition above, you’d be forgiven for getting PR confused with advertising. (Note; if you are trying to get into PR – don’t confuse the two. It’s an instant fail, unless you manage to pull something unbelievably spectacular – like your dad being the editor of the Financial Times - out of the bag). On a basic level, PR is about getting coverage for clients, which usually means persuading journalists to write about them, giving the all-important third-party testimony to their reputability. Contrary to popular opinion, in technology PR, you can’t just rely on knowing the right people to get results (although it does help). It’s far more important to understand when your client has a story that a particular journalist will be interested in writing about. This knowledge and understanding of the media is the key to great PR.
 
 
 
-	
+
   * **It’s the message, stupid** – Following-on from that last point, no self-respecting journalist is going to write about your client’s latest announcement because it’s ‘super-exciting’ ‘ground breaking’ or even, dare I suggest it ‘very important to your client.’ The role of the PR agency is to develop a message that reflects the points the client wants to communicate, whilst providing a story that’s going to get the journalist excited enough to spend an hour or two of their day writing about it. With a well thought-through message, even the most mundane announcement can achieve some great coverage. Dom recently wrote a [particularly insightful account](http://www.sparkcomms.co.uk/index.php/2013/02/get-away-from-her-you-pitch/) of how to develop a strong message that’s well worth a read for anyone interested in PR or James Cameron’s _Aliens_.
 
 

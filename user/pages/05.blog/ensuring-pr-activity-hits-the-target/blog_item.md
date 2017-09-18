@@ -1,6 +1,6 @@
 ---
 title: Ensuring PR activity hits the target
-author: alex
+author: /team/alex-crawshaw
 date: '10:33 08-08-2013'
 imported_from_wordpress:
   author: alex

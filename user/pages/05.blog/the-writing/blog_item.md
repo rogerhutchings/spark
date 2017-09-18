@@ -1,6 +1,6 @@
 ---
 title: 'The writing’s on the wall: to be honest, paper would work better'
-author: dominic
+author: /team/dom-walsh
 date: '10:21 16-07-2012'
 imported_from_wordpress:
   author: dominic

@@ -1,6 +1,6 @@
 ---
 title: Desert Island No Discs
-author: alex
+author: /team/alex-crawshaw
 date: '14:10 23-05-2012'
 imported_from_wordpress:
   author: alex
@@ -28,5 +28,3 @@ For someone who has moved house a number of times over the last 10 years, I have
 It isn't just with films and music where we are seeing this change.  Increasingly, games manufacturers are making their titles available to download as it is a cheaper alternative than selling physical discs.  For example, for the first time EA made its Euro 2012 football game only available as [downloadable content](http://www.t3.com/news/ea-sports-confirms-uefa-euro-2012-game-release-for-april-24th). Last year Apple offered its OS X Lion operating system for sale as a download rather via a physical disc.
 
 So with internet speeds and availability increasing and today's consumer wanting to watch or listen to what they want, when they want to, it is clear that the online revolution will continue apace.  The internet has undoubtedly changed the way we do business and consume media - so much so I wouldn't be surprised that in a few years’ time I will be explaining to my recently born daughter what CDs and DVDs were used for!
-
-

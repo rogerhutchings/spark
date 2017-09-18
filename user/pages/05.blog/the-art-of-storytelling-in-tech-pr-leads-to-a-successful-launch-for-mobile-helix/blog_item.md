@@ -2,7 +2,7 @@
 title: >-
   The art of storytelling in technology PR leads to a successful launch for
   Mobile Helix
-author: kewal
+author: /team/kewal-varia
 date: '10:58 22-08-2013'
 imported_from_wordpress:
   author: kewal

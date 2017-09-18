@@ -1,6 +1,6 @@
 ---
 title: 'Sex, alcohol and chocolate – the key to PR success?'
-author: chris
+author: /team/christopher-hamer
 date: '12:26 07-12-2016'
 imported_from_wordpress:
   author: chris

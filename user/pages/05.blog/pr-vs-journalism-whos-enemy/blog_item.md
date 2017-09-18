@@ -1,6 +1,6 @@
 ---
 title: 'PR vs. Journalism – Who’s the Enemy, Here?'
-author: dominic
+author: /team/dom-walsh
 date: '12:05 04-08-2014'
 imported_from_wordpress:
   author: dominic

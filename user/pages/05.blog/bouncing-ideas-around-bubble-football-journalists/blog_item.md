@@ -1,6 +1,6 @@
 ---
 title: 'Bouncing ideas around: Bubble football with journalists'
-author: andy
+author: /team/andy-lloyd-williams
 date: '13:08 13-05-2016'
 imported_from_wordpress:
   author: andy

@@ -1,6 +1,6 @@
 ---
 title: The Budget’s best tech PR story – Can Britannia rule the Big Data wave?
-author: lauren
+author: /team/lauren-richards
 date: '09:11 27-03-2014'
 imported_from_wordpress:
   author: lauren

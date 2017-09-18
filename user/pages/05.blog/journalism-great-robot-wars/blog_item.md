@@ -1,6 +1,6 @@
 ---
 title: Journalism and the Great Robot Wars
-author: michelle
+author: /team/michelle-allison
 date: '12:10 26-09-2016'
 imported_from_wordpress:
   author: michelle

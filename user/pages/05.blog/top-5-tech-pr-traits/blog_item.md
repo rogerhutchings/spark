@@ -1,6 +1,6 @@
 ---
 title: Top 5 Tech PR Traits
-author: michelle
+author: /team/michelle-allison
 date: '09:29 17-04-2015'
 imported_from_wordpress:
   author: michelle

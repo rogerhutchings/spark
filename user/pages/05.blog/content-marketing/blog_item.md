@@ -1,6 +1,6 @@
 ---
 title: Content marketing – Singing a song that others want to listen to isn’t easy
-author: lauren
+author: /team/lauren-richards
 date: '12:17 12-03-2012'
 imported_from_wordpress:
   author: lauren

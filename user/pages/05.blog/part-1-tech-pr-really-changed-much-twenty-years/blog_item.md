@@ -1,6 +1,6 @@
 ---
 title: Part 1 – Has Tech PR really changed that much in twenty years?
-author: lauren
+author: /team/lauren-richards
 date: '12:19 04-06-2015'
 imported_from_wordpress:
   author: lauren

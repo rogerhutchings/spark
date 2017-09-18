@@ -1,6 +1,6 @@
 ---
 title: 'Why PRs love a Penguin  '
-author: lauren
+author: /team/lauren-richards
 date: '09:34 06-08-2013'
 imported_from_wordpress:
   author: lauren

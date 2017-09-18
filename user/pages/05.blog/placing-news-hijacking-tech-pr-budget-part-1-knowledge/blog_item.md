@@ -1,6 +1,6 @@
 ---
 title: 'Placing News Hijacking in the Tech PR Budget – Part 1: The Knowledge'
-author: dominic
+author: /team/dom-walsh
 date: '10:32 29-04-2015'
 imported_from_wordpress:
   author: dominic

@@ -1,6 +1,6 @@
 ---
 title: Making Sense of PR Speak – Part II
-author: michelle
+author: /team/michelle-allison
 date: '10:54 11-03-2016'
 imported_from_wordpress:
   author: michelle

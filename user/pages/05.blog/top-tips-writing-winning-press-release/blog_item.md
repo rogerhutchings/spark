@@ -1,6 +1,6 @@
 ---
 title: Top tips for writing a winning press release
-author: michelle
+author: /team/michelle-allison
 date: '09:48 21-08-2015'
 imported_from_wordpress:
   author: michelle

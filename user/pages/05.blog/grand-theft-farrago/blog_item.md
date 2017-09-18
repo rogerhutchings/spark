@@ -1,6 +1,6 @@
 ---
 title: 'Grand Theft Farrago?   '
-author: dominic
+author: /team/dom-walsh
 date: '11:17 07-10-2013'
 imported_from_wordpress:
   author: dominic

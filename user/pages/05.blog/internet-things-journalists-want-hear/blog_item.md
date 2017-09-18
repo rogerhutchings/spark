@@ -1,6 +1,6 @@
 ---
 title: 'The Internet of Things: What do journalists want to hear?'
-author: andy
+author: /team/andy-lloyd-williams
 date: '09:23 18-03-2016'
 imported_from_wordpress:
   author: andy

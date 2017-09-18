@@ -1,6 +1,6 @@
 ---
 title: 'Prams, scans and mobile apps'
-author: alex
+author: /team/alex-crawshaw
 date: '16:16 20-12-2011'
 imported_from_wordpress:
   author: alex

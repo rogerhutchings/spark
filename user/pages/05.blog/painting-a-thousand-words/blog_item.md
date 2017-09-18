@@ -1,6 +1,6 @@
 ---
 title: Painting a thousand words
-author: dominic
+author: /team/dom-walsh
 date: '16:54 20-02-2012'
 imported_from_wordpress:
   author: dominic

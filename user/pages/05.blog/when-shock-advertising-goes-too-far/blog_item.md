@@ -1,6 +1,6 @@
 ---
 title: When ‘shock advertising’ goes too far
-author: michelle
+author: /team/michelle-allison
 date: '10:43 30-04-2013'
 imported_from_wordpress:
   author: michelle

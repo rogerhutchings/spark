@@ -1,6 +1,6 @@
 ---
 title: 'Follow me, why won’t you follow me?'
-author: russell
+author: /team/russell-cafferty
 date: '09:22 25-09-2015'
 imported_from_wordpress:
   author: russell

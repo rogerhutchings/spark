@@ -1,6 +1,6 @@
 ---
 title: 'What have Brexit, Donald Trump and Pokémon Go got in common?'
-author: alex
+author: /team/alex-crawshaw
 date: '09:12 05-08-2016'
 imported_from_wordpress:
   author: alex

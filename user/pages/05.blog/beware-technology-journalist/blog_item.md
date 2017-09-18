@@ -1,6 +1,6 @@
 ---
 title: Beware of the technology journalist?
-author: lauren
+author: /team/lauren-richards
 date: '08:56 22-10-2014'
 imported_from_wordpress:
   author: lauren

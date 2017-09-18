@@ -1,6 +1,6 @@
 ---
 title: 'PR Bots: Is AI After Our Jobs?'
-author: cathy
+author: /team/cathy-oneill
 date: '16:16 01-04-2016'
 imported_from_wordpress:
   author: cathy

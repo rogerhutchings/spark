@@ -1,6 +1,6 @@
 ---
 title: 'Q&A with Retail Technology editor, Miya Knights'
-author: kewal
+author: /team/kewal-varia
 date: '09:18 03-03-2014'
 imported_from_wordpress:
   author: kewal
@@ -34,12 +34,12 @@ It also includes news in digest, expert advice, case studies, innovations and in
 
 The redesigned magazine allows us to take a more in-depth look at IT trends and retail projects and is fed by the website, which covers day-to-day news and views in the industry. This allows us to better integrate the two so, where one of our fortnightly homepage polls supported by an [Ask the Expert](http://www.retailtechnology.co.uk/section/ask-the-experts/) response might prove popular for example, we can revisit it in more detail in the magazine and answer any questions it may have raised among our readers on our [LinkedIn forum](http://www.linkedin.com/groups?gid=4315690).
 
-**Any advice for PRs out there that want to pitch stories to Retail Techology?  
+**Any advice for PRs out there that want to pitch stories to Retail Techology?
 **
 
 I get a lot of offers of vendor opinion, which we don’t have much room for. I always advise PRs to pitch in opportunities that can demonstrate what their clients’ retailer customers are actually doing with technology, so they can talk about the practical benefits authoritatively. We particularly pride ourselves on following this up by speaking to the retailers themselves.
 
-**What is your biggest frustration with the PR community?  
+**What is your biggest frustration with the PR community?
 **
 
 I get too many offers of vendor-led briefings and comment articles, when we really look to represent the views and opinions of those retail executives that manage, specify and procure enterprise IT.  

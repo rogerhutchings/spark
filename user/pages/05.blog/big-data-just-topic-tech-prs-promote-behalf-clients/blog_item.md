@@ -1,6 +1,6 @@
 ---
 title: 'Big Data is more than just a topic that Tech PRs promote on behalf of clients '
-author: lauren
+author: /team/lauren-richards
 date: '09:41 22-11-2013'
 imported_from_wordpress:
   author: lauren
@@ -12,7 +12,7 @@ imported_from_wordpress:
   slug: big-data-just-topic-tech-prs-promote-behalf-clients
   title: >-
     Big Data is more than just a topic that Tech PRs promote on behalf of
-    clients 
+    clients
   wordpress_id: 1622
   categories:
     - Blog

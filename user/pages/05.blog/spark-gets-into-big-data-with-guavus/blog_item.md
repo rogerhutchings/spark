@@ -1,6 +1,6 @@
 ---
 title: Spark gets into Big Data with Guavus
-author: kewal
+author: /team/kewal-varia
 date: '09:28 26-04-2013'
 imported_from_wordpress:
   author: kewal

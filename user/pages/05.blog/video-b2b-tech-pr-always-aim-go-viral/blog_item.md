@@ -1,6 +1,6 @@
 ---
 title: 'Video in B2B tech PR: Should we always aim to go viral?'
-author: cathy
+author: /team/cathy-oneill
 date: '09:02 20-02-2014'
 imported_from_wordpress:
   author: cathy

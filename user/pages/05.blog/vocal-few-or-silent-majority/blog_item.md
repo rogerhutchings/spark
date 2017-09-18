@@ -1,6 +1,6 @@
 ---
 title: Vocal few or silent majority?
-author: ana
+author: /team/ana-williams
 date: '09:47 27-06-2011'
 imported_from_wordpress:
   author: ana

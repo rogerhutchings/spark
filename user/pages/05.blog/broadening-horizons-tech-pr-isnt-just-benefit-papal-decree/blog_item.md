@@ -1,6 +1,6 @@
 ---
 title: Broadening your horizons in Tech PR isn’t just a benefit – it’s Papal decree
-author: dominic
+author: /team/dom-walsh
 date: '08:38 03-07-2015'
 imported_from_wordpress:
   author: dominic

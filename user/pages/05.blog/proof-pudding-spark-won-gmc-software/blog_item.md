@@ -1,6 +1,6 @@
 ---
 title: 'The Proof of the Pudding: how Spark won GMC Software'
-author: alex
+author: /team/alex-crawshaw
 date: '15:03 08-02-2017'
 imported_from_wordpress:
   author: alex

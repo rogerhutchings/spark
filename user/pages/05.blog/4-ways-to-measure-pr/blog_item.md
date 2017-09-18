@@ -1,24 +1,25 @@
 ---
-title: The dreaded M word - 4 ways to measure PR
-author: ana
+title: 'The dreaded M word - 4 ways to measure PR'
+header_image_enabled: '1'
 date: '09:29 19-08-2013'
 imported_from_wordpress:
-  author: ana
-  comments: true
-  date: 2013-08-19T08:29:15.000Z
-  layout: post
-  link: 'http://www.sparkcomms.co.uk/2013/08/19/4-ways-to-measure-pr/'
-  slug: 4-ways-to-measure-pr
-  title: The dreaded M word - 4 ways to measure PR
-  wordpress_id: 1520
-  categories:
-    - Blog
-  tags:
-    - In-bound marketing
-    - measurement
-    - Media coverage
-    - Messaging
-    - PR
+    author: ana
+    comments: true
+    date: 1376900955
+    layout: post
+    link: 'http://www.sparkcomms.co.uk/2013/08/19/4-ways-to-measure-pr/'
+    slug: 4-ways-to-measure-pr
+    title: 'The dreaded M word - 4 ways to measure PR'
+    wordpress_id: 1520
+    categories:
+        - Blog
+    tags:
+        - 'In-bound marketing'
+        - measurement
+        - 'Media coverage'
+        - Messaging
+        - PR
+author: /team/ana-williams
 ---
 
 ![Stanley tape measure](Pic-7-150x150.jpg)Prospective and existing clients often ask us: how do you measure PR and more generally success? While clearly not the easiest of tasks, as we all know PR is inherently hard to [measure](http://www.prweek.com/uk/news/1185338/); my top 4 ways to measure success would be as follows:

@@ -1,6 +1,6 @@
 ---
 title: '“Innovation” – does it belong on toilet paper, or in PR?'
-author: dominic
+author: /team/dom-walsh
 date: '09:03 29-04-2014'
 imported_from_wordpress:
   author: dominic

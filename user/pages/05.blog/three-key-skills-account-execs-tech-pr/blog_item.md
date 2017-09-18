@@ -1,6 +1,6 @@
 ---
 title: Three key skills for account execs in tech PR
-author: david
+author: /team/david-adelman
 date: '13:33 23-02-2015'
 imported_from_wordpress:
   author: david

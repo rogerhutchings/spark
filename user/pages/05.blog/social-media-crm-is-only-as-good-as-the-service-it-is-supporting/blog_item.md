@@ -1,6 +1,6 @@
 ---
 title: Social media CRM is only as good as the service it is supporting
-author: alex
+author: /team/alex-crawshaw
 date: '11:19 20-06-2011'
 imported_from_wordpress:
   author: alex

@@ -1,6 +1,6 @@
 ---
 title: Quantity over quality?
-author: kewal
+author: /team/kewal-varia
 date: '09:34 06-01-2012'
 imported_from_wordpress:
   author: kewal

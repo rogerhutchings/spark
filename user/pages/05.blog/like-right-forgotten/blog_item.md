@@ -1,6 +1,6 @@
 ---
 title: Would you like the right to be forgotten?
-author: cathy
+author: /team/cathy-oneill
 date: '13:01 20-05-2014'
 imported_from_wordpress:
   author: cathy

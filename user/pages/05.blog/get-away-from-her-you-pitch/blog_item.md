@@ -1,6 +1,6 @@
 ---
 title: 'Get away from her, you pitch!'
-author: dominic
+author: /team/dom-walsh
 date: '09:41 22-02-2013'
 imported_from_wordpress:
   author: dominic

@@ -1,6 +1,6 @@
 ---
 title: 'Liking, Tweeting and Pinning – are there too many social networks?'
-author: alex
+author: /team/alex-crawshaw
 date: '09:25 15-03-2012'
 imported_from_wordpress:
   author: alex

@@ -1,6 +1,6 @@
 ---
 title: Hunting down tech PR feature opportunities
-author: david
+author: /team/david-adelman
 date: '10:42 27-05-2015'
 imported_from_wordpress:
   author: david

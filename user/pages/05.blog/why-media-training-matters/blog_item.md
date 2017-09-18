@@ -1,6 +1,6 @@
 ---
 title: 'Why media training matters: BlackBerry has (another) bad day at the office'
-author: michelle
+author: /team/michelle-allison
 date: '11:39 07-02-2013'
 imported_from_wordpress:
   author: michelle

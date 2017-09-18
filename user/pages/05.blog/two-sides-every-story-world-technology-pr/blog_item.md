@@ -1,6 +1,6 @@
 ---
 title: Two sides to every story in the world of technology PR
-author: tristan
+author: /team/tristan-webb
 date: '10:44 27-05-2014'
 imported_from_wordpress:
   author: tristan

@@ -1,6 +1,6 @@
 ---
 title: Aligning PR Strategy to Organisational Goals
-author: cathy
+author: /team/cathy-oneill
 date: '09:24 10-09-2015'
 imported_from_wordpress:
   author: cathy

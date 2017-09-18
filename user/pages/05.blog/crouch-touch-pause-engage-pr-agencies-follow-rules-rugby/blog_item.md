@@ -1,6 +1,6 @@
 ---
 title: 'Crouch, touch, pause, engage: Why PR agencies should follow the rules of rugby'
-author: andy
+author: /team/andy-lloyd-williams
 date: '11:44 13-02-2015'
 imported_from_wordpress:
   author: andy

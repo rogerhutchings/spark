@@ -1,6 +1,6 @@
 ---
 title: Has there ever been a more perfect PR topic than the smartphone?
-author: michelle
+author: /team/michelle-allison
 date: '08:48 19-08-2014'
 imported_from_wordpress:
   author: michelle

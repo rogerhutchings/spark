@@ -1,6 +1,6 @@
 ---
 title: Top 6 mobile apps for a tech PR
-author: alex
+author: /team/alex-crawshaw
 date: '09:29 24-03-2014'
 imported_from_wordpress:
   author: alex

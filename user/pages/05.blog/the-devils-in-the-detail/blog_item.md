@@ -1,6 +1,6 @@
 ---
 title: The Devil’s in the Detail
-author: cathy
+author: /team/cathy-oneill
 date: '10:27 14-10-2013'
 imported_from_wordpress:
   author: cathy

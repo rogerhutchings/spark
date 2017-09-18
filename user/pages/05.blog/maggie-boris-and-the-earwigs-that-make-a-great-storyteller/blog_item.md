@@ -1,6 +1,6 @@
 ---
 title: 'Maggie, Boris and the earwigs that make a great storyteller '
-author: lauren
+author: /team/lauren-richards
 date: '12:19 23-04-2013'
 imported_from_wordpress:
   author: lauren

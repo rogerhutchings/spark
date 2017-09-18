@@ -1,6 +1,6 @@
 ---
 title: 'Journalists rate Spark for Tech PR: Why, exactly?'
-author: kewal
+author: /team/kewal-varia
 date: '10:21 02-11-2012'
 imported_from_wordpress:
   author: kewal

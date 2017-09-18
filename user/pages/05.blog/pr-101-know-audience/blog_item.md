@@ -1,6 +1,6 @@
 ---
 title: 'PR 101: Know your audience'
-author: cathy
+author: /team/cathy-oneill
 date: '10:18 29-07-2015'
 imported_from_wordpress:
   author: cathy

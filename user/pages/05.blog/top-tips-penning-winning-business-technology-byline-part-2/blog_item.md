@@ -1,6 +1,6 @@
 ---
 title: Top tips for penning a winning business technology byline (Part 2)
-author: tristan
+author: /team/tristan-webb
 date: '09:49 20-07-2015'
 imported_from_wordpress:
   author: tristan

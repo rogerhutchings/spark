@@ -1,6 +1,6 @@
 ---
 title: Is your CEO making the most of social media as a PR platform?
-author: lauren
+author: /team/lauren-richards
 date: '09:53 05-06-2014'
 imported_from_wordpress:
   author: lauren

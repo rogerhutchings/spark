@@ -1,6 +1,6 @@
 ---
 title: Who remembers MSN? Four predictions for the future of social media
-author: russell
+author: /team/russell-cafferty
 date: '09:40 27-03-2015'
 imported_from_wordpress:
   author: russell

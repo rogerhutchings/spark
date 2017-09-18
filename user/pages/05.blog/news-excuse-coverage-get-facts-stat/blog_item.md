@@ -1,6 +1,6 @@
 ---
 title: 'Having no news is not an excuse for having no coverage: Get some facts, STAT'
-author: cathy
+author: /team/cathy-oneill
 date: '10:36 18-12-2014'
 imported_from_wordpress:
   author: cathy

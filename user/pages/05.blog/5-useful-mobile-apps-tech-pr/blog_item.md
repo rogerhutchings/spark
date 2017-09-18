@@ -1,6 +1,6 @@
 ---
 title: 5 more useful mobile apps for tech PR
-author: alex
+author: /team/alex-crawshaw
 date: '14:39 08-10-2015'
 imported_from_wordpress:
   author: alex

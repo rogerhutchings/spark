@@ -1,6 +1,6 @@
 ---
 title: Spark clients dominate The Times ‘Digital Transformation’ supplement
-author: alex
+author: /team/alex-crawshaw
 date: '16:26 03-07-2017'
 imported_from_wordpress:
   author: alex

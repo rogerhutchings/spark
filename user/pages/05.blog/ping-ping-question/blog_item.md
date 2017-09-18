@@ -1,6 +1,6 @@
 ---
 title: 'To ping, or not to ping? That is the question'
-author: tristan
+author: /team/tristan-webb
 date: '09:38 05-02-2016'
 imported_from_wordpress:
   author: tristan

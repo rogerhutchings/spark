@@ -1,6 +1,6 @@
 ---
 title: PR lessons to learn from HMV Twitter scandal
-author: tristan
+author: /team/tristan-webb
 date: '14:58 05-02-2013'
 imported_from_wordpress:
   author: tristan

@@ -2,7 +2,7 @@
 title: >-
   Creativity and tech PR aren’t unlikely bedfellows – tech PR just needs better
   PR!
-author: lauren
+author: /team/lauren-richards
 date: '12:00 14-11-2012'
 imported_from_wordpress:
   author: lauren
@@ -40,13 +40,11 @@ So here are our top 3 tips on creating PR content:
 
 
 
-	
+
   * **Plan based on the strength of the idea, not the tactics** – I am sure you have seen journalists complaining on Twitter about research that is so obvious it was pointless doing [e.g. revealing people are using smartphones for business!](https://twitter.com/NifS/status/264316441120108544)  Research is an extremely useful PR tactic but only to support an issue that people do or should care about
 
-	
+
   * **Give a story legs** – It’s definitely worth spending time on storyboarding so a campaign can be tweaked for use by the marketing team, in different regions and multiple times.  Make it meaty enough to share.  In today’s social media driven workplace every story idea and every piece of coverage can work harder. However, that’s not so say you should underestimate the value of a quick win in a niche publication that is perfect for your target market
 
-	
+
   * **Inspiration not perspiration** – play close attention to what industry experts such as pioneering end-users, journalists and analysts are talking about.  This should be the starting point for creative thinking, not the features and benefits of a particular product or service.   If you can add value to the debate already happening in the market you gain the credibility you need to start shaping it.  Pushing your agenda before you listen is extremely difficult and probably won’t work!
-
-

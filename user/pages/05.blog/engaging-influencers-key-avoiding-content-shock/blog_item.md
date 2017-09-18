@@ -1,6 +1,6 @@
 ---
 title: Engaging influencers is the key to avoiding content shock
-author: lauren
+author: /team/lauren-richards
 date: '12:11 01-06-2016'
 imported_from_wordpress:
   author: lauren

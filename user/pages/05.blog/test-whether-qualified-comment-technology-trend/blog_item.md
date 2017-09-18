@@ -1,6 +1,6 @@
 ---
 title: How to test whether you are qualified to comment on a technology trend
-author: lauren
+author: /team/lauren-richards
 date: '10:43 05-02-2015'
 imported_from_wordpress:
   author: lauren

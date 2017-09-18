@@ -1,6 +1,6 @@
 ---
 title: 'A Card’s For Life, Not Just For Christmas'
-author: cathy
+author: /team/cathy-oneill
 date: '10:47 30-07-2012'
 imported_from_wordpress:
   author: cathy

@@ -1,6 +1,6 @@
 ---
 title: How to avoid a stormy brainstorm
-author: chris
+author: /team/christopher-hamer
 date: '10:48 08-07-2015'
 imported_from_wordpress:
   author: chris

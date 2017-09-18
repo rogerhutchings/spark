@@ -1,6 +1,6 @@
 ---
 title: 'PQChat launch: Mastering the art of story-telling in tech PR'
-author: ana
+author: /team/ana-williams
 date: '08:54 30-05-2014'
 imported_from_wordpress:
   author: ana

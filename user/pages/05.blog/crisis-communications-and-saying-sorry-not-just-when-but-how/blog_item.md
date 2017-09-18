@@ -1,6 +1,6 @@
 ---
 title: 'Crisis communications and saying sorry: not just when, but how'
-author: michelle
+author: /team/michelle-allison
 date: '13:07 11-03-2013'
 imported_from_wordpress:
   author: michelle

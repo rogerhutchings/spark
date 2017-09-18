@@ -1,6 +1,6 @@
 ---
 title: Home is where the heart is. Usually.
-author: dominic
+author: /team/dom-walsh
 date: '17:15 02-11-2011'
 imported_from_wordpress:
   author: dominic

@@ -1,6 +1,6 @@
 ---
 title: Coverage Cup round up
-author: russell
+author: /team/russell-cafferty
 date: '11:03 14-07-2016'
 imported_from_wordpress:
   author: russell
@@ -27,19 +27,17 @@ A full list of Coverage Cup nominations can be found below:
 
 
 
- 	
+
   * FT – [Lack of role models keeps women out of cyber security](https://next.ft.com/content/c4db4106-00b2-11e6-99cb-83242733f755)
 
- 	
+
   * New Statesman – [EU commission signs off €1.8bn for cyber security – sticks two fingers up at UK](http://tech.newstatesman.com/news/eu-commission-cybersec-investment-brexit)
 
- 	
+
   * Independent – [EU members states to receive €1.8bn of cybersecurity funding](http://www.independent.co.uk/life-style/gadgets-and-tech/eu-cybersecurity-funding-a7120406.html)
 
- 	
+
   * Telegraph –  [How blockchain technology is changing the way we do business](http://business-reporter.co.uk/2016/07/11/blockchain-technology-changing-way-business/)
 
- 	
+
   * The Times – [Lawyers must deliver better service to tech-savvy clients](http://raconteur.net/business/lawyers-must-deliver-better-service-to-tech-savvy-clients)
-
-

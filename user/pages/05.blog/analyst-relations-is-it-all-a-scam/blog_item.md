@@ -1,6 +1,6 @@
 ---
 title: 'Analyst relations – is it all a scam? '
-author: kewal
+author: /team/kewal-varia
 date: '10:57 24-09-2013'
 imported_from_wordpress:
   author: kewal

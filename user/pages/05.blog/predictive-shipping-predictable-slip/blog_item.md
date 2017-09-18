@@ -1,6 +1,6 @@
 ---
 title: Predictive Shipping or Predictable Slip-up?
-author: tristan
+author: /team/tristan-webb
 date: '09:32 04-02-2014'
 imported_from_wordpress:
   author: tristan

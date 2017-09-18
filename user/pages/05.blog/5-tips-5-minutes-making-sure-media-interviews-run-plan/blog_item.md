@@ -1,6 +1,6 @@
 ---
 title: 5 tips in 5 minutes – making sure media interviews run to plan
-author: michelle
+author: /team/michelle-allison
 date: '12:43 26-01-2015'
 imported_from_wordpress:
   author: michelle

@@ -1,6 +1,6 @@
 ---
 title: 'Don’t do a Boris: Top tips on handling difficult media interviews'
-author: cathy
+author: /team/cathy-oneill
 date: '10:48 17-04-2013'
 imported_from_wordpress:
   author: cathy
@@ -31,16 +31,16 @@ With this in mind, we have prepared a few handy hints and tips for handling tric
 
 
 
-	
+
   1. **Know your enemy** – Before any interview your PR agency should provide you with a brief on who you will be speaking to: what is their interview style; what areas do they usually like to cover; who are they writing for; and the style of the publication. Having this information at your fingertips will allow you to take an angle that will gain the most interest and establish a swift rapport with the journalist so that you are able to secure the best coverage possible.
 
-	
+
   2. **Get your facts straight** – Unless the interview is stated from the start to be ‘off the record’, then assume everything you say may and will go into print. With this in mind, it is never a good idea to mention customer names, financial information, or specific growth targets unless you know you have the authorisation to do so.
 
-	
+
   3. **Just say no** - Many people in interview situations can fall into the trap of believing they absolutely _have _to answer everything that is asked of them, which simply isn’t true. The trick here is to have the confidence to simply say no. This can be a difficult art to master, as it demands that the interviewee refuses the journalist while still keeping them onside. There are a number of techniques that can be deployed to do this, for example, saying ‘while I can’t talk about x, I can talk about y’.
 
-	
+
   4. **Expect the unexpected** – Ahead of any interview there should always be agreed parameters about why the interview is taking place and the key topics that will be discussed. However, journalists do not always stick to the script and sometimes they may be interested in gaining expert opinion on other topics. For example, there may have been breaking news that the journalist asks for comment on, or they may want to know about other areas of the business that you are not involved in. The key is to not let yourself get flustered; if you are comfortable answering the question then it can actually be beneficial form a relationship building perspective to get into a wider discussion. At the same time you should not feel pressured into answering anything that you are not comfortable talking about.
 
 

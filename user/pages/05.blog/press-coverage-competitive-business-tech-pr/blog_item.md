@@ -1,6 +1,6 @@
 ---
 title: Press coverage is a competitive business in tech PR
-author: kewal
+author: /team/kewal-varia
 date: '15:06 13-01-2014'
 imported_from_wordpress:
   author: kewal

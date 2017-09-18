@@ -1,6 +1,6 @@
 ---
 title: 'Getting a Rise: How to make the most of your PR at Infosec'
-author: dominic
+author: /team/dom-walsh
 date: '09:15 20-05-2015'
 imported_from_wordpress:
   author: dominic

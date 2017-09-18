@@ -1,6 +1,6 @@
 ---
 title: RIP Google Reader – but RSS remains an important PR tool
-author: alex
+author: /team/alex-crawshaw
 date: '16:18 08-04-2013'
 imported_from_wordpress:
   author: alex

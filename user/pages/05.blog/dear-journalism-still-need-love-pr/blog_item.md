@@ -1,6 +1,6 @@
 ---
 title: 'Dear journalism, we still need you, love from, PR.'
-author: michelle
+author: /team/michelle-allison
 date: '09:57 29-01-2014'
 imported_from_wordpress:
   author: michelle

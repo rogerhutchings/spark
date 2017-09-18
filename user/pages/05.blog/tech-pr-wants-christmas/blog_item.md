@@ -1,6 +1,6 @@
 ---
 title: What a tech PR wants for Christmas
-author: alex
+author: /team/alex-crawshaw
 date: '12:37 04-12-2013'
 imported_from_wordpress:
   author: alex

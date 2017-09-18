@@ -2,7 +2,7 @@
 title: >-
   The answer is no, Google didn’t just kill PR agencies, it rewarded them for
   sticking to their knitting
-author: lauren
+author: /team/lauren-richards
 date: '09:24 27-08-2013'
 imported_from_wordpress:
   author: lauren

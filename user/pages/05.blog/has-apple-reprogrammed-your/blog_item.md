@@ -1,6 +1,6 @@
 ---
 title: Has Apple reprogrammed your child’s OS?
-author: lauren
+author: /team/lauren-richards
 date: '14:32 09-11-2011'
 imported_from_wordpress:
   author: lauren

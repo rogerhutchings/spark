@@ -1,6 +1,6 @@
 ---
 title: How to win at social media with the Clintons
-author: michelle
+author: /team/michelle-allison
 date: '14:40 20-06-2013'
 imported_from_wordpress:
   author: michelle
@@ -30,22 +30,22 @@ So, what tips can companies pick up from the Clinton’s foray into the Twitters
 
 
 
-	
+
   * **Make an entrance** – Hillary’s [inspired first tweet](https://twitter.com/HillaryClinton/status/344132945122054144), a play on the [#TextsFromHillary](https://twitter.com/search?q=%23textsfromhillary&src=typd) meme was a great start. Retweeted 11,042 times so far, that first tweet itself generated a whole lot of headlines and goodwill.
 
-	
+
   * **Have a sense of humour** – Well done Hillary, referencing your own meme and taking [‘selfies’ with your child](https://twitter.com/HillaryClinton/status/345624650186891264); clever, wry and in the best of humour.
 
-	
+
   * **Choose your time wisely **– Do not, under any circumstances, try to gain capital or [make jokes](http://www.adweek.com/adfreak/16-humiliating-twitter-brand-fails-one-painfully-hilarious-chart-148170) out of tragic events (I can’t believe that even needs to be said, but sadly it does).
 
-	
+
   * **Don’t forget your profile** – The 140 characters under you name is your first chance to draw the user in. Hillary’s is excellent, and that clever ‘TBD…’ ending hasn’t put those 2016 rumours to bed.
 
-	
+
   * **Be active **– Now Hillary is letting the side down here a bit, but Bill and Chelsea are regular tweeters; businesses with inactive streams or infrequent updates are not engaging in the conversation which will deliver them customers.
 
-	
+
   * **Build your brand** – Chelsea Clinton does this very well, her [Twitter profile page](https://twitter.com/ChelseaClinton) has the Twitter handles of all her other associated accounts listed down the side – a good tip, make it easy for users to find your other connected networks.
 
 

@@ -1,6 +1,6 @@
 ---
 title: Top tips for getting value from PR research projects
-author: alex
+author: /team/alex-crawshaw
 date: '08:53 17-07-2014'
 imported_from_wordpress:
   author: alex

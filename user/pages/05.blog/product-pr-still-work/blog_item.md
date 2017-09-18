@@ -1,6 +1,6 @@
 ---
 title: Product PR – Does it still work?
-author: kewal
+author: /team/kewal-varia
 date: '09:49 09-06-2014'
 imported_from_wordpress:
   author: kewal

@@ -2,7 +2,7 @@
 title: >-
   Bromium selects Spark Communications for six figure UK PR brief, global PR
   strategy and content
-author: kewal
+author: /team/kewal-varia
 date: '10:29 23-02-2017'
 imported_from_wordpress:
   author: kewal

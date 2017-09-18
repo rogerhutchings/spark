@@ -1,6 +1,6 @@
 ---
 title: Engaging with IT journalists has more benefits than just press coverage
-author: lauren
+author: /team/lauren-richards
 date: '09:33 17-03-2015'
 imported_from_wordpress:
   author: lauren

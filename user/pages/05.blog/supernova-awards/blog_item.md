@@ -1,6 +1,6 @@
 ---
 title: SuperNova Awards
-author: kewal
+author: /team/kewal-varia
 date: '09:19 27-07-2011'
 imported_from_wordpress:
   author: kewal

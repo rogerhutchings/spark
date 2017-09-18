@@ -1,6 +1,6 @@
 ---
 title: When to respond – Hillary and hijacking the news
-author: david
+author: /team/david-adelman
 date: '11:44 23-08-2016'
 imported_from_wordpress:
   author: david

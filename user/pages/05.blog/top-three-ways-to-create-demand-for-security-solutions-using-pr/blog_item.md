@@ -1,6 +1,6 @@
 ---
 title: 'Top three ways to create demand for security solutions using PR '
-author: lauren
+author: /team/lauren-richards
 date: '13:22 18-01-2013'
 imported_from_wordpress:
   author: lauren
@@ -32,13 +32,13 @@ You only have to look at the time and effort that companies such as Sophos, Bitd
 
 
 
-	
+
   * [News hijacking](http://www.itpro.co.uk/642658/glasgow-city-council-puts-data-at-risk-as-750-computers-go-missing) – For example a large proportion of our work for ViaSat focuses on lost laptops.  Highlighting the problem of careless end-users gives us the opportunity to talk about the importance of encryption
 
-	
+
   * [Reports & surveys](http://www.independent.co.uk/news/uk/home-news/six-fines-issued-for-data-breaches-7677935.html%20%20or%20http:/www.bbc.co.uk/news/technology-17843371) – providing customers with insight into what will happen and why when they fail to employ correct security measures
 
-	
+
   * [Vertically-focused content](http://www.army-technology.com/features/featurecybersecurity-defending-the-digital-line/) – The number one concern of one vertical sector, and the threats it faces are often completely different to the issues keeping another vertical sector buyer awake at night.  A story that talks about their challenges is the only way to engage them
 
 

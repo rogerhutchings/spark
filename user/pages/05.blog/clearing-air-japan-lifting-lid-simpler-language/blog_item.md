@@ -1,6 +1,6 @@
 ---
 title: 'Clearing The Air: Why Japan Is Lifting The Lid On Simpler Language'
-author: dominic
+author: /team/dom-walsh
 date: '09:51 10-02-2017'
 imported_from_wordpress:
   author: dominic
@@ -33,5 +33,3 @@ Much like the Japanese toilet seat industry, we need to know where we should foc
 ![](Japanese-toilet.jpg)
 
 NEW INSTRUCTIONS: From left – Mrs. Pac-Man; Pac-Man; sonic boom; hadoken; ants at a picnic; ejector seat; beach holiday; privacy window. (Picture credit: JAPAN SANITARY EQUIPMENT INDUSTRY ASSOCIATION)
-
-

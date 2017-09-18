@@ -1,6 +1,6 @@
 ---
 title: 'Console Wars Redux: where exactly is the war won?'
-author: dominic
+author: /team/dom-walsh
 date: '11:53 19-06-2013'
 imported_from_wordpress:
   author: dominic

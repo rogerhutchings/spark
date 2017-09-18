@@ -1,6 +1,6 @@
 ---
 title: What to make of Google+
-author: alex
+author: /team/alex-crawshaw
 date: '14:33 20-07-2011'
 imported_from_wordpress:
   author: alex

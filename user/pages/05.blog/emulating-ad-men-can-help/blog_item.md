@@ -1,6 +1,6 @@
 ---
 title: Emulating the Ad Men can help
-author: lauren
+author: /team/lauren-richards
 date: '09:02 16-10-2015'
 imported_from_wordpress:
   author: lauren

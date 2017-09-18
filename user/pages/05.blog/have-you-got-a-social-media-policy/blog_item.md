@@ -1,6 +1,6 @@
 ---
 title: Have you got a social media policy?
-author: kewal
+author: /team/kewal-varia
 date: '11:07 01-09-2011'
 imported_from_wordpress:
   author: kewal

@@ -2,7 +2,7 @@
 title: >-
   Can I have copy approval? 5 ways to prevent this (coverage) killer question
   from cropping up
-author: tristan
+author: /team/tristan-webb
 date: '09:56 26-02-2015'
 imported_from_wordpress:
   author: tristan

@@ -1,6 +1,6 @@
 ---
 title: Review from the top
-author: alex
+author: /team/alex-crawshaw
 date: '09:07 22-08-2012'
 imported_from_wordpress:
   author: alex
@@ -29,17 +29,17 @@ Clearly product reviews play an important role in this, yet they can be easily d
 
 
 
-	
+
   * **Positioning** – Who are your competitors and how can you use their strengths and weaknesses to your advantage?  If you are cheaper be upfront about it, at the same time if your product costs more explain why.
 
 
 
-	
+
   * **Product **– Clearly the product itself is important, so it is vital to think like the reviewer and look at the product in terms of what will excite them (and their readers).  Product samples are no different from press releases in this regard, as journalists will be dealing with multiple items at one time so the best ones need to stand out from the crowd.  Reviewers have a passion for products and there may be small things about your product that you don’t think of initially that they will really love or hate!
 
 
 
-	
+
   * **Preparation** – It’s not rocket science, but understanding the product and knowing the relevant reviews media is vital.   Being able to push the right product features and being able to resolve product queries quickly can go a long way with a reviewer. Also make sure that you have good-quality print and web images to hand as not all publications take their own product photography.
 
 

@@ -1,6 +1,6 @@
 ---
 title: Beware what you tweet
-author: alex
+author: /team/alex-crawshaw
 date: '14:04 23-06-2011'
 imported_from_wordpress:
   author: alex

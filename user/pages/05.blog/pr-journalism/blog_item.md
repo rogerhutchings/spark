@@ -1,6 +1,6 @@
 ---
 title: PR & Journalism – Everything changes but you
-author: alex
+author: /team/alex-crawshaw
 date: '09:30 09-01-2013'
 imported_from_wordpress:
   author: alex

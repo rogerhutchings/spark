@@ -1,8 +1,8 @@
 ---
 title: >-
   Fact or fiction? - Bodyform’s video ‘The Truth’ is a great example of social
-  media marketing 
-author: cathy
+  media marketing
+author: /team/cathy-oneill
 date: '12:17 08-11-2012'
 imported_from_wordpress:
   author: cathy
@@ -13,7 +13,7 @@ imported_from_wordpress:
   slug: fact-or-fiction
   title: >-
     Fact or fiction? - Bodyform’s video ‘The Truth’ is a great example of social
-    media marketing 
+    media marketing
   wordpress_id: 1291
   categories:
     - Blog

@@ -1,6 +1,6 @@
 ---
 title: Do I want a large helping of Raspberry Pi? Yes please
-author: ana
+author: /team/ana-williams
 date: '09:55 19-03-2012'
 imported_from_wordpress:
   author: ana

@@ -1,6 +1,6 @@
 ---
 title: End of Days
-author: dominic
+author: /team/dom-walsh
 date: '09:30 11-07-2011'
 imported_from_wordpress:
   author: dominic

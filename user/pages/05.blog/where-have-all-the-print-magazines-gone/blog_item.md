@@ -1,6 +1,6 @@
 ---
 title: Where have all the print magazines gone?
-author: alex
+author: /team/alex-crawshaw
 date: '10:18 07-07-2011'
 imported_from_wordpress:
   author: alex

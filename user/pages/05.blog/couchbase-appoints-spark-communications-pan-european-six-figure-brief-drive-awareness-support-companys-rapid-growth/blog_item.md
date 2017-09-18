@@ -2,7 +2,7 @@
 title: >-
   Couchbase appoints Spark Communications for Pan-European six figure brief to
   drive awareness and support the company’s rapid growth
-author: ana
+author: /team/ana-williams
 date: '10:40 23-03-2017'
 imported_from_wordpress:
   author: ana

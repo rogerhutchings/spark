@@ -1,6 +1,6 @@
 ---
 title: The importance of a tight PR sell-in process
-author: ana
+author: /team/ana-williams
 date: '09:26 12-09-2014'
 imported_from_wordpress:
   author: ana

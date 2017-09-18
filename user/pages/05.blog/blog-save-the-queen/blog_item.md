@@ -1,6 +1,6 @@
 ---
 title: Blog Save the Queen
-author: lauren
+author: /team/lauren-richards
 date: '10:59 14-06-2012'
 imported_from_wordpress:
   author: lauren

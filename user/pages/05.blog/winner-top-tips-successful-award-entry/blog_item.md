@@ -1,6 +1,6 @@
 ---
 title: And the winner is…? Top tips for a successful award entry
-author: alex
+author: /team/alex-crawshaw
 date: '09:43 11-03-2015'
 imported_from_wordpress:
   author: alex

@@ -1,6 +1,6 @@
 ---
 title: 'Big in Japan: Turning Reams of Footage into PR Success'
-author: dominic
+author: /team/dom-walsh
 date: '11:30 04-12-2015'
 imported_from_wordpress:
   author: dominic

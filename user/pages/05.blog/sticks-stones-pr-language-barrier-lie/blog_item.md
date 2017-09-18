@@ -1,6 +1,6 @@
 ---
 title: 'Sticks and Stones: Where does the PR language barrier lie?'
-author: dominic
+author: /team/dom-walsh
 date: '10:11 01-09-2016'
 imported_from_wordpress:
   author: dominic

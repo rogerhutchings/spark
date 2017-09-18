@@ -1,6 +1,6 @@
 ---
 title: Who said August was a quiet month?
-author: alex
+author: /team/alex-crawshaw
 date: '10:31 22-08-2011'
 imported_from_wordpress:
   author: alex

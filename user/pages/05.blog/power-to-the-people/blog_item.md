@@ -1,6 +1,6 @@
 ---
 title: Power to the people?
-author: alex
+author: /team/alex-crawshaw
 date: '16:15 18-06-2012'
 imported_from_wordpress:
   author: alex

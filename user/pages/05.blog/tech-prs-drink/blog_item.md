@@ -1,6 +1,6 @@
 ---
 title: Tech PRs should drink more
-author: ana
+author: /team/ana-williams
 date: '09:20 16-01-2014'
 imported_from_wordpress:
   author: ana

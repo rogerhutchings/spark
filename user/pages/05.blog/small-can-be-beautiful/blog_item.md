@@ -1,6 +1,6 @@
 ---
 title: Tech PR - Small can be beautiful
-author: lauren
+author: /team/lauren-richards
 date: '09:30 13-01-2012'
 imported_from_wordpress:
   author: lauren

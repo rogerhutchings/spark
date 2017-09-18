@@ -1,6 +1,6 @@
 ---
 title: Making sense of PR speak
-author: alex
+author: /team/alex-crawshaw
 date: '09:29 06-08-2015'
 imported_from_wordpress:
   author: alex

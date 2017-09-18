@@ -1,6 +1,6 @@
 ---
 title: 'Do you know a SuperNova? '
-author: kewal
+author: /team/kewal-varia
 date: '14:44 11-06-2012'
 imported_from_wordpress:
   author: kewal

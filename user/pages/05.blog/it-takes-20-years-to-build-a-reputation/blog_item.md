@@ -1,6 +1,6 @@
 ---
 title: 'It takes 20 years to build a reputation, and 5 minutes to ruin it'
-author: cathy
+author: /team/cathy-oneill
 date: '09:30 10-07-2013'
 imported_from_wordpress:
   author: cathy

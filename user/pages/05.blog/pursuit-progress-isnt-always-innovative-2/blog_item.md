@@ -1,6 +1,6 @@
 ---
 title: Why the pursuit of progress isn’t always innovative
-author: chris
+author: /team/christopher-hamer
 date: '10:47 06-04-2016'
 imported_from_wordpress:
   author: chris

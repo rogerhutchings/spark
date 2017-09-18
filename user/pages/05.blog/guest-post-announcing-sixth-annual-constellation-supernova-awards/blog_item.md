@@ -1,6 +1,6 @@
 ---
 title: 'Guest Post: Announcing the Sixth Annual Constellation SuperNova Awards'
-author: alex
+author: /team/alex-crawshaw
 date: '10:59 03-03-2016'
 imported_from_wordpress:
   author: alex

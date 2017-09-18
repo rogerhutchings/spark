@@ -1,6 +1,6 @@
 ---
 title: 'Forget churnalism, great journalism is still what matters to PR'
-author: aimee
+author: /team/aimee-lynn
 date: '09:30 14-09-2015'
 imported_from_wordpress:
   author: aimee
