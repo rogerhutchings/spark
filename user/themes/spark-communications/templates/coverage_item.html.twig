@@ -1,7 +1,7 @@
 {% extends 'partials/base.html.twig' %}
 
 {% set blurb = page.find('/coverage') %}
-{% set options = { items: { '@page': '/coverage' }, 'order': {'by': 'date', 'dir': 'desc' } } %}
+{% set options = { items: { '@page': '/coverage' }, 'order': {'by': 'date', 'dir': 'desc' }, 'dateRange': { 'start': '-1 year' } } %}
 {% set allPages = page.collection(options) %}
 {% set isLatest = allPages.isFirst(page.path) %}
 
