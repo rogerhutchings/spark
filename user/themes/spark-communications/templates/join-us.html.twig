@@ -1,5 +1,24 @@
 {% extends 'partials/base.html.twig' %}
 
+{% set blogLinks = [
+  {
+    title: 'Bouncing ideas around: Bubble football with journalists',
+    url: '/blog/bouncing-ideas-around-bubble-football-journalists'
+  },
+  {
+    title: 'Being the big fish in the big PR pond',
+    url: '/blog/big-fish-big-pr-pond'
+  },
+  {
+    title: 'Top tips for avoiding meeting mayhem',
+    url: '/blog/top-tips-avoiding-meeting-mayhem'
+  },
+  {
+    title: 'Summer day out – Laser Quest and Electric Barge',
+    url: '/blog/summer-day-laser-quest-electric-barge'
+  }
+] %}
+
 {% block main %}
   <main class="ph3 cover {{ page.header.main_classes }}">
     <div class="bg-white relative top--6 neg-mb7 mw8 center {{ page.header.main_container_classes }}">
@@ -24,10 +43,11 @@
             From our blog
           </h2>
           <ul class="mw5 center">
-            {% set blogLinks = ['Ideas from company', 'Radio Wars', 'Coverage Cup', 'Fantasy Football', 'See All Blogs'] %}
             {% for link in blogLinks %}
               <li class="">
-                {{ link }}
+                <a href="{{ link.url }}">
+                  {{ link.title }}
+                </a>
               </li>
             {% endfor %}
           </ul>
