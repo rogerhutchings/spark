@@ -66,17 +66,15 @@
               <ul class="list pl0 ph3">
                 {% for link in page.header.links %}
                   <li class="mb3">
-                    <span class="orange b">
-                      {{ link.source }} &ndash;
-                    </span>
                     <a
-                      href="{{ link.url }}"
-                      class="link underline-hover gray"
+                    href="{{ link.url }}"
+                    class="link underline-hover b"
                     >
-                      <span class="grey">
-                        {{ link.headline }}
-                      </span>
+                      {{ link.source }}
                     </a>
+                    <span class="grey">
+                      &ndash; {{ link.headline }}
+                    </span>
                   </li>
                 {% endfor %}
               </ul>
@@ -84,8 +82,6 @@
           </div>
 
         </div>
-
-
 
       </article>
 
