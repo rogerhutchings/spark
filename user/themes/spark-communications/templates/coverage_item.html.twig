@@ -27,7 +27,7 @@
         <div class="mw8 center pa3 ph4-ns pb4-ns pt5-ns bg-white flex-ns">
 
           <section class="w-60-ns mr3-ns">
-            <div class="bg-o20-orange pa4 tl">
+            <div class="bg-o20-orange pa4 tl min-h6 ">
               <h2>
                 {{ page.header.title }}
               </h2>
@@ -37,7 +37,7 @@
               {{ page.content|markdown }}
               <div id="share"></div>
             </div>
-            <nav class="flex mt2">
+            <nav class="flex mt2 ">
               {% set navClasses = 'dib pa3 w-50 bg-orange white' %}
               {% if not allPages.isLast(page.path) %}
               {% set prev = allPages.prevSibling(page.path) %}
@@ -62,7 +62,7 @@
           </section>
 
           <div class="w-40-ns bl br bw1 b--orange mv0  tl relative">
-            <div class="absolute-ns absolute--fill overflow-y-scroll-ns mr2">
+            <div class="absolute-ns absolute--fill overflow-y-scroll-ns scrollbar-inner">
               <ul class="list pl0 ph3">
                 {% for link in page.header.links %}
                   <li class="mb3">

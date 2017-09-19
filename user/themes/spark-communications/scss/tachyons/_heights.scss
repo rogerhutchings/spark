@@ -7,7 +7,7 @@
 
 /* Height Scale */
 
-.min-h6 { height: 36rem; }
+.min-h6 { min-height: 36rem; }
 
 @media #{$breakpoint-not-small} {
   .min-h6-ns { min-height: 36rem; }
