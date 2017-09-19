@@ -19,11 +19,19 @@
   }
 ] %}
 
-<section class="mh3 cf bg-white tc ttu fw4">
+{% set widths = 'w-100 db w-third-ns w-third-m w-third-l' %}
+{% set bgs = 'bg-white' %}
+{% set hovers = 'hover-orange hover-fill-orange no-decoration-hover' %}
+
+<section class="mh3 flex-ns flex-m flex-l bg-white tc ttu fw4 relative">
   {% for link in heroLinks %}
-    <a href={{ link.url }} class="fl w-100 w-third-ns pt2 pb3 ph5 db link black bg-white hover-orange hover-fill-orange no-decoration-hover">
-      <div class="aspect-ratio aspect-ratio--8x5 w-50 center">
-        {% include link.icon with { class: 'aspect-ratio--object' } %}
+    <a
+      href={{ link.url }}
+      class="{{ widths }} {{ bgs }} {{ hovers }} link black pb3 z-2">
+      <div class="ph5 pv3">
+        <div class="aspect-ratio aspect-ratio--16x9 mh3 center">
+          {% include link.icon with { class: 'aspect-ratio--object' } %}
+        </div>
       </div>
       <div class="f3 db">
         {{ link.title }}

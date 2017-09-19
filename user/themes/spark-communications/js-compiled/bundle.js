@@ -180,9 +180,11 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
+  var nav = $('.js-nav');
+
   $('#js-open-menu').on('click', function (event) {
     $(this).toggleClass('is-active');
-    $('.js-nav').toggleClass('open');
+    nav.toggleClass('open');
     $('body').toggleClass('open');
   });
 });

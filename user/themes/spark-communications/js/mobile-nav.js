@@ -1,7 +1,10 @@
 $(document).ready(() => {
+  const nav = $('.js-nav');
+
   $('#js-open-menu').on('click', function (event) {
     $(this).toggleClass('is-active');
-    $('.js-nav').toggleClass('open');
+    nav.toggleClass('open');
     $('body').toggleClass('open');
   });
+
 });
