@@ -1,28 +1,37 @@
+{#
+  Note the slightly weird placement of the anchors. This is to allow for the
+  overlap with the SVG icons and still jump to the right place.
+#}
+
 {% extends 'partials/base.html.twig' %}
+{% set services = page.header.services %}
+
+{% block header %}
+  {{ parent() }}
+  <a name="{{ services[0].title|hyphenize }}" class="db relative" style="top: -10rem;">&nbsp;</a>
+{% endblock header %}
+
 
 {% block main %}
   <main class="ph3 cover">
     <div class="bg-white relative top--6 neg-mb7 mw8 center">
-
       <article class="tc">
         <ul class="list pl0 mv0 tc bg-img-city-overlay">
-          {% for service in page.header.services %}
-            {% set backgroundColor = loop.first ? 'bg-o80-purple' : 'bg-o80-white' %}
-            {% set textColor = loop.first ? 'white' : 'black' %}
+          {% for index, service in services %}
             {% set iconOptions = {
               divClasses: 'bg-transparent neg-mh4 b--orange',
               svgFile: 'circle-' ~ service.title|hyphenize,
             } %}
 
-            <li class="ph4 pb5 {{ backgroundColor }} {{ textColor }}">
+            <li class="js-service ph4 pb5 bg-o80-white black">
               {% include 'partials/icon_header_block.html.twig' with iconOptions %}
-              <a name="{{ service.title|hyphenize }}"></a>
-                <h2 class="orange ttu fw4">
-                  {{ service.title }}
-                </h2>
-                <div class="measure-wide center pb4">
-                  {{ service.content|markdown }}
-                </div>
+              <h2 class="orange ttu fw4">
+                {{ service.title }}
+              </h2>
+              <div class="measure-wide center pb4">
+                {{ service.content|markdown }}
+              </div>
+              <a name="{{ services[index + 1].title|hyphenize }}" class="db mb2">&nbsp;</a>
             </li>
           {% endfor %}
         </ul>

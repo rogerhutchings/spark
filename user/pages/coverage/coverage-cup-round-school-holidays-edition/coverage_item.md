@@ -63,12 +63,11 @@ links:
       http://www.computerworlduk.com/applications/why-ucas-turned-apis-link-up-university-admissions-process-3661757/
     source: ComputerWorld UK
 ---
-![](Coverage-cup-167x300.jpg)The school summer holidays may be coming to an end, but it has been business as usual for the Spark team in terms of client media coverage.
 
-First to help themselves to the buffet of coverage was Venafi, whose letter to the editor re: comments made by the Home Secretary on Brexit, was featured in _The Independent_. MuleSoft was the next to the coverage party after the team secured a briefing between the company's founder and d_iginomica_ to discuss the importance of API-led connectivity.
+The school summer holidays may be coming to an end, but it has been business as usual for the Spark team in terms of client media coverage.
 
-Fruition also joined fun, achieving coverage on _Compare the Cloud_ for a byline considering how CIO’s can ‘tame’ cloud. Also in the game was Centiro, whose comments on the launch of Amazon Hub were featured on _Business Review USA_.
+First to help themselves to the buffet of coverage was Venafi, whose letter to the editor re: comments made by the Home Secretary on Brexit, was featured in _The Independent_. MuleSoft was the next to the coverage party after the team secured a briefing between the company’s founder and _diginomica_ to discuss the importance of API-led connectivity.
 
-Finally, Elsevier had a byline on the importance of green chemistry featuring in _Laboratory News, _and 3CX’s acquisition of Askozia made it onto _Channelnomics._
+Fruition also joined fun, achieving coverage on _Compare the Cloud_ for a byline considering how CIO’s can ‘tame’ cloud. Also in the game was Centiro, whose comments on the launch of Amazon Hub were featured on _Business Review USA_.
 
-A full list of this week’s coverage can be found below.
+Finally, Elsevier had a byline on the importance of green chemistry featuring in _Laboratory News_, and 3CX’s acquisition of Askozia made it onto _Channelnomics_.

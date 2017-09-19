@@ -37,52 +37,58 @@
               {{ page.content|markdown }}
               <div id="share"></div>
             </div>
-
             <nav class="flex mt2">
               {% set navClasses = 'dib pa3 w-50 bg-orange white' %}
               {% if not allPages.isLast(page.path) %}
-                {% set prev = allPages.prevSibling(page.path) %}
-                <a
-                  class="tl mr1 {{ navClasses }}"
-                  href="{{ prev.url }}"
-                >
-                  &laquo; Previous week <span class="f6">({{ prev.date|date("F j, Y") }})</span>
-                </a>
-              {% endif %}
+              {% set prev = allPages.prevSibling(page.path) %}
+              <a
+              class="tl mr1 {{ navClasses }}"
+              href="{{ prev.url }}"
+              >
+              &laquo; Previous week <span class="f6">({{ prev.date|date("F j, Y") }})</span>
+            </a>
+            {% endif %}
 
-              {% if not allPages.isFirst(page.path) %}
-                {% set next = allPages.nextSibling(page.path) %}
-                <a
-                  class="tr ml1 {{ navClasses }}"
-                  href="{{ next.url }}"
-                >
-                  Next week <span class="f6">({{ next.date|date("F j, Y") }})</span> &raquo;
-                </a>
-              {% endif %}
+            {% if not allPages.isFirst(page.path) %}
+            {% set next = allPages.nextSibling(page.path) %}
+            <a
+            class="tr ml1 {{ navClasses }}"
+            href="{{ next.url }}"
+            >
+            Next week <span class="f6">({{ next.date|date("F j, Y") }})</span> &raquo;
+            </a>
+            {% endif %}
             </nav>
           </section>
 
-          <ul class="w-40-ns bl br bw2 b--orange mv0 list ph3 tl">
-            {% for link in page.header.links %}
-              <li class="mb3">
-                <span class="orange b">
-                  {{ link.source }} &ndash;
-                </span>
-                <a
-                  href="{{ link.url }}"
-                  class="link underline-hover gray"
-                >
-                  <span class="grey">
-                    {{ link.headline }}
-                  </span>
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
+          <div class="w-40-ns bl br bw1 b--orange mv0  tl relative">
+            <div class="absolute-ns absolute--fill overflow-y-scroll-ns mr2">
+              <ul class="list pl0 ph3">
+                {% for link in page.header.links %}
+                  <li class="mb3">
+                    <span class="orange b">
+                      {{ link.source }} &ndash;
+                    </span>
+                    <a
+                      href="{{ link.url }}"
+                      class="link underline-hover gray"
+                    >
+                      <span class="grey">
+                        {{ link.headline }}
+                      </span>
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
 
         </div>
 
+
+
       </article>
+
       {% block main_lower %}
       {% endblock main_lower %}
     </div>
