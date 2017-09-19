@@ -3,6 +3,7 @@
 {% set blurb = page.find('/coverage') %}
 {% set options = { items: { '@page': '/coverage' }, 'order': {'by': 'date', 'dir': 'desc' } } %}
 {% set allPages = page.collection(options) %}
+{% set isLatest = allPages.isFirst(page.path) %}
 
 {% block headerClasses %}
   bg-img-trophy
@@ -22,6 +23,11 @@
         </h1>
         <header class="measure-wide center">
           {{ blurb.content }}
+          {% if isLatest %}
+            <p>Below are this fortnight’s highlights:</p>
+          {% else %}
+            <p>Below are some of our previous highlights:</p>
+          {% endif %}
         </header>
 
         <div class="mw8 center pa3 ph4-ns pb4-ns pt5-ns bg-white flex-ns">
@@ -40,24 +46,24 @@
             <nav class="flex mt2 ">
               {% set navClasses = 'dib pa3 w-50 bg-orange white' %}
               {% if not allPages.isLast(page.path) %}
-              {% set prev = allPages.prevSibling(page.path) %}
-              <a
-              class="tl mr1 {{ navClasses }}"
-              href="{{ prev.url }}"
-              >
-              &laquo; Previous week <span class="f6">({{ prev.date|date("F j, Y") }})</span>
-            </a>
-            {% endif %}
+                {% set prev = allPages.prevSibling(page.path) %}
+                <a
+                  class="tl mr1 {{ navClasses }}"
+                  href="{{ prev.url }}"
+                >
+                  &laquo; Previous week <span class="f6">({{ prev.date|date("F j, Y") }})</span>
+                </a>
+              {% endif %}
 
-            {% if not allPages.isFirst(page.path) %}
-            {% set next = allPages.nextSibling(page.path) %}
-            <a
-            class="tr ml1 {{ navClasses }}"
-            href="{{ next.url }}"
-            >
-            Next week <span class="f6">({{ next.date|date("F j, Y") }})</span> &raquo;
-            </a>
-            {% endif %}
+              {% if not allPages.isFirst(page.path) %}
+                {% set next = allPages.nextSibling(page.path) %}
+                <a
+                  class="tr ml1 {{ navClasses }}"
+                  href="{{ next.url }}"
+                >
+                  Next week <span class="f6">({{ next.date|date("F j, Y") }})</span> &raquo;
+                </a>
+              {% endif %}
             </nav>
           </section>
 
