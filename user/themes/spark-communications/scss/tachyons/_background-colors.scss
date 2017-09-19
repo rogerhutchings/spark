@@ -1,3 +1,15 @@
+@media #{$breakpoint-not-small} {
+  .bg-white-ns { background-color: $white; }
+}
+
+@media #{$breakpoint-medium} {
+  .bg-white-m { background-color: $white; }
+}
+
+@media #{$breakpoint-large} {
+  .bg-white-l { background-color: $white; }
+}
+
 .bg-o80-white {
   background-color: transparentize($white, 0.2);
 }

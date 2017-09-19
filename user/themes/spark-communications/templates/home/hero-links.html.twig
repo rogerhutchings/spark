@@ -20,15 +20,15 @@
 ] %}
 
 {% set widths = 'w-100 db w-third-ns w-third-m w-third-l' %}
-{% set bgs = 'bg-white' %}
+{% set bgs = 'bg-washed-red bg-white-ns bg-white-m bg-white-l' %}
 {% set hovers = 'hover-orange hover-fill-orange no-decoration-hover' %}
 
 <section class="mh3 flex-ns flex-m flex-l bg-white tc ttu fw4 relative">
   {% for link in heroLinks %}
     <a
       href={{ link.url }}
-      class="{{ widths }} {{ bgs }} {{ hovers }} link black pb3 z-2">
-      <div class="ph5 pv3">
+      class="{{ widths }} {{ bgs }} {{ hovers }} link black pb3 z-2 mb3 mb0-ns mb0-m mb0-l">
+      <div class="ph6 ph5-ns ph5-m ph5-l pv3">
         <div class="aspect-ratio aspect-ratio--16x9 mh3 center">
           {% include link.icon with { class: 'aspect-ratio--object' } %}
         </div>
