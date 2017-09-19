@@ -29,7 +29,3 @@ footer:
   links:
     - text: 'Privacy Policy'
       url: '/privacy-policy'
-    - text: 'Terms & Conditions'
-      url: '/terms-and-conditions'
-    - text: 'Cookie Policy'
-      url: '/cookie-policy'
