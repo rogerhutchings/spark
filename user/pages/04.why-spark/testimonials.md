@@ -6,7 +6,7 @@ testimonials:
         source: 'Gary Griffiths, CEO, iPass '
     -
         body: 'Spark gets results. They have a unique ability to formulate engaging content that helps influence public policy and drive amazing coverage'
-        source: 'Chris Phillips, director of public relations | corporate communications, ViaSat '
+        source: 'Chris Phillips, director of public relations and corporate communications, ViaSat '
     -
         body: 'Creative thinkers and storytellers, fantastic media reach and great results - that''s why we''ve worked with Spark for over a decade'
         source: 'Mette Krogh, VP of marketing EMEA and APAC, JDA Software'
