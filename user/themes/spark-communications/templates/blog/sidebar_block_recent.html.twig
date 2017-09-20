@@ -5,7 +5,7 @@
   {% block sidebar_content %}
     <ul class="list-angle pl4 ma0">
       {% for post in page.find('/blog').children.order('date', 'desc').slice(0, 5) %}
-        <li class="list">
+        <li class="list mb3">
           <a href="{{ post.url }}" class="white underline-hover">
             {{ post.title }}
           </a>
