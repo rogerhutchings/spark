@@ -1,11 +1,19 @@
 {% macro loop(page) %}
+  {% set commonLinkClasses = 'fw4 link white ttu bw2 b--orange hover-orange no-decoration-hover' %}
+
   {% for p in page.children.visible %}
-    {% set commonLinkClasses = 'link white ttu bw2 b--orange hover-orange no-decoration-hover' %}
     {% set linkMarginClass = (loop.last) ? 'ml3' : 'ml3' %}
     {% set current_page = (p.active or p.activeChild) ? 'bb' : '' %}
 
     <li>
-      <a class="{{ current_page }} {{ commonLinkClasses }} {{ linkMarginClass }}" href="{{ p.url }}">
+      <a
+        class="
+          {{ current_page }}
+          {{ commonLinkClasses }}
+          {{ linkMarginClass }}
+        "
+        href="{{ p.url }}"
+      >
         {{ p.menu }}
       </a>
     </li>
