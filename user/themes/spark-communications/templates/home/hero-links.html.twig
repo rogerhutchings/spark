@@ -4,21 +4,21 @@
     subtitle: 'Why people hire us',
     url: '/why-spark',
     icon: 'svgs/speech-bubble.svg.twig',
-    classes: 'foo'
+    classes: 'w-60-ns center'
   },
   {
     title: 'Work',
     subtitle: 'Campaigns that deliver',
     url: '/our-work',
     icon: 'svgs/cog.svg.twig',
-    classes: 'foo'
+    classes: ''
   },
   {
     title: 'How',
     subtitle: 'Create, engage & influence',
     url: '/create-engage-and-influence',
     icon: 'svgs/handshake.svg.twig',
-    classes: 'foo'
+    classes: 'w-70-ns center'
   }
 ] %}
 
@@ -33,7 +33,7 @@
       class="{{ widths }} {{ bgs }} {{ hovers }} link black pb3 z-2 mb3 mb0-ns mb0-m mb0-l">
       <div class="ph6 ph5-ns ph5-m ph5-l pv3">
         <div class="aspect-ratio aspect-ratio--16x9 mh3 center">
-          {% include link.icon with { class: 'aspect-ratio--object' } %}
+          {% include link.icon with { class: 'aspect-ratio--object ' ~ link.classes } %}
         </div>
       </div>
       <div class="f3 db">
