@@ -251,7 +251,7 @@ $(document).ready(function () {
   $('#share').jsSocials({
     showLabel: false,
     showCount: false,
-    shares: ['email', 'twitter', 'facebook', 'googleplus', 'linkedin', 'stumbleupon']
+    shares: ['email', 'twitter', 'facebook', 'googleplus', 'linkedin']
   });
 });
 

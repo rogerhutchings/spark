@@ -7,8 +7,7 @@ $(document).ready(() => {
       'twitter',
       'facebook',
       'googleplus',
-      'linkedin',
-      'stumbleupon'
+      'linkedin'
     ]
   });
 });
