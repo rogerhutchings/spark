@@ -28,7 +28,7 @@ function initMeetTheTeam() {
 
   team.on('click', openLightbox);
 
-  $('#meet-the-team')
+  $('#meet-the-team-section')
     .slick({
       slidesToShow: 3,
       slidesToScroll: 3,
@@ -38,7 +38,7 @@ function initMeetTheTeam() {
 }
 
 $(document).ready(() => {
-  if ($('#meet-the-team').length) {
+  if ($('#meet-the-team-section').length) {
     initMeetTheTeam();
   }
 });

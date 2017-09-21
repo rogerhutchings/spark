@@ -1,6 +1,6 @@
 {% set team = page.find('/team').children %}
 
-<ul id="meet-the-team" class="list pl0 ma0 cf">
+<ul id="meet-the-team-section" class="list pl0 ma0 cf">
   {% for person in team %}
     {% set img = person.header.photo|first.path %}
     <li
