@@ -8,7 +8,7 @@ stats:
     -
         stat: 'More than 70 pieces of coverage '
     -
-        stat: 'Coverage in The Financial Times and The Time'
+        stat: 'Stories in The Financial Times and The Times'
     -
         stat: 'Generated inbound requests from media'
 date: '12:46 21-09-2017'
