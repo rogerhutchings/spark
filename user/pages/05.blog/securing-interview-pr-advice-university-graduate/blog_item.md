@@ -20,7 +20,7 @@ imported_from_wordpress:
     - Skills
 ---
 
-[job](job-150x150.png)Graduates tend to think that the degree you get at University dictates the industry you get into. Speaking as someone with a degree in Television and Broadcasting, I can definitely vouch against that! I made my mind up in my third year of University that I wanted to go into PR and since then, I’ve learnt a thing or two about the application process…
+![job](job-150x150.png)Graduates tend to think that the degree you get at University dictates the industry you get into. Speaking as someone with a degree in Television and Broadcasting, I can definitely vouch against that! I made my mind up in my third year of University that I wanted to go into PR and since then, I’ve learnt a thing or two about the application process…
 
 **Do your research**
 

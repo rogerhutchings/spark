@@ -19,7 +19,7 @@ imported_from_wordpress:
     - PR
 ---
 
-[email](email-150x150.jpg)I suspect I’m not alone in occasionally wondering what the world of work was like before the advent of [email](https://en.wikipedia.org/wiki/Email). It’s strange to think that in the grand scheme of things, it wasn’t that long ago at all that email didn’t exist, so there are likely a lot of people out there who remember first-hand what things were like.
+![email](email-150x150.jpg)I suspect I’m not alone in occasionally wondering what the world of work was like before the advent of [email](https://en.wikipedia.org/wiki/Email). It’s strange to think that in the grand scheme of things, it wasn’t that long ago at all that email didn’t exist, so there are likely a lot of people out there who remember first-hand what things were like.
 
 Of course, for those of us in technology PR (or indeed any field of public relations), email has become indispensable as a communications tool. We rely on it to quickly ‘ping’ across information to our journalist counterparts with the minimum of fuss. It’s particularly helpful when it comes to sending out a press release. Gone are the days when our forebears had to stick it in a stamped envelope and hope to God it made it to the right person in time; now it’s just instant.
 

@@ -1,7 +1,7 @@
 ---
 title: >-
   Don’t miss a beat when you Tweet: a guide to keeping your social media
-  accounts secure 
+  accounts secure
 author: charley
 date: '09:01 03-04-2014'
 imported_from_wordpress:
@@ -14,7 +14,7 @@ imported_from_wordpress:
   slug: dont-miss-beat-tweet-guide-keeping-social-media-accounts-secure
   title: >-
     Don’t miss a beat when you Tweet: a guide to keeping your social media
-    accounts secure 
+    accounts secure
   wordpress_id: 1781
   categories:
     - Blog
@@ -24,7 +24,7 @@ imported_from_wordpress:
     - Twitter
 ---
 
-[Twitter](Twitter-150x150.png)It was well publicised when King of pop Justin Bieber’s [Twitter account of 50 million followers was hacked](http://www.scmagazine.com/justin-biebers-twitter-account-hacked/article/337597/). The heist saw the hacker post a couple of different Tweets in the brief period in which they had control of Justin’s account, forcing the star to warn fans to avoid clicking the harmful link he had shared. However, it is not only individuals’ Twitter accounts that are vulnerable, last month, [Burger King’s Twitter feed was hacked](http://www.businessinsider.com/burger-kings-twitter-has-just-been-hacked-and-converted-to-mcdonalds-2013-2) and changed to McDonalds, so that everything from the page's logo to its header image was altered to reflect its rival company. Not only this, but the string of Tweets sent from the account were a potential PR disaster.
+![Twitter](Twitter-150x150.png)It was well publicised when King of pop Justin Bieber’s [Twitter account of 50 million followers was hacked](http://www.scmagazine.com/justin-biebers-twitter-account-hacked/article/337597/). The heist saw the hacker post a couple of different Tweets in the brief period in which they had control of Justin’s account, forcing the star to warn fans to avoid clicking the harmful link he had shared. However, it is not only individuals’ Twitter accounts that are vulnerable, last month, [Burger King’s Twitter feed was hacked](http://www.businessinsider.com/burger-kings-twitter-has-just-been-hacked-and-converted-to-mcdonalds-2013-2) and changed to McDonalds, so that everything from the page's logo to its header image was altered to reflect its rival company. Not only this, but the string of Tweets sent from the account were a potential PR disaster.
 
 If you thought that hacking was only for the famous, you thought wrong. Last month, a hacker sent my followers a range of cringe worthy Tweets on my behalf – messages ranged from ‘ROFL I had an eerie feeling this was you…’ to ‘I really enjoyed reading this blog you wrote LMAO’. Despite the embarrassment and inconvenience, my main concern was that my data has been hacked. With this recent rise in well publicised Twitter security disasters and my own experience, I thought I would share some advice on securing both your personal and business Twitter accounts.
 

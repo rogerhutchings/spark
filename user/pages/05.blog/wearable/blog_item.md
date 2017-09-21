@@ -20,7 +20,7 @@ imported_from_wordpress:
     - Wearable
 ---
 
-[watch-847864_640](watch-847864_640-150x150.jpg)I decided to buy an Apple Watch about a month ago and have had various people ask me what it is like and whether it is worth buying.
+![watch-847864_640](watch-847864_640-150x150.jpg)I decided to buy an Apple Watch about a month ago and have had various people ask me what it is like and whether it is worth buying.
 
 It is worth mentioning at this point that I am a bit of an early adopter, so I didn’t have a killer feature in mind, I just wanted the watch for no particular reason than that it seemed like a cool gadget to have :) Anyway here are my experiences thus far:
 

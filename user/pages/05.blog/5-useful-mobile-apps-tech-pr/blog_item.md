@@ -19,7 +19,7 @@ imported_from_wordpress:
     - Tech PR
 ---
 
-[iphone-830480_640](iphone-830480_640-150x150.jpg)To coincide with me getting an iPhone 6s this week, I decided it was time to revisit the topic of mobile apps that can help you in tech PR.  My last post on the topic can be found [here](http://www.sparkcomms.co.uk/2014/03/24/top-6-mobile-apps-tech-pr/), which coincidentally was the last time I upgraded my phone, so expect my next mobile apps blog post in about 18 months’ time :)
+![iphone-830480_640](iphone-830480_640-150x150.jpg)To coincide with me getting an iPhone 6s this week, I decided it was time to revisit the topic of mobile apps that can help you in tech PR.  My last post on the topic can be found [here](http://www.sparkcomms.co.uk/2014/03/24/top-6-mobile-apps-tech-pr/), which coincidentally was the last time I upgraded my phone, so expect my next mobile apps blog post in about 18 months’ time :)
 
 [**Microsoft Outlook**](https://itunes.apple.com/gb/app/microsoft-outlook/id951937596?mt=8)** – **Admittedly an email app isn’t the most exciting in the world, but the Outlook app has quickly become my default one for all work-related emails. The fact is email remains the primary communication channel in PR, so having a mobile app that you can quickly write, view, manage and delete emails while out the office is a must have.
 

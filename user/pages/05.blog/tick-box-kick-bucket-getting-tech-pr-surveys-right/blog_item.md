@@ -19,7 +19,7 @@ imported_from_wordpress:
     - Surveys
 ---
 
-[Tick](Tick-300x300.png)The headline-driven research survey is chief amongst the many weapons in the technology PR arsenal. Initially, it’s a great way for us to help our clients [create a newsworthy story](http://news.bbc.co.uk/1/hi/business/8325865.stm) that will resonate well with the media and win that all-important coverage. It also creates more long-term advantages by providing clients with a means to test the waters for their IT services and solutions. Research results can even form the basis of industry whitepapers, infographics and other broader marketing collateral that can be used to drive additional value across our clients’ business.
+![Tick](Tick-300x300.png)The headline-driven research survey is chief amongst the many weapons in the technology PR arsenal. Initially, it’s a great way for us to help our clients [create a newsworthy story](http://news.bbc.co.uk/1/hi/business/8325865.stm) that will resonate well with the media and win that all-important coverage. It also creates more long-term advantages by providing clients with a means to test the waters for their IT services and solutions. Research results can even form the basis of industry whitepapers, infographics and other broader marketing collateral that can be used to drive additional value across our clients’ business.
 
 However, it’s not just a case of banging out a few questions and sitting back to revel in the results (thankfully, or we’d be out of a job!) A lot of thought and planning needs to go into the creation of a PR survey; along with a good amount of blood, sweat and tears. As with any craft; there are some very distinctive dos and don’ts to take into account:
 

@@ -22,7 +22,7 @@ imported_from_wordpress:
     - Twitter
 ---
 
-[Social Media](Social-Media-300x200.jpg)We’ve come a long way since MSN messenger. Who remembers antagonising their mum by hogging the internet? Rendering the landline useless and delaying that all important phone call?
+![Social Media](Social-Media-300x200.jpg)We’ve come a long way since MSN messenger. Who remembers antagonising their mum by hogging the internet? Rendering the landline useless and delaying that all important phone call?
 
 In 2004, Mark Zuckerberg launched Facebook, the internet phenomenon that heralded the age of social media. Fast forward to the present day and there are currently 1.3billion active users on Facebook, with this number set to rise with the world’s population.
 

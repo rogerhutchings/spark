@@ -21,7 +21,7 @@ imported_from_wordpress:
     - Tech PR
 ---
 
-[media](newspaper.png)One of the various things I’ve learned since starting out in technology PR is that there are many ways of telling the same story. Moreover, a core factor that determines our success in securing [awe-inspiring coverage](http://www.telegraph.co.uk/technology/news/10830120/FIFA-scores-an-own-goal-with-buggy-mobile-app.html) for our clients is having the ability to do so; telling their story to different people in different ways.
+![media](newspaper.png)One of the various things I’ve learned since starting out in technology PR is that there are many ways of telling the same story. Moreover, a core factor that determines our success in securing [awe-inspiring coverage](http://www.telegraph.co.uk/technology/news/10830120/FIFA-scores-an-own-goal-with-buggy-mobile-app.html) for our clients is having the ability to do so; telling their story to different people in different ways.
 
 The reason for this is fairly self-explanatory when you really think about it. In order to secure the coverage that our clients need, first we need to grab the attention and interest of the journalists who write for the publications we’re targeting. That means that we need to understand which elements of our client’s story that each journalist and the readership that they’re writing for will be most interested in, and pull that out during our conversations with them.
 

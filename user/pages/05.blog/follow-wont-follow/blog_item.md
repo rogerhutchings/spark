@@ -19,7 +19,7 @@ imported_from_wordpress:
     - Twitter
 ---
 
-[social media](social-media-150x150.jpg)“I'm hoping to see the day, when my people can all relate…follow me, why don’t you follow me?” were the _unforgettable_ lyrics to Aly-Us’ 1992 floor-filler ‘Follow me’. Who could have predicted that more than 20 years on, the message would be more relevant than it probably ever was?
+![social media](social-media-150x150.jpg)“I'm hoping to see the day, when my people can all relate…follow me, why don’t you follow me?” were the _unforgettable_ lyrics to Aly-Us’ 1992 floor-filler ‘Follow me’. Who could have predicted that more than 20 years on, the message would be more relevant than it probably ever was?
 
 While the impact of social media in the consumer space has been well documented, it also has a significant role in the b2b sector. To turn social media activity into an exercise that not only reinforces but enhances a business’ reputation, agencies need to approach social media in the right way.
 

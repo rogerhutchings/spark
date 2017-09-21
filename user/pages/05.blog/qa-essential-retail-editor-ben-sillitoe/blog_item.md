@@ -21,7 +21,7 @@ imported_from_wordpress:
     - Q&amp;A
 ---
 
-[Essential Retail](Essential-Retail-300x100.jpg)Spark recently caught up with [Essential Retail’s](http://www.essentialretail.com) editor, [Ben Sillitoe](https://twitter.com/bsillitoe), to provide us with an insight into the publication, how PR’s can best work with him, and his thoughts on the future of retail.  
+![Essential Retail](Essential-Retail-300x100.jpg)Spark recently caught up with [Essential Retail’s](http://www.essentialretail.com) editor, [Ben Sillitoe](https://twitter.com/bsillitoe), to provide us with an insight into the publication, how PR’s can best work with him, and his thoughts on the future of retail.  
 
 **What is the main purpose of Essential Retail ****and**** how w****ill the**** title evolve over the next five years?**
 

@@ -18,7 +18,7 @@ imported_from_wordpress:
     - Spark
 ---
 
-[career-111932_640](career-111932_640-300x210.jpg)In my first few months working at Spark Communications, I wrote [a blog](http://www.sparkcomms.co.uk/2013/08/12/advice-for-advancing-your-career-in-pr/) offering my initial advice to those starting their career in PR. Over a year on, I wanted to share what I’ve learnt.
+![career-111932_640](career-111932_640-300x210.jpg)In my first few months working at Spark Communications, I wrote [a blog](http://www.sparkcomms.co.uk/2013/08/12/advice-for-advancing-your-career-in-pr/) offering my initial advice to those starting their career in PR. Over a year on, I wanted to share what I’ve learnt.
 
 **1) Don’t be scared to ask **
 

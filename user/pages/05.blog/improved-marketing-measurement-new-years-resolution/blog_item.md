@@ -20,7 +20,7 @@ imported_from_wordpress:
     - PR
 ---
 
-[measurement](measurement-150x150.jpg)In the old days technology PR was measured by the weight of the clippings book, the circulation and AVE (advertising value equivalent).  The good thing about AVE is that if you get a piece in a national newspaper, the ROI is a zillion times what the client spent.  One of the many bad things about AVE is that it doesn’t tell you anything about outcome – it’s another quantitative measure and unlike circulation it is not even factual.   
+![measurement](measurement-150x150.jpg)In the old days technology PR was measured by the weight of the clippings book, the circulation and AVE (advertising value equivalent).  The good thing about AVE is that if you get a piece in a national newspaper, the ROI is a zillion times what the client spent.  One of the many bad things about AVE is that it doesn’t tell you anything about outcome – it’s another quantitative measure and unlike circulation it is not even factual.   
 
 AVE today can be measured by a simple test – is it advertising or PR that is driving engagement with your company? This is easy to do, even using free tools, but requires collaboration between client and agency.  It’s more difficult to do retrospectively which is why it must be a New Year’s resolution.  Broadly speaking the most straightforward form of short-term measurement is an uplift in traffic as a result of a banner ad, email campaign or media story – the deeper you dig, the more insight is available.  Longer term the easiest way to see whether marketing is working is changes in your search ranking.  Are you on page one, ideally in the top three searches that come up? To make sure this happens you need to think about keywords. 
 

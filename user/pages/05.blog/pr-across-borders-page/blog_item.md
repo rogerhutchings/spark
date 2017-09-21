@@ -18,7 +18,7 @@ imported_from_wordpress:
     - PR
 ---
 
-[news-426893_640](news-426893_640-300x135.jpg)Over the past few years, I’ve had the opportunity to work alongside PR agencies from around the world for my clients. As you’d expect, this always involves plenty of the day-to-day humdrum of co-ordinating a PR account across international borders – the conference calls, meetings, reports and the like. Yet looking beyond the everyday conversations, these processes actually give us a great view of how our trade is practiced around the world.
+![news-426893_640](news-426893_640-300x135.jpg)Over the past few years, I’ve had the opportunity to work alongside PR agencies from around the world for my clients. As you’d expect, this always involves plenty of the day-to-day humdrum of co-ordinating a PR account across international borders – the conference calls, meetings, reports and the like. Yet looking beyond the everyday conversations, these processes actually give us a great view of how our trade is practiced around the world.
 
 As PR professionals, we’re all working towards the same goal, yet the approach different agencies take across borders varies. With respect to the economic and cultural differences that exist, the biggest reason for this is the different ways that the media perceives business across different regions.
 

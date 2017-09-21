@@ -20,7 +20,7 @@ imported_from_wordpress:
     - Twitter
 ---
 
-[iPhone apps](Apps-169x300.png)As I have recently upgraded my iPhone (and it is my turn to write something for the Spark blog!), I thought I’d take a look at what are some of the essential mobile apps when working in tech PR.  The below is in no real order and for simplicity I’ve kept it to iOS apps – so apologies in advance Android users if a couple of the apps I mention aren’t cross platform.
+![iPhone apps](Apps-169x300.png)As I have recently upgraded my iPhone (and it is my turn to write something for the Spark blog!), I thought I’d take a look at what are some of the essential mobile apps when working in tech PR.  The below is in no real order and for simplicity I’ve kept it to iOS apps – so apologies in advance Android users if a couple of the apps I mention aren’t cross platform.
 
 [**Twitter**](https://itunes.apple.com/gb/app/twitter/id333903271?mt=8)** **- yes a really obvious one, but in this day and age being on Twitter is important.  Whether it is tweeting personally, on behalf of clients or keeping an eye out for the latest news and views in the media, having a Twitter app should be a must.  There are a whole host of apps available whether it is the official one or a third party one such as [Tweetbot](http://tapbots.com/software/tweetbot/) (which is my personal favourite).
 

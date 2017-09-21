@@ -19,7 +19,7 @@ imported_from_wordpress:
     - PR
 ---
 
-[Brainstorm](Brainstorm-300x212.png)With PR campaigns I think it’s fair to say that most of the time what we do is fairly prescriptive, we receive news from a client about an upcoming product, service or event they’d like us to promote, we choose the best medium to convey the message and then target the most important influencers to ensure great coverage. The thing is that every so often we are briefed to come up with a more creative campaign. One of the main reasons we get asked to do so is to engage people in a different way, so the company stands out even more.
+![Brainstorm](Brainstorm-300x212.png)With PR campaigns I think it’s fair to say that most of the time what we do is fairly prescriptive, we receive news from a client about an upcoming product, service or event they’d like us to promote, we choose the best medium to convey the message and then target the most important influencers to ensure great coverage. The thing is that every so often we are briefed to come up with a more creative campaign. One of the main reasons we get asked to do so is to engage people in a different way, so the company stands out even more.
 
 There can be real benefits, for instance, smaller companies can sometimes struggle to capture the attention of top national journalists. Targeting them in a different way can be hugely effective and help to ‘win over’ otherwise tricky journalists. Alternative style campaigns can also increase the impact of a major announcement, helping to raise the profile of a company even further. 
 

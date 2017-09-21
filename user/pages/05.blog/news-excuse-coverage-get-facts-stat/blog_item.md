@@ -20,7 +20,7 @@ imported_from_wordpress:
     - Statistics
 ---
 
-[statistics-76198_640](statistics-76198_640-150x150.jpg)One of the biggest challenges in B2B Tech PR is the issue of news, or lack thereof. We are not in the business of having flashy new handsets to release, and while this does help us to avoid getting embroiled in any ‘bend-gate’-like sagas, it does mean that we have to be more inventive.
+![statistics-76198_640](statistics-76198_640-150x150.jpg)One of the biggest challenges in B2B Tech PR is the issue of news, or lack thereof. We are not in the business of having flashy new handsets to release, and while this does help us to avoid getting embroiled in any ‘bend-gate’-like sagas, it does mean that we have to be more inventive.
 
 There are a number of tactics at our disposal, but one of the key ways to create news is through research and statistics. Journalists are often very keen to have new, independent statistics as they make for great headlines and can be used to get a broader picture of what is happening in the marketplace. We have found time and again that research is one of the best ways to get noticed, with the added bonus of being usable across the business for sales and marketing.
 

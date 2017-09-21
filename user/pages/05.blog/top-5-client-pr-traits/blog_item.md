@@ -19,7 +19,7 @@ imported_from_wordpress:
     - PR
 ---
 
-[Tips](Tips-300x213.png)Last week, we ran through some of the traits that successful tech PR pros need, but how about clients? The relationship between PR agency and client, be it a quick fling for a project or a marching down the aisle long-term retainer, is a two-way thing.
+![Tips](Tips-300x213.png)Last week, we ran through some of the traits that successful tech PR pros need, but how about clients? The relationship between PR agency and client, be it a quick fling for a project or a marching down the aisle long-term retainer, is a two-way thing.
 
 The best clients, and so those that are most successful, understand this and will work with their agencies to provide them with the knowledge they need to hit their shared objectives successfully. Here are five traits of top PR clients:
 

@@ -21,7 +21,7 @@ imported_from_wordpress:
     - PR
 ---
 
-[FireShot Capture 1 - Banking Technology - http___www.bankingtech.com_](FireShot-Capture-1-Banking-Technology-http___www.bankingtech.com_.png)I recently caught up with [Banking Technology's](http://www.bankingtech.com/) Senior Staff Writer, [Elliott Holley](https://twitter.com/banktechelliott), to ask him a few questions about the publication and how PRs can work with him. 
+![FireShot Capture 1 - Banking Technology - http___www.bankingtech.com_](FireShot-Capture-1-Banking-Technology-http___www.bankingtech.com_.png)I recently caught up with [Banking Technology's](http://www.bankingtech.com/) Senior Staff Writer, [Elliott Holley](https://twitter.com/banktechelliott), to ask him a few questions about the publication and how PRs can work with him. 
 
  
 

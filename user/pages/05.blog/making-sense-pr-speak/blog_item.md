@@ -22,7 +22,7 @@ imported_from_wordpress:
 
 Recently the below graphic has been doing the rounds in media and PR circles, re-stoking some debate about PR jargon.
 
-[Reaching out](Reaching-out-300x213.png)Whether you are working in PR in-house or agency side, you often can’t avoid falling into the jargon trap from time-to-time – that’s not to say it is right!  So with that in mind here are five of the worst pieces of PR speak with some suggestions on how to avoid it:
+![Reaching out](Reaching-out-300x213.png)Whether you are working in PR in-house or agency side, you often can’t avoid falling into the jargon trap from time-to-time – that’s not to say it is right!  So with that in mind here are five of the worst pieces of PR speak with some suggestions on how to avoid it:
 
 **Leverage –** a particular press release favourite, but what is wrong with uses or utilises?
 

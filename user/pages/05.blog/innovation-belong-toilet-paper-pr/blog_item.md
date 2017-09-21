@@ -19,7 +19,7 @@ imported_from_wordpress:
     - PR
 ---
 
-[Toilet roll](IMAG0419-169x300.jpg)As a [high-flying PR superstar](http://www.prweek.com/article/1157580/rated-2012-spark-communications) one of my occasional responsibilities, beyond the 5-star restaurant lunches, exclusive parties and celebrity endorsements, is making sure we have enough toilet paper in the office.
+![Toilet roll](IMAG0419-169x300.jpg)As a [high-flying PR superstar](http://www.prweek.com/article/1157580/rated-2012-spark-communications) one of my occasional responsibilities, beyond the 5-star restaurant lunches, exclusive parties and celebrity endorsements, is making sure we have enough toilet paper in the office.
 
 Yet during my most recent re-stocking, I noticed something on the side of the packet: apparently this particular manufacturer of ablutionary tissue promises “innovation” in its products. I have to admit, I’m not sure precisely what constitutes the cutting edge in toilet paper (or why you’d ever want one), but it did make me think: just how often does PR use words such as “innovation”, “leading” or “revolutionary” without necessarily being able to back those claims up?
 

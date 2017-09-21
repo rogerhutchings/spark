@@ -19,7 +19,7 @@ imported_from_wordpress:
     - PR
 ---
 
-[no-68481_1280](no-68481_1280-150x150.jpg)In PR it can be really hard to say no to clients since, from your first Saturday job, the phrase ‘the customer is always right’ is drilled into you. However, as consultants we need to have the confidence to say no sometimes if we feel this would be the right course of action. For example, if a client suggests creating a hashtag to promote a message, the PR should advise if it will likely be used positively or if it could end up backfiring and [cause more damage than good.](http://www.adweek.com/adfreak/iamarepublican-campaign-isn-t-exactly-going-planned-160554) The best PRs know their job is not just about blind promotion, but about achieving the best results for the client and to achieve this honesty really is the best policy.
+![no-68481_1280](no-68481_1280-150x150.jpg)In PR it can be really hard to say no to clients since, from your first Saturday job, the phrase ‘the customer is always right’ is drilled into you. However, as consultants we need to have the confidence to say no sometimes if we feel this would be the right course of action. For example, if a client suggests creating a hashtag to promote a message, the PR should advise if it will likely be used positively or if it could end up backfiring and [cause more damage than good.](http://www.adweek.com/adfreak/iamarepublican-campaign-isn-t-exactly-going-planned-160554) The best PRs know their job is not just about blind promotion, but about achieving the best results for the client and to achieve this honesty really is the best policy.
 
 **Where’s the news value? **
 

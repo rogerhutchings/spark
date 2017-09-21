@@ -19,7 +19,7 @@ imported_from_wordpress:
     - PR
 ---
 
-[vacuum-24229_640](vacuum-24229_640-187x300.png)Coverage volume in target media is only one box ticked in our list of what makes a good PR programme, communicating the client’s message is also very important to us at Spark and we spend a lot of effort educating ourselves on our clients’ business and developing stories that do just that.  We are proud of the fact that when we speak to the press we can provide answers to their questions rather than constantly having to check back with the client and “circle back” to them (*shudder*).
+![vacuum-24229_640](vacuum-24229_640-187x300.png)Coverage volume in target media is only one box ticked in our list of what makes a good PR programme, communicating the client’s message is also very important to us at Spark and we spend a lot of effort educating ourselves on our clients’ business and developing stories that do just that.  We are proud of the fact that when we speak to the press we can provide answers to their questions rather than constantly having to check back with the client and “circle back” to them (*shudder*).
 
 Promoting the same core messages to our clients’ audience is an important part of our job but the story needs to stay interesting so now and then we should find new ways to keep our content fresh. Considering spring is officially here, why not give your PR content a spring clean?
 

@@ -20,9 +20,9 @@ imported_from_wordpress:
     - PR
 ---
 
-**[tokyo-tower-825196_640](tokyo-tower-825196_640-150x150.jpg)**This year saw the greatest event in entertainment media history since the Independence Day teaser trailer campaign. [TBS in Japan](http://www.mbs.jp/japa-zuma/) saw fit to broadcast an hour-long special on the UK, featuring a substantial contribution by yours truly. I won’t dwell on the actual content of the programme, although for anyone who has [watched it](http://video.fc2.com/content/20150901kDBPdWyE) I’d like to point out that I did **not** dress like that when I proposed, and the thing with the rice is pure fantasy. That is a pretty representative sample of our fridge’s everyday contents, though.
+**![tokyo-tower-825196_640](tokyo-tower-825196_640-150x150.jpg)**This year saw the greatest event in entertainment media history since the Independence Day teaser trailer campaign. [TBS in Japan](http://www.mbs.jp/japa-zuma/) saw fit to broadcast an hour-long special on the UK, featuring a substantial contribution by yours truly. I won’t dwell on the actual content of the programme, although for anyone who has [watched it](http://video.fc2.com/content/20150901kDBPdWyE) I’d like to point out that I did **not** dress like that when I proposed, and the thing with the rice is pure fantasy. That is a pretty representative sample of our fridge’s everyday contents, though.
 
-[Dom Japan TV fridge shot windowed](Dom-Japan-TV-fridge-shot-windowed.png)
+![Dom Japan TV fridge shot windowed](Dom-Japan-TV-fridge-shot-windowed.png)
 
 What is relevant is just how much effort and time goes into creating 45 minutes’ worth of television, and just how much falls by the wayside. I’ve read before about how 90% of film-making is boredom, but experiencing it in the flesh is another thing entirely. Two days’ worth of filming in London and leafy Buckinghamshire, coupled with another two days in Japan, turned into just one segment in the whole programme. Entire segments were dropped completely, which was especially galling considering I put myself through eating deep-fried Mars bars for nothing. And ultimately what looked to be an unwieldy sprawl of interviews, reconstructions, travelogue and lots of film of cooking turned into a single, tight episode.
 

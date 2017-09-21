@@ -22,7 +22,7 @@ imported_from_wordpress:
     - SEO
 ---
 
-[V_wordcloud_skill](V_wordcloud_skill-300x133.png)It’s that time of year again when students are finishing up with their final exams, and getting ready to join the ‘real world’. Many are considering their next move, and technology PR is a great industry for any graduate to consider. Our industry thrives off diversity – you don’t have to be a PR or journalism student to get ahead, and here at Spark we have graduates in politics, languages and economics, alongside more traditional PR and journalism majors. Nevertheless, there are still some must-have skills which are essential to make an effective PR person. Below is my list – and some of these might not be what you expect.
+![V_wordcloud_skill](V_wordcloud_skill-300x133.png)It’s that time of year again when students are finishing up with their final exams, and getting ready to join the ‘real world’. Many are considering their next move, and technology PR is a great industry for any graduate to consider. Our industry thrives off diversity – you don’t have to be a PR or journalism student to get ahead, and here at Spark we have graduates in politics, languages and economics, alongside more traditional PR and journalism majors. Nevertheless, there are still some must-have skills which are essential to make an effective PR person. Below is my list – and some of these might not be what you expect.
 
 **Word, PowerPoint and Excel skills**
 

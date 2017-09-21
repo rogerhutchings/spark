@@ -18,7 +18,7 @@ imported_from_wordpress:
     - PR
 ---
 
-[Shopping basket](Online-shopping.png)A couple of weeks ago , the [tech headlines](http://blogs.wsj.com/digits/2014/01/17/amazon-wants-to-ship-your-package-before-you-buy-it/) were buzzing with news about the next evolution in online shopping, with  Amazon announcing the latest ace that it’s busily been stuffing up its sleeve; the patent for ‘predictive shopping’. As the name suggests, the idea is to use a range of customer information and data to foresee when a customer is likely to make a purchase and start the shipping process before they’ve actually bought it.
+![Shopping basket](Online-shopping.png)A couple of weeks ago , the [tech headlines](http://blogs.wsj.com/digits/2014/01/17/amazon-wants-to-ship-your-package-before-you-buy-it/) were buzzing with news about the next evolution in online shopping, with  Amazon announcing the latest ace that it’s busily been stuffing up its sleeve; the patent for ‘predictive shopping’. As the name suggests, the idea is to use a range of customer information and data to foresee when a customer is likely to make a purchase and start the shipping process before they’ve actually bought it.
 
 Of course, in theory that sounds great; if they can cut down delivery waiting times for shoppers then it’s all to the good. But then again, there could be some fairly deep pitfalls there too, with the potential to create some [PR howlers](http://www.mirror.co.uk/news/uk-news/public-relations-disasters---bp-230325#.UuKJFMtFCP8), which could ultimately snowball into a far less amusing media crisis.
 

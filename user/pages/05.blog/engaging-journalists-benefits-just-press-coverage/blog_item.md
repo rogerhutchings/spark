@@ -21,7 +21,7 @@ imported_from_wordpress:
     - PR
 ---
 
-[Advice](Advice-300x213.png)I noticed a sudden spike in web traffic after Tristan’s recent [blog](http://www.sparkcomms.co.uk/2015/02/26/can-copy-approval-5-ways-prevent-coverage-killer-question-cropping/) about asking for copy approval. Most of this traffic came via Twitter from other PR agencies, largely because they follow [Jess Twentyman](https://twitter.com/jtwentyman), and she had retweeted the link to the blog. 
+![Advice](Advice-300x213.png)I noticed a sudden spike in web traffic after Tristan’s recent [blog](http://www.sparkcomms.co.uk/2015/02/26/can-copy-approval-5-ways-prevent-coverage-killer-question-cropping/) about asking for copy approval. Most of this traffic came via Twitter from other PR agencies, largely because they follow [Jess Twentyman](https://twitter.com/jtwentyman), and she had retweeted the link to the blog. 
 
 PRs follow journalists because we want to know what they are writing about and how our clients can help, but we also follow them because we want their advice. We pay close attention to their advice on how to pitch a story, what irritates them and what is helpful to them.
 
