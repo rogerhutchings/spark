@@ -51,7 +51,7 @@
                   class="tl mr1 {{ navClasses }}"
                   href="{{ prev.url }}"
                 >
-                  &laquo; Previous week <span class="f6">({{ prev.date|date("F j, Y") }})</span>
+                  &laquo; Previous update <span class="f6">({{ prev.date|date("F j, Y") }})</span>
                 </a>
               {% endif %}
 
@@ -61,7 +61,7 @@
                   class="tr ml1 {{ navClasses }}"
                   href="{{ next.url }}"
                 >
-                  Next week <span class="f6">({{ next.date|date("F j, Y") }})</span> &raquo;
+                  Next update <span class="f6">({{ next.date|date("F j, Y") }})</span> &raquo;
                 </a>
               {% endif %}
             </nav>
