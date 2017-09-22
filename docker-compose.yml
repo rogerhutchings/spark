@@ -1,0 +1,12 @@
+version: "3.2"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dev_Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - type: bind
+        source: ./user
+        target: /usr/share/nginx/html/user
