@@ -8625,7 +8625,8 @@ a:focus {
     /* styling */
     cursor: pointer;
     background: url("../images/bg-img-hiking.jpg");
-    background-size: cover; }
+    background-size: cover;
+    background-position: center; }
     .featherlight:before {
       /* position: trick to center content vertically */
       content: '';
@@ -8642,11 +8643,10 @@ a:focus {
     /* dimensions: cut off images */
     overflow: auto;
     /* dimensions: handling large content */
-    margin-left: 5%;
-    margin-right: 5%;
-    max-height: 95%;
+    margin: 2rem;
+    max-width: 54rem;
     /* styling */
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.6);
     cursor: auto;
     /* reset white-space wrapping */
     white-space: normal;

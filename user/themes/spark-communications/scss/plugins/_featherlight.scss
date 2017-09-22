@@ -29,6 +29,7 @@
 		cursor: pointer;
 		background: url("../images/bg-img-hiking.jpg");
     background-size: cover;
+    background-position: center;
 
     &:before {
       /* position: trick to center content vertically */
@@ -54,13 +55,13 @@
 		// padding: 25px 25px 0;
 		// border-bottom: 25px solid transparent;
 
+
 		/* dimensions: handling large content */
-		margin-left: 5%;
-		margin-right: 5%;
-		max-height: 95%;
+	  margin: 2rem;
+    max-width: 54rem;
 
 		/* styling */
-		background: rgba(#fff, .8);
+		background: rgba(#fff, .6);
 		cursor: auto;
 
 		/* reset white-space wrapping */
