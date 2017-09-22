@@ -10,7 +10,7 @@
       data-img="{{ img }}"
     >
       <img
-        class="db gray-80"
+        class="db grayscale"
         src="{{ img }}"
       />
       <div class="absolute absolute--fill" name="overlay"></div>
@@ -20,6 +20,10 @@
     </li>
   {% endfor %}
 </ul>
+
+<div id="preloader" class="dn">
+  <div class="bg-img-hiking" />
+</div>
 
 {% verbatim %}
   <script id="team-modal-template" type="text/x-handlebars-template">

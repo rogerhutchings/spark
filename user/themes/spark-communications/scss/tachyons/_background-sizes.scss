@@ -1,0 +1,37 @@
+/*
+
+  BACKGROUND SIZES
+    - Background size (0%, 5%... 100%)
+
+*/
+
+
+$i: 0;
+
+@while $i <= 20 {
+  $val: $i * 5;
+
+  .bg-size-#{$val} {
+    background-size: $val * 1%;
+  }
+
+  @media #{$breakpoint-not-small} {
+    .bg-size-#{$val}-ns {
+      background-size: $val * 1%;
+    }
+  }
+
+  @media #{$breakpoint-medium} {
+    .bg-size-#{$val}-m {
+      background-size: $val * 1%;
+    }
+  }
+
+  @media #{$breakpoint-large} {
+    .bg-size-#{$val}-l {
+      background-size: $val * 1%;
+    }
+  }
+
+  $i: $i + 1;
+}

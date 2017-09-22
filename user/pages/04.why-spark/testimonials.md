@@ -19,7 +19,7 @@ testimonials:
     -
         body: 'The Economist, FT, BBC and Bloomberg in a week. Business-changing results that continue to drive leads'
         source: 'Jennifer Carole, VP of marketing, Bromium'
-header_classes: 'bg-img-mountain bg-y-90'
+header_classes: 'bg-img-mountain bg-y-70 bg-center'
 main_classes: 'bg-img-escalator bg-center'
 main_container_classes: 'bg-o80-white'
 svg_icon: circle-speech-bubble

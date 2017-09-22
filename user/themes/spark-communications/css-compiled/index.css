@@ -6930,145 +6930,6 @@ a:focus {
   Add custom styles here.
 
 */
-/*
-   FILTER GRAYSCALE
-*/
-.gray-10 {
-  -webkit-filter: grayscale(10%);
-  filter: grayscale(10%); }
-
-.gray-20 {
-  -webkit-filter: grayscale(20%);
-  filter: grayscale(20%); }
-
-.gray-30 {
-  -webkit-filter: grayscale(30%);
-  filter: grayscale(30%); }
-
-.gray-40 {
-  -webkit-filter: grayscale(40%);
-  filter: grayscale(40%); }
-
-.gray-50 {
-  -webkit-filter: grayscale(50%);
-  filter: grayscale(50%); }
-
-.gray-60 {
-  -webkit-filter: grayscale(60%);
-  filter: grayscale(60%); }
-
-.gray-70 {
-  -webkit-filter: grayscale(70%);
-  filter: grayscale(70%); }
-
-.gray-80 {
-  -webkit-filter: grayscale(80%);
-  filter: grayscale(80%); }
-
-.gray-90 {
-  -webkit-filter: grayscale(90%);
-  filter: grayscale(90%); }
-
-.gray-100 {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%); }
-
-@media screen and (min-width: 48em) {
-  .gray-10-ns {
-    -webkit-filter: grayscale(10%);
-    filter: grayscale(10%); }
-  .gray-20-ns {
-    -webkit-filter: grayscale(20%);
-    filter: grayscale(20%); }
-  .gray-30-ns {
-    -webkit-filter: grayscale(30%);
-    filter: grayscale(30%); }
-  .gray-40-ns {
-    -webkit-filter: grayscale(40%);
-    filter: grayscale(40%); }
-  .gray-50-ns {
-    -webkit-filter: grayscale(50%);
-    filter: grayscale(50%); }
-  .gray-60-ns {
-    -webkit-filter: grayscale(60%);
-    filter: grayscale(60%); }
-  .gray-70-ns {
-    -webkit-filter: grayscale(70%);
-    filter: grayscale(70%); }
-  .gray-80-ns {
-    -webkit-filter: grayscale(80%);
-    filter: grayscale(80%); }
-  .gray-90-ns {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); }
-  .gray-100-ns {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); } }
-
-@media screen and (min-width: 48em) and (max-width: 64em) {
-  .gray-10-m {
-    -webkit-filter: grayscale(10%);
-    filter: grayscale(10%); }
-  .gray-20-m {
-    -webkit-filter: grayscale(20%);
-    filter: grayscale(20%); }
-  .gray-30-m {
-    -webkit-filter: grayscale(30%);
-    filter: grayscale(30%); }
-  .gray-40-m {
-    -webkit-filter: grayscale(40%);
-    filter: grayscale(40%); }
-  .gray-50-m {
-    -webkit-filter: grayscale(50%);
-    filter: grayscale(50%); }
-  .gray-60-m {
-    -webkit-filter: grayscale(60%);
-    filter: grayscale(60%); }
-  .gray-70-m {
-    -webkit-filter: grayscale(70%);
-    filter: grayscale(70%); }
-  .gray-80-m {
-    -webkit-filter: grayscale(80%);
-    filter: grayscale(80%); }
-  .gray-90-m {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); }
-  .gray-100-m {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); } }
-
-@media screen and (min-width: 64em) {
-  .gray-10-l {
-    -webkit-filter: grayscale(10%);
-    filter: grayscale(10%); }
-  .gray-20-l {
-    -webkit-filter: grayscale(20%);
-    filter: grayscale(20%); }
-  .gray-30-l {
-    -webkit-filter: grayscale(30%);
-    filter: grayscale(30%); }
-  .gray-40-l {
-    -webkit-filter: grayscale(40%);
-    filter: grayscale(40%); }
-  .gray-50-l {
-    -webkit-filter: grayscale(50%);
-    filter: grayscale(50%); }
-  .gray-60-l {
-    -webkit-filter: grayscale(60%);
-    filter: grayscale(60%); }
-  .gray-70-l {
-    -webkit-filter: grayscale(70%);
-    filter: grayscale(70%); }
-  .gray-80-l {
-    -webkit-filter: grayscale(80%);
-    filter: grayscale(80%); }
-  .gray-90-l {
-    -webkit-filter: grayscale(90%);
-    filter: grayscale(90%); }
-  .gray-100-l {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); } }
-
 @media screen and (min-width: 30em) {
   .bg-white-ns {
     background-color: #fff; } }
@@ -7151,6 +7012,9 @@ a:focus {
 .bg-img-gokarts {
   background-image: url("../images/bg-img-gokarts.jpg"); }
 
+.bg-img-hiking {
+  background-image: url("../images/bg-img-hiking.jpg"); }
+
 .bg-img-laptop {
   background-image: url("../images/bg-img-laptop.jpg"); }
 
@@ -7182,11 +7046,47 @@ a:focus {
 .bg-y-0 {
   background-position-y: 0%; }
 
+@media screen and (min-width: 30em) {
+  .bg-x-0-ns {
+    background-position-x: 0%; }
+  .bg-y-0-ns {
+    background-position-y: 0%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-0-m {
+    background-position-x: 0%; }
+  .bg-y-0-m {
+    background-position-y: 0%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-0-l {
+    background-position-x: 0%; }
+  .bg-y-0-l {
+    background-position-y: 0%; } }
+
 .bg-x-5 {
   background-position-x: 5%; }
 
 .bg-y-5 {
   background-position-y: 5%; }
+
+@media screen and (min-width: 30em) {
+  .bg-x-5-ns {
+    background-position-x: 5%; }
+  .bg-y-5-ns {
+    background-position-y: 5%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-5-m {
+    background-position-x: 5%; }
+  .bg-y-5-m {
+    background-position-y: 5%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-5-l {
+    background-position-x: 5%; }
+  .bg-y-5-l {
+    background-position-y: 5%; } }
 
 .bg-x-10 {
   background-position-x: 10%; }
@@ -7194,11 +7094,47 @@ a:focus {
 .bg-y-10 {
   background-position-y: 10%; }
 
+@media screen and (min-width: 30em) {
+  .bg-x-10-ns {
+    background-position-x: 10%; }
+  .bg-y-10-ns {
+    background-position-y: 10%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-10-m {
+    background-position-x: 10%; }
+  .bg-y-10-m {
+    background-position-y: 10%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-10-l {
+    background-position-x: 10%; }
+  .bg-y-10-l {
+    background-position-y: 10%; } }
+
 .bg-x-15 {
   background-position-x: 15%; }
 
 .bg-y-15 {
   background-position-y: 15%; }
+
+@media screen and (min-width: 30em) {
+  .bg-x-15-ns {
+    background-position-x: 15%; }
+  .bg-y-15-ns {
+    background-position-y: 15%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-15-m {
+    background-position-x: 15%; }
+  .bg-y-15-m {
+    background-position-y: 15%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-15-l {
+    background-position-x: 15%; }
+  .bg-y-15-l {
+    background-position-y: 15%; } }
 
 .bg-x-20 {
   background-position-x: 20%; }
@@ -7206,11 +7142,47 @@ a:focus {
 .bg-y-20 {
   background-position-y: 20%; }
 
+@media screen and (min-width: 30em) {
+  .bg-x-20-ns {
+    background-position-x: 20%; }
+  .bg-y-20-ns {
+    background-position-y: 20%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-20-m {
+    background-position-x: 20%; }
+  .bg-y-20-m {
+    background-position-y: 20%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-20-l {
+    background-position-x: 20%; }
+  .bg-y-20-l {
+    background-position-y: 20%; } }
+
 .bg-x-25 {
   background-position-x: 25%; }
 
 .bg-y-25 {
   background-position-y: 25%; }
+
+@media screen and (min-width: 30em) {
+  .bg-x-25-ns {
+    background-position-x: 25%; }
+  .bg-y-25-ns {
+    background-position-y: 25%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-25-m {
+    background-position-x: 25%; }
+  .bg-y-25-m {
+    background-position-y: 25%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-25-l {
+    background-position-x: 25%; }
+  .bg-y-25-l {
+    background-position-y: 25%; } }
 
 .bg-x-30 {
   background-position-x: 30%; }
@@ -7218,11 +7190,47 @@ a:focus {
 .bg-y-30 {
   background-position-y: 30%; }
 
+@media screen and (min-width: 30em) {
+  .bg-x-30-ns {
+    background-position-x: 30%; }
+  .bg-y-30-ns {
+    background-position-y: 30%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-30-m {
+    background-position-x: 30%; }
+  .bg-y-30-m {
+    background-position-y: 30%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-30-l {
+    background-position-x: 30%; }
+  .bg-y-30-l {
+    background-position-y: 30%; } }
+
 .bg-x-35 {
   background-position-x: 35%; }
 
 .bg-y-35 {
   background-position-y: 35%; }
+
+@media screen and (min-width: 30em) {
+  .bg-x-35-ns {
+    background-position-x: 35%; }
+  .bg-y-35-ns {
+    background-position-y: 35%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-35-m {
+    background-position-x: 35%; }
+  .bg-y-35-m {
+    background-position-y: 35%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-35-l {
+    background-position-x: 35%; }
+  .bg-y-35-l {
+    background-position-y: 35%; } }
 
 .bg-x-40 {
   background-position-x: 40%; }
@@ -7230,11 +7238,47 @@ a:focus {
 .bg-y-40 {
   background-position-y: 40%; }
 
+@media screen and (min-width: 30em) {
+  .bg-x-40-ns {
+    background-position-x: 40%; }
+  .bg-y-40-ns {
+    background-position-y: 40%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-40-m {
+    background-position-x: 40%; }
+  .bg-y-40-m {
+    background-position-y: 40%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-40-l {
+    background-position-x: 40%; }
+  .bg-y-40-l {
+    background-position-y: 40%; } }
+
 .bg-x-45 {
   background-position-x: 45%; }
 
 .bg-y-45 {
   background-position-y: 45%; }
+
+@media screen and (min-width: 30em) {
+  .bg-x-45-ns {
+    background-position-x: 45%; }
+  .bg-y-45-ns {
+    background-position-y: 45%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-45-m {
+    background-position-x: 45%; }
+  .bg-y-45-m {
+    background-position-y: 45%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-45-l {
+    background-position-x: 45%; }
+  .bg-y-45-l {
+    background-position-y: 45%; } }
 
 .bg-x-50 {
   background-position-x: 50%; }
@@ -7242,11 +7286,47 @@ a:focus {
 .bg-y-50 {
   background-position-y: 50%; }
 
+@media screen and (min-width: 30em) {
+  .bg-x-50-ns {
+    background-position-x: 50%; }
+  .bg-y-50-ns {
+    background-position-y: 50%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-50-m {
+    background-position-x: 50%; }
+  .bg-y-50-m {
+    background-position-y: 50%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-50-l {
+    background-position-x: 50%; }
+  .bg-y-50-l {
+    background-position-y: 50%; } }
+
 .bg-x-55 {
   background-position-x: 55%; }
 
 .bg-y-55 {
   background-position-y: 55%; }
+
+@media screen and (min-width: 30em) {
+  .bg-x-55-ns {
+    background-position-x: 55%; }
+  .bg-y-55-ns {
+    background-position-y: 55%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-55-m {
+    background-position-x: 55%; }
+  .bg-y-55-m {
+    background-position-y: 55%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-55-l {
+    background-position-x: 55%; }
+  .bg-y-55-l {
+    background-position-y: 55%; } }
 
 .bg-x-60 {
   background-position-x: 60%; }
@@ -7254,11 +7334,47 @@ a:focus {
 .bg-y-60 {
   background-position-y: 60%; }
 
+@media screen and (min-width: 30em) {
+  .bg-x-60-ns {
+    background-position-x: 60%; }
+  .bg-y-60-ns {
+    background-position-y: 60%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-60-m {
+    background-position-x: 60%; }
+  .bg-y-60-m {
+    background-position-y: 60%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-60-l {
+    background-position-x: 60%; }
+  .bg-y-60-l {
+    background-position-y: 60%; } }
+
 .bg-x-65 {
   background-position-x: 65%; }
 
 .bg-y-65 {
   background-position-y: 65%; }
+
+@media screen and (min-width: 30em) {
+  .bg-x-65-ns {
+    background-position-x: 65%; }
+  .bg-y-65-ns {
+    background-position-y: 65%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-65-m {
+    background-position-x: 65%; }
+  .bg-y-65-m {
+    background-position-y: 65%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-65-l {
+    background-position-x: 65%; }
+  .bg-y-65-l {
+    background-position-y: 65%; } }
 
 .bg-x-70 {
   background-position-x: 70%; }
@@ -7266,11 +7382,47 @@ a:focus {
 .bg-y-70 {
   background-position-y: 70%; }
 
+@media screen and (min-width: 30em) {
+  .bg-x-70-ns {
+    background-position-x: 70%; }
+  .bg-y-70-ns {
+    background-position-y: 70%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-70-m {
+    background-position-x: 70%; }
+  .bg-y-70-m {
+    background-position-y: 70%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-70-l {
+    background-position-x: 70%; }
+  .bg-y-70-l {
+    background-position-y: 70%; } }
+
 .bg-x-75 {
   background-position-x: 75%; }
 
 .bg-y-75 {
   background-position-y: 75%; }
+
+@media screen and (min-width: 30em) {
+  .bg-x-75-ns {
+    background-position-x: 75%; }
+  .bg-y-75-ns {
+    background-position-y: 75%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-75-m {
+    background-position-x: 75%; }
+  .bg-y-75-m {
+    background-position-y: 75%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-75-l {
+    background-position-x: 75%; }
+  .bg-y-75-l {
+    background-position-y: 75%; } }
 
 .bg-x-80 {
   background-position-x: 80%; }
@@ -7278,11 +7430,47 @@ a:focus {
 .bg-y-80 {
   background-position-y: 80%; }
 
+@media screen and (min-width: 30em) {
+  .bg-x-80-ns {
+    background-position-x: 80%; }
+  .bg-y-80-ns {
+    background-position-y: 80%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-80-m {
+    background-position-x: 80%; }
+  .bg-y-80-m {
+    background-position-y: 80%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-80-l {
+    background-position-x: 80%; }
+  .bg-y-80-l {
+    background-position-y: 80%; } }
+
 .bg-x-85 {
   background-position-x: 85%; }
 
 .bg-y-85 {
   background-position-y: 85%; }
+
+@media screen and (min-width: 30em) {
+  .bg-x-85-ns {
+    background-position-x: 85%; }
+  .bg-y-85-ns {
+    background-position-y: 85%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-85-m {
+    background-position-x: 85%; }
+  .bg-y-85-m {
+    background-position-y: 85%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-85-l {
+    background-position-x: 85%; }
+  .bg-y-85-l {
+    background-position-y: 85%; } }
 
 .bg-x-90 {
   background-position-x: 90%; }
@@ -7290,17 +7478,392 @@ a:focus {
 .bg-y-90 {
   background-position-y: 90%; }
 
+@media screen and (min-width: 30em) {
+  .bg-x-90-ns {
+    background-position-x: 90%; }
+  .bg-y-90-ns {
+    background-position-y: 90%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-90-m {
+    background-position-x: 90%; }
+  .bg-y-90-m {
+    background-position-y: 90%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-90-l {
+    background-position-x: 90%; }
+  .bg-y-90-l {
+    background-position-y: 90%; } }
+
 .bg-x-95 {
   background-position-x: 95%; }
 
 .bg-y-95 {
   background-position-y: 95%; }
 
+@media screen and (min-width: 30em) {
+  .bg-x-95-ns {
+    background-position-x: 95%; }
+  .bg-y-95-ns {
+    background-position-y: 95%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-95-m {
+    background-position-x: 95%; }
+  .bg-y-95-m {
+    background-position-y: 95%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-95-l {
+    background-position-x: 95%; }
+  .bg-y-95-l {
+    background-position-y: 95%; } }
+
 .bg-x-100 {
   background-position-x: 100%; }
 
 .bg-y-100 {
   background-position-y: 100%; }
+
+@media screen and (min-width: 30em) {
+  .bg-x-100-ns {
+    background-position-x: 100%; }
+  .bg-y-100-ns {
+    background-position-y: 100%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-x-100-m {
+    background-position-x: 100%; }
+  .bg-y-100-m {
+    background-position-y: 100%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-x-100-l {
+    background-position-x: 100%; }
+  .bg-y-100-l {
+    background-position-y: 100%; } }
+
+/*
+
+  BACKGROUND SIZES
+    - Background size (0%, 5%... 100%)
+
+*/
+.bg-size-0 {
+  background-size: 0%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-0-ns {
+    background-size: 0%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-0-m {
+    background-size: 0%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-0-l {
+    background-size: 0%; } }
+
+.bg-size-5 {
+  background-size: 5%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-5-ns {
+    background-size: 5%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-5-m {
+    background-size: 5%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-5-l {
+    background-size: 5%; } }
+
+.bg-size-10 {
+  background-size: 10%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-10-ns {
+    background-size: 10%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-10-m {
+    background-size: 10%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-10-l {
+    background-size: 10%; } }
+
+.bg-size-15 {
+  background-size: 15%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-15-ns {
+    background-size: 15%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-15-m {
+    background-size: 15%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-15-l {
+    background-size: 15%; } }
+
+.bg-size-20 {
+  background-size: 20%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-20-ns {
+    background-size: 20%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-20-m {
+    background-size: 20%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-20-l {
+    background-size: 20%; } }
+
+.bg-size-25 {
+  background-size: 25%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-25-ns {
+    background-size: 25%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-25-m {
+    background-size: 25%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-25-l {
+    background-size: 25%; } }
+
+.bg-size-30 {
+  background-size: 30%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-30-ns {
+    background-size: 30%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-30-m {
+    background-size: 30%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-30-l {
+    background-size: 30%; } }
+
+.bg-size-35 {
+  background-size: 35%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-35-ns {
+    background-size: 35%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-35-m {
+    background-size: 35%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-35-l {
+    background-size: 35%; } }
+
+.bg-size-40 {
+  background-size: 40%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-40-ns {
+    background-size: 40%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-40-m {
+    background-size: 40%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-40-l {
+    background-size: 40%; } }
+
+.bg-size-45 {
+  background-size: 45%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-45-ns {
+    background-size: 45%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-45-m {
+    background-size: 45%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-45-l {
+    background-size: 45%; } }
+
+.bg-size-50 {
+  background-size: 50%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-50-ns {
+    background-size: 50%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-50-m {
+    background-size: 50%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-50-l {
+    background-size: 50%; } }
+
+.bg-size-55 {
+  background-size: 55%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-55-ns {
+    background-size: 55%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-55-m {
+    background-size: 55%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-55-l {
+    background-size: 55%; } }
+
+.bg-size-60 {
+  background-size: 60%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-60-ns {
+    background-size: 60%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-60-m {
+    background-size: 60%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-60-l {
+    background-size: 60%; } }
+
+.bg-size-65 {
+  background-size: 65%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-65-ns {
+    background-size: 65%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-65-m {
+    background-size: 65%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-65-l {
+    background-size: 65%; } }
+
+.bg-size-70 {
+  background-size: 70%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-70-ns {
+    background-size: 70%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-70-m {
+    background-size: 70%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-70-l {
+    background-size: 70%; } }
+
+.bg-size-75 {
+  background-size: 75%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-75-ns {
+    background-size: 75%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-75-m {
+    background-size: 75%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-75-l {
+    background-size: 75%; } }
+
+.bg-size-80 {
+  background-size: 80%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-80-ns {
+    background-size: 80%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-80-m {
+    background-size: 80%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-80-l {
+    background-size: 80%; } }
+
+.bg-size-85 {
+  background-size: 85%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-85-ns {
+    background-size: 85%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-85-m {
+    background-size: 85%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-85-l {
+    background-size: 85%; } }
+
+.bg-size-90 {
+  background-size: 90%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-90-ns {
+    background-size: 90%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-90-m {
+    background-size: 90%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-90-l {
+    background-size: 90%; } }
+
+.bg-size-95 {
+  background-size: 95%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-95-ns {
+    background-size: 95%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-95-m {
+    background-size: 95%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-95-l {
+    background-size: 95%; } }
+
+.bg-size-100 {
+  background-size: 100%; }
+
+@media screen and (min-width: 30em) {
+  .bg-size-100-ns {
+    background-size: 100%; } }
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .bg-size-100-m {
+    background-size: 100%; } }
+
+@media screen and (min-width: 60em) {
+  .bg-size-100-l {
+    background-size: 100%; } }
 
 /*
    COORDINATES
@@ -8170,7 +8733,7 @@ body {
  * @link https://github.com/jonsuh/hamburgers
  */
 .hamburger {
-  padding: 0 15px;
+  padding: 0 0;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
@@ -8187,7 +8750,7 @@ body {
     opacity: 0.7; }
 
 .hamburger-box {
-  width: 40px;
+  width: 30px;
   height: 24px;
   display: inline-block;
   position: relative; }
@@ -8197,7 +8760,7 @@ body {
   top: 50%;
   margin-top: -2px; }
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: 40px;
+    width: 30px;
     height: 4px;
     background-color: #788393;
     border-radius: 4px;

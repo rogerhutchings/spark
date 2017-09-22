@@ -1,6 +1,6 @@
 ---
 title: 'Join Us'
-header_classes: 'bg-img-gokarts bg-y-30'
+header_classes: 'bg-img-gokarts bg-y-35 bg-center'
 svg_icon: circle-triangle
 ---
 

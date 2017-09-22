@@ -13,10 +13,8 @@
   "author": "Roger Hutchings <roger@hutchin.gs> (https://www.rogerhutchin.gs/)",
   "license": "Apache-2.0",
   "dependencies": {
-    "css-filter-grayscale": "^1.0.7",
     "hamburgers": "^0.9.1",
     "node-sass": "^4.5.3",
-    "owl.carousel": "^2.2.0",
     "tachyons-sass": "^4.7.1"
   },
   "devDependencies": {

@@ -20,5 +20,37 @@ $i: 0;
     background-position-y: $val * 1%;
   }
 
+  @media #{$breakpoint-not-small} {
+    .bg-x-#{$val}-ns {
+      background-position-x: $val * 1%;
+    }
+
+    .bg-y-#{$val}-ns {
+      background-position-y: $val * 1%;
+    }
+  }
+
+  @media #{$breakpoint-medium} {
+    .bg-x-#{$val}-m {
+      background-position-x: $val * 1%;
+    }
+
+    .bg-y-#{$val}-m {
+      background-position-y: $val * 1%;
+    }
+  }
+
+  @media #{$breakpoint-large} {
+    .bg-x-#{$val}-l {
+      background-position-x: $val * 1%;
+    }
+
+    .bg-y-#{$val}-l {
+      background-position-y: $val * 1%;
+    }
+  }
+
+
+
   $i: $i + 1;
 }

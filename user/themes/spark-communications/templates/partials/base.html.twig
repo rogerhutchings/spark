@@ -27,6 +27,7 @@
         {% do assets.addCss('fonts', { 'priority': 100, 'pipeline': false }) %}
         {% do assets.addCss('slick-css', 90) %}
         {% do assets.addCss('jsSocial-css', 90) %}
+        {% do assets.addCss('//npmcdn.com/jquery-gray@1.6.0/css/gray.min.css') %}
         {% do assets.addCss('theme://css-compiled/index.css', 200) %}
       {% endblock %}
       {{ assets.css() }}
@@ -38,6 +39,7 @@
         {% do assets.addJs('featherlight-js', 90) %}
         {% do assets.addJs('handlebars', 90) %}
         {% do assets.addJs('jsSocial-js', 90) %}
+        {% do assets.addJs('//npmcdn.com/jquery-gray@1.6.0/js/jquery.gray.min.js', 90) %}
         {% do assets.addJs('theme://js-compiled/bundle.js', { 'group': 'bottom', priority: 50 }) %}
       {% endblock %}
       {{ assets.js() }}
