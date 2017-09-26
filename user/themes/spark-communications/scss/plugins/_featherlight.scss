@@ -66,10 +66,6 @@
 
 		/* reset white-space wrapping */
 		white-space: normal;
-
-    /* clipping  */
-    -webkit-clip-path: polygon(0% 0%, 40% 0%, 50% 5%, 60% 0%, 100% 0%, 100% 100%, 0% 100%);
-    clip-path: polygon(0% 0%, 40% 0%, 50% 5%, 60% 0%, 100% 0%, 100% 100%, 0% 100%);
 	}
 
 	/* contains the content */
@@ -146,5 +142,13 @@
 		margin-left: 0;
 		margin-right: 0;
 		max-height: 98%;
+	}
+}
+
+@media only screen and ($breakpoint-ns) {
+	.featherlight .featherlight-content {
+    /* clipping  */
+    -webkit-clip-path: polygon(0% 0%, 40% 0%, 50% 5%, 60% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 40% 0%, 50% 5%, 60% 0%, 100% 0%, 100% 100%, 0% 100%);
 	}
 }

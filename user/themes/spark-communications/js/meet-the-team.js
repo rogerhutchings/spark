@@ -30,11 +30,10 @@ function initMeetTheTeam() {
 
   $('#meet-the-team-section')
     .slick({
-      slidesToShow: 3,
-      slidesToScroll: 3,
-      dots: true,
       arrows: false,
       dotsClass: 'slick-dots-large',
+      dots: true,
+      infinite: false
       responsive: [
         {
           breakpoint: 480,
@@ -44,7 +43,9 @@ function initMeetTheTeam() {
             slidesToScroll: 2,
           }
         }
-      ]
+      ],
+      slidesToScroll: 3,
+      slidesToShow: 3,
     });
 }
 

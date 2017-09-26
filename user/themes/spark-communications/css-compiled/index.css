@@ -8712,7 +8712,8 @@ a {
     background: rgba(255, 255, 255, 0.6);
     cursor: auto;
     /* reset white-space wrapping */
-    white-space: normal;
+    white-space: normal; }
+  .featherlight .featherlight-content {
     /* clipping  */
     -webkit-clip-path: polygon(0% 0%, 40% 0%, 50% 5%, 60% 0%, 100% 0%, 100% 100%, 0% 100%);
     clip-path: polygon(0% 0%, 40% 0%, 50% 5%, 60% 0%, 100% 0%, 100% 100%, 0% 100%); }
