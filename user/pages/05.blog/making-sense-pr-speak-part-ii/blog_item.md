@@ -19,7 +19,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![confusion](confusion-150x150.jpg)Last year, [Alex wrote about](http://www.sparkcomms.co.uk/2015/08/06/making-sense-pr-speak/) the abundance of jargon that seems to find its way into considerable amounts of PR copy – with B2B PR being particularly afflicted by the jargon curse. With 2016 now firmly established, this is a good time to revisit the topic and have a look at some of the current phrases being ‘leveraged’ in the world of PR.
+![confusion](confusion-150x150.jpg){.img-left}Last year, [Alex wrote about](http://www.sparkcomms.co.uk/2015/08/06/making-sense-pr-speak/) the abundance of jargon that seems to find its way into considerable amounts of PR copy – with B2B PR being particularly afflicted by the jargon curse. With 2016 now firmly established, this is a good time to revisit the topic and have a look at some of the current phrases being ‘leveraged’ in the world of PR.
 
 One of the biggest problems with using jargon and buzzwords is that it can completely ruin the tone of whatever you are writing. [Surveys have found](http://theconversation.com/translated-the-baffling-world-of-business-jargon-52795) that jargon is an immediate irritant to a reader, and is something that people can even find intimidating. So even if the actual ‘thing’ your press release is announcing is interesting if it’s littered with jargon and buzzwords, readers (and that includes journalists) will instantly switch off. Here are a few more words to avoid:
 

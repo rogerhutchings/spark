@@ -20,7 +20,7 @@ imported_from_wordpress:
     - Spark
 ---
 
-![Beer glasses](Pic1-150x150.jpg)Carrying on from Al’s crowdsourcing post on [what a tech PR wants for Christmas](http://www.sparkcomms.co.uk/2013/12/04/tech-pr-wants-christmas/) I thought I would ask around the office on what new year’s resolutions people had. Here is a selection of what some of the Spark team would like to achieve in 2014:
+![Beer glasses](Pic1-150x150.jpg){.img-left}Carrying on from Al’s crowdsourcing post on [what a tech PR wants for Christmas](http://www.sparkcomms.co.uk/2013/12/04/tech-pr-wants-christmas/) I thought I would ask around the office on what new year’s resolutions people had. Here is a selection of what some of the Spark team would like to achieve in 2014:
 
 **Drink more –** Not one you would expect to see as a new year’s resolution as not exactly something you would associate with self-improvement, though nevertheless important for a PR. This was said particularly in reference to taking journalists out more, to further build relationships and have some fun at the same time. Of course the same should apply to clients, despite being in technology PR entertaining is still an important part of the job, not to mention a great way to quash the January blues :)
 

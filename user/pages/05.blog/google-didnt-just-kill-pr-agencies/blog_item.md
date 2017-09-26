@@ -24,7 +24,7 @@ imported_from_wordpress:
     - SEO
 ---
 
-![SEO](Seo-blocks-300x231.gif)Tom Foremski asks this question in a [recent blog](http://www.zdnet.com/did-google-just-kill-pr-agencies-7000019182/) as a result of updates to Google’s Webmaster rules.  If you are a PR agency that focuses on SEO rather than influencing the influencers then yes, you may well be going the way of the dodo.   However, for the rest of us who see our jobs as communicating our client’s messages via high credibility authors, i.e. journalists, that in turn improves their search engine rankings; it can only be good news.
+![SEO](Seo-blocks-300x231.gif){.img-left}Tom Foremski asks this question in a [recent blog](http://www.zdnet.com/did-google-just-kill-pr-agencies-7000019182/) as a result of updates to Google’s Webmaster rules.  If you are a PR agency that focuses on SEO rather than influencing the influencers then yes, you may well be going the way of the dodo.   However, for the rest of us who see our jobs as communicating our client’s messages via high credibility authors, i.e. journalists, that in turn improves their search engine rankings; it can only be good news.
 
 For us sticking to our knitting means the following:
 

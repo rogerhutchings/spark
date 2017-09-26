@@ -20,7 +20,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![Tech Trends](technology-584755_640-300x212.jpg)Many analyst houses and big consultancies have released their top technology focus areas for 2015.  [The Economist](http://www.economistinsights.com/analysis/top-tech-trends-2015) and [PWC](http://www.pwc.com/us/tech-trends) are suggesting private cloud, data mining and analytics, and cyber security will top the agenda for 2015. [Gartner](http://www.gartner.com/newsroom/id/2867917) is also tipping cloud as a major focus area, among other technologies such as the Internet of Things and 3D printing.
+![Tech Trends](technology-584755_640-300x212.jpg){.img-left}Many analyst houses and big consultancies have released their top technology focus areas for 2015.  [The Economist](http://www.economistinsights.com/analysis/top-tech-trends-2015) and [PWC](http://www.pwc.com/us/tech-trends) are suggesting private cloud, data mining and analytics, and cyber security will top the agenda for 2015. [Gartner](http://www.gartner.com/newsroom/id/2867917) is also tipping cloud as a major focus area, among other technologies such as the Internet of Things and 3D printing.
 
 Any PR agency worth their salt will try to shoehorn their client messages to fit these subjects. After all, these are the topics the industry cares most about and consequently that the media will write most about. However, enthusiasm quickly turns to boredom as journalists’ inboxes fill with pitch upon pitch that starts with much the same sentence about private cloud or the Internet of Things. 
 

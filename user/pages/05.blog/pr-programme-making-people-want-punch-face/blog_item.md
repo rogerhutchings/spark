@@ -21,7 +21,7 @@ imported_from_wordpress:
     - Social Media
 ---
 
-![ifyoutalkedtopeople-thumb](ifyoutalkedtopeople-thumb.jpg)
+![ifyoutalkedtopeople-thumb](ifyoutalkedtopeople-thumb.jpg){.img-left}
 
 When I read Hubspot’s  blog post about marketing clichés some rang more than a few bells – we try to avoid them but ‘best of breed’ sometimes slips through the net.   PRs have always had to translate marketing speak into everyday language.  We already run the risk of creating a ‘punch in the face’ moment if we call a journalist at a bad time, so adding to it by pitching them a cliché-ridden press release is a real no-no.
 

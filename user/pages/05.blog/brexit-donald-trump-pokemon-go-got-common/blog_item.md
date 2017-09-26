@@ -22,7 +22,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![](pokemon-1555036_640-300x199.png)Unless you have been living in a cave for the last six weeks, it’s been almost impossible to avoid the news, with every other news story being about Brexit, Donald Trump and er ….Pokémon Go.  From a PR perspective, all three have been interesting to observe even if the results have been mixed, to say the least!
+![](pokemon-1555036_640-300x199.png){.img-left}Unless you have been living in a cave for the last six weeks, it’s been almost impossible to avoid the news, with every other news story being about Brexit, Donald Trump and er ….Pokémon Go.  From a PR perspective, all three have been interesting to observe even if the results have been mixed, to say the least!
 
 
 

@@ -19,7 +19,7 @@ imported_from_wordpress:
     - Technology
 ---
 
-![Elbow_(body)](Elbow_body-128x150.jpg)A little knowledge is a dangerous thing, and that holds true in technology PR as with other professions. Calling journalists and then not being able to explain what the client does or articulate why they should be writing about them is a definite no-no. Yet there are always cases mentioned of [PRs pitching incoherent stories.](https://twitter.com/badpitch) Here are some key things to bear in mind that can ensure you are a help rather than a hindrance to journalists.
+![Elbow_(body)](Elbow_body-128x150.jpg){.img-left}A little knowledge is a dangerous thing, and that holds true in technology PR as with other professions. Calling journalists and then not being able to explain what the client does or articulate why they should be writing about them is a definite no-no. Yet there are always cases mentioned of [PRs pitching incoherent stories.](https://twitter.com/badpitch) Here are some key things to bear in mind that can ensure you are a help rather than a hindrance to journalists.
 
 **1. Do your research**
 

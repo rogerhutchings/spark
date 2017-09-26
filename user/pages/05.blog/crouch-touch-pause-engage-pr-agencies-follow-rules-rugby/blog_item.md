@@ -22,7 +22,7 @@ imported_from_wordpress:
     - Spark
 ---
 
-[](Rugby-150x150.jpg)How many meaningless emails have you received today?  We have 1,728 of them to wade through each year,[ according to a recent Sennheiser Communications study](http://www.express.co.uk/news/uk/552042/Study-reveals-that-office-workers-get-thousands-pointless-emails).
+[](Rugby-150x150.jpg){.img-left}How many meaningless emails have you received today?  We have 1,728 of them to wade through each year,[ according to a recent Sennheiser Communications study](http://www.express.co.uk/news/uk/552042/Study-reveals-that-office-workers-get-thousands-pointless-emails).
 
 Unless you’re Apple, relying too heavily on emails as a PR tactic is a sure-fire recipe for wasted time and effort. I’ve always found it’s better to approach media relations like a rugby team.
 

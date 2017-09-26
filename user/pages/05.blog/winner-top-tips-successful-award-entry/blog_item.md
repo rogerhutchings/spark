@@ -20,7 +20,7 @@ imported_from_wordpress:
     - PRmoment
 ---
 
-![award-155595_640](award-155595_640-150x150.png)Last week I attended the [PRmoment Awards](http://www.prmomentawards.com/), as Spark was shortlisted in the category for best B2B PR Campaign for the work we carried out for iPass around its [Wi-Fi Growth Map](http://www.ipass.com/wifi-growth-map/). Unfortunately we didn’t win, but it did get me thinking about awards more generally and the role they play in PR and marketing.  Working in PR, you sometimes forget that for many clients, winning or even being nominated for an award is very much a badge of honour for the entire company, so it shouldn’t be sniffed at. 
+![award-155595_640](award-155595_640-150x150.png){.img-left}Last week I attended the [PRmoment Awards](http://www.prmomentawards.com/), as Spark was shortlisted in the category for best B2B PR Campaign for the work we carried out for iPass around its [Wi-Fi Growth Map](http://www.ipass.com/wifi-growth-map/). Unfortunately we didn’t win, but it did get me thinking about awards more generally and the role they play in PR and marketing.  Working in PR, you sometimes forget that for many clients, winning or even being nominated for an award is very much a badge of honour for the entire company, so it shouldn’t be sniffed at. 
 
 Working in PR for 15 years (yes that long!) I have probably seen the good, the bad and the ugly when it comes to award entries, so here are some top tips for a successful award entry:
 

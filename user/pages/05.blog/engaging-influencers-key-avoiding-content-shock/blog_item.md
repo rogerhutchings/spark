@@ -20,7 +20,7 @@ imported_from_wordpress:
     - Influencers
 ---
 
-![shock](shock-150x150.png)This [post](http://www.prwarrior.com/2016/03/02/are-our-expectations-too-high/) does a great job of explaining content shock, why it exists and why you should ensure you are prioritising quality of engagement rather than quantity.
+![shock](shock-150x150.png){.img-left}This [post](http://www.prwarrior.com/2016/03/02/are-our-expectations-too-high/) does a great job of explaining content shock, why it exists and why you should ensure you are prioritising quality of engagement rather than quantity.
 
 In PR, the level of engagement with content is tested in real-time.  We speak to our target audience and get their feedback.  ‘Hi journalist – we think this news is really interesting because….We think you should like it too as we know you’ve written about this stuff before….What do you think? Fancy pulling together a story? If so, how can we help?’ If we fail to engage, we can tailor/bolster the content as we go.
 

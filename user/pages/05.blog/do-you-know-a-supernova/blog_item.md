@@ -19,7 +19,7 @@ imported_from_wordpress:
     - SuperNova Awards
 ---
 
-[](SuperNova1-150x150.png)Remember the SuperNova awards from [Constellation Research](http://www.constellationrg.com/), well they are back again and the closing date for entries is the 22nd of June. I’m a judge again this year and if the quality of last year’s entries is anything to go by then some tough choices will have to be made. It seems that amongst all the economic doom and gloom, many organisations are using technology to drive change and do business in a dramatically different way.
+[](SuperNova1-150x150.png){.img-left}Remember the SuperNova awards from [Constellation Research](http://www.constellationrg.com/), well they are back again and the closing date for entries is the 22nd of June. I’m a judge again this year and if the quality of last year’s entries is anything to go by then some tough choices will have to be made. It seems that amongst all the economic doom and gloom, many organisations are using technology to drive change and do business in a dramatically different way.
 
 For those of you that don’t know about these awards they are a little different to the norm. Most award programmes recognise technology suppliers for their advancements in the market.  These awards however are focused on the individual who has created change and disruption within their organisation by putting new technologies to work.
 

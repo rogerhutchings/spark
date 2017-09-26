@@ -19,7 +19,7 @@ imported_from_wordpress:
     - spokespeople
 ---
 
-![beware_of_the____](beware_of_the____-300x225.png)Political party conference season can really spook a company spokesperson, even the most experienced will recoil in horror at the thought of a grilling from Nick Robinson.   Conference season may be over but the impact remains on anyone that has to face the press.  But with Halloween approaching maybe it is time to [feel the fear and do it anyway.](http://www.susanjeffers.com/home/detailtemplate.cfm?catID=2234)
+![beware_of_the____](beware_of_the____-300x225.png){.img-left}Political party conference season can really spook a company spokesperson, even the most experienced will recoil in horror at the thought of a grilling from Nick Robinson.   Conference season may be over but the impact remains on anyone that has to face the press.  But with Halloween approaching maybe it is time to [feel the fear and do it anyway.](http://www.susanjeffers.com/home/detailtemplate.cfm?catID=2234)
 
 Fear rather than a ‘scary’ journalist is the most common reason for missed opportunities.  Most IT journalists aren’t looking for a points scoring battle with the spokesperson, they are more typically on a deadline and need a good quote to support the angle they want their article to take. 
 

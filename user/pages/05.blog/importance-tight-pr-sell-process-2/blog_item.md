@@ -19,7 +19,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![phone-148955_1280](phone-148955_1280-150x150.png)Critical to the success of any PR announcement is a tight and persistent sell-in process.  Despite what journalists profess, unless you have a tight sell-in and follow-up process, you aren't going to get the desired results [jumps back to avoid objects thrown at her].  It simply isn't enough to just email an announcement to a press list and expect it to get great coverage.  Now I am not talking about the understandably hated 'have you got my press release' but I am talking about calling a journalist more than once to run through the news, including why it is significant and what the story is.  
+![phone-148955_1280](phone-148955_1280-150x150.png){.img-left}Critical to the success of any PR announcement is a tight and persistent sell-in process.  Despite what journalists profess, unless you have a tight sell-in and follow-up process, you aren't going to get the desired results [jumps back to avoid objects thrown at her].  It simply isn't enough to just email an announcement to a press list and expect it to get great coverage.  Now I am not talking about the understandably hated 'have you got my press release' but I am talking about calling a journalist more than once to run through the news, including why it is significant and what the story is.  
 
 So, our top tips for a tight sell-in process are as follows:
 

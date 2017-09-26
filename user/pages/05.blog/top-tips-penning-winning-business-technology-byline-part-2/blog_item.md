@@ -21,7 +21,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![Opinion piece](Opinion-piece-150x150.jpg)Last week, I outlined three of my top tips for writing a great byline that gets your spokespeople out there voicing your core messages in an engaging way. Here, I’ll outline three more to help you navigate the golden rules and ensure your article gets the publicity it deserves.
+![Opinion piece](Opinion-piece-150x150.jpg){.img-left}Last week, I outlined three of my top tips for writing a great byline that gets your spokespeople out there voicing your core messages in an engaging way. Here, I’ll outline three more to help you navigate the golden rules and ensure your article gets the publicity it deserves.
 
 **Make it factual**
 

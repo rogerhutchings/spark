@@ -22,7 +22,7 @@ imported_from_wordpress:
     - Twitter
 ---
 
-![media](newspaper.png)They say that there is no such thing as bad PR. Are they right?
+![media](newspaper.png){.img-left}They say that there is no such thing as bad PR. Are they right?
 
 Last week was an interesting and revelatory week in PR-world. A PR company asked journalists, in writing, to [guarantee that they would tweet using their clients hashtag and twitter handle in exchange for tickets to the BRITS](http://www.independent.co.uk/arts-entertainment/music/news/priceless-surprises-twitter-outrage-after-brit-awards-journalists-requested-by-house-pr-to-tweet-for-mastercard-in-return-for-tickets-9138563.html). This raised some interesting questions about how far a PR agency should go in the hunt for coverage.
 

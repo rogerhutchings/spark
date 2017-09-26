@@ -21,7 +21,7 @@ imported_from_wordpress:
     - Press Releases
 ---
 
-![typing](typing-150x150.jpg)Writing is the bread and butter of PR. A normal week’s writing can range from drafting a quick quote, penning a 5,000 word whitepaper, jotting an opinion article, or of course, scribing a press release. The press release is certainly one of the most frequent writing tasks and is a much-maligned tool in the PR’s arsenal. However, reports of its death have been greatly exaggerated.
+![typing](typing-150x150.jpg){.img-left}Writing is the bread and butter of PR. A normal week’s writing can range from drafting a quick quote, penning a 5,000 word whitepaper, jotting an opinion article, or of course, scribing a press release. The press release is certainly one of the most frequent writing tasks and is a much-maligned tool in the PR’s arsenal. However, reports of its death have been greatly exaggerated.
 
 Every so often, the subject of the press release being ‘dead’ rears its head. Yet, clients still want them, and more importantly, so do journalists! So, PR agencies keep writing them, in their thousands. It’s high time, then, to recap some top tips for writing a press release – because they’re not going anywhere any time soon!
 

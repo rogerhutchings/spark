@@ -2459,11 +2459,11 @@ img {
      -l  = large
 
 */
-.fl {
+.fl, .blog .img-left {
   float: left;
   _display: inline; }
 
-.fr {
+.fr, .blog .img-right {
   float: right;
   _display: inline; }
 
@@ -4786,7 +4786,7 @@ a:visited {
 .ml2 {
   margin-left: 0.5rem; }
 
-.ml3 {
+.ml3, .blog .img-right {
   margin-left: 1rem; }
 
 .ml4 {
@@ -4810,7 +4810,7 @@ a:visited {
 .mr2, .list-arrow li:before, .list-angle li:before {
   margin-right: 0.5rem; }
 
-.mr3 {
+.mr3, .blog .img-left {
   margin-right: 1rem; }
 
 .mr4 {
@@ -4834,7 +4834,7 @@ a:visited {
 .mb2 {
   margin-bottom: 0.5rem; }
 
-.mb3 {
+.mb3, .blog .img-left, .blog .img-right {
   margin-bottom: 1rem; }
 
 .mb4 {
@@ -8820,3 +8820,10 @@ body {
     top: 0;
     transition: top 0.2s cubic-bezier(0.33333, 0, 0.66667, 0.33333), transform 0.13s 0.22s cubic-bezier(0.215, 0.61, 0.355, 1);
     transform: translate3d(0, 10px, 0) rotate(-45deg); }
+
+/*
+
+  HELPER CLASSES FOR BLOG
+
+
+*/

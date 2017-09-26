@@ -19,7 +19,7 @@ imported_from_wordpress:
     - LinkedIn
 ---
 
-![google-Plus-icon](google-Plus-icon-150x150.png)Like many people I was a bit sceptical when I heard that Google was making yet another attempt to get into the social networking space – Google Buzz anyone?  That of course didn’t stop me signing up for it once an invite came my way and admittedly liking it much more than I thought I would.
+![google-Plus-icon](google-Plus-icon-150x150.png){.img-left}Like many people I was a bit sceptical when I heard that Google was making yet another attempt to get into the social networking space – Google Buzz anyone?  That of course didn’t stop me signing up for it once an invite came my way and admittedly liking it much more than I thought I would.
 
 So is it just Google’s version of Facebook? If you believe this [video](http://www.youtube.com/watch?v=tGTTfiar7C8) then yes.
 

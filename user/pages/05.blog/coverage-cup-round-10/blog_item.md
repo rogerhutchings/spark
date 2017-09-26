@@ -19,7 +19,7 @@ imported_from_wordpress:
     - Spark
 ---
 
-![Coverage cup](Coverage-cup-167x300.jpg)With the Olympics fast approaching, Spark has helped secure some golden pieces of coverage over the last couple of weeks.  Quick off the starting blocks, Venafi and IOActive secured comment in a _Financial Times_’ feature on women in security. The Venafi team maintained its strong start by quickly responding to the EU’s pledge of €1.8bn for cybersecurity – an effort rewarded with coverage in both the _Independent_ and _New Statesman_. Meanwhile, HCL's Rahul Singh led the pack by featuring prominently in a Telegraph feature looking at blockchain. Bringing the baton home, the Trustmarque team secured comment in a _Times’_ feature on legal technology.
+![Coverage cup](Coverage-cup-167x300.jpg){.img-left}With the Olympics fast approaching, Spark has helped secure some golden pieces of coverage over the last couple of weeks.  Quick off the starting blocks, Venafi and IOActive secured comment in a _Financial Times_’ feature on women in security. The Venafi team maintained its strong start by quickly responding to the EU’s pledge of €1.8bn for cybersecurity – an effort rewarded with coverage in both the _Independent_ and _New Statesman_. Meanwhile, HCL's Rahul Singh led the pack by featuring prominently in a Telegraph feature looking at blockchain. Bringing the baton home, the Trustmarque team secured comment in a _Times’_ feature on legal technology.
 
 A full list of Coverage Cup nominations can be found below:
 

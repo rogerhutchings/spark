@@ -20,7 +20,7 @@ imported_from_wordpress:
     - SuperNova Awards
 ---
 
-[](images-11-e1311754618351.jpg)Many of you probably know Ray Wang, esteemed industry analyst, from his days at Forrester or more recently his own firm Constellation Research. Ray asked me to be a judge for the inaugural Constellation SuperNova Awards the other week, and without hesitation I said yes. The challenge now is I need to show I know something about my chosen category, mobile enterprise!
+![](images-11-e1311754618351.jpg){.img-left}Many of you probably know Ray Wang, esteemed industry analyst, from his days at Forrester or more recently his own firm Constellation Research. Ray asked me to be a judge for the inaugural Constellation SuperNova Awards the other week, and without hesitation I said yes. The challenge now is I need to show I know something about my chosen category, mobile enterprise!
 
 In all seriousness though, mobility to me is one of the most dynamic and interesting areas of the technology landscape today. Whether it is mobile technology revolutionising business processes or new enterprises being created through the opportunities that mobility creates, this is an area that is starting to touch every part of our lives.
 

@@ -21,7 +21,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![person-695652_640](person-695652_640-300x212.jpg)Anyone in consumer PR would have been delighted to see the recent headline from [PR Week](http://www.prweek.com/article/1365973/ad-industry-running-scared-pr-adam-eve-partner-tells-prca-conference?bulletin=uk%2Fprweekdaily&utm_medium=EMAIL&utm_campaign=eNews%20Bulletin&utm_source=20150928&utm_content=www_prweek_com_article_1365973) ‘Ad industry is ‘running scared’ from PR.’  This was said by the guy that created the John Lewis Christmas ads so I’d be confident that whatever he is scared of is pretty impressive!
+![person-695652_640](person-695652_640-300x212.jpg){.img-left}Anyone in consumer PR would have been delighted to see the recent headline from [PR Week](http://www.prweek.com/article/1365973/ad-industry-running-scared-pr-adam-eve-partner-tells-prca-conference?bulletin=uk%2Fprweekdaily&utm_medium=EMAIL&utm_campaign=eNews%20Bulletin&utm_source=20150928&utm_content=www_prweek_com_article_1365973) ‘Ad industry is ‘running scared’ from PR.’  This was said by the guy that created the John Lewis Christmas ads so I’d be confident that whatever he is scared of is pretty impressive!
 
 He had a few criticisms too but he’s fully aware that it’s never wise to get too comfortable.  Many of the larger PR agencies are offering in-house digital services and most of the smaller ones have partner relationships and the question of who best to choose – advertising or PR - when you want something to go viral must be a tricky one for brands.  Do you choose an ad agency – with their history of visual creativity - or do you choose a PR agency, who are experienced in creating a story compelling enough to motivate readers to engage and share a story? 
 

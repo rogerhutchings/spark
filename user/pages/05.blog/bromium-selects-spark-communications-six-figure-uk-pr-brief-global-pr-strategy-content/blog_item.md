@@ -23,7 +23,7 @@ imported_from_wordpress:
         - Spark
 ---
 
-![Bromium_logo](Bromium_logo-300x86.png)We are seeing a bit of a trend at the moment where more and more US companies are asking us, rather than a US agency, to lead their PR efforts globally.  That’s exactly what has happened with [Bromium](http://www.bromium.com), who we’ve just added to our list of security clients. It’s a six-figure brief to look after UK PR and develop storylines and campaigns globally.
+![Bromium_logo](Bromium_logo-300x86.png){.img-left}We are seeing a bit of a trend at the moment where more and more US companies are asking us, rather than a US agency, to lead their PR efforts globally.  That’s exactly what has happened with [Bromium](http://www.bromium.com), who we’ve just added to our list of security clients. It’s a six-figure brief to look after UK PR and develop storylines and campaigns globally.
 
 The security market is red hot at the moment and Bromium is right at the heart of it. The founders have a proven track record having created Xen, the technology that was sold to Citrix for half a billion dollars and that today underpins the world’s leading cloud infrastructures, including Amazon’s cloud services. Bromium’s platform is one of the most unique technologies I’ve seen. It uses something called micro-virtualisation to isolate every task a user ever undertakes on a computer – it means that you don’t have to worry about your PC getting infected by malware from a website or email attachment, nor do you need to worry about ransomware. It’s pretty cool and dare I say disruptive :).
 

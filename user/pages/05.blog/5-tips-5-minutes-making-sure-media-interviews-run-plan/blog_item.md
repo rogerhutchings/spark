@@ -20,7 +20,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![Microphone](Microphone-300x200.jpg)Media interviews are a much-vaunted, much-loved staple of any PR programme worth its salt, but, like anything in PR, [they can go horribly wrong](http://www.sparkcomms.co.uk/2013/04/17/dont-do-a-boris/). But even when an interview isn’t a complete car crash, as any PR pro will know, a lot of interviews can end up being merely a so-so experience – instead of being a sound-bite stuffed, charming-the-pants-off-journalists result that we all hope for.
+![Microphone](Microphone-300x200.jpg){.img-left}Media interviews are a much-vaunted, much-loved staple of any PR programme worth its salt, but, like anything in PR, [they can go horribly wrong](http://www.sparkcomms.co.uk/2013/04/17/dont-do-a-boris/). But even when an interview isn’t a complete car crash, as any PR pro will know, a lot of interviews can end up being merely a so-so experience – instead of being a sound-bite stuffed, charming-the-pants-off-journalists result that we all hope for.
 
 It’s important to remember that every spokesperson you have is different. Some will have been media trained up the eyeballs over a long career in the C-Suite, others will be doing their first ever interview having never knowingly spoken to a journalist in their life. It’s also important to remember that interviews are arranged for any number of reasons, and so the approach you and your spokesperson take will differ accordingly. It might be a ten-minute chat on the phone to grab a few quotes for a feature, or it might be an in-depth hour-long profile piece.
 

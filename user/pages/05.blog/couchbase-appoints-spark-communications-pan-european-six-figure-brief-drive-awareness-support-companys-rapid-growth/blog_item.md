@@ -22,7 +22,7 @@ imported_from_wordpress:
         - Spark
 ---
 
-![Couchbase](Couchbase-300x68.png)Digital innovation and customer experience are two of the major industry buzzwords of the day which is why we are particularly excited to win [Couchbase](http://www.couchbase.com/), a NoSQL database, as its customers are truly changing the way we all engage with companies by using data in innovative ways. We will be running and managing PR in the UK, France and Germany, with a brief focused on storytelling and content. It is a six figure brief which will see us develop creative campaigns that drive a more business-focused narrative around the database market.
+![Couchbase](Couchbase-300x68.png){.img-left}Digital innovation and customer experience are two of the major industry buzzwords of the day which is why we are particularly excited to win [Couchbase](http://www.couchbase.com/), a NoSQL database, as its customers are truly changing the way we all engage with companies by using data in innovative ways. We will be running and managing PR in the UK, France and Germany, with a brief focused on storytelling and content. It is a six figure brief which will see us develop creative campaigns that drive a more business-focused narrative around the database market.
 
 Couchbase delivers NoSQL database technology for businesses focused on digital innovation. Although databases have been around for years, NoSQL is disrupting the market: with many companies turning to Couchbase for a data platform that enables them to develop new applications that better engage consumers and employees. Its customers include LinkedIn, PayPal, Dixons, eBay, General Electric, Marriott, Ryanair and Tesco.
 

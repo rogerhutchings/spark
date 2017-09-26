@@ -19,7 +19,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![Audience](Audience-150x150.jpg)I remember once being with a group of my brother’s friends and making an off the cuff quip that did not go down very well at all – the resulting feeling was embarrassment and confusion, why had it gone so wrong? Afterwards, my brother turned to me (with a slightly despairing chuckle) and told me simply that I really should know my audience; a lesson that is equally, if not more, important in the world of PR.
+![Audience](Audience-150x150.jpg){.img-left}I remember once being with a group of my brother’s friends and making an off the cuff quip that did not go down very well at all – the resulting feeling was embarrassment and confusion, why had it gone so wrong? Afterwards, my brother turned to me (with a slightly despairing chuckle) and told me simply that I really should know my audience; a lesson that is equally, if not more, important in the world of PR.
 
 PR is all about audiences: what kind of companies are your clients trying to connect to? Who within those companies are the key stakeholders? What are the key issues facing these people? Who, in an ideal world, do your clients want to be speaking to that they are not today? These questions should really sit at the heart of a PR programme – all tactics should be designed to helping clients to connect to these audiences in the most appropriate way, whether that involves educating them on a new issue that will impact them, or offering advice on a best practice approach to an age-old problem, or even just entertaining.
 

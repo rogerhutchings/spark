@@ -22,7 +22,7 @@ imported_from_wordpress:
     - SEO
 ---
 
-![SEO](Seo-blocks-300x231.gif)In PR we’re always looking for new ways to help increase our client’s visibility. You can write the best article and get the most fantastic piece of coverage possible from a release, but in the age of Google if you’re not paying attention to your SEO, then you may not be maximising your online potential.
+![SEO](Seo-blocks-300x231.gif){.img-left}In PR we’re always looking for new ways to help increase our client’s visibility. You can write the best article and get the most fantastic piece of coverage possible from a release, but in the age of Google if you’re not paying attention to your SEO, then you may not be maximising your online potential.
 
 These days, SEO should be considered part of the standard writing and proofing processes, coming at the start the content creation process, not wrapped in at the end.
 

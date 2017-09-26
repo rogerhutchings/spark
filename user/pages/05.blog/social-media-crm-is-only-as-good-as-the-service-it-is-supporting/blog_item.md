@@ -23,7 +23,7 @@ imported_from_wordpress:
     - Twitter
 ---
 
-![Twitter](Twitter-150x150.png)Following on Kewal's post regarding the lack of joined up customer service he received from Sky [recently](http://www.sparkcomms.co.uk/index.php/2011/06/if-you-are-to-engage-engage-meaningfully/), I thought I should share the more positive customer service experience I received from  Royal Mail.
+![Twitter](Twitter-150x150.png){.img-left}Following on Kewal's post regarding the lack of joined up customer service he received from Sky [recently](http://www.sparkcomms.co.uk/index.php/2011/06/if-you-are-to-engage-engage-meaningfully/), I thought I should share the more positive customer service experience I received from  Royal Mail.
 
 Understandably, I was less than impressed when I had a missed delivery one Saturday despite being in all day and paying extra for a next-day service.  Whereas before I may have just left it, through not wanting to waste my time calling customer service, this time I decided to take my complaint online.  I soon found the Royal Mail's Twitter account (@RoyalMail) and soon made my displeasure known – well as much as you can in 140 characters!
 

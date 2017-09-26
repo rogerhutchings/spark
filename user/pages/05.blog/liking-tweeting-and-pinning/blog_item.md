@@ -25,7 +25,7 @@ imported_from_wordpress:
     - Twitter
 ---
 
-![Social networks](Social-networks.jpg)I’ll quite happily admit to signing myself up to, or downloading an iPhone app, to check out each and every new social networking fad – and in recent years there have been many of these. They say variety is the spice of life, however even I am now starting to question; are there simply too many social networks?
+![Social networks](Social-networks.jpg){.img-left}I’ll quite happily admit to signing myself up to, or downloading an iPhone app, to check out each and every new social networking fad – and in recent years there have been many of these. They say variety is the spice of life, however even I am now starting to question; are there simply too many social networks?
 
 Over the last month or so there has been a lot of 'next Facebook' buzz around online pinboard service [Pinterest](http://www.pinterest.com/). I, like many early adopters, signed up and set up boards of interest (any Sheffield Wednesday fans out there can check out my board [here](http://pinterest.com/crawsh23/sheffield-wednesday/)) but who knows whether I will have the same interest in the site in six months’ time.
 

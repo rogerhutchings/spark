@@ -22,7 +22,7 @@ imported_from_wordpress:
     - Twitter
 ---
 
-![transparency](business-257880_1280-300x212.jpg)More and more organisations are now conscious of being transparent in terms of how they run their business and who they do business with. Increasingly, this is becoming a significant PR exercise for some big tech companies who are being more transparent regarding their business activities.
+![transparency](business-257880_1280-300x212.jpg){.img-left}More and more organisations are now conscious of being transparent in terms of how they run their business and who they do business with. Increasingly, this is becoming a significant PR exercise for some big tech companies who are being more transparent regarding their business activities.
 
 Last year, Google and Facebook both released its facts and figures regarding the efficiency of their data centres; indeed many technology writers were surprised by the levels of efficiency each company claimed it had achieved.  Google even stated it has the [world’s most efficient data centre](http://www.datacenterknowledge.com/archives/2008/10/01/google-the-worlds-most-efficient-data-centers/). Joe Kava, senior director, data centre construction and operations for Google said, “In the same way that you might examine your electricity bill and then tweak the thermostat, we constantly track our energy consumption and use that data to make improvements to our infrastructure. As a result, our data centres use 50 percent less energy than the typical data centre.”  Facebook also recently released a tool which shows live updated efficiency figures from its data centres. The reaction to both Google and Facebook was positive and many saw it as the first step towards greater data centre transparency.
 

@@ -19,7 +19,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![Trust logo](Trust-150x150.jpg)I recently read an article by Ian Burrell bemoaning the prospects of the journalism industry, arguing that it’s slowly being killed off by PR itself – he’s by far the first to make this claim. Referring to the ‘churnalism’ of Nick Davies’ infamous _[Flat Earth News](http://www.flatearthnews.net/)_, Burrell argues that the tempestuous love/hate affair between journalism and PR is only getting worse as large corporate organisations are now bypassing journalism altogether, and going direct to their ‘publics’ with a vast array of homemade content delivered straight to the customer themselves. And in doing so, he asks the question, does PR still need traditional press?
+![Trust logo](Trust-150x150.jpg){.img-left}I recently read an article by Ian Burrell bemoaning the prospects of the journalism industry, arguing that it’s slowly being killed off by PR itself – he’s by far the first to make this claim. Referring to the ‘churnalism’ of Nick Davies’ infamous _[Flat Earth News](http://www.flatearthnews.net/)_, Burrell argues that the tempestuous love/hate affair between journalism and PR is only getting worse as large corporate organisations are now bypassing journalism altogether, and going direct to their ‘publics’ with a vast array of homemade content delivered straight to the customer themselves. And in doing so, he asks the question, does PR still need traditional press?
 
 In a word, yes.
 

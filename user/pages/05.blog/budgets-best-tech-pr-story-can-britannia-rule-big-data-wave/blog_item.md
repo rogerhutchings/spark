@@ -21,7 +21,7 @@ imported_from_wordpress:
     - The Budget
 ---
 
-![Big Data](256px-DARPA_Big_Data-150x150.jpg)One of the most interesting announcements from last week’s budget was the foundation of the [Alan Turing Institute](http://www.bbc.co.uk/news/technology-26651179).  
+![Big Data](256px-DARPA_Big_Data-150x150.jpg){.img-left}One of the most interesting announcements from last week’s budget was the foundation of the [Alan Turing Institute](http://www.bbc.co.uk/news/technology-26651179).  
 
 Many of our clients have a Big Data story, whether it is security clients that can talk about how Big Data analysis can bolster security or analytics clients that can talk about [sales and marketing activities](http://www.guavus.com/products/).  We also work with [Elsevier](http://www.elsevier.com/online-tools/corporate), the scientific publisher which means we also focus on worldwide game changers at the top end of Big Data initiatives such as [drug development.](http://www.ft.com/cms/s/2/6661db3e-5c6e-11e3-931e-00144feabdc0.html#axzz2wsxVwwNC)    
 

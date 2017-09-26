@@ -29,7 +29,7 @@ The leaked information revealed an NDA clause, which states that anyone who part
 
 For some reason, the UK’s Community Manager for Machinima tweeted about this deal, before quickly taking his tweet down.
 
-![Tweet](Tweet-300x186.png)
+![Tweet](Tweet-300x186.png){.img-left}
 
  Aside from the fact that this kind of practice is illegal in the US under the [FTC law](http://www.socialmediaexplorer.com/social-media-marketing/disclosures-for-bloggers-and-brands/) (which states that endorsements require disclosure), this has serious moral and ethical implications. As a comparison, PR is inherently about earning your coverage on the merit of the story itself. We know that offering money to a journalist to cover a story is, well, wrong.
 

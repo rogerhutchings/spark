@@ -19,7 +19,7 @@ imported_from_wordpress:
     - Technology
 ---
 
-![IoT](IoT-150x150.jpg)The Internet of Things (IoT) is one of the hottest trends in technology right now. The notion behind the buzzword essentially sees almost all of the objects we interact with on a daily basis connected and able to interact with each other. It’s an area that’s full of promise and a number of companies are in on the action.
+![IoT](IoT-150x150.jpg){.img-left}The Internet of Things (IoT) is one of the hottest trends in technology right now. The notion behind the buzzword essentially sees almost all of the objects we interact with on a daily basis connected and able to interact with each other. It’s an area that’s full of promise and a number of companies are in on the action.
 
 The potential for IoT is endless – from [fridges sending email](http://www.bbc.co.uk/news/technology-25780908) to [smart metering](http://en.wikipedia.org/wiki/Smart_meter) to name a couple. Apple has just announced its Home Kit which will allow users to control everything in their homes from their iPhones, which serves as an indication of what is to come.
 

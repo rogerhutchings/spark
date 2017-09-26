@@ -19,7 +19,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![Big Fish](Big-Fish-150x150.png)The PRCA’s recent [PR Census](http://news.prca.org.uk/pr-census-2016-reveals-that-the-pr-industry-is-worth-129bn) found that the UK PR industry is worth £12.9bn per year stemming from 83,000 PRs, a number that has risen by 21,000 since their last census in 2013. That rate of growth is staggering, and it stands to reason that as the pool gets larger the noise levels rise. In such a large crowd, how can one individual make their voice heard above the rest?
+![Big Fish](Big-Fish-150x150.png){.img-left}The PRCA’s recent [PR Census](http://news.prca.org.uk/pr-census-2016-reveals-that-the-pr-industry-is-worth-129bn) found that the UK PR industry is worth £12.9bn per year stemming from 83,000 PRs, a number that has risen by 21,000 since their last census in 2013. That rate of growth is staggering, and it stands to reason that as the pool gets larger the noise levels rise. In such a large crowd, how can one individual make their voice heard above the rest?
 
 One of the first things I was told when entering the industry was the importance of media relations. There is little point in having a story if you have no means of telling it. A big part of this is providing relevant, interesting, topical content. This may sound obvious, but there is a reason that some journalists consider PRs to be [pests](http://www.forbes.com/sites/peterhimler/2013/03/14/the-journalist-the-pr-pro-a-broken-marriage/#f6233f7e42e3), as opposed to being a useful source.
 

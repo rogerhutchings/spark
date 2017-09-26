@@ -20,7 +20,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![inspector-160143_640](inspector-160143_640-237x300.png)There are often times when clients don’t have any news themselves to discuss, but that shouldn’t be a barrier towards getting press coverage. Features are a crucial part of working a PR account and a great way to get a client’s message out.
+![inspector-160143_640](inspector-160143_640-237x300.png){.img-left}There are often times when clients don’t have any news themselves to discuss, but that shouldn’t be a barrier towards getting press coverage. Features are a crucial part of working a PR account and a great way to get a client’s message out.
 
 **_Become a feature seeker_**
 

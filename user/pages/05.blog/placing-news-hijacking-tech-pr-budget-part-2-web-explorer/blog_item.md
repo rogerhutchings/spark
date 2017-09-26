@@ -21,7 +21,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![options-47081_640](options-47081_640-150x150.png)Welcome back! In the last blog, we began looking at how to make the most of a news hijack. Once you know what’s happening, and what your client can say, you can begin to turn that into scorching coverage:
+![options-47081_640](options-47081_640-150x150.png){.img-left}Welcome back! In the last blog, we began looking at how to make the most of a news hijack. Once you know what’s happening, and what your client can say, you can begin to turn that into scorching coverage:
 
 **Explore the angles**
 

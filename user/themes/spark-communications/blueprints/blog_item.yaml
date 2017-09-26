@@ -13,7 +13,16 @@ form:
         content:
           fields:
 
+            test:
+              type: display
+              ordering@: 2
+              size: large
+              label: Help
+              markdown: true
+              content: "To display an image on the left or right, add `{.img-left}` or `{.img-right}` after the image tag, like this:.\n\n```![example image](example.png){.img-left}```"
+
             author:
+              ordering@: 1
               type: select
               label: Author
               classes: fancy

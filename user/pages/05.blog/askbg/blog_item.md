@@ -22,15 +22,15 @@ imported_from_wordpress:
 
 Energy firms are seldom in the news for good reason, receiving regular berating from the public. Good PR for them is hard to come by. Recently, British Gas [announced](http://www.bbc.co.uk/news/business-24562930) an eye watering 9.2% price increase, just in time for winter, and caught headlines once again. But, it also announced a [live Twitter chat](https://twitter.com/BritishGas/status/390809239792254976) with Bert Pijls; the company’s customer services director the very same day, providing the ingredients for the perfect storm.
 
-![British Gas Tweet](Pic1.png)
+![British Gas Tweet](Pic1.png){.img-left}
 
 The results were calamitous. Thousands flocked to Twitter to vent their frustrations sending [#askBG](https://twitter.com/search?q=%23AskBG&src=tyah) to the top of the UK trends; the torrent of abuse there for all to see in a nice, easily searchable form. Tweets ranged from accusative, to angry and to downright comedic – but whichever way you look at it, the backlash was relentless. To make matters worse, the few responses from Bert were unhelpful at best, providing very little information which only exacerbated the situation. British Gas walked away with its tail between its legs.
 
-![Pic 3](Pic-3.png)
+![Pic 3](Pic-3.png){.img-left}
 
 To make matters worse, only days later the company posted a sponsored post on Facebook for all to see:
 
-![Pic 4](Pic-4.jpg)
+![Pic 4](Pic-4.jpg){.img-left}
 
 The result? Over 20,000 negative comments, thousands of shares. With two public forums for angry users to vent their frustrations, the effect was catastrophically negative PR for the company and [disaster](http://gs7.globalsuccessor.com/centrica02/tpl_centrica02.asp?s=4A515F4E5A565B1A&jobid=36882,8958347134) for one poor social media manager.
 

@@ -18,7 +18,7 @@ imported_from_wordpress:
     - Tech PR
 ---
 
-![classroom-379216_640](classroom-379216_640-150x150.jpg)Public Relations is a changeable beast. It encompasses anything and everything from [media relations](http://www.sparkcomms.co.uk/2014/10/22/beware-technology-journalist/) to [event management](http://www.sparkcomms.co.uk/2014/12/15/six-top-tips-organising-managing-international-press-trip/), to content production and [far more in-between](http://www.sparkcomms.co.uk/2014/07/29/nos-seo/). It also spans every industry and imaginable niche. Nowhere is this truer than in tech PR; where conceivably, on a daily basis you can go from talking about big data in drug discovery to business intelligence dashboards in the NHS, to fin tech applications in the cloud.
+![classroom-379216_640](classroom-379216_640-150x150.jpg){.img-left}Public Relations is a changeable beast. It encompasses anything and everything from [media relations](http://www.sparkcomms.co.uk/2014/10/22/beware-technology-journalist/) to [event management](http://www.sparkcomms.co.uk/2014/12/15/six-top-tips-organising-managing-international-press-trip/), to content production and [far more in-between](http://www.sparkcomms.co.uk/2014/07/29/nos-seo/). It also spans every industry and imaginable niche. Nowhere is this truer than in tech PR; where conceivably, on a daily basis you can go from talking about big data in drug discovery to business intelligence dashboards in the NHS, to fin tech applications in the cloud.
 
 Being able to juggle, understand and communicate such varied themes is a challenge. Here are some top tech PR traits that all PR pros need – from the very greenest graduate to the most frazzled flack.
 

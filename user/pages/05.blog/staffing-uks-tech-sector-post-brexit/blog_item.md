@@ -18,7 +18,7 @@ imported_from_wordpress:
     - Technology
 ---
 
-![](eu-1473958_640-150x150.png)As predicted, the reality of the UK’s departure from the EU is posing a number of legal, logistical, technologic, ethical and bureaucratic headaches for more than just Whitehall.
+![](eu-1473958_640-150x150.png){.img-left}As predicted, the reality of the UK’s departure from the EU is posing a number of legal, logistical, technologic, ethical and bureaucratic headaches for more than just Whitehall.
 
 The UK’s tech industry has out-performed the broader economy over the last decade, weathering the global crash of 2008 better than most sectors and then rebounding strongly since. Currently, the digital economy is growing at twice the rate of the wider economy, now contributing around [£97billion](http://www.telegraph.co.uk/technology/2017/03/22/tech-sector-growing-faster-uk-economy-72pc-investment-outside/) a year, with the UK attracting £28billion in technology investment since 2011, compared to £11billion in France and £9.3billion in Germany.
 

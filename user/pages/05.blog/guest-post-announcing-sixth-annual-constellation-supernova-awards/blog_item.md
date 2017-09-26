@@ -19,13 +19,13 @@ imported_from_wordpress:
     - SuperNova Awards
 ---
 
-_The SuperNova Awards honor leaders that demonstrate excellence in the application and adoption of new and emerging technologies. _[![](SuperNova%20Award%20header.png)](https://www.constellationr.com/events/supernova/2016)
+_The SuperNova Awards honor leaders that demonstrate excellence in the application and adoption of new and emerging technologies. _[![](SuperNova%20Award%20header.png)](https://www.constellationr.com/events/supernova/2016){.img-left}
 
 In its sixth year, the Constellation_ **[SuperNova Awards](https://www.constellationr.com/events/supernova/2016)**_ will recognize nine individuals who demonstrate true leadership in digital business through their application of new and emerging technologies. We’re searching for leaders and teams who used disruptive technolgies to transform their organizations. Special recognition will be given to projects that seek to redefine how the enterprise uses technology on a large scale.
 
 We’re searching for the boldest, most transformative technology projects out there. If you or someone you know has what it takes to compete in the SuperNova Awards, fill out _[the application](http://info.constellationr.com/download-supernova-award-application-checklist)_ here: 
 
-[![APPLY NOW](9d75130d-7166-4805-ac3b-72177d3cc64f.png)](http://cta-redirect.hubspot.com/cta/redirect/341263/9d75130d-7166-4805-ac3b-72177d3cc64f?__hstc=185180534.8632caa489f0666149ad9cba9a27f322.1454688719893.1455876225127.1457002447005.4&__hssc=185180534.1.1457002447005&__hsfp=3211536806)
+[![APPLY NOW](9d75130d-7166-4805-ac3b-72177d3cc64f.png){.img-left}](http://cta-redirect.hubspot.com/cta/redirect/341263/9d75130d-7166-4805-ac3b-72177d3cc64f?__hstc=185180534.8632caa489f0666149ad9cba9a27f322.1454688719893.1455876225127.1457002447005.4&__hssc=185180534.1.1457002447005&__hsfp=3211536806)
 
 ## **_Timeline_**
 

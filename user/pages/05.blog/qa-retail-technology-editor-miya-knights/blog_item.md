@@ -20,7 +20,7 @@ imported_from_wordpress:
     - Retail Technology
 ---
 
-![Retail Technology](Reatil-Technology.png)I recently chatted to Miya Knights, editor of [Retail Technology](http://www.retailtechnology.co.uk/) about the magazine, the tech PR community and broader opportunities to create dialogue for clients. Below Miya has been kind enough to share some of her thoughts with us in a Q&A: 
+![Retail Technology](Reatil-Technology.png){.img-left}I recently chatted to Miya Knights, editor of [Retail Technology](http://www.retailtechnology.co.uk/) about the magazine, the tech PR community and broader opportunities to create dialogue for clients. Below Miya has been kind enough to share some of her thoughts with us in a Q&A: 
 
 **Can you tell us a little about the Retail Technology re-design you did last year and how it's changed the magazine?**
 

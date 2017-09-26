@@ -18,7 +18,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![meeting-1219525_640](meeting-1219525_640-300x99.jpg)It might not be the most glamorous or exciting aspect of the job, but one of the many things I’ve noticed over the years that I’ve been working in tech PR is that we end up in a lot of meetings and conference calls. These are of course a vital part of the job; without them, we’d most likely be running around like a disorderly mob, with no clear plan or objective in sight.
+![meeting-1219525_640](meeting-1219525_640-300x99.jpg){.img-left}It might not be the most glamorous or exciting aspect of the job, but one of the many things I’ve noticed over the years that I’ve been working in tech PR is that we end up in a lot of meetings and conference calls. These are of course a vital part of the job; without them, we’d most likely be running around like a disorderly mob, with no clear plan or objective in sight.
 
 Having a regular conflab with our colleagues and clients is essential to keeping everything on track and coming up with the great ideas that deliver the [awesome coverage](http://www.bbc.co.uk/news/business-37372776) that we pride ourselves on.
 

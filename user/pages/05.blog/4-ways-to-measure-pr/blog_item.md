@@ -22,7 +22,7 @@ imported_from_wordpress:
 author: /team/ana-williams
 ---
 
-![Stanley tape measure](Pic-7-150x150.jpg)Prospective and existing clients often ask us: how do you measure PR and more generally success? While clearly not the easiest of tasks, as we all know PR is inherently hard to [measure](http://www.prweek.com/uk/news/1185338/); my top 4 ways to measure success would be as follows:
+![Stanley tape measure](Pic-7-150x150.jpg){.img-left}Prospective and existing clients often ask us: how do you measure PR and more generally success? While clearly not the easiest of tasks, as we all know PR is inherently hard to [measure](http://www.prweek.com/uk/news/1185338/); my top 4 ways to measure success would be as follows:
 
 **Customer leads and increased awareness** – Albeit not an everyday occurrence due to PR’s role as a subtle influencer, we have had clients tell us of leads that they have had as a direct result of PR. For example, one customer got a lead off the back of a case study, and another increased sales off the back of a product review. The real value to be had though as I see it, is in increased awareness of a company and exactly what it does: it was very rewarding to have a client tell us recently that now in sales situations companies know of them, have read of the work they do and see them as the key player in their space. Similarly, we had a client tell us we played a key role in their successful acquisition. However, examples like this don’t happen overnight, so what are other ways to measure success?
 

@@ -23,7 +23,7 @@ imported_from_wordpress:
     - Video
 ---
 
-![Stephen with cam left](Stephen-with-cam-left-150x150.jpg)I recently spoke to journalist and broadcaster [Stephen Pritchard](http://www.tw11productions.co.uk/). Having worked in the industry for over 20 years for media including the Financial Times and Guardian, he is well placed to give some very interesting views and tips on how to take part in interviews. 
+![Stephen with cam left](Stephen-with-cam-left-150x150.jpg){.img-left}I recently spoke to journalist and broadcaster [Stephen Pritchard](http://www.tw11productions.co.uk/). Having worked in the industry for over 20 years for media including the Financial Times and Guardian, he is well placed to give some very interesting views and tips on how to take part in interviews. 
 
 Stephen works as a reporter and also as a video journalist filming and editing his own material; he also regularly hosts programmes and chairs live webcasts and events, and has carried out media training for senior executives in business, government and the not-for-profit sector.
 

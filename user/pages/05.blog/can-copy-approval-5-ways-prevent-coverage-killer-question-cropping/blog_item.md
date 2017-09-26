@@ -26,7 +26,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![approval](approval-150x150.png)It’s simple: don’t. Asking for copy approval is the easiest and most sure-fire way to kill an interview stone-dead and blow any rapport you’ve established with the journalist out of the water.
+![approval](approval-150x150.png){.img-left}It’s simple: don’t. Asking for copy approval is the easiest and most sure-fire way to kill an interview stone-dead and blow any rapport you’ve established with the journalist out of the water.
 
 Asking for copy approval at the end of an interview creates a problem for a number of reasons. These have all been well covered in some great posts by the likes of [Jessica Twentyman](http://whitelabelglobal.com/blog/item/why-the-answer-s-always-no-to-copy-approval), [Michael Dempsey](http://www.mediapilot.com/blog/can-i-see-the-copy-before-you-publish) and [Guy Clapperton](http://guyclappertonmedia.com/2015/02/12/no-you-cant-check-my-copy/), who have summed it up much better than I can, so here I’ll just state the obvious (sorry).
 

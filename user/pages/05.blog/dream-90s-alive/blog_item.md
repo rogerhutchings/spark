@@ -19,7 +19,7 @@ imported_from_wordpress:
     - tech
 ---
 
-![](bulb-40701_640-150x150.png)If you were a 90s child, you will likely remember [Cher Horowitz from Clueless](http://clueless.wikia.com/wiki/Cher_Horowitz_(film)) and her incredible quote, "AS IF!". One thing she gave us to look forward to, was that one day, we too would have a computer that helps us choose the outfit we wear. Now, 17 years later, this dream is becoming a reality with the new [Amazon Echo Look](https://techcrunch.com/2017/04/26/amazons-new-echo-look-has-a-built-in-camera-for-style-selfies/) – it’s like Snow White's magic mirror but with 21st century functionality.
+![](bulb-40701_640-150x150.png){.img-left}If you were a 90s child, you will likely remember [Cher Horowitz from Clueless](http://clueless.wikia.com/wiki/Cher_Horowitz_(film)) and her incredible quote, "AS IF!". One thing she gave us to look forward to, was that one day, we too would have a computer that helps us choose the outfit we wear. Now, 17 years later, this dream is becoming a reality with the new [Amazon Echo Look](https://techcrunch.com/2017/04/26/amazons-new-echo-look-has-a-built-in-camera-for-style-selfies/) – it’s like Snow White's magic mirror but with 21st century functionality.
 
 This got me thinking, did films like _Clueless_ and _Back to the Future_ give us unrealistic expectations of technology, or are advancements bringing this tech to life? Maybe one day I _will_ have Cher's wardrobe and Marty’s hover-board. It’s also interesting to consider, how will companies rise to the challenge of 90s techs becoming the real deal?
 

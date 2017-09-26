@@ -20,7 +20,7 @@ imported_from_wordpress:
     - Strategy
 ---
 
-![goal-863365_640](goal-863365_640-300x200.jpg)One of the biggest challenges PR bods face when trying to demonstrate RoI to clients is that, typically, it is not a lead-generating activity. Unlike marketing, where you can see the click-throughs rolling in, it is much harder to determine if a lead has come from a certain piece of coverage or report. PR is much more about raising awareness, establishing credibility, and helping clients to be seen in the right places so that they can make those all-important RFP shortlists. 
+![goal-863365_640](goal-863365_640-300x200.jpg){.img-left}One of the biggest challenges PR bods face when trying to demonstrate RoI to clients is that, typically, it is not a lead-generating activity. Unlike marketing, where you can see the click-throughs rolling in, it is much harder to determine if a lead has come from a certain piece of coverage or report. PR is much more about raising awareness, establishing credibility, and helping clients to be seen in the right places so that they can make those all-important RFP shortlists. 
 
 For PR to be effective, it needs to be aligned to sales and the organisational aspirations of the company we are working with. This is why it is vital to have an in-depth understanding of what these goals are and support this with activities that will get you in front of the right people, so that they can influence, educate and secure new business. In addition to that, in order to get the most from PR, clients need to share and socialise content and coverage internally and externally. Here are a few examples of how PR can align itself with sales to help meet strategic business goals:
 

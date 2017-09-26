@@ -22,7 +22,7 @@ imported_from_wordpress:
     - Tech PR
 ---
 
-Since the demise of Google Reader  114,755 people have laid a flower in [Slate’s Google Graveyard](http://www.slate.com/articles/technology/map_of_the_week/2013/03/google_reader_joins_graveyard_of_dead_google_products.html) for it.  While there was some very vocal outrage at the initial announcement, with a petition to save the service reaching just over 100,000, it was never going to happen.** **
+Since the demise of Google Reader  114,755 people have laid a flower in [Slate’s Google Graveyard](http://www.slate.com/articles/technology/map_of_the_week/2013/03/google_reader_joins_graveyard_of_dead_google_products.html) for it.  While there was some very vocal outrage at the initial announcement, with a petition to save the service reaching just over 100,000, it was never going to happen.
 
 In reality I think the news can be best been summed up by Will Dean from the Independent “RIP Google Reader, ignored by many, loved by few.” However, as outlined in [Alex’s earlier post](http://www.sparkcomms.co.uk/index.php/2013/04/rip-google-reader/) RSS feeds are still a vital tool for anyone in the technology PR industry, enabling us to keep on top of the news agenda for those all important issues response opportunities, without having to sift through other people’s comments or tweets. So the question is where to now for PR's and journalists who need their RSS feeds?
 

@@ -19,7 +19,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![Pound coins](Pic5-150x150.jpg)On a recent flight to L.A. I read a fascinating [article](http://www.ft.com/cms/s/2/927ca86e-d29b-11e2-88ed-00144feab7de.html#axzz2dFTfk9cr) in the [_Financial Time_s](http://www.ft.com/) concerning the business of data brokering. For those unaware, data brokerages are essentially firms that scour the web in search of people’s personal data, which they sort into various categories and then sell to businesses that are seeking insight on their target customers.
+![Pound coins](Pic5-150x150.jpg){.img-left}On a recent flight to L.A. I read a fascinating [article](http://www.ft.com/cms/s/2/927ca86e-d29b-11e2-88ed-00144feab7de.html#axzz2dFTfk9cr) in the [_Financial Time_s](http://www.ft.com/) concerning the business of data brokering. For those unaware, data brokerages are essentially firms that scour the web in search of people’s personal data, which they sort into various categories and then sell to businesses that are seeking insight on their target customers.
 
 According to one individual quoted in the article, we're literally 'not worth much at all', with brokers trading basic top-level personal data like names, addresses and phone numbers for as little as $0.0005 per person. As expected, really specific details, such as information on people that are suffering from diseases like cancer and depression, to data on prenatal and postnatal women, can be purchased from anywhere upwards of $0.26 per person. Feels good knowing you’re worth much less than a second hand 10-pack of Crayola sticks, doesn’t it?
 

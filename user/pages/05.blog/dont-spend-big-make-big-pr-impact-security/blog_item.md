@@ -20,7 +20,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![IT security](IT-security-150x150.jpg)It’s simple at Spark: we find, develop and share stories. I was lured across to tech PR from a full-time journalism role because a tech PR agency is just as involved in the news as any of the national newsrooms I have ever worked a shift at. When explaining our industry to my Nan, I tell her we’re journalists who work on behalf of technology firms. And that IS what we are: I wouldn’t lie to my Nan!
+![IT security](IT-security-150x150.jpg){.img-left}It’s simple at Spark: we find, develop and share stories. I was lured across to tech PR from a full-time journalism role because a tech PR agency is just as involved in the news as any of the national newsrooms I have ever worked a shift at. When explaining our industry to my Nan, I tell her we’re journalists who work on behalf of technology firms. And that IS what we are: I wouldn’t lie to my Nan!
 
 Every writer worth their salt will know where to look for a story, and as a PR agency our mindset is the same. Just as a journalist will struggle to persuade an editor to send them halfway across the world (or out of the office for an afternoon) to cover a story, successful PR doesn’t involve a lot of leg work or splashing cash, it’s about knowing how to gather the right ingredients to put together ideas and content journalists will be interested in.
 

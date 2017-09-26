@@ -22,7 +22,7 @@ imported_from_wordpress:
     - Tech PR
 ---
 
-![2012_MostRated_agency](2012_MostRated_agency-272x300.jpg)PR Week has just announced the results of a piece of [research](http://www.prweek.com/uk/go/mostrated) into how PR agencies are regarded by journalists and bloggers. [Spark](http://www.prweek.com/uk/promotional_feature/1157580) has been highlighted as one of the top 3 highest rated agencies in the technology PR sector. A big well done to the whole Spark team and specifically Dom and Gary, who were highlighted for their media relations skills and client knowledge.
+![2012_MostRated_agency](2012_MostRated_agency-272x300.jpg){.img-left}PR Week has just announced the results of a piece of [research](http://www.prweek.com/uk/go/mostrated) into how PR agencies are regarded by journalists and bloggers. [Spark](http://www.prweek.com/uk/promotional_feature/1157580) has been highlighted as one of the top 3 highest rated agencies in the technology PR sector. A big well done to the whole Spark team and specifically Dom and Gary, who were highlighted for their media relations skills and client knowledge.
 
 Every business wants to know where it is ranked in its industry, yet until now rankings by PR Week (the top 150 and top 40 tech consultancies league tables) could only give a limited view of how good, bad, or ugly a PR company is as they are solely based on revenue. Such tables tell us, or clients looking for an agency, very little about the quality of a PR agency’s work. The Most Rated Agencies research fills this gap. 1,400 technology journalists and bloggers were asked for their views on the PR community; rating us on friendliness, quality of stories pitched, accessibility and quality of background briefings.
 

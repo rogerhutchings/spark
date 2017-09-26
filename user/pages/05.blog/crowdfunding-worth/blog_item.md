@@ -19,7 +19,7 @@ imported_from_wordpress:
     - PR
 ---
 
-![Crowdfunding](Crowdfunding1.jpg)Over the last few years crowdfunding has become more popular with tech companies for helping them to launch their products. Anyone with an idea for a project can set up a page on sites such as [Kickstarter](http://www.kickstarter.com/), outlining their vision and how much money they need to make it a reality.
+![Crowdfunding](Crowdfunding1.jpg){.img-left}Over the last few years crowdfunding has become more popular with tech companies for helping them to launch their products. Anyone with an idea for a project can set up a page on sites such as [Kickstarter](http://www.kickstarter.com/), outlining their vision and how much money they need to make it a reality.
 
 Projects on Kickstarter and [Indiegogo](http://www.indiegogo.com/) have raised millions from individual backers, who pledge money to support projects in return for rewards, including the promise of receiving the finished product. For example, [Pebble Smartwatch](https://getpebble.com/) was launched on Kickstarter in April 2012 with an initial fundraising target of just $100,000. Backers pledging a minimum of $115 were promised the Smartwatch when it became available - in effect pre-ordering for the watch that did not yet exist for a discount.
 

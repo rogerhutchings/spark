@@ -20,7 +20,7 @@ imported_from_wordpress:
     - Summer Day Out
 ---
 
-![picmonkey-collage](PicMonkey-Collage.jpg)As the autumn leaves start falling, I thought it would be a good time to reflect on the Spark highlight of the summer - our annual day out.
+![picmonkey-collage](PicMonkey-Collage.jpg){.img-left}As the autumn leaves start falling, I thought it would be a good time to reflect on the Spark highlight of the summer - our annual day out.
 
 The day started with a trip to [Star Command Laser Tag](http://www.ultimaterecreation.co.uk/starcommand/laser-tag-london.asp) in Whitechapel - as the name suggests a spaceship-themed game with laser guns. I would like to report some great skills on my part, but sadly I had the worst score both in terms of being hit and not hitting others enough – won’t give up the day job thenJ. It was a fun experience if a little hot given there seemed to be a lack of aircon and a lot of very competitive PRs running around.
 
