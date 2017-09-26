@@ -6,7 +6,7 @@
       <li class="fl w-50 w-third-m w-25-ns pa3">
         <div class="aspect-ratio aspect-ratio--4x3">
           <div class="aspect-ratio--object flex items-center">
-            <img src="{{ image.url }}" alt="{{ image.meta.alt_text }}" />
+            {{ image.resize(260).html() }}
           </div>
         </div>
       </li>
