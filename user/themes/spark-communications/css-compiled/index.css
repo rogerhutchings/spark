@@ -8213,6 +8213,9 @@ a:focus {
 .fill-inherit-hover:hover {
   fill: inherit; }
 
+a {
+  outline: none !important; }
+
 .list-arrow li:before {
   content: '➟'; }
 
@@ -8590,6 +8593,66 @@ a:focus {
 
 .w3r {
   width: 3rem; }
+
+.slick-dots-large {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center; }
+
+.slick-dots-large li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+  padding: 0;
+  cursor: pointer; }
+
+.slick-dots-large li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent; }
+
+.slick-dots-large li button:hover,
+.slick-dots-large li button:focus {
+  outline: none; }
+
+.slick-dots-large li button:hover:before,
+.slick-dots-large li button:focus:before {
+  opacity: 1; }
+
+.slick-dots-large li button:before {
+  font-family: 'slick';
+  font-size: 10px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.slick-dots-large li.slick-active button:before {
+  opacity: .75;
+  color: black; }
 
 #share {
   font-size: 1.2rem; }

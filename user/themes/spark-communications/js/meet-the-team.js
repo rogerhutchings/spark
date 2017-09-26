@@ -34,6 +34,17 @@ function initMeetTheTeam() {
       slidesToScroll: 3,
       dots: true,
       arrows: false,
+      dotsClass: 'slick-dots-large',
+      responsive: [
+        {
+          breakpoint: 480,
+          settings: {
+            dotsClass: 'slick-dots',
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          }
+        }
+      ]
     });
 }
 
