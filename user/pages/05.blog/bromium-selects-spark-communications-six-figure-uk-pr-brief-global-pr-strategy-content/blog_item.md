@@ -1,30 +1,26 @@
 ---
-title: >-
-  Bromium selects Spark Communications for six figure UK PR brief, global PR
-  strategy and content
-author: /team/kewal-varia
+title: 'Bromium selects Spark Communications for six figure UK PR brief, global PR strategy and content'
+header_image_enabled: '1'
 date: '10:29 23-02-2017'
+inSitemap: true
+author: /team/kewal-varia
 imported_from_wordpress:
-  author: kewal
-  comments: true
-  date: 2017-02-23T10:29:43.000Z
-  layout: post
-  link: >-
-    http://www.sparkcomms.co.uk/2017/02/23/bromium-selects-spark-communications-six-figure-uk-pr-brief-global-pr-strategy-content/
-  slug: >-
-    bromium-selects-spark-communications-six-figure-uk-pr-brief-global-pr-strategy-content
-  title: >-
-    Bromium selects Spark Communications for six figure UK PR brief, global PR
-    strategy and content
-  wordpress_id: 2325
-  categories:
-    - Blog
-  tags:
-    - Bromium
-    - Content
-    - Media relations
-    - PR
-    - Spark
+    author: kewal
+    comments: true
+    date: 1487845783
+    layout: post
+    link: 'http://www.sparkcomms.co.uk/2017/02/23/bromium-selects-spark-communications-six-figure-uk-pr-brief-global-pr-strategy-content/'
+    slug: bromium-selects-spark-communications-six-figure-uk-pr-brief-global-pr-strategy-content
+    title: 'Bromium selects Spark Communications for six figure UK PR brief, global PR strategy and content'
+    wordpress_id: 2325
+    categories:
+        - Blog
+    tags:
+        - Bromium
+        - Content
+        - 'Media relations'
+        - PR
+        - Spark
 ---
 
 ![Bromium_logo](Bromium_logo-300x86.png)We are seeing a bit of a trend at the moment where more and more US companies are asking us, rather than a US agency, to lead their PR efforts globally.  That’s exactly what has happened with [Bromium](http://www.bromium.com), who we’ve just added to our list of security clients. It’s a six-figure brief to look after UK PR and develop storylines and campaigns globally.

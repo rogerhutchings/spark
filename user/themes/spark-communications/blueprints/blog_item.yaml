@@ -42,3 +42,21 @@ form:
               filesize: 5
               accept:
                 - image/*
+
+        options:
+          fields:
+            publishing:
+              fields:
+                header.inSitemap:
+                  type: toggle
+                  toggleable: false
+                  label: 'Show in sitemap'
+                  help: Toggle to determine whether to show this story in the News section of the sitemap.
+                  highlight: 1
+                  default: 0
+                  size: medium
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool

@@ -1,23 +1,25 @@
 ---
 title: 'The Proof of the Pudding: how Spark won GMC Software'
-author: /team/alex-crawshaw
+header_image_enabled: '1'
 date: '15:03 08-02-2017'
+inSitemap: true
+author: /team/alex-crawshaw
 imported_from_wordpress:
-  author: alex
-  comments: true
-  date: 2017-02-08T15:03:32.000Z
-  layout: post
-  link: 'http://www.sparkcomms.co.uk/2017/02/08/proof-pudding-spark-won-gmc-software/'
-  slug: proof-pudding-spark-won-gmc-software
-  title: 'The Proof of the Pudding: how Spark won GMC Software'
-  wordpress_id: 2317
-  categories:
-    - Blog
-  tags:
-    - Content
-    - GMC Software
-    - PR
-    - Spark
+    author: alex
+    comments: true
+    date: 1486566212
+    layout: post
+    link: 'http://www.sparkcomms.co.uk/2017/02/08/proof-pudding-spark-won-gmc-software/'
+    slug: proof-pudding-spark-won-gmc-software
+    title: 'The Proof of the Pudding: how Spark won GMC Software'
+    wordpress_id: 2317
+    categories:
+        - Blog
+    tags:
+        - Content
+        - 'GMC Software'
+        - PR
+        - Spark
 ---
 
 ![GMC](GMC-300x90.jpg)We’ve just won a new client [GMC Software](http://www.gmc.net/) after a trial project. We’ll be running UK PR and supporting the rest of Europe with content, helping the company to move into new markets and target different stakeholders. With more than 1,600 clients worldwide, GMC is leading the charge in ensuring businesses can cope with digitalisation revolutionising both the way organisations communicate with their customers, and customers’ expectations of that experience. While GMC always had a strong presence in the printing industry, we won the account following a three-month trial period focused on the insurance industry: during which we created content including opinion pieces and research projects, used this to engage the insurance and technology press, and ultimately delivered coverage that got GMC noticed by insurers.

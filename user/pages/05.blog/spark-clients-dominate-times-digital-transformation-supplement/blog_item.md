@@ -1,25 +1,26 @@
 ---
-title: Spark clients dominate The Times ‘Digital Transformation’ supplement
-author: /team/alex-crawshaw
+title: 'Spark clients dominate The Times ‘Digital Transformation’ supplement'
+header_image_enabled: '1'
 date: '16:26 03-07-2017'
+inSitemap: true
+author: /team/alex-crawshaw
 imported_from_wordpress:
-  author: alex
-  comments: true
-  date: 2017-07-03T15:26:08.000Z
-  layout: post
-  link: >-
-    http://www.sparkcomms.co.uk/2017/07/03/spark-clients-dominate-times-digital-transformation-supplement/
-  slug: spark-clients-dominate-times-digital-transformation-supplement
-  title: Spark clients dominate The Times ‘Digital Transformation’ supplement
-  wordpress_id: 2360
-  categories:
-    - Blog
-  tags:
-    - Coverage
-    - digital transformation
-    - Media relations
-    - Raconteur
-    - The Times
+    author: alex
+    comments: true
+    date: 1499095568
+    layout: post
+    link: 'http://www.sparkcomms.co.uk/2017/07/03/spark-clients-dominate-times-digital-transformation-supplement/'
+    slug: spark-clients-dominate-times-digital-transformation-supplement
+    title: 'Spark clients dominate The Times ‘Digital Transformation’ supplement'
+    wordpress_id: 2360
+    categories:
+        - Blog
+    tags:
+        - Coverage
+        - 'digital transformation'
+        - 'Media relations'
+        - Raconteur
+        - 'The Times'
 ---
 
 ![](FireShot-Capture-164-Special-Reports-Archive-_-https___www.raconteur.net_special-reports-archive-241x300.png)As you may know, The Times/Raconteur regularly publish a number of technology-focused supplements throughout the year.  Last week was no different with the publication of its ‘[Digital Transformation’](https://www.raconteur.net/digital-transformation-2017) supplement. With the topic of digital transformation being much discussed by technology companies for the last 18 months, there was understandably plenty of competition to get featured in the supplement.  Therefore, we were excited to see that six different clients featured in the supplement – which was testament to the team’s proactivity and creativity in developing media-worthy content.
