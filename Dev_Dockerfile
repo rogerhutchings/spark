@@ -69,6 +69,7 @@ RUN find . -type f | xargs chmod 664
 RUN find . -type d | xargs chmod 775
 RUN find . -type d | xargs chmod +s
 RUN umask 0002
+RUN chmod +x bin/*
 
 # Run Grav configuration for Nginx
 RUN /etc/nginx/grav_conf.sh
