@@ -4,7 +4,7 @@
   {% set sitemapNews = sitemapNews|merge([item]) %}
 {% endfor %}
 
-<footer class="pb4 ph4 pt7 f6 tc white bg-img-swoosh bg-x-20">
+<footer class="pb4 ph4 f6 tc white bg-img-swoosh bg-x-20 {{ footer_classes|default('pt7') }}">
 
   <div class="center mw8 flex-ns justify-between items-start tl bg-o80-black pa3 mb5">
 

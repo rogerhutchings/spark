@@ -1,5 +1,7 @@
 {% extends 'partials/base.html.twig' %}
 
+{% block footer_classes %}pt5{% endblock %}
+
 {% set colours = ['purple', 'gray', 'light-purple', 'orange']|randomize %}
 {% set leftTriangle = {
   points: '0 0 0 10 10 0',

@@ -139,7 +139,7 @@
     {% block under_main %}
     {% endblock under_main %}
 
-    {% include 'partials/footer.html.twig' %}
+    {% include 'partials/footer.html.twig' with { footer_classes: block('footer_classes') }%}
 
     {% block bottom %}
       {{ assets.js('bottom') }}
