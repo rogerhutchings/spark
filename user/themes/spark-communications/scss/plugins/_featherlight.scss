@@ -142,10 +142,11 @@
 		margin-left: 0;
 		margin-right: 0;
 		max-height: 98%;
+    margin-top: 1%;
 	}
 }
 
-@media only screen and ($breakpoint-ns) {
+@media #{$breakpoint-not-small} {
 	.featherlight .featherlight-content {
     /* clipping  */
     -webkit-clip-path: polygon(0% 0%, 40% 0%, 50% 5%, 60% 0%, 100% 0%, 100% 100%, 0% 100%);
