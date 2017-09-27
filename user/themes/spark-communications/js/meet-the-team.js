@@ -33,7 +33,7 @@ function initMeetTheTeam() {
       arrows: false,
       dotsClass: 'slick-dots-large',
       dots: true,
-      infinite: false
+      infinite: false,
       responsive: [
         {
           breakpoint: 480,

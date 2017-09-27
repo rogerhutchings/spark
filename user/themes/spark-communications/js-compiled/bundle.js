@@ -95,10 +95,68 @@ window.initMap = initMap;
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-throw new Error("Module build failed: SyntaxError: Unexpected token, expected , (37:6)\n\n\u001b[0m \u001b[90m 35 | \u001b[39m      dots\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 36 | \u001b[39m      infinite\u001b[33m:\u001b[39m \u001b[36mfalse\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 37 | \u001b[39m      responsive\u001b[33m:\u001b[39m [\n \u001b[90m    | \u001b[39m      \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 38 | \u001b[39m        {\n \u001b[90m 39 | \u001b[39m          breakpoint\u001b[33m:\u001b[39m \u001b[35m480\u001b[39m\u001b[33m,\u001b[39m\n \u001b[90m 40 | \u001b[39m          settings\u001b[33m:\u001b[39m {\u001b[0m\n");
+
+
+function initMeetTheTeam() {
+  var team = $('.js-person');
+  var source = $("#team-modal-template").html();
+  var template = Handlebars.compile(source);
+
+  function createContext(el) {
+    var data = el.parent().data();
+    return {
+      img: data.img,
+      name: data.name,
+      bio: data.bio
+    };
+  }
+
+  function openLightbox(_ref) {
+    var target = _ref.target;
+
+    var context = createContext($(target));
+    $.featherlight(template(context));
+  }
+
+  function showName(_ref2) {
+    var target = _ref2.target;
+
+    $(target).parent().find('.js-name').toggleClass('dn');
+  }
+
+  team.addClass('overlay-bg-animate overlay-bg-o50-orange-hover pointer');
+  team.find('.js-name').removeClass('orange').addClass('dn white');
+
+  team.hover(showName);
+
+  team.on('click', openLightbox);
+
+  $('#meet-the-team-section').slick({
+    arrows: false,
+    dotsClass: 'slick-dots-large',
+    dots: true,
+    infinite: false,
+    responsive: [{
+      breakpoint: 480,
+      settings: {
+        dotsClass: 'slick-dots',
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    }],
+    slidesToScroll: 3,
+    slidesToShow: 3
+  });
+}
+
+$(document).ready(function () {
+  if ($('#meet-the-team-section').length) {
+    initMeetTheTeam();
+  }
+});
 
 /***/ }),
 /* 2 */
