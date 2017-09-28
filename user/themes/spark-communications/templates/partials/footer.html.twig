@@ -55,7 +55,7 @@
 
     <section class="order-2 tr-ns">
       {% for name, url in site.social_media %}
-        <a href="{{ url }}" class="dib h-100 w-10 w-30-ns">
+        <a href="{{ url }}" class="dib h-100 w3">
           {% include "svgs/#{name}.svg.twig" with { 'classes': 'fill-white fill-orange-hover' } %}
         </a>
       {% endfor %}
