@@ -7006,6 +7006,9 @@ a:focus {
 .bg-img-escalator {
   background-image: url("../images/bg-img-escalator.jpg"); }
 
+.bg-img-footer {
+  background-image: url("../images/bg-img-footer.jpg"); }
+
 .bg-img-geometric-sky {
   background-image: url("../images/bg-img-geometric-sky.jpg"); }
 
@@ -7925,8 +7928,11 @@ a:focus {
   .bg-y--100-l {
     background-position-y: -100%; } }
 
-.bg-no-repeat {
+.bg-no-repeat, .bg-bottom-right {
   background-repeat: no-repeat; }
+
+.bg-bottom-right {
+  background-position: bottom right; }
 
 /*
 

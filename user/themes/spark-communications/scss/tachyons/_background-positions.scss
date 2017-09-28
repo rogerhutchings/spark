@@ -88,3 +88,8 @@ $i: 0;
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
+
+.bg-bottom-right {
+  @extend .bg-no-repeat;
+  background-position: bottom right;
+}
