@@ -1,15 +1,18 @@
 {% import 'blog/macros.html.twig' as blogMacros %}
 {% extends 'blog/blog_layout.html.twig' %}
 
-
-{% set header_image = page.header.header_image|defined(true) %}
+{% set header_image_enabled = page.header.header_image_enabled %}
 {% set header_image_width  = page.header.header_image_width|defined(260) %}
 {% set header_image_height = page.header.header_image_height|defined(260) %}
-{% set header_image_file = page.header.header_image_file %}
+{% set header_image_file = page.header.header_image_file|first %}
 
 {% set author = page.find(page.header.author)|default(false) %}
 
 {% block blog_content %}
+  {% if header_image_enabled and header_image_file %}
+    {{ page.media[header_image_file.name].html(null, null, 'w-100') }}
+  {% endif %}
+
   <h1 class="lh-title orange f2 fw4">
     {{ page.title }}
   </h1>

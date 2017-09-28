@@ -29,7 +29,7 @@ form:
               placeholder: 'Select an author'
               data-options@: '\Grav\Theme\SparkCommunications::getTeamMembers'
 
-            header_image:
+            header.header_image:
               type: section
               title: Header Image
               underline: true
