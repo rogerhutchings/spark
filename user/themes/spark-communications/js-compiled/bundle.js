@@ -257,7 +257,7 @@ $(function () {
 
 
 $(document).ready(function () {
-  $('#share').jsSocials({
+  $('.js-share').jsSocials({
     showLabel: false,
     showCount: false,
     shares: ['email', 'twitter', 'facebook', 'googleplus', 'linkedin']

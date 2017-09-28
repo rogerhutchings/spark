@@ -1,5 +1,5 @@
 $(document).ready(() => {
-  $('#share').jsSocials({
+  $('.js-share').jsSocials({
     showLabel: false,
     showCount: false,
     shares: [
