@@ -31,14 +31,13 @@ function initMeetTheTeam() {
   $('#meet-the-team-section')
     .slick({
       arrows: false,
-      dotsClass: 'slick-dots-large',
+      dotsClass: 'slick-dots',
       dots: true,
       infinite: false,
       responsive: [
         {
           breakpoint: 480,
           settings: {
-            dotsClass: 'slick-dots',
             slidesToShow: 2,
             slidesToScroll: 2,
           }
