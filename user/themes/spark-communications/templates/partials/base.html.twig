@@ -24,11 +24,11 @@
       <link rel="canonical" href="{{ page.url(true, true) }}" />
 
       {% block stylesheets %}
-        {% do assets.addCss('fonts', { 'priority': 100, 'pipeline': false }) %}
+        {% do assets.addCss('fonts', { 'pipeline': false }) %}
         {% do assets.addCss('slick-css', 90) %}
         {% do assets.addCss('jsSocial-css', 90) %}
-        {% do assets.addCss('//npmcdn.com/jquery-gray@1.6.0/css/gray.min.css') %}
-        {% do assets.addCss('theme://css-compiled/index.css', 200) %}
+        {% do assets.addCss('//npmcdn.com/jquery-gray@1.6.0/css/gray.min.css', 90) %}
+        {% do assets.addCss('theme://css-compiled/index.css', 80) %}
       {% endblock %}
       {{ assets.css() }}
 

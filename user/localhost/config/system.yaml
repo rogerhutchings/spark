@@ -1,6 +1,12 @@
 assets:
-  css_pipeline: false
-  js_pipeline: false
+  css_pipeline: true
+  css_pipeline_include_externals: true
+  css_pipeline_before_excludes: true
+  css_minify: true
+  css_minify_windows: false
+  css_rewrite: true
+
+  enable_asset_timestamp: false
 
 cache:
   enabled: false
