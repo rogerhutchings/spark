@@ -1,5 +1,6 @@
 ---
 title: Blog
+child_type: blog_item
 content:
     items: '@self.children'
     order:
