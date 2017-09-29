@@ -1,4 +1,4 @@
-{% set news = page.find('/blog').children.order('date', 'desc') %}
+{% set news = page.find('/blog').children.published.order('date', 'desc') %}
 {% set sitemapNews = [] %}
 {% for item in news if item.header.inSitemap == true %}
   {% set sitemapNews = sitemapNews|merge([item]) %}
