@@ -10,3 +10,5 @@ COPY user/ user/
 # Fix permissions
 RUN chmod +x bin/*
 RUN chown -R www-data:www-data *
+
+EXPOSE 80 22
