@@ -1,21 +1,23 @@
 ---
-title: Staffing the UK’s tech sector post-Brexit
-author: james
+title: 'Staffing the UK’s tech sector post-Brexit'
+header_image_enabled: '1'
+published: false
 date: '09:02 23-05-2017'
+inSitemap: false
 imported_from_wordpress:
-  author: james
-  comments: true
-  date: 2017-05-23T08:02:40.000Z
-  layout: post
-  link: 'http://www.sparkcomms.co.uk/2017/05/23/staffing-uks-tech-sector-post-brexit/'
-  slug: staffing-uks-tech-sector-post-brexit
-  title: Staffing the UK’s tech sector post-Brexit
-  wordpress_id: 2341
-  categories:
-    - Blog
-  tags:
-    - Brexit
-    - Technology
+    author: james
+    comments: true
+    date: 1495526560
+    layout: post
+    link: 'http://www.sparkcomms.co.uk/2017/05/23/staffing-uks-tech-sector-post-brexit/'
+    slug: staffing-uks-tech-sector-post-brexit
+    title: 'Staffing the UK’s tech sector post-Brexit'
+    wordpress_id: 2341
+    categories:
+        - Blog
+    tags:
+        - Brexit
+        - Technology
 ---
 
 ![](eu-1473958_640-150x150.png){.img-left}As predicted, the reality of the UK’s departure from the EU is posing a number of legal, logistical, technologic, ethical and bureaucratic headaches for more than just Whitehall.

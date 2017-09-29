@@ -1,6 +1,6 @@
 ---
 title: 'Welcome to the New Website and Brand Identity'
-author: /team/alex-crawshaw
+author: /team/lauren-richards
 header_image_enabled: '1'
 date: '22:51 28-09-2017'
 inSitemap: false

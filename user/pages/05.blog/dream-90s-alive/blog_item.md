@@ -1,22 +1,24 @@
 ---
-title: As if! - The dream of the 90s is alive
-author: jasmin
+title: 'As if! - The dream of the 90s is alive'
+header_image_enabled: '1'
+published: false
 date: '09:46 06-06-2017'
+inSitemap: false
 imported_from_wordpress:
-  author: jasmin
-  comments: true
-  date: 2017-06-06T08:46:20.000Z
-  layout: post
-  link: 'http://www.sparkcomms.co.uk/2017/06/06/dream-90s-alive/'
-  slug: dream-90s-alive
-  title: As if! - The dream of the 90s is alive
-  wordpress_id: 2349
-  categories:
-    - Blog
-  tags:
-    - 90s
-    - Innovation
-    - tech
+    author: jasmin
+    comments: true
+    date: 1496738780
+    layout: post
+    link: 'http://www.sparkcomms.co.uk/2017/06/06/dream-90s-alive/'
+    slug: dream-90s-alive
+    title: 'As if! - The dream of the 90s is alive'
+    wordpress_id: 2349
+    categories:
+        - Blog
+    tags:
+        - 90s
+        - Innovation
+        - tech
 ---
 
 ![](bulb-40701_640-150x150.png){.img-left}If you were a 90s child, you will likely remember [Cher Horowitz from Clueless](http://clueless.wikia.com/wiki/Cher_Horowitz_(film)) and her incredible quote, "AS IF!". One thing she gave us to look forward to, was that one day, we too would have a computer that helps us choose the outfit we wear. Now, 17 years later, this dream is becoming a reality with the new [Amazon Echo Look](https://techcrunch.com/2017/04/26/amazons-new-echo-look-has-a-built-in-camera-for-style-selfies/) – it’s like Snow White's magic mirror but with 21st century functionality.
