@@ -4,7 +4,7 @@ WORKDIR /usr/share/nginx/html/
 
 # Copy local repo data
 RUN rm -fR user/
-RUN mkdir user/
+RUN mkdir -p user/
 COPY user/ user/
 
 # Fix permissions
