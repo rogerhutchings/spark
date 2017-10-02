@@ -578,7 +578,7 @@ input[type="url"],
   height: 100%;
   z-index: 100; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .aspect-ratio-ns {
     height: 0;
     position: relative; }
@@ -614,7 +614,7 @@ input[type="url"],
     height: 100%;
     z-index: 100; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .aspect-ratio-m {
     height: 0;
     position: relative; }
@@ -717,13 +717,13 @@ img {
 .contain {
   background-size: contain !important; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .cover-ns {
     background-size: cover !important; }
   .contain-ns {
     background-size: contain !important; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .cover-m {
     background-size: cover !important; }
   .contain-m {
@@ -775,7 +775,7 @@ img {
   background-repeat: no-repeat;
   background-position: center left; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-center-ns {
     background-repeat: no-repeat;
     background-position: center center; }
@@ -792,7 +792,7 @@ img {
     background-repeat: no-repeat;
     background-position: center left; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-center-m {
     background-repeat: no-repeat;
     background-position: center center; }
@@ -845,7 +845,7 @@ img {
 .outline-0 {
   outline: 0; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .outline-ns {
     outline: 1px solid; }
   .outline-transparent-ns {
@@ -853,7 +853,7 @@ img {
   .outline-0-ns {
     outline: 0; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .outline-m {
     outline: 1px solid; }
   .outline-transparent-m {
@@ -915,7 +915,7 @@ img {
   border-style: none;
   border-width: 0; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .ba-ns {
     border-style: solid;
     border-width: 1px; }
@@ -935,7 +935,7 @@ img {
     border-style: none;
     border-width: 0; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .ba-m {
     border-style: solid;
     border-width: 1px; }
@@ -1242,7 +1242,7 @@ img {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .br0-ns {
     border-radius: 0; }
   .br1-ns {
@@ -1270,7 +1270,7 @@ img {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .br0-m {
     border-radius: 0; }
   .br1-m {
@@ -1360,7 +1360,7 @@ img {
 .b--none {
   border-style: none; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .b--dotted-ns {
     border-style: dotted; }
   .b--dashed-ns {
@@ -1370,7 +1370,7 @@ img {
   .b--none-ns {
     border-style: none; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .b--dotted-m {
     border-style: dotted; }
   .b--dashed-m {
@@ -1443,7 +1443,7 @@ img {
 .bl-0 {
   border-left-width: 0; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bw0-ns {
     border-width: 0; }
   .bw1-ns {
@@ -1465,7 +1465,7 @@ img {
   .bl-0-ns {
     border-left-width: 0; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bw0-m {
     border-width: 0; }
   .bw1-m {
@@ -1535,7 +1535,7 @@ img {
 .shadow-5 {
   box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2); }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .shadow-1-ns {
     box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2); }
   .shadow-2-ns {
@@ -1547,7 +1547,7 @@ img {
   .shadow-5-ns {
     box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2); } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .shadow-1-m {
     box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2); }
   .shadow-2-m {
@@ -1673,7 +1673,7 @@ img {
   bottom: 0;
   left: 0; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .top-0-ns {
     top: 0; }
   .left-0-ns {
@@ -1720,7 +1720,7 @@ img {
     bottom: 0;
     left: 0; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .top-0-m {
     top: 0; }
   .left-0-m {
@@ -1845,7 +1845,7 @@ img {
 .cn {
   clear: none; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .cl-ns {
     clear: left; }
   .cr-ns {
@@ -1855,7 +1855,7 @@ img {
   .cn-ns {
     clear: none; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .cl-m {
     clear: left; }
   .cr-m {
@@ -1941,7 +1941,7 @@ img {
   table-layout: fixed;
   width: 100%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .dn-ns {
     display: none; }
   .di-ns {
@@ -1968,7 +1968,7 @@ img {
     table-layout: fixed;
     width: 100%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .dn-m {
     display: none; }
   .di-m {
@@ -2164,7 +2164,7 @@ img {
 .order-last {
   order: 99999; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .flex-ns {
     display: flex; }
   .inline-flex-ns {
@@ -2254,7 +2254,7 @@ img {
   .order-last-ns {
     order: 99999; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .flex-m {
     display: flex; }
   .inline-flex-m {
@@ -2470,7 +2470,7 @@ img {
 .fn {
   float: none; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .fl-ns {
     float: left;
     _display: inline; }
@@ -2480,7 +2480,7 @@ img {
   .fn-ns {
     float: none; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .fl-m {
     float: left;
     _display: inline; }
@@ -2572,13 +2572,13 @@ code, .code {
 .fs-normal {
   font-style: normal; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .i-ns {
     font-style: italic; }
   .fs-normal-ns {
     font-style: normal; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .i-m {
     font-style: italic; }
   .fs-normal-m {
@@ -2648,7 +2648,7 @@ code, .code {
 .fw9 {
   font-weight: 900; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .normal-ns {
     font-weight: normal; }
   .b-ns {
@@ -2672,7 +2672,7 @@ code, .code {
   .fw9-ns {
     font-weight: 900; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .normal-m {
     font-weight: normal; }
   .b-m {
@@ -2821,7 +2821,7 @@ code, .code {
 .h-inherit {
   height: inherit; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .h1-ns {
     height: 1rem; }
   .h2-ns {
@@ -2857,7 +2857,7 @@ code, .code {
   .h-inherit-ns {
     height: inherit; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .h1-m {
     height: 1rem; }
   .h2-m {
@@ -2949,7 +2949,7 @@ code, .code {
 .tracked-mega {
   letter-spacing: .25em; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .tracked-ns {
     letter-spacing: .1em; }
   .tracked-tight-ns {
@@ -2957,7 +2957,7 @@ code, .code {
   .tracked-mega-ns {
     letter-spacing: .25em; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .tracked-m {
     letter-spacing: .1em; }
   .tracked-tight-m {
@@ -2993,7 +2993,7 @@ code, .code {
 .lh-copy {
   line-height: 1.5; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .lh-solid-ns {
     line-height: 1; }
   .lh-title-ns {
@@ -3001,7 +3001,7 @@ code, .code {
   .lh-copy-ns {
     line-height: 1.5; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .lh-solid-m {
     line-height: 1; }
   .lh-title-m {
@@ -3117,7 +3117,7 @@ a:visited {
 .mw-none {
   max-width: none; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .mw-100-ns {
     max-width: 100%; }
   .mw1-ns {
@@ -3141,7 +3141,7 @@ a:visited {
   .mw-none-ns {
     max-width: none; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .mw-100-m {
     max-width: 100%; }
   .mw1-m {
@@ -3297,7 +3297,7 @@ a:visited {
 .w-auto {
   width: auto; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .w1-ns {
     width: 1rem; }
   .w2-ns {
@@ -3343,7 +3343,7 @@ a:visited {
   .w-auto-ns {
     width: auto; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .w1-m {
     width: 1rem; }
   .w2-m {
@@ -3481,7 +3481,7 @@ a:visited {
 .overflow-y-auto {
   overflow-y: auto; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .overflow-visible-ns {
     overflow: visible; }
   .overflow-hidden-ns {
@@ -3507,7 +3507,7 @@ a:visited {
   .overflow-y-auto-ns {
     overflow-y: auto; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .overflow-visible-m {
     overflow: visible; }
   .overflow-hidden-m {
@@ -3582,7 +3582,7 @@ a:visited {
 .fixed {
   position: fixed; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .static-ns {
     position: static; }
   .relative-ns {
@@ -3592,7 +3592,7 @@ a:visited {
   .fixed-ns {
     position: fixed; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .static-m {
     position: static; }
   .relative-m {
@@ -3683,7 +3683,7 @@ a:visited {
 .rotate-315 {
   transform: rotate(315deg); }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .rotate-45-ns {
     transform: rotate(45deg); }
   .rotate-90-ns {
@@ -3699,7 +3699,7 @@ a:visited {
   .rotate-315-ns {
     transform: rotate(315deg); } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .rotate-45-m {
     transform: rotate(45deg); }
   .rotate-90-m {
@@ -4937,7 +4937,7 @@ a:visited {
   margin-left: 16rem;
   margin-right: 16rem; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .pa0-ns {
     padding: 0; }
   .pa1-ns {
@@ -5195,7 +5195,7 @@ a:visited {
     margin-left: 16rem;
     margin-right: 16rem; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .pa0-m {
     padding: 0; }
   .pa1-m {
@@ -5843,7 +5843,7 @@ a:visited {
 .nt7 {
   margin-top: -16rem; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .na1-ns {
     margin: -0.25rem; }
   .na2-ns {
@@ -5915,7 +5915,7 @@ a:visited {
   .nt7-ns {
     margin-top: -16rem; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .na1-m {
     margin: -0.25rem; }
   .na2-m {
@@ -6108,7 +6108,7 @@ a:visited {
 .no-underline {
   text-decoration: none; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .strike-ns {
     text-decoration: line-through; }
   .underline-ns {
@@ -6116,7 +6116,7 @@ a:visited {
   .no-underline-ns {
     text-decoration: none; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .strike-m {
     text-decoration: line-through; }
   .underline-m {
@@ -6164,7 +6164,7 @@ a:visited {
 .tj {
   text-align: justify; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .tl-ns {
     text-align: left; }
   .tr-ns {
@@ -6174,7 +6174,7 @@ a:visited {
   .tj-ns {
     text-align: justify; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .tl-m {
     text-align: left; }
   .tr-m {
@@ -6226,7 +6226,7 @@ a:visited {
 .ttn {
   text-transform: none; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .ttc-ns {
     text-transform: capitalize; }
   .ttl-ns {
@@ -6236,7 +6236,7 @@ a:visited {
   .ttn-ns {
     text-transform: none; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .ttc-m {
     text-transform: capitalize; }
   .ttl-m {
@@ -6315,7 +6315,7 @@ a:visited {
   font-size: .75rem; }
 
 /* Small and hard to read for many people so use with extreme caution */
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .f-6-ns,
   .f-headline-ns {
     font-size: 6rem; }
@@ -6337,7 +6337,7 @@ a:visited {
   .f7-ns {
     font-size: .75rem; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .f-6-m,
   .f-headline-m {
     font-size: 6rem; }
@@ -6419,7 +6419,7 @@ a:visited {
   overflow: hidden;
   text-overflow: ellipsis; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .measure-ns {
     max-width: 30em; }
   .measure-wide-ns {
@@ -6437,7 +6437,7 @@ a:visited {
     overflow: hidden;
     text-overflow: ellipsis; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .measure-m {
     max-width: 30em; }
   .measure-wide-m {
@@ -6497,7 +6497,7 @@ a:visited {
 .ml-auto {
   margin-left: auto; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .center-ns {
     margin-right: auto;
     margin-left: auto; }
@@ -6506,7 +6506,7 @@ a:visited {
   .ml-auto-ns {
     margin-left: auto; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .center-m {
     margin-right: auto;
     margin-left: auto; }
@@ -6545,7 +6545,7 @@ a:visited {
   /* IE6, IE7 */
   clip: rect(1px, 1px, 1px, 1px); }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .clip-ns {
     position: fixed !important;
     _position: absolute !important;
@@ -6553,7 +6553,7 @@ a:visited {
     /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px); } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .clip-m {
     position: fixed !important;
     _position: absolute !important;
@@ -6588,7 +6588,7 @@ a:visited {
 .pre {
   white-space: pre; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .ws-normal-ns {
     white-space: normal; }
   .nowrap-ns {
@@ -6596,7 +6596,7 @@ a:visited {
   .pre-ns {
     white-space: pre; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .ws-normal-m {
     white-space: normal; }
   .nowrap-m {
@@ -6634,7 +6634,7 @@ a:visited {
 .v-btm {
   vertical-align: bottom; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .v-base-ns {
     vertical-align: baseline; }
   .v-mid-ns {
@@ -6644,7 +6644,7 @@ a:visited {
   .v-btm-ns {
     vertical-align: bottom; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .v-base-m {
     vertical-align: baseline; }
   .v-mid-m {
@@ -6930,11 +6930,11 @@ a:focus {
   Add custom styles here.
 
 */
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-white-ns {
     background-color: #fff; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-white-m {
     background-color: #fff; } }
 
@@ -7058,7 +7058,7 @@ a:focus {
 .bg-y--0 {
   background-position-y: 0%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-0-ns {
     background-position-x: 0%; }
   .bg-y-0-ns {
@@ -7068,7 +7068,7 @@ a:focus {
   .bg-y--0-ns {
     background-position-y: 0%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-0-m {
     background-position-x: 0%; }
   .bg-y-0-m {
@@ -7100,7 +7100,7 @@ a:focus {
 .bg-y--5 {
   background-position-y: -5%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-5-ns {
     background-position-x: 5%; }
   .bg-y-5-ns {
@@ -7110,7 +7110,7 @@ a:focus {
   .bg-y--5-ns {
     background-position-y: -5%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-5-m {
     background-position-x: 5%; }
   .bg-y-5-m {
@@ -7142,7 +7142,7 @@ a:focus {
 .bg-y--10 {
   background-position-y: -10%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-10-ns {
     background-position-x: 10%; }
   .bg-y-10-ns {
@@ -7152,7 +7152,7 @@ a:focus {
   .bg-y--10-ns {
     background-position-y: -10%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-10-m {
     background-position-x: 10%; }
   .bg-y-10-m {
@@ -7184,7 +7184,7 @@ a:focus {
 .bg-y--15 {
   background-position-y: -15%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-15-ns {
     background-position-x: 15%; }
   .bg-y-15-ns {
@@ -7194,7 +7194,7 @@ a:focus {
   .bg-y--15-ns {
     background-position-y: -15%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-15-m {
     background-position-x: 15%; }
   .bg-y-15-m {
@@ -7226,7 +7226,7 @@ a:focus {
 .bg-y--20 {
   background-position-y: -20%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-20-ns {
     background-position-x: 20%; }
   .bg-y-20-ns {
@@ -7236,7 +7236,7 @@ a:focus {
   .bg-y--20-ns {
     background-position-y: -20%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-20-m {
     background-position-x: 20%; }
   .bg-y-20-m {
@@ -7268,7 +7268,7 @@ a:focus {
 .bg-y--25 {
   background-position-y: -25%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-25-ns {
     background-position-x: 25%; }
   .bg-y-25-ns {
@@ -7278,7 +7278,7 @@ a:focus {
   .bg-y--25-ns {
     background-position-y: -25%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-25-m {
     background-position-x: 25%; }
   .bg-y-25-m {
@@ -7310,7 +7310,7 @@ a:focus {
 .bg-y--30 {
   background-position-y: -30%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-30-ns {
     background-position-x: 30%; }
   .bg-y-30-ns {
@@ -7320,7 +7320,7 @@ a:focus {
   .bg-y--30-ns {
     background-position-y: -30%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-30-m {
     background-position-x: 30%; }
   .bg-y-30-m {
@@ -7352,7 +7352,7 @@ a:focus {
 .bg-y--35 {
   background-position-y: -35%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-35-ns {
     background-position-x: 35%; }
   .bg-y-35-ns {
@@ -7362,7 +7362,7 @@ a:focus {
   .bg-y--35-ns {
     background-position-y: -35%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-35-m {
     background-position-x: 35%; }
   .bg-y-35-m {
@@ -7394,7 +7394,7 @@ a:focus {
 .bg-y--40 {
   background-position-y: -40%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-40-ns {
     background-position-x: 40%; }
   .bg-y-40-ns {
@@ -7404,7 +7404,7 @@ a:focus {
   .bg-y--40-ns {
     background-position-y: -40%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-40-m {
     background-position-x: 40%; }
   .bg-y-40-m {
@@ -7436,7 +7436,7 @@ a:focus {
 .bg-y--45 {
   background-position-y: -45%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-45-ns {
     background-position-x: 45%; }
   .bg-y-45-ns {
@@ -7446,7 +7446,7 @@ a:focus {
   .bg-y--45-ns {
     background-position-y: -45%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-45-m {
     background-position-x: 45%; }
   .bg-y-45-m {
@@ -7478,7 +7478,7 @@ a:focus {
 .bg-y--50 {
   background-position-y: -50%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-50-ns {
     background-position-x: 50%; }
   .bg-y-50-ns {
@@ -7488,7 +7488,7 @@ a:focus {
   .bg-y--50-ns {
     background-position-y: -50%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-50-m {
     background-position-x: 50%; }
   .bg-y-50-m {
@@ -7520,7 +7520,7 @@ a:focus {
 .bg-y--55 {
   background-position-y: -55%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-55-ns {
     background-position-x: 55%; }
   .bg-y-55-ns {
@@ -7530,7 +7530,7 @@ a:focus {
   .bg-y--55-ns {
     background-position-y: -55%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-55-m {
     background-position-x: 55%; }
   .bg-y-55-m {
@@ -7562,7 +7562,7 @@ a:focus {
 .bg-y--60 {
   background-position-y: -60%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-60-ns {
     background-position-x: 60%; }
   .bg-y-60-ns {
@@ -7572,7 +7572,7 @@ a:focus {
   .bg-y--60-ns {
     background-position-y: -60%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-60-m {
     background-position-x: 60%; }
   .bg-y-60-m {
@@ -7604,7 +7604,7 @@ a:focus {
 .bg-y--65 {
   background-position-y: -65%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-65-ns {
     background-position-x: 65%; }
   .bg-y-65-ns {
@@ -7614,7 +7614,7 @@ a:focus {
   .bg-y--65-ns {
     background-position-y: -65%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-65-m {
     background-position-x: 65%; }
   .bg-y-65-m {
@@ -7646,7 +7646,7 @@ a:focus {
 .bg-y--70 {
   background-position-y: -70%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-70-ns {
     background-position-x: 70%; }
   .bg-y-70-ns {
@@ -7656,7 +7656,7 @@ a:focus {
   .bg-y--70-ns {
     background-position-y: -70%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-70-m {
     background-position-x: 70%; }
   .bg-y-70-m {
@@ -7688,7 +7688,7 @@ a:focus {
 .bg-y--75 {
   background-position-y: -75%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-75-ns {
     background-position-x: 75%; }
   .bg-y-75-ns {
@@ -7698,7 +7698,7 @@ a:focus {
   .bg-y--75-ns {
     background-position-y: -75%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-75-m {
     background-position-x: 75%; }
   .bg-y-75-m {
@@ -7730,7 +7730,7 @@ a:focus {
 .bg-y--80 {
   background-position-y: -80%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-80-ns {
     background-position-x: 80%; }
   .bg-y-80-ns {
@@ -7740,7 +7740,7 @@ a:focus {
   .bg-y--80-ns {
     background-position-y: -80%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-80-m {
     background-position-x: 80%; }
   .bg-y-80-m {
@@ -7772,7 +7772,7 @@ a:focus {
 .bg-y--85 {
   background-position-y: -85%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-85-ns {
     background-position-x: 85%; }
   .bg-y-85-ns {
@@ -7782,7 +7782,7 @@ a:focus {
   .bg-y--85-ns {
     background-position-y: -85%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-85-m {
     background-position-x: 85%; }
   .bg-y-85-m {
@@ -7814,7 +7814,7 @@ a:focus {
 .bg-y--90 {
   background-position-y: -90%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-90-ns {
     background-position-x: 90%; }
   .bg-y-90-ns {
@@ -7824,7 +7824,7 @@ a:focus {
   .bg-y--90-ns {
     background-position-y: -90%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-90-m {
     background-position-x: 90%; }
   .bg-y-90-m {
@@ -7856,7 +7856,7 @@ a:focus {
 .bg-y--95 {
   background-position-y: -95%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-95-ns {
     background-position-x: 95%; }
   .bg-y-95-ns {
@@ -7866,7 +7866,7 @@ a:focus {
   .bg-y--95-ns {
     background-position-y: -95%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-95-m {
     background-position-x: 95%; }
   .bg-y-95-m {
@@ -7898,7 +7898,7 @@ a:focus {
 .bg-y--100 {
   background-position-y: -100%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-x-100-ns {
     background-position-x: 100%; }
   .bg-y-100-ns {
@@ -7908,7 +7908,7 @@ a:focus {
   .bg-y--100-ns {
     background-position-y: -100%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-x-100-m {
     background-position-x: 100%; }
   .bg-y-100-m {
@@ -7943,11 +7943,11 @@ a:focus {
 .bg-size-0 {
   background-size: 0%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-0-ns {
     background-size: 0%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-0-m {
     background-size: 0%; } }
 
@@ -7958,11 +7958,11 @@ a:focus {
 .bg-size-5 {
   background-size: 5%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-5-ns {
     background-size: 5%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-5-m {
     background-size: 5%; } }
 
@@ -7973,11 +7973,11 @@ a:focus {
 .bg-size-10 {
   background-size: 10%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-10-ns {
     background-size: 10%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-10-m {
     background-size: 10%; } }
 
@@ -7988,11 +7988,11 @@ a:focus {
 .bg-size-15 {
   background-size: 15%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-15-ns {
     background-size: 15%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-15-m {
     background-size: 15%; } }
 
@@ -8003,11 +8003,11 @@ a:focus {
 .bg-size-20 {
   background-size: 20%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-20-ns {
     background-size: 20%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-20-m {
     background-size: 20%; } }
 
@@ -8018,11 +8018,11 @@ a:focus {
 .bg-size-25 {
   background-size: 25%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-25-ns {
     background-size: 25%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-25-m {
     background-size: 25%; } }
 
@@ -8033,11 +8033,11 @@ a:focus {
 .bg-size-30 {
   background-size: 30%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-30-ns {
     background-size: 30%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-30-m {
     background-size: 30%; } }
 
@@ -8048,11 +8048,11 @@ a:focus {
 .bg-size-35 {
   background-size: 35%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-35-ns {
     background-size: 35%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-35-m {
     background-size: 35%; } }
 
@@ -8063,11 +8063,11 @@ a:focus {
 .bg-size-40 {
   background-size: 40%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-40-ns {
     background-size: 40%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-40-m {
     background-size: 40%; } }
 
@@ -8078,11 +8078,11 @@ a:focus {
 .bg-size-45 {
   background-size: 45%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-45-ns {
     background-size: 45%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-45-m {
     background-size: 45%; } }
 
@@ -8093,11 +8093,11 @@ a:focus {
 .bg-size-50 {
   background-size: 50%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-50-ns {
     background-size: 50%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-50-m {
     background-size: 50%; } }
 
@@ -8108,11 +8108,11 @@ a:focus {
 .bg-size-55 {
   background-size: 55%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-55-ns {
     background-size: 55%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-55-m {
     background-size: 55%; } }
 
@@ -8123,11 +8123,11 @@ a:focus {
 .bg-size-60 {
   background-size: 60%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-60-ns {
     background-size: 60%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-60-m {
     background-size: 60%; } }
 
@@ -8138,11 +8138,11 @@ a:focus {
 .bg-size-65 {
   background-size: 65%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-65-ns {
     background-size: 65%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-65-m {
     background-size: 65%; } }
 
@@ -8153,11 +8153,11 @@ a:focus {
 .bg-size-70 {
   background-size: 70%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-70-ns {
     background-size: 70%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-70-m {
     background-size: 70%; } }
 
@@ -8168,11 +8168,11 @@ a:focus {
 .bg-size-75 {
   background-size: 75%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-75-ns {
     background-size: 75%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-75-m {
     background-size: 75%; } }
 
@@ -8183,11 +8183,11 @@ a:focus {
 .bg-size-80 {
   background-size: 80%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-80-ns {
     background-size: 80%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-80-m {
     background-size: 80%; } }
 
@@ -8198,11 +8198,11 @@ a:focus {
 .bg-size-85 {
   background-size: 85%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-85-ns {
     background-size: 85%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-85-m {
     background-size: 85%; } }
 
@@ -8213,11 +8213,11 @@ a:focus {
 .bg-size-90 {
   background-size: 90%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-90-ns {
     background-size: 90%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-90-m {
     background-size: 90%; } }
 
@@ -8228,11 +8228,11 @@ a:focus {
 .bg-size-95 {
   background-size: 95%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-95-ns {
     background-size: 95%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-95-m {
     background-size: 95%; } }
 
@@ -8243,11 +8243,11 @@ a:focus {
 .bg-size-100 {
   background-size: 100%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .bg-size-100-ns {
     background-size: 100%; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-size-100-m {
     background-size: 100%; } }
 
@@ -8295,7 +8295,7 @@ a:focus {
 .left--6 {
   left: -6rem; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .top--3-ns {
     top: -3rem; }
   .right--3-ns {
@@ -8313,7 +8313,7 @@ a:focus {
   .left--6-ns {
     left: -6rem; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .top--3-m {
     top: -3rem; }
   .right--3-m {
@@ -8473,11 +8473,11 @@ a:focus {
 .min-h6 {
   min-height: 36rem; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .min-h6-ns {
     min-height: 36rem; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .min-h6-m {
     min-height: 36rem; } }
 
@@ -8689,7 +8689,7 @@ a {
   margin-left: -2rem;
   margin-right: -2rem; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .neg-mt1-ns {
     margin-top: -0.25rem; }
   .neg-mt2-ns {
@@ -8719,7 +8719,7 @@ a {
   .neg-mb7-ns {
     margin-bottom: -16rem; } }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
+@media screen and (min-width: 47em) and (max-width: 60em) {
   .neg-mt1-m {
     margin-top: -0.25rem; }
   .neg-mt2-m {
@@ -8782,7 +8782,7 @@ a {
 .neg-mt2_5 {
   margin-top: -2.5rem; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .neg-mt4_5-ns {
     margin-top: -4.5rem; } }
 
@@ -9037,7 +9037,7 @@ a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .slick-dots li button:before {
     width: 16px;
     height: 16px;
@@ -9163,9 +9163,10 @@ a {
     margin-left: 0;
     margin-right: 0;
     max-height: 98%;
-    margin-top: 1%; } }
+    margin-top: 1%;
+    max-width: 80%; } }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 47em) {
   .featherlight .featherlight-content {
     /* clipping  */
     -webkit-clip-path: polygon(0% 0%, 40% 0%, 50% 5%, 60% 0%, 100% 0%, 100% 100%, 0% 100%);
