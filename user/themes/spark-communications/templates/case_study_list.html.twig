@@ -4,6 +4,8 @@
   bg-img-bike bg-y-30
 {% endblock headerClasses %}
 
+{% block footer_classes %}pt5{% endblock %}
+
 {% block under_main %}
   <div class="mt6 pt4 bg-white">
     {% include 'partials/work_list.html.twig' with { 'collection': page.collection } only %}
