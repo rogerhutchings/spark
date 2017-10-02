@@ -1,9 +1,9 @@
 ---
 title: 'The Proof of the Pudding: how Spark won GMC Software'
+author: /team/ana-williams
 header_image_enabled: '1'
 date: '15:03 08-02-2017'
 inSitemap: true
-author: /team/alex-crawshaw
 imported_from_wordpress:
     author: alex
     comments: true

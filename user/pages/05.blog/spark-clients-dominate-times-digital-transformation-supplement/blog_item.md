@@ -1,9 +1,9 @@
 ---
-title: 'Spark clients dominate The Times ‘Digital Transformation’ supplement'
+title: '‘Spark clients dominate The Times ‘Digital Transformation’ supplement'
+author: /team/alex-crawshaw
 header_image_enabled: '1'
 date: '16:26 03-07-2017'
 inSitemap: true
-author: /team/alex-crawshaw
 imported_from_wordpress:
     author: alex
     comments: true
@@ -23,7 +23,7 @@ imported_from_wordpress:
         - 'The Times'
 ---
 
-![](FireShot-Capture-164-Special-Reports-Archive-_-https___www.raconteur.net_special-reports-archive-241x300.png)As you may know, The Times/Raconteur regularly publish a number of technology-focused supplements throughout the year.  Last week was no different with the publication of its ‘[Digital Transformation’](https://www.raconteur.net/digital-transformation-2017){.img-left} supplement. With the topic of digital transformation being much discussed by technology companies for the last 18 months, there was understandably plenty of competition to get featured in the supplement.  Therefore, we were excited to see that six different clients featured in the supplement – which was testament to the team’s proactivity and creativity in developing media-worthy content.
+![](FireShot-Capture-164-Special-Reports-Archive-_-https___www.raconteur.net_special-reports-archive-241x300.png){.img-left} As you may know, The Times/Raconteur regularly publish a number of technology-focused supplements throughout the year. Last week was no different with the publication of its [‘Digital Transformation’](https://www.raconteur.net/digital-transformation-2017) supplement. With the topic of digital transformation being much discussed by technology companies for the last 18 months, there was understandably plenty of competition to get featured in the supplement. Therefore, we were excited to see that six different clients featured in the supplement – which was testament to the team’s proactivity and creativity in developing media-worthy content.
 
 First up, the team secured an interview for Ross Mason, founder of [MuleSoft](http://www.mulesoft.com), to discuss the role of APIs in creating the [platform economy](https://www.raconteur.net/technology/launching-businesses-in-the-platform-economy).  A couple of our security clients ([IOActive](https://ioactive.com/) and [Huntsman Security](https://www.huntsmansecurity.com/)) and MuleSoft again, were then featured in a separate feature on [securing the digital world](https://www.raconteur.net/technology/design-security-in-and-keep-the-hackers-out), after the respective client teams had developed some great written comments.
 

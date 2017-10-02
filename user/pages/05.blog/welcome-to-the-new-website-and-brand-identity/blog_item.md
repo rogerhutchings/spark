@@ -2,7 +2,7 @@
 title: 'Welcome to the New Website and Brand Identity'
 author: /team/lauren-richards
 header_image_enabled: '1'
-date: '22:51 28-09-2017'
+date: '22:51 02-10-2017'
 inSitemap: false
 header_image_file:
     user/pages/05.blog/welcome-to-the-new-website-and-brand-identity/iphone-513495_640.jpg:
