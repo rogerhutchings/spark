@@ -2,7 +2,7 @@
 title: 'Welcome to the New Website and Brand Identity'
 author: /team/lauren-richards
 header_image_enabled: '1'
-date: '22:51 02-10-2017'
+date: '22:51 03-10-2017'
 inSitemap: false
 header_image_file:
     user/pages/05.blog/welcome-to-the-new-website-and-brand-identity/iphone-513495_640.jpg:
@@ -16,4 +16,4 @@ Our new website is here. We practiced what we preach and did it properly - despi
 
 The Coverage Cup is still here and [now has its own dedicated page](/coverage) so if all you want is to see our best results for the week then follow here. We probably won’t be offering an access all areas pass to the behind the scenes dirty tricks campaigning and political posturing that results in the ultimate weekly winner but do drop by on a Friday afternoon for a drink if you want to experience it live. We love doing the Coverage Cup each week - we have a fiercely competitive team and it allows them to show off not only the end-result but also the behind the scenes work that leads to the money shot. We’d like to share more of the planning and creative work that goes into each campaign so we are going to make much more of an effort to regularly add new case studies. We’ve also tried to give potential recruits more of an idea of what it’s like to work at Spark. Have a look at our [join us page](/join-us) – it also links to the most recent blogs that are about us. We’ll also still be producing hints and tips on B2B PR and content creation, general musings on PR and interviews with interesting people on our blog.
 
-Let us know what you think of the ‘new look’ Spark - we turned 18 this year so have officially reached adulthood. 
+Let us know what you think of the ‘new look’ Spark - we turned 18 this year so have officially reached adulthood.
