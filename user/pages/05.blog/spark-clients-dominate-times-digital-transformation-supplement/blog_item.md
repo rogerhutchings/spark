@@ -1,5 +1,5 @@
 ---
-title: '‘Spark clients dominate The Times ‘Digital Transformation’ supplement'
+title: 'Spark clients dominate The Times ‘Digital Transformation’ supplement'
 author: /team/alex-crawshaw
 header_image_enabled: '1'
 date: '16:26 03-07-2017'
