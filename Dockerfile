@@ -66,7 +66,7 @@ RUN chmod +x bin/*
 RUN bin/composer.phar self-update
 RUN bin/grav install
 RUN bin/gpm install advanced-pagecache
-RUN chown -R www-data:www-data *
+RUN chown -R www-data:www-data .
 RUN find . -type f | xargs chmod 664
 RUN find . -type d | xargs chmod 775
 RUN find . -type d | xargs chmod +s
