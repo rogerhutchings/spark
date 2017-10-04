@@ -1,32 +1,7 @@
 {% extends 'default.html.twig' %}
 
 {% block footer_classes %}pt5{% endblock %}
-
-{% block header %}
-  <header id="header" class="min-h6 bg-black cover bg-img-bike bg-y-30">
-    <div class="center pt5 ph3 mw8 flex-ns justify-between items-end">
-
-      {% if page.home() %}
-        {{ macros.sparkLogo('w-25-ns flex-none') }}
-      {% else %}
-        <a href="/" class="w-25-ns flex-none">
-          {{ macros.sparkLogo() }}
-        </a>
-      {% endif %}
-
-      {% include 'partials/navigation.html.twig' %}
-
-    </div>
-
-    {% if block('hero') is defined %}
-      <div class="center ph3 mw8">
-        {% block hero %}
-        {% endblock hero %}
-      </div>
-    {% endif %}
-
-  </header>
-{% endblock header %}
+{% block headerClasses %}bg-img-bike bg-y-30{% endblock %}
 
 {% block main %}
   <main class="ph3 cover {{ page.header.main_classes }}">
