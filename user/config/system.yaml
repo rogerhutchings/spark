@@ -125,6 +125,7 @@ assets:
       - '//cdn.jsdelivr.net/npm/handlebars@4.0.10/dist/handlebars.min.js'
     jsSocial-js:
       - '//cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js'
+      - 'https://use.fontawesome.com/d17c2c1968.js'
     jsSocial-css:
       - '//cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css'
       - '//cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-flat.css'
