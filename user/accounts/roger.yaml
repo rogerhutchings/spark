@@ -11,4 +11,4 @@ access:
 hashed_password: $2y$10$nRdAJCoNNAjDlRsifxgbfeq5uk68/2JQDMn1Fe3OEPOHTCiZhcLOS
 language: en
 login_attempts: {  }
-twofa_secret: HM4SZYSGNS2IVEIERHED27KXUWRJRIT2
+twofa_secret: ZNVJESKAEHRII3O2ZWTQJ36SXLX5QCV4
