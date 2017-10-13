@@ -2,24 +2,13 @@
 
 {% block footer_classes %}pt5{% endblock %}
 
-{% set blogLinks = [
-  {
-    title: 'Bouncing ideas around: Bubble football with journalists',
-    url: '/blog/bouncing-ideas-around-bubble-football-journalists'
-  },
-  {
-    title: 'Being the big fish in the big PR pond',
-    url: '/blog/big-fish-big-pr-pond'
-  },
-  {
-    title: 'Top tips for avoiding meeting mayhem',
-    url: '/blog/top-tips-avoiding-meeting-mayhem'
-  },
-  {
-    title: 'Summer day out – Laser Quest and Electric Barge',
-    url: '/blog/summer-day-laser-quest-electric-barge'
-  }
-] %}
+{% set links = [] %}
+{% for link in header.links %}
+  {% set links = links|merge([{
+    'title': page.find(link.url).title(),
+    'url': link.url
+  }]) %}
+{% endfor %}
 
 {% block main %}
   <main class="ph3 cover {{ page.header.main_classes }}">
@@ -45,7 +34,7 @@
             From our blog
           </h2>
           <ul class="mw6 center">
-            {% for link in blogLinks %}
+            {% for link in links %}
               <li class="">
                 <a href="{{ link.url }}" class="black">
                   {{ link.title }}
@@ -65,8 +54,6 @@
         </h2>
       </div>
     </div>
-
-
   </main>
 
   <section>

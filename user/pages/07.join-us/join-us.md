@@ -1,5 +1,14 @@
 ---
 title: 'Join Us'
+links:
+    -
+        url: /blog/bouncing-ideas-around-bubble-football-journalists
+    -
+        url: /blog/big-fish-big-pr-pond
+    -
+        url: /blog/top-tips-avoiding-meeting-mayhem
+    -
+        url: /blog/summer-day-laser-quest-electric-barge
 header_classes: 'bg-img-gokarts bg-y-35 bg-center'
 svg_icon: circle-triangle
 ---
