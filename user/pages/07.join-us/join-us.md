@@ -9,7 +9,7 @@ links:
         url: /blog/top-tips-avoiding-meeting-mayhem
     -
         url: /blog/summer-day-laser-quest-electric-barge
-header_classes: 'bg-img-gokarts bg-y-35 bg-center'
+header_classes: 'bg-img-gokarts bg-y-40 bg-center'
 svg_icon: circle-triangle
 ---
 
