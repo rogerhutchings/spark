@@ -1,6 +1,7 @@
 ---
 title: 'Our Work'
 visible: false
+child_type: case_study
 svg_icon: circle-cog
 content:
   items: '@self.children'

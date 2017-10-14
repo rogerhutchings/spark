@@ -6,6 +6,7 @@ process:
     twig: true
 twig_first: true
 backgroundClass: bg-img-trophy
+child_type: coverage_item
 ---
 
 Media relations is at the heart of a successful campaign and our team take great pride in beating their colleagues to win the weekly Spark coverage cup vote.
