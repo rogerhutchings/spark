@@ -1,18 +1,15 @@
 {% macro blogMeta(page, useImage = false) %}
   {% set author = page.find(page.header.author)|default(false) %}
-  {% set authorPhoto = author.header.photo|first %}
+  {% set authorPhoto = author.media[author.header.photo|first.name] %}
 
   <div class="gray f6">
     {% if author %}
+      {% set first_name = author.header.first_name %}
       {% if useImage and authorPhoto %}
-        <img
-          src="/{{ authorPhoto.path }}"
-          class="w3 ba br-100 b--orange dib v-mid mr2"
-          style="border-width: 2px;"
-        />
+        {{ authorPhoto.resize(66).html(null, first_name, 'w3 ba br-100 b--orange dib v-mid mr2') }}
       {% endif %}
       <span class="dib br b--gray pr2 mr1 orange ttu">
-        By {{ author.header.first_name }}
+        By {{ first_name }}
       </span>
     {% endif %}
     <time class="dib" datetime="{{ page.date|date("c") }}">
