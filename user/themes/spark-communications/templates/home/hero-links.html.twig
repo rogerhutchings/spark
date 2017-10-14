@@ -18,7 +18,7 @@
     subtitle: 'Create, engage & influence',
     url: '/create-engage-and-influence',
     icon: 'svgs/handshake.svg.twig',
-    classes: ''
+    classes: 'relative top-1'
   }
 ] %}
 
@@ -30,15 +30,17 @@
   {% for link in heroLinks %}
     <a
       href={{ link.url }}
-      class="{{ widths }} {{ bgs }} {{ hovers }} link black pa3 z-2 mb3 mb0-ns mb0-m mb0-l flex items-center justify-center flex-row flex-wrap">
+      class="{{ widths }} {{ bgs }} {{ hovers }} link black ph3 pv4 z-2 mb3 mb0-ns mb0-m mb0-l flex items-center justify-center flex-row flex-wrap">
+
       <div class="mw4 center w-100 ph3">
         {% include link.icon with { class: 'w-100 ' ~ link.classes } %}
       </div>
+
       <div class="self-end f3 db w-100">
         <div class="f3">
           {{ link.title }}
         </div>
-        <div class="f6">
+        <div class="f6 mt2">
           {{ link.subtitle }}
         </div>
       </div>
