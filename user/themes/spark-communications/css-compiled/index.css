@@ -9026,8 +9026,8 @@ a {
   opacity: 1; }
 
 .slick-dots li button:before {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
   border-radius: 100%;
   display: block;
   margin: 5px 0;
@@ -9039,9 +9039,9 @@ a {
 
 @media screen and (min-width: 47em) {
   .slick-dots li button:before {
-    width: 16px;
-    height: 16px;
-    margin: 5px; } }
+    width: 10px;
+    height: 10px;
+    margin: 5px 2px; } }
 
 .slick-dots li.slick-active button:before {
   opacity: .75;

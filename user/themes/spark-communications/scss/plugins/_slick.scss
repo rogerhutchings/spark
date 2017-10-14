@@ -63,8 +63,8 @@
 }
 .slick-dots li button:before
 {
-    width: 8px;
-    height: 8px;
+    width: 6px;
+    height: 6px;
     border-radius: 100%;
     display: block;
     margin: 5px 0;
@@ -79,9 +79,9 @@
 
 @media #{$breakpoint-not-small} {
   .slick-dots li button:before {
-    width: 16px;
-    height: 16px;
-    margin: 5px
+    width: 10px;
+    height: 10px;
+    margin: 5px 2px;
   }
 }
 
