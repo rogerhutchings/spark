@@ -4,7 +4,7 @@
   {% for person in team %}
     {% set img = person.header.photo|first.path %}
     <li
-      class="js-person dib fl w-50 w-third-ns relative"
+      class="js-person dib fl w-50 w-third-ns relative outline-0"
       data-name="{{ person.title }}"
       data-bio="{{ person.header.bio }}"
       data-img="{{ img }}"
