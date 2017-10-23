@@ -2,7 +2,7 @@
 title: Clients
 svgFile: handshake
 header_classes: 'bg-img-geometric-sky bg-y-100'
-main_classes: 'bg-moon-gray'
+main_classes: bg-moon-gray
 svg_icon: circle-handshake
 ---
 
