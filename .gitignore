@@ -17,6 +17,7 @@ logs/*
 !logs/.*
 user/localhost/config/security.yaml
 user/config/security.yaml
+user/themes/antimatter
 
 # OS Generated
 .DS_Store*
