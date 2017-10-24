@@ -6932,15 +6932,21 @@ a:focus {
 */
 @media screen and (min-width: 47em) {
   .bg-white-ns {
-    background-color: #fff; } }
+    background-color: #fff; }
+  .bg-gray-ns {
+    background-color: #788393; } }
 
 @media screen and (min-width: 47em) and (max-width: 60em) {
   .bg-white-m {
-    background-color: #fff; } }
+    background-color: #fff; }
+  .bg-gray-m {
+    background-color: #788393; } }
 
 @media screen and (min-width: 60em) {
   .bg-white-l {
-    background-color: #fff; } }
+    background-color: #fff; }
+  .bg-gray-l {
+    background-color: #788393; } }
 
 .bg-o80-white {
   background-color: rgba(255, 255, 255, 0.8); }

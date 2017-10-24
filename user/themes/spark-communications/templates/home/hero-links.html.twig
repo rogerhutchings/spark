@@ -18,15 +18,16 @@
     subtitle: 'Create, engage & influence',
     url: '/create-engage-and-influence',
     icon: 'svgs/handshake.svg.twig',
-    classes: 'relative top-1'
+    classes: 'relative top-1-ns'
   }
 ] %}
 
 {% set widths = 'w-100 db w-third-ns w-third-m w-third-l' %}
 {% set bgs = 'bg-washed-red bg-white-ns bg-white-m bg-white-l' %}
 {% set hovers = 'hover-orange hover-fill-orange no-decoration-hover' %}
+{% set classes = classes|default('') %}
 
-<section class="mh3 flex-ns flex-m flex-l bg-white tc ttu fw4 relative">
+<section class="flex-ns flex-m flex-l bg-white tc ttu fw4 relative {{ classes }}">
   {% for link in heroLinks %}
     <a
       href={{ link.url }}

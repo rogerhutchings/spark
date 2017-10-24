@@ -11,18 +11,23 @@
 {% endblock hero %}
 
 {% block main %}
-  <main class="ph3 cover {{ page.header.main_classes }}">
-    <div class="relative top--3 neg-mb7 mw8 center {{ page.header.main_container_classes }}">
-      {% include 'home/hero-links.html.twig' %}
-      <div class="bg-gray ph3 neg-mt6 pt6">
-        <section class="measure-wide tc white center pv3 f4 fw3">
+  <main class="ph3 cover relative z-1 {{ page.header.main_classes }}">
+    <div class=" mw8 center neg-mb7 relative {{ page.header.main_container_classes }}">
+
+      <div class="bg-white bg-gray-ns ph3 neg-mb6 neg-mb5-ns">
+        {% include 'home/hero-links.html.twig' with { classes: 'relative top--3' }%}
+      </div>
+
+      <section class="pb4 pt5 pv4-ns f4 fw3 bg-gray ph3">
+        <div class="measure-wide tc white center">
           <h2 class="orange ttu f3">
             About Us
           </h2>
           {{ content|markdown }}
           {{ macros.button({ link: '/join-us', label: 'Join Us' }) }}
-        </section>
-      </div>
+        </div>
+      </section>
+
       <section>
         {% include 'home/services.html.twig' %}
       </section>
@@ -32,3 +37,7 @@
     </div>
   </main>
 {% endblock main %}
+
+{% block footer_classes %}
+  relative top-2 pt7
+{% endblock footer_classes %}
