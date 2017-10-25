@@ -256,13 +256,31 @@ $(function () {
 "use strict";
 
 
+function truncate(str, max) {
+  var ellipsis = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '…';
+
+  if (str.length > max) {
+    return str.substr(0, max - ellipsis.length) + ellipsis;
+  } else {
+    return str;
+  }
+}
+
 $(document).ready(function () {
+  // Derived from max link length (+ 2), plus the 'via' section
+  var truncLength = 98;
+
+  var pageTitle = $(document).prop('title').replace(' | Spark Communications', '');
+
+  var twitterTitle = truncate(pageTitle, truncLength);
+
   $('.js-share').jsSocials({
     showLabel: false,
     showCount: false,
     shares: ['email', {
       share: 'twitter',
-      via: 'sparkcomms'
+      via: 'sparkcomms',
+      text: twitterTitle
     }, 'facebook', 'googleplus', 'linkedin']
   });
 });
