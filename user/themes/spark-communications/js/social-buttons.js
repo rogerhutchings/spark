@@ -4,7 +4,10 @@ $(document).ready(() => {
     showCount: false,
     shares: [
       'email',
-      'twitter',
+      {
+        share: 'twitter',
+        via: 'sparkcomms'
+      },
       'facebook',
       'googleplus',
       'linkedin'

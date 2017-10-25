@@ -10,6 +10,7 @@ links:
     -
         url: /blog/top-tips-avoiding-meeting-mayhem
 header_classes: 'bg-img-gokarts bg-y-40 bg-center'
+metaImage: user/themes/spark-communications/images/bg-img-gokarts.jpg
 svg_icon: circle-triangle
 ---
 

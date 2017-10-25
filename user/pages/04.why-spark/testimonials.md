@@ -20,8 +20,9 @@ testimonials:
         body: 'The Economist, FT, BBC and Bloomberg in a week. Business-changing results that continue to drive leads'
         source: 'Jennifer Carole, VP of marketing, Bromium'
 header_classes: 'bg-img-london-skyline bg-y-0 bg-center'
+metaImage: user/themes/spark-communications/images/bg-img-london-skyline.jpg
 main_classes: 'bg-img-escalator bg-center'
-main_container_classes: 'bg-o80-white'
+main_container_classes: bg-o80-white
 svg_icon: circle-speech-bubble
 menu: 'Why Spark?'
 ---

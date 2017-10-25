@@ -1,3 +1,120 @@
-{% for meta in page.metadata %}
-<meta {% if meta.name %}name="{{ meta.name }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset }}" {% endif %}{% if meta.property %}property="{{ meta.property }}" {% endif %}{% if meta.content %}content="{{ meta.content }}" {% endif %}/>
+{# Page metadata inherits from site-wide metadata, defined in config/site.yaml #}
+
+{% macro renderMeta(meta) %}
+  <meta {% if meta.name %}name="{{ meta.name }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset }}" {% endif %}{% if meta.property %}property="{{ meta.property }}" {% endif %}{% if meta.content %}content="{{ meta.content }}" {% endif %}/>
+{% endmacro renderMeta %}
+
+{% set DESCRIPTION_LENGTH = 155 %}
+{% set TWITTER_DESCRIPTION_LENGTH = 200 %}
+{% set TRUNC = '...' %}
+
+{% set pMetadata = page.metadata %}
+{% set sMetadata = site.metadata %}
+{% set summary = page.summary|striptags %}
+{% set baseUrl = base_url_absolute ~ '/' %}
+
+{# Create description #}
+{% if pMetadata.description.content != sMetadata.description %}
+  {% set fullDesc = pMetadata.description.content %}
+{% else %}
+  {% set fullDesc = summary %}
+{% endif %}
+
+{% set description = (fullDesc|length < DESCRIPTION_LENGTH)
+  ? fullDesc
+  : fullDesc|slice(0, DESCRIPTION_LENGTH - TRUNC|length) ~ TRUNC
+%}
+
+{# Create Twitter description #}
+{% if pMetadata['twitter:description'] %}
+  {% set fullTwitterDesc = pMetadata['twitter:description']['content'] %}
+{% else %}
+  {% set fullTwitterDesc = summary %}
+{% endif %}
+
+{% set twitterDescription = (fullTwitterDesc|length < TWITTER_DESCRIPTION_LENGTH)
+  ? fullTwitterDesc
+  : fullTwitterDesc|slice(0, TWITTER_DESCRIPTION_LENGTH - TRUNC|length) ~ TRUNC
+%}
+
+{# Create Twitter image #}
+{% if pMetadata['twitter:image'] %}
+  {% set twitterImage = pMetadata['twitter:image']['content'] %}
+{% elseif header.metaImage %}
+  {% set twitterImage = baseUrl ~ header.metaImage %}
+{% else %}
+  {% if header.header_image_enabled and header.header_image_file %}
+    {% set twitterImage = header.header_image_file|first.url %}
+  {% elseif page.media.images|first %}
+    {% set twitterImage = page.media.images|first.url %}
+  {% elseif page.parent.header.metaImage %}
+    {% set twitterImage = baseUrl ~ page.parent.header.metaImage %}
+  {% else %}
+    {% set twitterImage = baseUrl ~ 'user/themes/spark-communications/images/bg-img-swoosh.jpg' %}
+  {% endif %}
+{% endif %}
+
+{# Create Open Graph description #}
+{% if pMetadata['og:description'] %}
+  {% set ogDescription = pMetadata['og:description']['content'] %}
+{% else %}
+  {% set ogDescription = summary %}
+{% endif %}
+
+{# Create Open Graph image #}
+{% if pMetadata['og:image'] %}
+  {% set ogImage = pMetadata['og:image']['content'] %}
+{% elseif header.metaImage %}
+  {% set ogImage = baseUrl ~ header.metaImage %}
+{% else %}
+  {% if header.header_image_enabled and header.header_image_file %}
+    {% set ogImage = header.header_image_file|first.url %}
+  {% elseif page.media.images|first %}
+    {% set ogImage = page.media.images|first.url %}
+  {% elseif page.parent.header.metaImage %}
+    {% set ogImage = baseUrl ~ page.parent.header.metaImage %}
+  {% else %}
+    {% set ogImage = baseUrl ~ 'user/themes/spark-communications/images/bg-img-swoosh.jpg' %}
+  {% endif %}
+{% endif %}
+
+{% set metadata = {
+  'description': {
+    name: 'description',
+    content: description
+  },
+  'twitter:title': {
+    name: 'twitter:title',
+    content: page.title
+  },
+  'twitter:description': {
+    name: 'twitter:description',
+    content: twitterDescription
+  },
+  'twitter:image': {
+    name: 'twitter:image',
+    content: twitterImage
+  },
+  'og:title': {
+    name: 'og:title',
+    content: page.title
+  },
+  'og:url': {
+    name: 'og:url',
+    content: page.permalink
+  },
+  'og:image': {
+    name: 'og:image',
+    content: ogImage
+  },
+  'og:description': {
+    name: 'og:description',
+    content: ogDescription
+  }
+} %}
+
+{% set allMeta = pMetadata|merge(metadata) %}
+
+{% for meta in allMeta %}
+  {{ _self.renderMeta(meta) }}
 {% endfor %}

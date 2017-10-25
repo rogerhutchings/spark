@@ -1,11 +1,12 @@
 ---
 title: 'Spark Coverage Cup'
-template: 'coverage_index'
+template: coverage_index
 process:
     markdown: true
     twig: true
 twig_first: true
 backgroundClass: bg-img-trophy
+metaImage: user/themes/spark-communications/images/bg-img-trophy.jpg
 child_type: coverage_item
 ---
 

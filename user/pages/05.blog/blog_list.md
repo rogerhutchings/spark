@@ -8,5 +8,6 @@ content:
         dir: desc
     limit: 5
     pagination: true
+metaImage: user/themes/spark-communications/images/bg-img-laptop.jpg
 ---
 

@@ -2,6 +2,7 @@
 title: Clients
 svgFile: handshake
 header_classes: 'bg-img-geometric-sky bg-y-100'
+metaImage: user/themes/spark-communications/images/bg-img-geometric-sky.jpg
 main_classes: bg-moon-gray
 svg_icon: circle-handshake
 ---

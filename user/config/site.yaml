@@ -1,29 +1,32 @@
-title: 'Spark Communications'
+title: &title 'Spark Communications'
 default_lang: en
-author:
-  name: 'Joe Bloggs'
-  email: joe@test.com
-taxonomies:
-  - category
-  - tag
 
 summary:
   enabled: true
   format: short
   size: 300
   delimiter: '==='
+
 blog:
   route: /blog
+
 social_media:
-  twitter: 'https://twitter.com/sparkcomms'
-  linkedin: 'https://uk.linkedin.com/company/spark-communications-uk-'
+  twitter: &twitter '@sparkcomms'
+  links:
+    - name: twitter
+      url: 'https://twitter.com/sparkcomms'
+    - name: linkedin
+      url: 'https://uk.linkedin.com/company/spark-communications-uk-'
+
 credentials:
   google_maps: AIzaSyCpRqXcY3sEZtvngIx-VaAlt9MtGvO7-4c
+
 contactdetails:
   address: "Century House \r\n100-102 Oxford Street \r\nLondon\r\nW1D 1LN"
   tel: '+44 (0)20 7436 0420 '
   email: hello@sparkcomms.co.uk
   name: 'Spark Communications'
+
 footer:
   links:
     - text: 'Privacy Policy'
@@ -49,3 +52,10 @@ footer:
       url: '/join-us#meet-the-team'
     - text: 'Join Us'
       url: '/join-us'
+
+metadata:
+  'og:type': article
+  'og:site_name': *title
+  'twitter:card': summary
+  'twitter:creator': *twitter
+  'twitter:site': *twitter

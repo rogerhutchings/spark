@@ -54,9 +54,9 @@
   <div class="center mw8 flex-ns justify-between items-end">
 
     <section class="order-2 tr-ns">
-      {% for name, url in site.social_media %}
-        <a href="{{ url }}" class="dib h-100 w3">
-          {% include "svgs/#{name}.svg.twig" with { 'classes': 'fill-white fill-orange-hover' } %}
+      {% for item in site.social_media.links %}
+        <a href="{{ item.url }}" class="dib h-100 w3">
+          {% include "svgs/#{item.name}.svg.twig" with { 'classes': 'fill-white fill-orange-hover' } %}
         </a>
       {% endfor %}
 

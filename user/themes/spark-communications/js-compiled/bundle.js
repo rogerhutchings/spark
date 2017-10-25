@@ -260,7 +260,10 @@ $(document).ready(function () {
   $('.js-share').jsSocials({
     showLabel: false,
     showCount: false,
-    shares: ['email', 'twitter', 'facebook', 'googleplus', 'linkedin']
+    shares: ['email', {
+      share: 'twitter',
+      via: 'sparkcomms'
+    }, 'facebook', 'googleplus', 'linkedin']
   });
 });
 

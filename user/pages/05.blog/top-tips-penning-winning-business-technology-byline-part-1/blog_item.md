@@ -1,24 +1,25 @@
 ---
-title: Top tips for penning a winning business technology byline (Part 1)
+title: 'Top tips for penning a winning business technology byline (Part 1)'
 author: /team/tristan-webb
+header_image_enabled: '1'
 date: '10:26 16-07-2015'
+inSitemap: false
 imported_from_wordpress:
-  author: tristan
-  comments: true
-  date: 2015-07-16T09:26:23.000Z
-  layout: post
-  link: >-
-    http://www.sparkcomms.co.uk/2015/07/16/top-tips-penning-winning-business-technology-byline-part-1/
-  slug: top-tips-penning-winning-business-technology-byline-part-1
-  title: Top tips for penning a winning business technology byline (Part 1)
-  wordpress_id: 2055
-  categories:
-    - Blog
-  tags:
-    - Bylined articles
-    - Content
-    - Opinion pieces
-    - PR
+    author: tristan
+    comments: true
+    date: 1437038783
+    layout: post
+    link: 'http://www.sparkcomms.co.uk/2015/07/16/top-tips-penning-winning-business-technology-byline-part-1/'
+    slug: top-tips-penning-winning-business-technology-byline-part-1
+    title: 'Top tips for penning a winning business technology byline (Part 1)'
+    wordpress_id: 2055
+    categories:
+        - Blog
+    tags:
+        - 'Bylined articles'
+        - Content
+        - 'Opinion pieces'
+        - PR
 ---
 
 ![Opinion piece](Opinion-piece-150x150.jpg){.img-left}It’s not all about press releases and news in technology PR; there’s a number of other tactics for securing the all-important coverage that keeps our clients in the public spotlight. One of the best ways of positioning a company as being packed full of the brightest and most pioneering minds in the industry is to get their spokespeople out there voicing their opinions in a bylined article. These articles tend to be of varying lengths and styles depending on the publication, but there are some golden rules that always apply (in addition to first thinking about whether the author is [qualified to have an opinion](http://www.sparkcomms.co.uk/2015/02/05/test-whether-qualified-comment-technology-trend/)), so in this two-part mini-series, I’ll outline my top tips on how to write a top-notch opinion article.
