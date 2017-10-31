@@ -59,7 +59,7 @@ WORKDIR /usr/share/nginx/html/
 # Copy local repo data
 RUN rm -fR user/
 RUN mkdir user/
-COPY user/ user/
+ADD user/ user/
 
 # Set up Grav
 RUN chmod +x bin/*
