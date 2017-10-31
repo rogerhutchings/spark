@@ -18,7 +18,7 @@ run: ## Run the development Docker image
 terminal: ## Create a terminal in the running development Docker container
 	@docker exec -i -t sparkgh_web_1 /bin/bash
 
-update-content: ## Pass in a Grav zip backup, and update the user dir with any changes. Requires `SRC=path_to_zipfile`
+update-content: ## Pass in a Grav zip backup, and update the user dir with any changes. Requires the argument `SRC=path_to_zipfile`
 	@rm -rf .tmp
 	@mkdir .tmp
 	@echo 'Unzipping backup...'
