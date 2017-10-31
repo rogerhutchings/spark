@@ -3,7 +3,7 @@ title: 'Riding the ups and downs of the Spark Fantasy Premier League'
 author: /team/andy-lloyd-williams
 header_image_enabled: '1'
 date: '12:50 18-10-2017'
-inSitemap: false
+inSitemap: true
 header_image_file:
     user/pages/05.blog/riding-the-ups-and-downs-of-the-spark-fantasy-premier-league/the-ball-488700_1280.jpg:
         name: the-ball-488700_1280.jpg
