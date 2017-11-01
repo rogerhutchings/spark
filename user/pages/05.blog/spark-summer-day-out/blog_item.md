@@ -1,15 +1,9 @@
 ---
-title: 'Spark Summer Day Out'
+title: Spark Summer Day Out
 author: /team/dom-walsh
-header_image_enabled: '1'
 date: '08:41 06-10-2017'
 inSitemap: true
-header_image_file:
-    'user/pages/05.blog/Spark Summer Day Out/dim-sum-163813_1280.jpg':
-        name: dim-sum-163813_1280.jpg
-        type: image/jpeg
-        size: 266278
-        path: 'user/pages/05.blog/Spark Summer Day Out/dim-sum-163813_1280.jpg'
+header_image: dim-sum-163813_1280.jpg
 ---
 
 We aren’t a ‘fun by decree’ company, but we are a pretty social bunch and always look forward to our summer day out and Christmas dinner. Although a booze-up is inevitable at the end of the day we make sure there is something on offer for everyone. In that spirit here is the (not-quite) Live Blog for our recent Spark Summer Day Out.

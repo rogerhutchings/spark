@@ -1,19 +1,13 @@
 ---
-title: 'Q&A with Phil Muncaster'
+title: Q&A with Phil Muncaster
 author: /team/alex-crawshaw
-header_image_enabled: '1'
 date: '11:45 24-10-2017'
 inSitemap: true
 taxonomy:
-    tag:
-        - PR
-        - 'Journalist Q&A'
-header_image_file:
-    user/pages/05.blog/q-and-a-with-phil-muncaster/notebook-2541617_1280.jpg:
-        name: notebook-2541617_1280.jpg
-        type: image/jpeg
-        size: 195511
-        path: user/pages/05.blog/q-and-a-with-phil-muncaster/notebook-2541617_1280.jpg
+  tag:
+    - PR
+    - Journalist Q&A
+header_image: notebook-2541617_1280.jpg
 ---
 
 We recently caught up with [Phil Muncaster](https://philmuncaster.com/), freelance technology writer and UK/EMEA news reporter for Infosecurity Magazine, to find out how he got into journalism and his thoughts on working with PRs.

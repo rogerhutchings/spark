@@ -1,15 +1,9 @@
 ---
-title: 'Riding the ups and downs of the Spark Fantasy Premier League'
+title: Riding the ups and downs of the Spark Fantasy Premier League
 author: /team/andy-lloyd-williams
-header_image_enabled: '1'
 date: '12:50 18-10-2017'
 inSitemap: true
-header_image_file:
-    user/pages/05.blog/riding-the-ups-and-downs-of-the-spark-fantasy-premier-league/the-ball-488700_1280.jpg:
-        name: the-ball-488700_1280.jpg
-        type: image/jpeg
-        size: 347600
-        path: user/pages/05.blog/riding-the-ups-and-downs-of-the-spark-fantasy-premier-league/the-ball-488700_1280.jpg
+header_image: the-ball-488700_1280.jpg
 ---
 
 If you’re not aware of [Fantasy Premier League (FPL)](https://fantasy.premierleague.com/), it’s a game where you choose an imaginary team of footballers and collect points based on their performance in real-life games. It’s simple stuff, but the game has a huge following, with millions of players around the world, and we’ve even set up our own league here at Spark. So what makes it so compelling? 

@@ -1,19 +1,13 @@
 ---
 title: 'Q&A with Ellie Burns, editor of CBR'
 author: /team/kewal-varia
-header_image_enabled: '1'
 date: '08:45 11-10-2017'
 inSitemap: true
 taxonomy:
-    tag:
-        - PR
-        - 'Journalist Q&A'
-header_image_file:
-    user/pages/05.blog/q-and-a-with-ellie-burns-editor-of-cbr/notebook-2541617_1280.jpg:
-        name: notebook-2541617_1280.jpg
-        type: image/jpeg
-        size: 195511
-        path: user/pages/05.blog/q-and-a-with-ellie-burns-editor-of-cbr/notebook-2541617_1280.jpg
+  tag:
+    - PR
+    - Journalist Q&A
+header_image: notebook-2541617_1280.jpg
 ---
 
 We recently caught up with Ellie Burns, editor of [CBR](http://www.cbronline.com), to find out more about where the site is going and to get her thoughts on how she likes to work with PRs.

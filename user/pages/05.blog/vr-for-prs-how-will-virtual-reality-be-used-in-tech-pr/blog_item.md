@@ -1,19 +1,13 @@
 ---
 title: 'VR for PRs: How will virtual reality be used in tech PR?'
 author: /team/rob-fretwell
-header_image_enabled: '1'
 date: '09:40 31-10-2017'
 inSitemap: true
 taxonomy:
-    tag:
-        - PR
-        - VR
-header_image_file:
-    user/pages/05.blog/vr-for-prs-how-will-virtual-reality-be-used-in-tech-pr/virtual-reality-2229924_1280.jpg:
-        name: virtual-reality-2229924_1280.jpg
-        type: image/jpeg
-        size: 218999
-        path: user/pages/05.blog/vr-for-prs-how-will-virtual-reality-be-used-in-tech-pr/virtual-reality-2229924_1280.jpg
+  tag:
+    - PR
+    - VR
+header_image: virtual-reality-2229924_1280.jpg
 ---
 
 As VR is steadily becoming sharper, affordable and comfortable, every industry is clamouring to find a reason to stock a headset in their offices (apparently wanting to play Resident Evil on lunch isn’t a good enough reason…). VR is being used to bring [comic books](https://www.engadget.com/2017/10/12/square-enix-project-hikari-vr-comics/) to life, launch virtual showrooms in the [motor industry](https://www.roadtovr.com/audi-virtual-reality-car-showroom-htc-vive-pre-oculus-rift-cv1/), and even train [medical professionals](https://venturebeat.com/2017/07/22/how-vr-training-prepares-surgeons-to-save-infants-lives/) on decision-making in demanding situations. While we spend a lot of time with our clients discussing how they might be using VR tech, it’s time to be selfish and ask – ‘what about us?’

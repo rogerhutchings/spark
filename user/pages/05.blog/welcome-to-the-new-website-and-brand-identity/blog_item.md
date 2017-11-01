@@ -1,15 +1,9 @@
 ---
-title: 'Welcome to the New Website and Brand Identity'
+title: Welcome to the New Website and Brand Identity
 author: /team/lauren-richards
-header_image_enabled: '1'
 date: '22:51 03-10-2017'
 inSitemap: false
-header_image_file:
-    user/pages/05.blog/welcome-to-the-new-website-and-brand-identity/iphone-513495_640.jpg:
-        name: iphone-513495_640.jpg
-        type: image/jpeg
-        size: 40981
-        path: user/pages/05.blog/welcome-to-the-new-website-and-brand-identity/iphone-513495_640.jpg
+header_image: iphone-513495_640.jpg
 ---
 
 Our new website is here. We practiced what we preach and did it properly - despite last year being our busiest year ever. It was an interesting experience to do some competitive analysis and then write our messaging and storyboards. It’s a regular occurrence for clients and is somehow harder when doing it for yourself. At first we thought it might feel a bit like trying to show off but it was actually an opportunity to pat ourselves on the back and wonder why we don’t make a little more effort to talk about the campaigns we have run for clients and what we believe is important and will define success or failure. It was interesting to see the diverse nature of what we do both in terms of creative ideas and also tactics. It’s also not just PR and it’s not always B2B or even technology. Big thanks everyone in the agency, especially the account directors, for their involvement in the process.
