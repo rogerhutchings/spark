@@ -19,6 +19,7 @@ class Manager implements IManager, EventSubscriberInterface {
 
   private $grav;
   private $plugin;
+  private $adminController;
 
   public function __construct(Grav $grav, AdminAddonUserManagerPlugin $plugin) {
     $this->grav = $grav;
@@ -29,16 +30,22 @@ class Manager implements IManager, EventSubscriberInterface {
 
   public static function getSubscribedEvents() {
     return [
-      'onAdminData' => ['onAdminData', 0],
+      'onAdminControllerInit' => ['onAdminControllerInit', 0],
+      'onAdminData' => ['onAdminData', 0]
     ];
+  }
+
+  public function onAdminControllerInit($e) {
+    $controller = $e['controller'];
+    $this->adminController = $controller;
   }
 
   public function onAdminData($e) {
     $type = $e['type'];
 
-    if (preg_match('|group-manager/|', $type)) {
-      $obj = Group::load(preg_replace('|group-manager/|', '', $type));
-      $post = $_POST['data'];
+    if (preg_match('|group-manager|', $type) && ($group = $this->grav['uri']->param('name', false))) {
+      $obj = Group::load($group);
+      $post = $this->adminController->data;
       if (isset($post['users'])) {
         $usersInGroup = $post['users'];
         unset($post['users']);
@@ -94,7 +101,7 @@ class Manager implements IManager, EventSubscriberInterface {
    */
   public function getNav() {
     return [
-      'label' => 'Group Manager',
+      'label' => $this->grav['language']->translate(['PLUGIN_ADMIN_ADDON_USER_MANAGER.GROUP_MANAGER']),
       'location' => $this->getLocation(),
       'icon' => 'fa-group',
       'authorize' => $this->getRequiredPermission(),
@@ -123,9 +130,9 @@ class Manager implements IManager, EventSubscriberInterface {
   public function handleTask(Event $event) {
     $method = $event['method'];
 
-    if ($method === 'taskGroupDelete') {
-      Group::remove($this->grav['uri']->paths()[2]);
-      $this->grav->redirect($this->plugin->getPreviousUrl());
+    if ($method === 'taskGroupDelete' && ($group = $this->grav['uri']->param('name', false))) {
+      Group::remove($group);
+      $this->grav->redirect($this->grav['uri']->url($this->getLocation()));
       return true;
     }
 
@@ -157,12 +164,7 @@ class Manager implements IManager, EventSubscriberInterface {
       }
     }
 
-    $group = $this->grav['uri']->paths();
-    if (count($group) == 3) {
-      $group = $group[2];
-    } else {
-      $group = false;
-    }
+    $group = $this->grav['uri']->param('name', false);
 
     if ($group) {
       $vars['exists'] = Group::groupExists($group);

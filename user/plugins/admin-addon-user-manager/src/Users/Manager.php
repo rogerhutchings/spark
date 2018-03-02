@@ -4,20 +4,23 @@ namespace AdminAddonUserManager\Users;
 use Grav\Common\Grav;
 use Grav\Plugin\AdminAddonUserManagerPlugin;
 use Grav\Common\Assets;
+use Grav\Common\Data\Blueprints;
 use RocketTheme\Toolbox\Event\Event;
 use AdminAddonUserManager\Manager as IManager;
 use AdminAddonUserManager\Pagination\ArrayPagination;
 use Grav\Common\Utils;
 use Grav\Common\User\User;
+use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\ExpressionLanguage\ExpressionLanguage;
 use Symfony\Component\ExpressionLanguage\ExpressionFunction;
 use AdminAddonUserManager\Group;
 use AdminAddonUserManager\Dot;
 
-class Manager implements IManager {
+class Manager implements IManager, EventSubscriberInterface {
 
   private $grav;
   private $plugin;
+  private $adminController;
 
   /**
    * In-memory caching for users
@@ -40,6 +43,33 @@ class Manager implements IManager {
     $this->plugin = $plugin;
 
     self::$instance = $this;
+
+    $this->grav['events']->addSubscriber($this);
+  }
+
+  public static function getSubscribedEvents() {
+    return [
+      'onAdminControllerInit' => ['onAdminControllerInit', 0],
+      'onAdminData' => ['onAdminData', 0]
+    ];
+  }
+
+  public function onAdminControllerInit($e) {
+    $controller = $e['controller'];
+    $this->adminController = $controller;
+  }
+
+  public function onAdminData($e) {
+    $type = $e['type'];
+
+    if (preg_match('|user-manager/|', $type)) {
+      $post = $this->adminController->data;
+
+      $obj = User::load(preg_replace('|user-manager/|', '', $type));
+      $obj->merge($post);
+
+      $e['data_type'] = $obj;
+    }
   }
 
   /**
@@ -68,7 +98,7 @@ class Manager implements IManager {
    */
   public function getNav() {
     return [
-      'label' => 'User Manager',
+      'label' => $this->grav['language']->translate(['PLUGIN_ADMIN_ADDON_USER_MANAGER.USER_MANAGER']),
       'location' => $this->getLocation(),
       'icon' => 'fa-user',
       'authorize' => $this->getRequiredPermission(),
@@ -85,7 +115,7 @@ class Manager implements IManager {
    * @return void
    */
   public function initializeAssets(Assets $assets) {
-    $this->grav['assets']->addCss('plugin://' . $this->plugin->name . '/assets/users/style.css');
+    $assets->addCss('plugin://' . $this->plugin->name . '/assets/users/style.css');
   }
 
   /**
@@ -100,8 +130,18 @@ class Manager implements IManager {
     if ($method === 'taskUserDelete') {
       $username = $this->grav['uri']->paths()[2];
       if ($this->removeUser($username)) {
-        $this->grav->redirect($this->plugin->getPreviousUrl());
+        $this->adminController->setRedirect($this->getLocation());
       }
+    } elseif ($method === 'taskUserLoginAs') {
+      $username = $this->grav['uri']->paths()[2];
+      $user = User::load($username);
+      $user->authenticated = true;
+
+      $this->grav['session']->user = $user;
+      unset($this->grav['user']);
+      $this->grav['user'] = $user;
+
+      $this->adminController->setRedirect('/');
     }
 
     return false;
@@ -118,150 +158,173 @@ class Manager implements IManager {
     $twig = $this->grav['twig'];
     $uri = $this->grav['uri'];
 
-    // Bulk actions
-    if (isset($_POST['selected'])) {
-      $usernames = $_POST['selected'];
+    $user = $this->grav['uri']->paths();
+    if (count($user) == 3) {
+      $user = $user[2];
+    } else {
+      $user = false;
+    }
 
-      if (isset($_POST['bulk_delete'])) {
-        // Bulk delete
-        foreach ($usernames as $username) {
-          $this->removeUser($username);
-        }
-
+    if ($user) {
+      if (isset($_POST['task']) && $_POST['task'] === 'admin-addon-user-manager-save') {
+        $user = User::load($user);
+        $post = $_POST['data'];
+        $user->merge($post);
+        $user->save();
         $this->grav->redirect($this->plugin->getPreviousUrl());
-      } else if (isset($_POST['bulk_add_to_group']) && isset($_POST['groups'])) {
-        // Bulk add users to groups
-        $groups = $_POST['groups'];
-
-        foreach ($usernames as $username) {
-          $user = User::load($username);
-          if ($user->file()->exists()) {
-            if (!isset($user['groups']) || !is_array($user['groups'])) {
-              $user['groups'] = [];
-            }
-
-            $user['groups'] = array_unique(array_merge($user['groups'], $groups));
-            $user->save();
-          }
-        }
-
-        $this->grav->redirect($this->plugin->getPreviousUrl());
-      } else if (isset($_POST['bulk_remove_from_group']) && isset($_POST['groups'])) {
-        // Bulk remove users from groups
-        $groups = $_POST['groups'];
-
-        foreach ($usernames as $username) {
-          $user = User::load($username);
-          if ($user->file()->exists()) {
-            if (!isset($user['groups']) || !is_array($user['groups'])) {
-              $user['groups'] = [];
-            }
-
-            $user['groups'] = array_unique(array_diff($user['groups'], $groups));
-            $user->save();
-          }
-        }
-
-        $this->grav->redirect($this->plugin->getPreviousUrl());
-      } else if (isset($_POST['bulk_add_acl']) && isset($_POST['permissions'])) {
-        // Bulk add permissions to users
-        $access = [];
-        foreach ($_POST['permissions'] as $p) {
-          Dot::set($access, $p, true);
-        }
-
-        foreach ($usernames as $username) {
-          $user = User::load($username);
-          if ($user->file()->exists()) {
-            if (!isset($user['access']) || !is_array($user['access'])) {
-              $user['access'] = [];
-            }
-
-            $user['access'] = array_merge_recursive($user['access'], $access);
-            $user->save();
-          }
-        }
-
-        $this->grav->redirect($this->plugin->getPreviousUrl());
-      } else if (isset($_POST['bulk_remove_acl']) && isset($_POST['permissions'])) {
-        // Bulk remove permissions from users
-        foreach ($usernames as $username) {
-          $user = User::load($username);
-          if ($user->file()->exists()) {
-            if (!isset($user['access']) || !is_array($user['access'])) {
-              $user['access'] = [];
-            }
-
-            $access = $user['access'];
-            foreach ($_POST['permissions'] as $p) {
-              Dot::delete($access, $p);
-            }
-            $user['access'] = $access;
-            $user->save();
-          }
-        }
-
-        $this->grav->redirect($this->plugin->getPreviousUrl());
+      } else {
+        $blueprints = new Blueprints;
+        $blueprint = $blueprints->get('user/aaum-account');
+        $vars['blueprints'] = $blueprint;
+        $vars['user'] = $user = User::load($user);
+        $vars['exists'] = $user->exists();
       }
-    }
+    } else {
+      // Bulk actions
+      if (isset($_POST['selected'])) {
+        $usernames = $_POST['selected'];
 
-    $vars['fields'] = $this->plugin->getModalsConfiguration()['add_user']['fields'];
-    $vars['bulkFields'] = $this->plugin->getModalsConfiguration()['bulk_user']['fields'];
-    $vars['groupnames'] = Group::groupNames();
-    $permissions = array_keys($this->grav['admin']->getPermissions());
-    foreach ($permissions as $k=>&$v) $v = ['text' => $v, 'value' => $v];
-    $vars['permissions'] = $permissions;
-
-    // List style (grid or list)
-    $listStyle = $uri->param('listStyle');
-    if ($listStyle !== 'grid' && $listStyle !== 'list') {
-      $listStyle = $this->plugin->getPluginConfigValue('default_list_style', 'grid');
-    }
-    $vars['listStyle'] = $listStyle;
-
-    $users = $this->users();
-
-    // Filtering
-    $filterException = false;
-    $filter = (empty($_GET['filter'])) ? '' : $_GET['filter'];
-    $vars['filter'] = $filter;
-    if ($filter) {
-      try {
-        $language = new ExpressionLanguage();
-        $language->addFunction(ExpressionFunction::fromPhp('count'));
-        foreach ($users as $k => $user) {
-          if (!is_array($user->groups)) {
-            $user->groups = [];
+        if (isset($_POST['bulk_delete'])) {
+          // Bulk delete
+          foreach ($usernames as $username) {
+            $this->removeUser($username);
           }
 
-          if (!$language->evaluate($_GET['filter'], ['user' => $user])) {
-            unset($users[$k]);
+          $this->grav->redirect($this->plugin->getPreviousUrl());
+        } else if (isset($_POST['bulk_add_to_group']) && isset($_POST['groups'])) {
+          // Bulk add users to groups
+          $groups = $_POST['groups'];
+
+          foreach ($usernames as $username) {
+            $user = User::load($username);
+            if ($user->file()->exists()) {
+              if (!isset($user['groups']) || !is_array($user['groups'])) {
+                $user['groups'] = [];
+              }
+
+              $user['groups'] = array_unique(array_merge($user['groups'], $groups));
+              $user->save();
+            }
           }
+
+          $this->grav->redirect($this->plugin->getPreviousUrl());
+        } else if (isset($_POST['bulk_remove_from_group']) && isset($_POST['groups'])) {
+          // Bulk remove users from groups
+          $groups = $_POST['groups'];
+
+          foreach ($usernames as $username) {
+            $user = User::load($username);
+            if ($user->file()->exists()) {
+              if (!isset($user['groups']) || !is_array($user['groups'])) {
+                $user['groups'] = [];
+              }
+
+              $user['groups'] = array_unique(array_diff($user['groups'], $groups));
+              $user->save();
+            }
+          }
+
+          $this->grav->redirect($this->plugin->getPreviousUrl());
+        } else if (isset($_POST['bulk_add_acl']) && isset($_POST['permissions'])) {
+          // Bulk add permissions to users
+          $access = [];
+          foreach ($_POST['permissions'] as $p) {
+            Dot::set($access, $p, true);
+          }
+
+          foreach ($usernames as $username) {
+            $user = User::load($username);
+            if ($user->file()->exists()) {
+              if (!isset($user['access']) || !is_array($user['access'])) {
+                $user['access'] = [];
+              }
+
+              $user['access'] = array_merge_recursive($user['access'], $access);
+              $user->save();
+            }
+          }
+
+          $this->grav->redirect($this->plugin->getPreviousUrl());
+        } else if (isset($_POST['bulk_remove_acl']) && isset($_POST['permissions'])) {
+          // Bulk remove permissions from users
+          foreach ($usernames as $username) {
+            $user = User::load($username);
+            if ($user->file()->exists()) {
+              if (!isset($user['access']) || !is_array($user['access'])) {
+                $user['access'] = [];
+              }
+
+              $access = $user['access'];
+              foreach ($_POST['permissions'] as $p) {
+                Dot::delete($access, $p);
+              }
+              $user['access'] = $access;
+              $user->save();
+            }
+          }
+
+          $this->grav->redirect($this->plugin->getPreviousUrl());
         }
-      } catch (\Exception $exception) {
-        $vars['filterException'] = $exception;
-        $filterException = true;
       }
+
+      $vars['fields'] = $this->plugin->getModalsConfiguration()['add_user']['fields'];
+      $vars['bulkFields'] = $this->plugin->getModalsConfiguration()['bulk_user']['fields'];
+      $vars['groupnames'] = Group::groupNames();
+      $permissions = array_keys($this->grav['admin']->getPermissions());
+      foreach ($permissions as $k=>&$v) $v = ['text' => $v, 'value' => $v];
+      $vars['permissions'] = $permissions;
+
+      // List style (grid or list)
+      $listStyle = $uri->param('listStyle');
+      if ($listStyle !== 'grid' && $listStyle !== 'list') {
+        $listStyle = $this->plugin->getPluginConfigValue('default_list_style', 'grid');
+      }
+      $vars['listStyle'] = $listStyle;
+
+      $users = $this->users();
+
+      // Filtering
+      $filterException = false;
+      $filter = (empty($_GET['filter'])) ? '' : $_GET['filter'];
+      $vars['filter'] = $filter;
+      if ($filter) {
+        try {
+          $language = new ExpressionLanguage();
+          $language->addFunction(ExpressionFunction::fromPhp('count'));
+          foreach ($users as $k => $user) {
+            if (!is_array($user->groups)) {
+              $user->groups = [];
+            }
+
+            if (!$language->evaluate($_GET['filter'], ['user' => $user])) {
+              unset($users[$k]);
+            }
+          }
+        } catch (\Exception $exception) {
+          $vars['filterException'] = $exception;
+          $filterException = true;
+        }
+      }
+
+      if ($filterException) {
+        $users = [];
+      }
+
+      // Pagination
+      $perPage = $this->plugin->getPluginConfigValue('pagination.per_page', 10);
+      $pagination = new ArrayPagination($users, $perPage);
+      $pagination->paginate($uri->param('page'));
+
+      $vars['pagination'] = [
+        'current' => $pagination->getCurrentPage(),
+        'count' => $pagination->getPagesCount(),
+        'total' => $pagination->getRowsCount(),
+        'perPage' => $pagination->getRowsPerPage(),
+        'startOffset' => $pagination->getStartOffset(),
+        'endOffset' => $pagination->getEndOffset()
+      ];
+      $vars['users'] = $pagination->getPaginatedRows();
     }
-
-    if ($filterException) {
-      $users = [];
-    }
-
-    // Pagination
-    $perPage = $this->plugin->getPluginConfigValue('pagination.per_page', 10);
-    $pagination = new ArrayPagination($users, $perPage);
-    $pagination->paginate($uri->param('page'));
-
-    $vars['pagination'] = [
-      'current' => $pagination->getCurrentPage(),
-      'count' => $pagination->getPagesCount(),
-      'total' => $pagination->getRowsCount(),
-      'perPage' => $pagination->getRowsPerPage(),
-      'startOffset' => $pagination->getStartOffset(),
-      'endOffset' => $pagination->getEndOffset()
-    ];
-    $vars['users'] = $pagination->getPaginatedRows();
 
     return $vars;
   }
