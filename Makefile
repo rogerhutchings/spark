@@ -13,7 +13,7 @@ full-build: ## Rebuild the development Docker image from scratch
 	@docker-compose build --no-cache
 
 run: ## Run the development Docker image
-	@docker-compose up
+	@docker-compose -f ./dev-docker-compose.yml up
 
 terminal: ## Create a terminal in the running development Docker container
 	@docker exec -i -t sparkgh_web_1 /bin/bash
