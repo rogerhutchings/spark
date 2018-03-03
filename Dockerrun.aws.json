@@ -10,10 +10,6 @@
         {
           "sourcePath": "/var/app/current/user",
           "containerPath": "/usr/share/nginx/html/user"
-        },
-        {
-          "sourceVolume": "awseb-logs-grav",
-          "containerPath": "/var/log/nginx"
         }
       ],
       "portMappings": [
