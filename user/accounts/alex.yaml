@@ -3,7 +3,7 @@ email: alex@sparkcomms.co.uk
 fullname: 'Alex Crawshaw'
 language: en
 twofa_enabled: false
-twofa_secret: UERVGDLGNITNMOBHZEKCDJTGXEOBL3PL
+twofa_secret: CDJAHB2KU6BOWGLUX2OOY533MRHBTJKG
 access:
   admin: {  }
   admin-addon-user-manager: {  }

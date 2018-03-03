@@ -1,45 +1,45 @@
 ---
-title: Coverage Cup round up w/c 13 October 2014
-author: charley
-date: '11:11 23-10-2014'
-imported_from_wordpress:
-  author: charley
-  comments: true
-  date: 2014-10-23T10:11:13.000Z
-  layout: post
-  link: >-
-    http://www.sparkcomms.co.uk/2014/10/23/coverage-cup-round-wc-13-october-2014/
-  slug: coverage-cup-round-wc-13-october-2014
-  title: Coverage Cup round up w/c 13 October 2014
-  wordpress_id: 1906
-  categories:
-    - Blog
-  tags:
-    - Coverage Cup
-    - PR
-    - Spark
+title: 'Coverage Cup round up w/c 13 October 2014'
 links:
-  - headline: >-
-      'Your stuff is safe': Dropbox denies hack after anonymous post claims it
-      has the personal details of up to 6.9 MILLION users
-    url: >-
-      http://www.dailymail.co.uk/sciencetech/article-2792352/dropbox-denies-hack-anonymous-post-claims-personal-details-6-9-million-users.html
-    source: Daily Mail
-  - headline: Dropbox denies hacking claims
-    url: >-
-      http://www.telegraph.co.uk/technology/internet-security/11161694/Dropbox-denies-hacking-claims.html
-    source: The Telegraph
-  - headline: The emergence of the counter-free bank branch
-    url: 'http://www.bbc.co.uk/news/business-28851597'
-    source: BBC News
-  - headline: Serious 'game' of keeping good staff
-    url: 'http://raconteur.net/business/serious-game-of-keeping-good-staff'
-    source: The Times
-  - headline: Powerful quantum computers move a step closer to reality
-    url: >-
-      http://www.theguardian.com/technology/2014/oct/14/quantum-computers-public-encryption
-    source: The Guardian
+    -
+        headline: '''Your stuff is safe'': Dropbox denies hack after anonymous post claims it has the personal details of up to 6.9 MILLION users'
+        source: 'Daily Mail'
+        url: 'http://www.dailymail.co.uk/sciencetech/article-2792352/dropbox-denies-hack-anonymous-post-claims-personal-details-6-9-million-users.html'
+    -
+        headline: 'Dropbox denies hacking claims'
+        source: 'The Telegraph'
+        url: 'http://www.telegraph.co.uk/technology/internet-security/11161694/Dropbox-denies-hacking-claims.html'
+    -
+        headline: 'The emergence of the counter-free bank branch'
+        source: 'BBC News'
+        url: 'http://www.bbc.co.uk/news/business-28851597'
+    -
+        headline: 'Serious ''game'' of keeping good staff'
+        source: 'The Times'
+        url: 'http://raconteur.net/business/serious-game-of-keeping-good-staff'
+    -
+        headline: 'Powerful quantum computers move a step closer to reality'
+        source: 'The Guardian'
+        url: 'http://www.theguardian.com/technology/2014/oct/14/quantum-computers-public-encryption'
+date: '11:11 23-10-2014'
+author: charley
+imported_from_wordpress:
+    author: charley
+    comments: true
+    date: 1414059073
+    layout: post
+    link: 'http://www.sparkcomms.co.uk/2014/10/23/coverage-cup-round-wc-13-october-2014/'
+    slug: coverage-cup-round-wc-13-october-2014
+    title: 'Coverage Cup round up w/c 13 October 2014'
+    wordpress_id: 1906
+    categories:
+        - Blog
+    tags:
+        - 'Coverage Cup'
+        - PR
+        - Spark
 ---
+
 [Coverage cup](Coverage-cup-167x300.jpg)Welcome to this week’s Coverage Cup round up, featuring our top hits from the last week. It was an outstanding week for national coverage – resulting in happy clients and a hotly contested debate in the office over who should win the coveted coverage cup. We are a competitive bunch and love the kudos that comes with a piece in the nationals.
 
 There is a nice mix of proactive pitching, issues response, features and interviews so opinion was divided on which was the most difficult to secure and therefore who should win. Coverage in the nationals is usually as a result of persistence, speed, detective work and a little bit of luck so great to see that tenacity paying off.

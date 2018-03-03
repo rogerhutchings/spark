@@ -2,16 +2,20 @@
 title: 'Join Us'
 links:
     -
+        url: /blog/fly-on-the-wall-what-is-it-really-like-inside-a-tech-pr-agency-office
+    -
+        url: /blog/first-world-pr-problems
+    -
+        url: /blog/why-i-got-into-pr
+    -
+        url: /blog/the-pros-and-cons-of-remote-working-in-tech-pr
+    -
+        url: /blog/why-recruiters-make-good-prs
+    -
         url: /blog/spark-summer-day-out
-    -
-        url: /blog/bouncing-ideas-around-bubble-football-journalists
-    -
-        url: /blog/big-fish-big-pr-pond
-    -
-        url: /blog/top-tips-avoiding-meeting-mayhem
 header_classes: 'bg-img-gokarts bg-y-40 bg-center'
-metaImage: user/themes/spark-communications/images/bg-img-gokarts.jpg
 svg_icon: circle-triangle
+metaImage: user/themes/spark-communications/images/bg-img-gokarts.jpg
 ---
 
 We are always looking for bright sparks at all levels. Hiring great people is the reason we win and keep accounts, but we also believe that our agency culture has played a key role in our success. We believe that everyone’s voice within the agency should be valued and encourage a flat approach to client work. Junior members of the team can take ownership of key initiatives and agency directors are heavily involved in campaign execution. There is always an opportunity to put your creative skills to the test and see your ideas come to life.

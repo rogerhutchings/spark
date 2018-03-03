@@ -3,7 +3,7 @@ Admins:
   icon: star
   access:
     admin:
-      super: 'false'
+      super: 'true'
       login: 'true'
       cache: 'false'
       configuration: 'false'
@@ -21,7 +21,7 @@ Admins:
     admin-addon-user-manager:
       users: 'true'
       groups: 'true'
-      users_expert: 'false'
+      users_expert: 'true'
 Authors:
   groupname: Authors
   icon: user
