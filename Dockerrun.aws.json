@@ -1,9 +1,27 @@
 {
-  "AWSEBDockerrunVersion": "1",
-  "Ports": [
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
     {
-      "ContainerPort": "80"
+      "name": "grav",
+      "image": "rogerhutchings/grav-php-nginx",
+      "essential": true,
+      "memory": "256",
+      "mountPoints": [
+        {
+          "sourcePath": "/var/app/current/user",
+          "containerPath": "/usr/share/nginx/html/user"
+        },
+        {
+          "sourceVolume": "awseb-logs-grav",
+          "containerPath": "/var/log/nginx"
+        }
+      ],
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 80
+        }
+      ]
     }
-  ],
-  "Logging": "/var/log/nginx"
+  ]
 }
