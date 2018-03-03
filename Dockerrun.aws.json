@@ -8,7 +8,7 @@
       "memory": "256",
       "mountPoints": [
         {
-          "sourcePath": "/var/app/current/user",
+          "sourceVolume": "userDir",
           "containerPath": "/usr/share/nginx/html/user"
         }
       ],
@@ -19,5 +19,13 @@
         }
       ]
     }
-  ]
+  ],
+  "volumes": [
+    {
+      "name": "userDir",
+      "host": {
+        "sourcePath": "/var/app/current/user"
+      }
+    }
+  ],
 }
