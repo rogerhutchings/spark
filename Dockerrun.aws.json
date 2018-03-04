@@ -14,6 +14,18 @@
       ],
       "portMappings": [
         {
+          "hostPort": 8080,
+          "containerPort": 80
+        }
+      ]
+    },
+    {
+      "name": "https-redirect",
+      "image": "geldim/https-redirect",
+      "essential": true,
+      "memory": "64",
+      "portMappings": [
+        {
           "hostPort": 80,
           "containerPort": 80
         }
