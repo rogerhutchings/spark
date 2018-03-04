@@ -3,7 +3,7 @@
   "containerDefinitions": [
     {
       "name": "grav",
-      "image": "rogerhutchings/grav-php-nginx",
+      "image": "rogerhutchings/grav-sites:spark",
       "essential": true,
       "memory": "256",
       "mountPoints": [
