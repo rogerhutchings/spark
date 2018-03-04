@@ -7,10 +7,10 @@ help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}'
 
 build: ## Rebuild the development Docker image
-	@docker-compose build
+	@docker-compose -f ./dev-docker-compose.yml build
 
 full-build: ## Rebuild the development Docker image from scratch
-	@docker-compose build --no-cache
+	@docker-compose -f ./dev-docker-compose.yml build --no-cache
 
 run: ## Run the development Docker image
 	@docker-compose -f ./dev-docker-compose.yml up
