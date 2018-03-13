@@ -5,7 +5,7 @@
       "name": "grav",
       "image": "rogerhutchings/grav-sites:spark",
       "essential": true,
-      "memory": "256",
+      "memoryReservation": "768",
       "mountPoints": [
         {
           "sourceVolume": "awseb-logs-grav",
