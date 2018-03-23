@@ -14,7 +14,6 @@
   "license": "Apache-2.0",
   "dependencies": {
     "hamburgers": "^0.9.1",
-    "node-sass": "^4.5.3",
     "tachyons-sass": "^4.7.1"
   },
   "devDependencies": {
