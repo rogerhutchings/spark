@@ -5,10 +5,9 @@ bio: 'After exchanging her career in media recruitment for the bright lights of 
 title: 'Florence Gartland'
 date: '16:00 21-03-2018'
 photo:
-    'user/pages/09.Team/florence-gartland/Flo - small.jpg':
+    'user/pages/09.Team/florence-gartland/florence-gartland.jpg':
         name: 'Flo - small.jpg'
         type: image/jpeg
         size: 79911
-        path: 'user/pages/09.Team/florence-gartland/Flo - small.jpg'
+        path: 'user/pages/09.Team/florence-gartland/florence-gartland.jpg'
 ---
-
