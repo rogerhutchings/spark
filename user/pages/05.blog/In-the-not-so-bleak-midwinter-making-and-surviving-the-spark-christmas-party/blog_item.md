@@ -1,5 +1,6 @@
 ---
 title: 'In the not-so-bleak Midwinter: Making (and surviving) the Spark Christmas party'
+author: /team/dom-walsh
 media_order: 'menu.jpg,christmas-decorations-879783_1920.jpg'
 header_image: christmas-decorations-879783_1920.jpg
 date: '13:48 20-12-2017'
