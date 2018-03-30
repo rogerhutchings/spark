@@ -1,3 +1,27 @@
+# v2.1.2
+##  29/03/2018
+
+1. [](#new)
+    * Norwegian translation (Thanks: https://github.com/achwell PR #37)
+
+# v2.1.1
+##  22/03/2018
+
+1. [](#improved)
+    * Added 'site.login' permission to the permission list. (#36)
+
+# v2.1.0
+##  14/03/2018
+
+1. [](#new)
+    * Czech translation (Thanks: https://github.com/07pepa Issue #29)
+    * Spanish translation (Thanks: https://github.com/filisko PR #31)
+
+2. [](#bugfix)
+    * Fixed user editor using wrong task when saving, which caused save error when you didn't have 'admin.super'. (#34)
+    * Added a temporary fix for user editor's permission area. The toggles moved below the permission's name at a specific width. (#22)
+    * Minor bugfixes
+
 # v2.0.3
 ##  27/02/2018
 

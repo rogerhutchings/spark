@@ -7,7 +7,7 @@
     <a class="button" href="#modal-admin-addon-user-manager-new" data-remodal-target="modal-admin-addon-user-manager-new"><i class="fa fa-plus"></i> {{ "PLUGIN_ADMIN.ADD"|tu }}</a>
   </div>
 
-  <h1><i class="fa fa-fw fa-user-o"></i> {{ "PLUGIN_ADMIN_ADDON_USER_MANAGER.MANAGE_USERS"|tu }}</h1>
+  <h1><i class="fa fa-fw fa-user-o"></i> {{ "PLUGIN_ADMIN_ADDON_USER_MANAGER.USER_MANAGER"|tu }}</h1>
   {% else %}
   <div class="button-bar">
     <a class="button" href="{{ base_url }}/user-manager"><i class="fa fa-reply"></i> {{ "PLUGIN_ADMIN.BACK"|tu }}</a>
@@ -15,7 +15,7 @@
     <a class="button disable-after-click" href="{{ uri.addNonce(uri.route(true) ~ '/task' ~ ps ~ 'userDelete', 'admin-form', 'admin-nonce') }}" class="page-delete" ><i class="fa fa-close"></i> {{ "PLUGIN_ADMIN.DELETE"|tu }}</a>
     <a class="button disable-after-click" href="{{ uri.addNonce(uri.route(true) ~ '/task' ~ ps ~ 'userLoginAs', 'admin-form', 'admin-nonce') }}"><i class="fa fa-sign-in"></i> {{ "PLUGIN_ADMIN_ADDON_USER_MANAGER.LOGIN_AS"|tu }}</a>
     {% endif %}
-    <button class="button" type="submit" name="task" value="save" form="blueprints"><i class="fa fa-check"></i> {{ "PLUGIN_ADMIN.SAVE"|tu }}</button>
+    <button class="button" type="submit" name="task" value="admin-addon-user-manager-save" form="blueprints"><i class="fa fa-check"></i> {{ "PLUGIN_ADMIN.SAVE"|tu }}</button>
   </div>
   <h1><i class="fa fa-fw fa-user"></i> {{ "PLUGIN_ADMIN.USER"|tu }}: {{ user.username|e }}</h1>
   {% endif %}
@@ -28,7 +28,7 @@
   {% if not user %}
   {% set style = listStyle|default('grid') %}
 
-  <h1>Users</h1>
+  <h1>{{ "PLUGIN_ADMIN_ADDON_USER_MANAGER.USERS"|tu }}</h1>
 
   {% if filterException %}
   <div class="notices red"><h2>{{ "PLUGIN_ADMIN_ADDON_USER_MANAGER.FILTER_ERROR"|tu }}</h2><p>{{ filterException.message }}</p></div>
@@ -180,5 +180,18 @@
       </div>
     </form>
   </div>
+
+  <script>
+    $('[name="task"][value$="save"]').on('click._grav', function(event) {
+      $(global).off('beforeunload');
+    });
+  </script>
+
+  <!-- Temporary fix: https://github.com/getgrav/grav-plugin-admin/pull/1379 -->
+  <style>
+    .permission-container {
+      overflow: hidden;
+    }
+  </style>
   {% endif %}
 {% endblock %}
