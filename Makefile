@@ -24,7 +24,7 @@ update-content: ## Pass in a Grav zip backup, and update the user dir with any c
 	@echo 'Unzipping backup...'
 	@unzip -q $$SRC -d .tmp
 	@echo 'Copying newer files...'
-	@rsync --update -raz --progress .tmp/user .
+	@rsync --update -raz --delete .tmp/user .
 	@echo 'Cleaning up...'
 	@rm -r .tmp
 	@echo 'Finished.'
