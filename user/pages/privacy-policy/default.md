@@ -3,50 +3,87 @@ title: 'Privacy Policy'
 visible: false
 ---
 
-This privacy policy sets out how Spark Communications uses and protects any information that you give us when you use this website.
+Spark Communications Ltd ("We") are committed to protecting and respecting your privacy.
 
-Spark Communications is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, then you can be assured that it will only be used in accordance with this privacy statement.
+This policy (together with [our terms of use](/terms-of-use) and any other documents referred to on it) sets out the basis on which any personal data we collect from you, or that you provide to us, will be processed by us. Please read the following carefully to understand our views and practices regarding your personal data and how we will treat it. By visiting [www.sparkcomms.co.uk](https://www.sparkcomms.co.uk) you are accepting and consenting to the practices described in this policy.
 
-We may change this policy from time to time by updating this page. You should check this page from time to time to ensure that you are happy with any changes. This policy is effective from [date].
+For the purpose of the Data Protection Act 1998 (the **Act**), the data controller is Spark Communications of Century House, 3rd floor, 100 Oxford Street, London, W1D 1LN.
 
-## What we collect
+## Information We May Collect From You
 
-We may collect the following information:
+We may collect and process the following data about you:
 
-name and job title
-contact information including email address
-demographic information such as postcode, preferences and interests
+**Information you give us.** You may give us information about you by filling in forms on our site www.sparkcomms.co.uk or by corresponding with us by phone, e-mail or otherwise. This includes information you provide when use our site and when you report a problem with our site. The information you give us may include your name, address, e-mail address and phone number, photograph and social media profile.
 
-## What we do with the information we gather
+**Information we collect about you.** With regard to each of your visits to our site we may automatically collect the following information:
 
-We require this information to understand your needs and provide you with a better service, and in particular for the following reasons:
+- technical information, including the Internet protocol (IP) address used to connect your computer to the Internet, your login information, browser type and version, time zone setting, browser plug-in types and versions, operating system and platform;
 
-  - Internal record keeping.
-  - Communication.
-  - We may use the information to improve our products and services.
+- information about your visit, including the full Uniform Resource Locators (URL) clickstream to, through and from our site (including date and time); products you viewed or searched for; page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page and any phone number used to call our customer service number.
 
-## Security
+## Cookies
 
-We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information we collect online.
+Our website uses cookies to distinguish you from other users of our website. This helps us to provide you with a good experience when you browse our website and also allows us to improve our site. For detailed information on the cookies we use and the purposes for which we use them see [our Cookie Policy](/cookie-policy).
 
-## How we use cookies
+## Uses Made Of The Information
 
-A cookie is a small file which asks permission to be placed on your computer's hard drive. Once you agree, the file is added and the cookie helps analyse web traffic or lets you know when you visit a particular site. Cookies allow web applications to respond to you as an individual. The web application can tailor its operations to your needs, likes and dislikes by gathering and remembering information about your preferences.
+We use information held about you in the following ways:
 
-We use traffic log cookies to identify which pages are being used. This helps us analyse data about webpage traffic and improve our website in order to tailor it to customer needs. We only use this information for statistical analysis purposes and then the data is removed from the system.
+**Information you give to us.** We will use this information:
 
-Overall, cookies help us provide you with a better website by enabling us to monitor which pages you find useful and which you do not. A cookie in no way gives us access to your computer or any information about you, other than the data you choose to share with us.
+- to carry out our obligations arising from any contracts entered into between you and us and to provide you with the information, products and services that you request from us;
+- to provide you with information about other goods and services we offer that are similar to those that you have already purchased or enquired about;
+- to provide you with information about goods or services we feel may interest you. If you are an existing customer, we will only contact you by electronic means (e-mail or SMS) with information about goods and services similar to those which were the subject of a previous sale or negotiations of a sale to you.
+- to notify you about changes to our service;
+- to ensure that content from our site is presented in the most effective manner for you and for your computer.
 
-You can choose to accept or decline cookies. Most web browsers automatically accept cookies, but you can usually modify your browser setting to decline cookies if you prefer. This may prevent you from taking full advantage of the website.
+**Information we collect about you.** We will use this information:
 
-## Links to other websites
+- to administer our site and for internal operations, including troubleshooting, data analysis, testing, research, statistical and survey purposes;
+- to improve our site to ensure that content is presented in the most effective manner for you and for your computer;
+- to allow you to participate in interactive features of our service, when you choose to do so;
+- as part of our efforts to keep our site safe and secure;
 
-Our website may contain links to other websites of interest. However, once you have used these links to leave our site, you should note that we do not have any control over that other website. Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst visiting such sites and such sites are not governed by this privacy statement. You should exercise caution and look at the privacy statement applicable to the website in question.
+**Information we receive from other sources.** We may combine this information with information you give to us and information we collect about you. We may us this information and the combined information for the purposes set out above (depending on the types of information we receive).
 
-## Controlling your personal information
+## Disclosure Of Your Information
 
-We will not sell, distribute or lease your personal information to third parties unless we have your permission or are required by law to do so.
+We may share your personal information with any member of our group, which means our subsidiaries, our ultimate holding company and its subsidiaries, as defined in section 1159 of the UK Companies Act 2006.
 
-You may request details of personal information which we hold about you under the Data Protection Act 1998. A small fee will be payable. If you would like a copy of the information held on you please write to [hello@sparkcomms.co.uk](mailto:hello@sparkcomms.co.uk).
+We may share your information with selected third parties including:
 
-If you believe that any information we are holding on you is incorrect or incomplete, please write to or email us as soon as possible at the above address. We will promptly correct any information found to be incorrect.
+Business partners, suppliers and sub-contractors for the performance of any contract we enter into with [them or] you.
+
+Analytics and search engine providers that assist us in the improvement and optimisation of our site.
+
+We may disclose your personal information to third parties:
+
+In the event that we sell or buy any business or assets, in which case we may disclose your personal data to the prospective seller or buyer of such business or assets.
+
+If Spark Communications Ltd or substantially all of its assets are acquired by a third party, in which case personal data held by it about its customers will be one of the transferred assets.
+
+If we are under a duty to disclose or share your personal data in order to comply with any legal obligation, or in order to enforce or apply [our terms of use](/terms-of-use) and other agreements; or to protect the rights, property, or safety of Spark Communications Ltd, our customers, or others.
+
+## Where We Store Your Personal Data
+
+The data that we collect from you may be transferred to, and stored at, a destination outside the European Economic Area ("EEA"). It may also be processed by staff operating outside the EEA who work for us or for one of our suppliers. Such staff maybe engaged in, among other things, the fulfilment of your order, the processing of your payment details and the provision of support services. By submitting your personal data, you agree to this transfer, storing or processing. We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this privacy policy.
+
+Unfortunately, the transmission of information via the internet is not completely secure. Although we will do our best to protect your personal data, we cannot guarantee the security of your data transmitted to our site; any transmission is at your own risk. Once we have received your information, we will use strict procedures and security features to try to prevent unauthorised access.
+
+## Your Rights
+
+You have the right to ask us not to process your personal data for marketing purposes. We will usually inform you (before collecting your data) if we intend to use your data for such purposes or if we intend to disclose your information to any third party for such purposes. You can also exercise the right at any time by contacting us at Spark Communications, Century House, 3rd floor, 100 Oxford Street, London, W1D 1LN.
+
+Our site may, from time to time, contain links to and from the websites of others. If you follow a link to any of these websites, please note that these websites have their own privacy policies and that we do not accept any responsibility or liability for these policies. Please check these policies before you submit any personal data to these websites.
+
+## Access To Information
+
+The Act gives you the right to access information held about you. Your right of access can be exercised in accordance with the Act. Any access request may be subject to a fee of £10 to meet our costs in providing you with details of the information we hold about you.
+
+## Changes To Our Privacy Policy
+
+Any changes we may make to our privacy policy in the future will be posted on this page and, where appropriate, notified to you by e-mail. Please check back frequently to see any updates or changes to our privacy policy.
+
+## Contact
+
+Questions, comments and requests regarding this privacy policy are welcomed and should be addressed to Spark Communications, Century House, 3rd floor, 100 Oxford Street, London, W1D 1LN.
