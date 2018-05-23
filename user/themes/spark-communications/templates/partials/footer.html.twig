@@ -75,10 +75,12 @@
 
     <section class="order-1 tl-ns mv3 mv0-ns flex flex-column">
       <img src="{{ url('theme://images/pr-week-logo.png') }}" class="w4 mb3 self-center self-start-ns" />
+      <div class="w-100 f6">
+        <span class="dib">&copy; Spark Communications Ltd 2017</span>
+      </div>
       <nav class="w-100 f6">
-        <span class="dib">&copy; Spark Communications Ltd 2017 &ndash; </span>
         {% for link in site.footer.links %}
-          <a href={{ link.url }} class="f6 dib white hover-orange no-underline">
+          <a href={{ link.url }} class="f6 mr2 dib white hover-orange no-underline">
             {{ link.text }}
           </a>
         {% endfor %}
