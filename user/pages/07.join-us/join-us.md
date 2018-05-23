@@ -2,6 +2,8 @@
 title: 'Join Us'
 links:
     -
+        url: /blog/want-to-get-into-pr-sparks-top-ten-pieces-of-advice
+    -
         url: /blog/fly-on-the-wall-what-is-it-really-like-inside-a-tech-pr-agency-office
     -
         url: /blog/first-world-pr-problems
@@ -11,8 +13,6 @@ links:
         url: /blog/the-pros-and-cons-of-remote-working-in-tech-pr
     -
         url: /blog/why-recruiters-make-good-prs
-    -
-        url: /blog/spark-summer-day-out
 header_classes: 'bg-img-gokarts bg-y-40 bg-center'
 svg_icon: circle-triangle
 metaImage: user/themes/spark-communications/images/bg-img-gokarts.jpg

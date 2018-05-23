@@ -1,3 +1,24 @@
+# v2.1.5
+##  09/04/2018
+
+1. [](#bugfix)
+    * Fixed error when rendering front-end (#40)
+
+# v2.1.4
+##  09/04/2018
+
+1. [](#improved)
+    * Moved 'site.login' permission to the front of permission list. (#36)
+
+# v2.1.3
+##  02/04/2018
+
+1. [](#improved)
+    * Validate user object on save
+
+2. [](#bugfix)
+    * Fixed unset user permissions being pushed into the access array with an empty string value. Causing inherited permissions to be overwritten. (#38)
+
 # v2.1.2
 ##  29/03/2018
 
