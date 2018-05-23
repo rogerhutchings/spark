@@ -46,6 +46,15 @@ footer:
     -
       text: 'Privacy Policy'
       url: /privacy-policy
+    -
+      text: 'GDPR Data Privacy Notice'
+      url: /gdpr-data-privacy-notice
+    -
+      text: 'Terms of Use'
+      url: /terms-of-use
+    -
+      text: 'Cookie Policy'
+      url: /cookie-policy
   sitemap:
     -
       text: Home
