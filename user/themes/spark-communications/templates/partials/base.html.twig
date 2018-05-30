@@ -51,6 +51,26 @@
       {% endblock %}
       {{ assets.js() }}
 
+      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+      <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+      <script>
+        window.addEventListener("load", function() {
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": {
+              "background": "#E86D39",
+              "text": "#ffffff"
+            },
+            "button": {
+              "background": "#f5d948"
+            }
+          },
+          "content": {
+            "href": "/cookie-policy"
+          }
+        })});
+      </script>
+
       <link rel="apple-touch-icon" sizes="180x180" href="{{ url('theme://images/favicon/apple-touch-icon.png') }}">
       <link rel="icon" type="image/png" sizes="32x32" href="{{ url('theme://images/favicon/favicon-32x32.png') }}">
       <link rel="icon" type="image/png" sizes="16x16" href="{{ url('theme://images/favicon/favicon-16x16.png') }}">
