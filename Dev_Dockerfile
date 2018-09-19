@@ -1,0 +1,5 @@
+FROM richarvey/nginx-php-fpm
+
+COPY webserver-configs/nginx.conf /etc/nginx/sites-available/default.conf
+RUN sed -i 's#root /home/USER/www/html;#root /var/www/html;#' /etc/nginx/sites-available/default.conf
+RUN sed -i 's#unix:/var/run/php/php5-fpm.sock;#unix:/var/run/php-fpm.sock;#' /etc/nginx/sites-available/default.conf
