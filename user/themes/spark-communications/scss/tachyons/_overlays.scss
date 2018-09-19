@@ -1,0 +1,90 @@
+/*
+
+  OVERLAYS
+  A hack to apply a colour overlay to an image by using a named non-semantic elements.
+
+*/
+
+.overlay-bg-animate {
+  [name="overlay"] {
+    transition: background-color .15s ease-in;
+  }
+}
+
+.overlay-bg-o80-white {
+  [name="overlay"] {
+    background-color: transparentize($white, 0.2);
+  }
+}
+
+.overlay-bg-o80-light-purple {
+  [name="overlay"] {
+    background-color: transparentize($light-purple, 0.2);
+  }
+}
+
+.overlay-bg-o80-purple {
+  [name="overlay"] {
+    background-color: transparentize($purple, 0.2);
+  }
+}
+
+.overlay-bg-o80-black {
+  [name="overlay"] {
+    background-color: transparentize($black, 0.4);
+  }
+}
+
+.overlay-bg-o80-gray {
+  [name="overlay"] {
+    background-color: transparentize($gray, 0.2);
+  }
+}
+
+.overlay-bg-o80-orange {
+  [name="overlay"] {
+    background-color: transparentize($orange, 0.2);
+  }
+}
+
+.overlay-bg-o80-white-hover:hover {
+  [name="overlay"] {
+    background-color: transparentize($white, 0.2);
+  }
+}
+
+.overlay-bg-o80-light-purple-hover:hover {
+  [name="overlay"] {
+    background-color: transparentize($light-purple, 0.2);
+  }
+}
+
+.overlay-bg-o80-purple-hover:hover {
+  [name="overlay"] {
+    background-color: transparentize($purple, 0.2);
+  }
+}
+
+.overlay-bg-o80-black-hover:hover {
+  [name="overlay"] {
+    background-color: transparentize($black, 0.4);
+  }
+}
+
+.overlay-bg-o80-gray-hover:hover {
+  [name="overlay"] {
+    background-color: transparentize($gray, 0.2);
+  }
+}
+
+.overlay-bg-o80-orange-hover:hover {
+  [name="overlay"] {
+    background-color: transparentize($orange, 0.2);
+  }
+}
+
+.overlay-bg-o50-orange-hover:hover {
+  [name="overlay"] {
+    background-color: transparentize($orange, 0.5);
+  }
+}

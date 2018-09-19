@@ -1,0 +1,15 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block main_lower %}
+  <ul class="list pl0 cf mt4 mw8 center ph3">
+    {% for image in page.media.images|randomize %}
+      <li class="fl w-50 w-third-m w-25-ns pa3">
+        <div class="aspect-ratio aspect-ratio--4x3">
+          <div class="aspect-ratio--object flex items-center">
+            {{ image.resize(260).html() }}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock main_lower %}

@@ -1,0 +1,45 @@
+{% extends 'partials/base.html.twig' %}
+{% import "macros/macros.html.twig" as macros %}
+
+{% block headerClasses %}{{ parent() }} min-h5 min-h6-ns{% endblock %}
+
+{% block hero %}
+  <section class="flex-one mt5-ns  pt4 pt0-ns ">
+    <h1 class="f2 f1-ns fw2 white ma0 mb4 mw6 lh-title">
+      Story-driven PR and content that deliver business impact
+    </h1>
+    {{ macros.button({ link: '/contact-us', label: 'Contact Us' }) }}
+  </section>
+{% endblock hero %}
+
+{% block main %}
+  <main class="ph3 cover relative z-1 {{ page.header.main_classes }}">
+    <div class=" mw8 center neg-mb7 relative {{ page.header.main_container_classes }}">
+
+      <div class="bg-white bg-gray-ns ph3 neg-mb6 neg-mb5-ns">
+        {% include 'home/hero-links.html.twig' with { classes: 'relative top--3' }%}
+      </div>
+
+      <section class="pb4 pt5 pv4-ns f4 fw3 bg-gray ph3">
+        <div class="measure-wide tc white center">
+          <h2 class="orange ttu f3">
+            About Us
+          </h2>
+          {{ content|markdown }}
+          {{ macros.button({ link: '/join-us', label: 'Join Us' }) }}
+        </div>
+      </section>
+
+      <section>
+        {% include 'home/services.html.twig' %}
+      </section>
+      <section>
+        {% include 'home/blog_links.html.twig' %}
+      </section>
+    </div>
+  </main>
+{% endblock main %}
+
+{% block footer_classes %}
+  relative top-2 pt7
+{% endblock footer_classes %}

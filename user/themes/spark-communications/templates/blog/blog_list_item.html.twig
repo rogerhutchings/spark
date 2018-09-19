@@ -1,0 +1,22 @@
+{% import "blog/macros.html.twig" as blogMacros %}
+
+{% set header_image = page.media[page.header.header_image] %}
+{% set first_image = page.media.images|first %}
+{% set image = header_image|default(first_image)|default(false) %}
+
+{% set bottomMargin = loop.last ? 'mb0' : 'mb5' %}
+
+{% if image %}
+  <article class="flex flex-column flex-row-ns {{ bottomMargin }}">
+    <section class="w-100 w-40-ns mr3-ns">
+      {{ image.html(null, null, 'w-100') }}
+    </section>
+    <section class="w-100 w-60-ns">
+      {{ blogMacros.blogContent(page) }}
+    </section>
+  </article>
+{% else %}
+  <article class="mb5">
+    {{ blogMacros.blogContent(page) }}
+  </article>
+{% endif %}

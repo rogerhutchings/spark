@@ -1,0 +1,97 @@
+title: Case Study
+'@extends':
+  type: default
+  context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      fields:
+
+        content:
+          title: Intro
+          fields:
+
+            header.subtitle:
+              ordering@: 1
+              type: text
+              style: vertical
+              label: Subtitle
+
+            content:
+              label: Description
+              type: markdown
+              validate:
+                type: textarea
+
+        left:
+          ordering@: 1
+          type: tab
+          title: Left column
+          fields:
+
+            header.objective:
+              label: Objective
+              type: markdown
+              validate:
+                type: textarea
+
+            header.story:
+              label: Story
+              type: markdown
+              validate:
+                type: textarea
+
+        right:
+          ordering@: 2
+          type: tab
+          title: Right column
+          fields:
+
+            header.results:
+              label: Results
+              type: markdown
+              validate:
+                type: textarea
+
+            header.stats:
+              label: Stats
+              type: list
+              fields:
+                .stat:
+                  label: Stat
+                  type: text
+
+        options:
+          fields:
+
+            images:
+              type: section
+              title: Images
+              underline: true
+              fields:
+
+                header.company_logo_image:
+                  type: file
+                  label: Company logo
+                  help: Must be an SVG, or a PNG with a transparent background.
+                  destination: 'self@'
+                  filesize: 5
+                  accept:
+                    - image/*
+
+                header.company_logo_background_image:
+                  type: file
+                  label: Company logo background image
+                  help: Goes behind the company logo in the listings page.
+                  destination: 'self@'
+                  filesize: 5
+                  accept:
+                    - image/*
+
+        advanced:
+          fields:
+            overrides:
+              fields:
+                header.visible:
+                  default: 0

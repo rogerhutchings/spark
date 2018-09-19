@@ -1,0 +1,50 @@
+{% set heroLinks = [
+  {
+    title: 'Why',
+    subtitle: 'Why people hire us',
+    url: '/why-spark',
+    icon: 'svgs/speech-bubble.svg.twig',
+    classes: ''
+  },
+  {
+    title: 'Work',
+    subtitle: 'Campaigns that deliver',
+    url: '/our-work',
+    icon: 'svgs/cog.svg.twig',
+    classes: ''
+  },
+  {
+    title: 'How',
+    subtitle: 'Create, engage & influence',
+    url: '/create-engage-and-influence',
+    icon: 'svgs/handshake.svg.twig',
+    classes: 'relative top-1-ns pv3 pv0-ns'
+  }
+] %}
+
+{% set widths = 'w-100 db w-third-ns w-third-m w-third-l' %}
+{% set bgs = 'bg-washed-red bg-white-ns bg-white-m bg-white-l' %}
+{% set hovers = 'hover-orange hover-fill-orange no-decoration-hover' %}
+{% set classes = classes|default('') %}
+
+<section class="flex-ns flex-m flex-l bg-white tc ttu fw4 relative {{ classes }}">
+  {% for link in heroLinks %}
+    <a
+      href={{ link.url }}
+      class="{{ widths }} {{ bgs }} {{ hovers }} link black ph3 pv4 z-2 mb3 mb0-ns mb0-m mb0-l flex items-center justify-center flex-row flex-wrap">
+
+      <div class="mw4 center w-100 ph3">
+        {% include link.icon with { class: 'w-100 ' ~ link.classes } %}
+      </div>
+
+      <div class="self-end f3 db w-100">
+        <div class="f3">
+          {{ link.title }}
+        </div>
+        <div class="f6 mt2">
+          {{ link.subtitle }}
+        </div>
+      </div>
+    </a>
+  {% endfor %}
+</section>
