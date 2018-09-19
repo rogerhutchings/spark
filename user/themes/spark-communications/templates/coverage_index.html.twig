@@ -1,4 +1,0 @@
-{% set options = { items: { '@page.children': '/coverage' }, 'order': {'by': 'date', 'dir': 'desc' }, 'limit': 1 } %}
-{% set latest = page.collection(options)|first %}
-
-{% include 'coverage_item.html.twig' with { 'page': latest } %}
