@@ -1,0 +1,17 @@
+---
+title: 'Storytelling by Spielberg – A PR masterclass'
+author: /team/lauren-richards
+media_order: books-1245690_640.jpg
+header_image: books-1245690_640.jpg
+published: true
+date: '17:25 12-02-2018'
+inSitemap: true
+---
+
+I saw [The Post](https://en.wikipedia.org/wiki/The_Post_(film)) at the weekend.  I’m no Mark Kermode so won’t be doing a review – suffice to say Meryl Streep and Tom Hanks stack the odds in favour of a good film.
+
+I’d also recommend it if you are interested in how stories are constructed – it’s a historical true story that is carefully spun to reflect the issues of the current time.  Even though it was filmed before Weinstein/#MeToo and the Presidents Club scandals broke, and Katherine Graham’s position in life is very different, there is a similar observation being made. The female lead is portrayed as an object rather than someone whose opinion should be valued and demonstrates the difficulties women face if they aren’t seen as having any attributes beyond looks or in this case power.  Bradley Whitford is superb portraying the dismissive man – supposedly Katherine Graham did take more of an active role in the business than is portrayed in the film, but Spielberg clearly wants to tell the equality story.  The UK is addressing this issue with initiatives such as [The Allbright](http://www.theallbright.com/) and, more specifically in our industry, [Women in PR](https://womeninpr.org.uk/) and the PR Week sexual harassment [survey](https://www.prweek.com/article/1455754/prca-prweek-uk-launch-survey-sexual-harassment-industry) (deadline 19th February). 
+
+The Post also clearly draws parallels between Trump and Nixon and their approach to the media. A challenge is laid down – will journalists risk everything to take down the powerful?  Spielberg feels very much a PR man, just as we end a bylined article with a challenge, has this film been made to persuade Jeff Bezos, the current owner of the Washington Post, to take the first step in taking down a president?  He highlights the point that once one newspaper publishes they all publish to encourage him to go first in the uprising.  Spielberg is at his most persuasive in this film - the content marketing king provides a reminder that quality is more important than quantity.  You can see Ridley Scott’s advertising heritage in the visual beauty of his films, but Spielberg is clearly on our team.  If I was writing a bylined article I’d end with a challenge just like he has in The Post.   
+
+Staying topical is a key part of successful storytelling in PR.  A company’s story has to be framed by what is most relevant and interesting to their target audience.  The story needs to be interesting in the first place but making it topical is key.  For example, by building a story around Artificial Intelligence we were able to get the Pistoia Alliance into [Forbes.com](https://www.forbes.com/sites/forbestechcouncil/2018/02/02/the-top-barrier-to-ai-in-drug-discovery-may-surprise-you/#3a7f72fe4fd1), as well as over 20 trade pieces.  Pistoia Alliance has several projects that are fundamental to supporting innovation in Life Sciences R&D but AI is the one of the most interesting as it is a journey that everyone wants to embark on but very few know how to get started.  Which brings me back to the Spielberg masterclass, he’s had complaints that The Post didn’t credit the New York Times enough, but ultimately the key to good storytelling is knowing what to focus on and therefore what to condense or leave out.
