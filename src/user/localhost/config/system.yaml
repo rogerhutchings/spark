@@ -1,0 +1,13 @@
+assets:
+  css_pipeline: false
+  js_pipeline: false
+
+cache:
+  enabled: false
+
+debugger:
+  enabled: true
+
+errors:
+  display: '1'
+  log: true

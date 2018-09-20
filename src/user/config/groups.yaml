@@ -1,0 +1,48 @@
+Admins:
+  groupname: Admins
+  icon: star
+  access:
+    admin:
+      super: 'true'
+      login: 'true'
+      cache: 'false'
+      configuration: 'false'
+      configuration_system: 'false'
+      configuration_site: 'false'
+      configuration_media: 'false'
+      configuration_info: 'false'
+      settings: 'false'
+      pages: 'true'
+      maintenance: 'false'
+      statistics: 'true'
+      plugins: 'false'
+      themes: 'false'
+      users: 'true'
+    admin-addon-user-manager:
+      users: 'true'
+      groups: 'true'
+      users_expert: 'true'
+Authors:
+  groupname: Authors
+  icon: user
+  access:
+    admin:
+      super: 'false'
+      login: 'true'
+      cache: 'false'
+      configuration: 'false'
+      configuration_system: 'false'
+      configuration_site: 'false'
+      configuration_media: 'false'
+      configuration_info: 'false'
+      settings: 'false'
+      pages: 'true'
+      maintenance: 'false'
+      statistics: 'true'
+      plugins: 'false'
+      themes: 'false'
+      users: 'false'
+    admin-addon-user-manager:
+      users: 'false'
+      groups: 'false'
+      users_expert: 'false'
