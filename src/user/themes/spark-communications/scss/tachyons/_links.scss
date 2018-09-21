@@ -1,0 +1,6 @@
+a {
+  @extend .link;
+  @extend .orange;
+  @extend .underline-hover;
+  outline: none !important;
+}

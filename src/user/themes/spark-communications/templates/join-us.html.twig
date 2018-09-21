@@ -1,0 +1,62 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block footer_classes %}pt5{% endblock %}
+
+{% set links = [] %}
+{% for link in header.links %}
+  {% set links = links|merge([{
+    'title': page.find(link.url).title(),
+    'url': link.url
+  }]) %}
+{% endfor %}
+
+{% block main %}
+  <main class="ph3 cover {{ page.header.main_classes }}">
+    <div class="bg-white relative top--6 neg-mb7 mw8 center {{ page.header.main_container_classes }}">
+      {% include 'partials/icon_header_block.html.twig' with { divClasses: 'bg-orange b--white' } %}
+      <article class="ph3 pb7 tc bg-orange white">
+        <h1 class="f3 fw4 ttu mt0">
+          {{ page.title }}
+        </h1>
+        <div class="measure-wide center">
+          {{ content }}
+        </div>
+      </article>
+    </div>
+
+    <div class="relative z-1 ">
+
+      <section class="mw7 pb5 center bg-white relative">
+        <div class="bg-img-city-overlay cover absolute absolute--fill o-20"></div>
+        {% include 'partials/icon_header_block.html.twig' with { svgFile: 'circle-blog', divClasses: 'bg-transparent b--orange' } %}
+        <div class="pa4 pt3 relative z-1">
+          <h2 class="ttu orange tc fw4">
+            From our blog
+          </h2>
+          <ul class="mw6 center">
+            {% for link in links %}
+              <li class="">
+                <a href="{{ link.url }}" class="black">
+                  {{ link.title }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+
+
+      <div class="bg-white mw7 pb4 center">
+        <a class="db relative" style="top: -4rem;" id="meet-the-team" ></a>
+          {% include 'partials/icon_header_block.html.twig' with { svgFile: 'circle-meet-the-team' } %}
+        <h2 class="orange ttu tc">
+          Meet the team
+        </h2>
+      </div>
+    </div>
+  </main>
+
+  <section>
+    {% include 'partials/team.html.twig' %}
+  </section>
+{% endblock main %}

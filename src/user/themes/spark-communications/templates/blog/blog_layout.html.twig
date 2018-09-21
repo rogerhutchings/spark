@@ -1,0 +1,24 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block headerClasses %}
+  bg-img-laptop bg-y-40
+{% endblock headerClasses %}
+
+{% block main %}
+
+  <main class="ph3 cover bg-img-city-overlay-transparent {{ main_classes }}">
+    <div class="bg-white relative top--6 neg-mb7 mw8 center flex flex-column flex-row-ns {{ main_container_classes }}">
+
+      <article class="w-70-ns pa3 pb4">
+        {% block blog_content %}
+        {% endblock blog_content %}
+      </article>
+
+      <aside class="w-30-ns bg-gray pa3">
+        {% include 'blog/blog_sidebar.html.twig' %}
+      </aside>
+
+    </div>
+  </main>
+
+{% endblock main %}

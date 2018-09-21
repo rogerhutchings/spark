@@ -1,0 +1,65 @@
+title: Blog Item
+'@extends':
+    type: default
+    context: blueprints://pages
+
+form:
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+          fields:
+
+            help:
+              type: display
+              ordering@: 2
+              size: large
+              label: Help
+              markdown: true
+              content: "To display an image on the left or right, add `{.img-left}` or `{.img-right}` after the image tag, like this:.\n\n```![example image](example.png){.img-left}```"
+
+            header.author:
+              ordering@: 1
+              type: select
+              label: Author
+              classes: fancy
+              placeholder: 'Select an author'
+              data-options@: '\Grav\Theme\SparkCommunications::getTeamMembers'
+
+            header_image:
+              type: section
+              title: Header Image
+              underline: true
+              fields:
+
+                header.header_image:
+                  label: Choose image
+                  type: pagemediaselect
+
+                help:
+                  type: display
+                  size: large
+                  label: Help
+                  markdown: true
+                  content: "To add a header image to the post, add it to the Page Media (either by clicking on Page Media, or drag and dropping it there), then select it from the dropdown list above."
+
+        options:
+          fields:
+            publishing:
+              fields:
+                header.inSitemap:
+                  type: toggle
+                  toggleable: false
+                  label: 'Show in sitemap'
+                  help: Toggle to determine whether to show this story in the News section of the sitemap.
+                  highlight: 1
+                  default: 0
+                  size: medium
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool

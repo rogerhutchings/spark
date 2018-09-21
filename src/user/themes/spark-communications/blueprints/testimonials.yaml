@@ -1,0 +1,30 @@
+title: Testimonials
+'@extends':
+    type: default
+    context: blueprints://pages
+
+form:
+
+  fields:
+
+    tabs:
+      type: tabs
+      active: 1
+
+      fields:
+        content:
+
+          fields:
+            header.testimonials:
+              type: list
+              autofocus: true
+              style: vertical
+              label: Testimonials
+              fields:
+                .body:
+                  label: Text
+                  type: text
+                  help: No need to add quotation marks - they're added automatically on the page.
+                .source:
+                  label: Source
+                  type: text

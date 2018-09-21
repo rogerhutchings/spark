@@ -1,0 +1,23 @@
+{% block sidebar %}
+
+  {% embed 'blog/sidebar_block.html.twig' %}
+    {% block sidebar_title %}
+      Coverage Cup
+    {% endblock sidebar_title %}
+    {% block sidebar_content %}
+      <ul class="list-angle pl4 ma0">
+        <li class="list">
+          <a href="/coverage" class="white underline-hover">
+            Click here for latest Spark media coverage highlights
+          </a>
+        </li>
+      </ul>
+    {% endblock sidebar_content %}
+
+  {% endembed %}
+
+  {% include 'blog/sidebar_block_recent.html.twig' %}
+
+  {% include 'partials/archives.html.twig' %}
+
+{% endblock sidebar %}

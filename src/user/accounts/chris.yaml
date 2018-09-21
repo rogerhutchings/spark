@@ -1,0 +1,14 @@
+state: enabled
+email: christopher@sparkcomms.co.uk
+fullname: 'Christopher Hamer'
+language: en
+twofa_enabled: false
+twofa_secret: CDJAHB2KU6BOWGLUX2OOY533MRHBTJKG
+hashed_password: $2y$10$68FrdtpmVTqzsjR7iO7y5uMZx.Alnm7KsN2krA1lwifQzwXLvj2AK
+groups:
+  - Admins
+  - Authors
+access:
+  admin: {  }
+  admin-addon-user-manager: {  }
+login_attempts: {  }

@@ -1,0 +1,95 @@
+/*
+
+  BACKGROUND POSITIONS
+    - Background X (0%, 5%... 100%)
+    - Background Y (0%, 5%... 100%)
+
+*/
+
+
+$i: 0;
+
+@while $i <= 20 {
+  $val: $i * 5;
+
+  .bg-x-#{$val} {
+    background-position-x: $val * 1%;
+  }
+
+  .bg-y-#{$val} {
+    background-position-y: $val * 1%;
+  }
+
+  .bg-x--#{$val} {
+    background-position-x: $val * -1%;
+  }
+
+  .bg-y--#{$val} {
+    background-position-y: $val * -1%;
+  }
+
+  @media #{$breakpoint-not-small} {
+    .bg-x-#{$val}-ns {
+      background-position-x: $val * 1%;
+    }
+
+    .bg-y-#{$val}-ns {
+      background-position-y: $val * 1%;
+    }
+
+    .bg-x--#{$val}-ns {
+      background-position-x: $val * -1%;
+    }
+
+    .bg-y--#{$val}-ns {
+      background-position-y: $val * -1%;
+    }
+  }
+
+  @media #{$breakpoint-medium} {
+    .bg-x-#{$val}-m {
+      background-position-x: $val * 1%;
+    }
+
+    .bg-y-#{$val}-m {
+      background-position-y: $val * 1%;
+    }
+
+    .bg-x--#{$val}-m {
+      background-position-x: $val * -1%;
+    }
+
+    .bg-y--#{$val}-m {
+      background-position-y: $val * -1%;
+    }
+  }
+
+  @media #{$breakpoint-large} {
+    .bg-x-#{$val}-l {
+      background-position-x: $val * 1%;
+    }
+
+    .bg-y-#{$val}-l {
+      background-position-y: $val * 1%;
+    }
+
+    .bg-x--#{$val}-l {
+      background-position-x: $val * -1%;
+    }
+
+    .bg-y--#{$val}-l {
+      background-position-y: $val * -1%;
+    }
+  }
+
+  $i: $i + 1;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-bottom-right {
+  @extend .bg-no-repeat;
+  background-position: bottom right;
+}

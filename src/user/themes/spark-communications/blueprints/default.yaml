@@ -1,0 +1,24 @@
+extends@: default
+
+form:
+  fields:
+    tabs:
+      fields:
+        advanced:
+          fields:
+            columns:
+              fields:
+                column1:
+                  fields:
+                    header.header_classes:
+                      type: text
+                      label: 'Header Classes'
+                    header.main_classes:
+                      type: text
+                      label: 'Main Classes'
+                    header.main_container_classes:
+                      type: text
+                      label: 'Main Container Classes'
+                    header.svg_icon:
+                      type: text
+                      label: 'SVG Icon Filename'

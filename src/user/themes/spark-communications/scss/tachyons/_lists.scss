@@ -1,0 +1,34 @@
+.list-arrow {
+  li {
+    &:before {
+      content: '➟';
+      @extend .mr2;
+    }
+  }
+}
+
+.list-angle {
+  li {
+    @extend .relative;
+    &:before {
+      content: '>';
+      @extend .absolute;
+      @extend .left--1;
+      @extend .mr2;
+      @extend .white;
+    }
+  }
+}
+
+.list-hyphen {
+  li {
+    @extend .relative;
+    &:before {
+      content: '–';
+      @extend .absolute;
+      @extend .left--1;
+      @extend .mr2;
+      @extend .white;
+    }
+  }
+}
